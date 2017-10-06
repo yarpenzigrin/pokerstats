@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import argparse
+import logging
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-p', '--player', help='Player', required=True)
@@ -12,5 +13,6 @@ parser.add_argument('-s', '--sort', action='store_true', help='Sort')
 parser.add_argument('files', help='File list', nargs='+')
 
 args = parser.parse_args()
-
 del parser
+
+logging.basicConfig(level=logging.INFO, format='[ %(levelname)s ] %(message)s')
