@@ -23,12 +23,20 @@ run_tc()
 
 run_test_suite()
 {
-    run_tc "poker_stats.py -p HubertusB -v -f UTG -d" test_input02.txt test_output02.txt
-    run_tc "poker_stats.py -p HubertusB -v -f MP -d" test_input03.txt test_output03.txt
-    run_tc "poker_stats.py -p HubertusB -v -f CO -d" test_input04.txt test_output04.txt
-    run_tc "poker_stats.py -p HubertusB -v -f BTN -d" test_input05.txt test_output05.txt
-    run_tc "poker_stats.py -p HubertusB -v -f SB -d" test_input06.txt test_output06.txt
-    run_tc "poker_stats.py -p HubertusB -v -f BB -d" test_input07.txt test_output07.txt
+    run_tc "poker_stats.py -p HubertusB -v -s -d" test_input01.txt test_output01.txt
+    run_tc "poker_stats.py -p HubertusB -v    -d" test_input02.txt test_output02.txt
+    run_tc "poker_stats.py -p HubertusB    -s -d" test_input03.txt test_output03.txt
+    run_tc "poker_stats.py -p HubertusB       -d" test_input04.txt test_output04.txt
+
+    run_tc "poker_stats.py -p HubertusB -f SB -v -s -d" test_input01.txt test_output05.txt
+    run_tc "poker_stats.py -p HubertusB -f SB -v    -d" test_input02.txt test_output06.txt
+    run_tc "poker_stats.py -p HubertusB -f SB    -s -d" test_input03.txt test_output07.txt
+    run_tc "poker_stats.py -p HubertusB -f SB       -d" test_input04.txt test_output08.txt
+
+    run_tc "poker_stats.py -p HubertusB -f BB -v -s -d" test_input02.txt test_output09.txt
+    run_tc "poker_stats.py -p HubertusB -f BB -v    -d" test_input02.txt test_output10.txt
+    run_tc "poker_stats.py -p HubertusB -f BB    -s -d" test_input03.txt test_output11.txt
+    run_tc "poker_stats.py -p HubertusB -f BB       -d" test_input04.txt test_output12.txt
 }
 
 run_test_suite
