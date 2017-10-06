@@ -15,7 +15,7 @@ def dump_hands(hands):
     sys.stdout.writelines(reduce(lambda acc, h: acc + h.lines, hands, []))
 
 def main():
-    allHands = handparser.parseHandsFromFiles(config.args.files, config.args.player)
+    allHands = handparser.parse_files(config.args.files, config.args.player)
     filteredHands = handfilter.apply(allHands, config.args.voluntary, config.args.position)
 
     if config.args.dump:
