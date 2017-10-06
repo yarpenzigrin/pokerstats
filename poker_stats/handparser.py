@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 
 import entity
-import logging
 import re
 
 def parse_files(file_names, player_name):
@@ -58,7 +57,7 @@ def getPlayerPosition(lines, player):
     result = None
     positionMap = { None:None, '1':'BTN', '2':'SB', '3':'BB', '4':'UTG', '5':'MP', '6':'CO' }
 
-    r = re.compile('Seat (\d): {} \(\$'.format(player))
+    r = re.compile('^Seat (\d): {} \(\$'.format(player))
     for l in lines:
         m = re.match(r, l)
         if m != None:
@@ -70,13 +69,13 @@ def getPlayerPosition(lines, player):
 def getPlayerPreflopActions(lines, player):
     result = []
 
-    foldRe = re.compile('{}: folds'.format(player))
-    checkRe = re.compile('{}: checks'.format(player))
-    callRe = re.compile('{}: calls \$(\d+(.\d+)?)'.format(player))
-    betRe = re.compile('{}: bets \$(\d+(.\d+)?)'.format(player))
-    postRe = re.compile('{}: posts (small|big) blind \$(\d+(.\d+)?)'.format(player))
-    raiseRe = re.compile('{}: raises \$(\d+(.\d+)?) to \$(\d+(.\d+)?)'.format(player))
-    uncalledRe = re.compile('Uncalled bet \(\$(\d+(.\d+)?)\) returned to {}'.format(player))
+    foldRe = re.compile('^{}: folds'.format(player))
+    checkRe = re.compile('^{}: checks'.format(player))
+    callRe = re.compile('^{}: calls \$(\d+(.\d+)?)'.format(player))
+    betRe = re.compile('^{}: bets \$(\d+(.\d+)?)'.format(player))
+    postRe = re.compile('^{}: posts (small|big) blind \$(\d+(.\d+)?)'.format(player))
+    raiseRe = re.compile('^{}: raises \$(\d+(.\d+)?) to \$(\d+(.\d+)?)'.format(player))
+    uncalledRe = re.compile('^Uncalled bet \(\$(\d+(.\d+)?)\) returned to {}'.format(player))
 
     preflop = False
     for l in lines:
@@ -124,12 +123,12 @@ def getPlayerPreflopActions(lines, player):
 def getPlayerFlopActions(lines, player):
     result = []
 
-    foldRe = re.compile('{}: folds'.format(player))
-    checkRe = re.compile('{}: checks'.format(player))
-    callRe = re.compile('{}: calls \$(\d+(.\d+)?)'.format(player))
-    betRe = re.compile('{}: bets \$(\d+(.\d+)?)'.format(player))
-    raiseRe = re.compile('{}: raises \$(\d+(.\d+)?) to \$(\d+(.\d+)?)'.format(player))
-    uncalledRe = re.compile('Uncalled bet \(\$(\d+(.\d+)?)\) returned to {}'.format(player))
+    foldRe = re.compile('^{}: folds'.format(player))
+    checkRe = re.compile('^{}: checks'.format(player))
+    callRe = re.compile('^{}: calls \$(\d+(.\d+)?)'.format(player))
+    betRe = re.compile('^{}: bets \$(\d+(.\d+)?)'.format(player))
+    raiseRe = re.compile('^{}: raises \$(\d+(.\d+)?) to \$(\d+(.\d+)?)'.format(player))
+    uncalledRe = re.compile('^Uncalled bet \(\$(\d+(.\d+)?)\) returned to {}'.format(player))
 
     flop = False
     for l in lines:
@@ -173,12 +172,12 @@ def getPlayerFlopActions(lines, player):
 def getPlayerTurnActions(lines, player):
     result = []
 
-    foldRe = re.compile('{}: folds'.format(player))
-    checkRe = re.compile('{}: checks'.format(player))
-    callRe = re.compile('{}: calls \$(\d+(.\d+)?)'.format(player))
-    betRe = re.compile('{}: bets \$(\d+(.\d+)?)'.format(player))
-    raiseRe = re.compile('{}: raises \$(\d+(.\d+)?) to \$(\d+(.\d+)?)'.format(player))
-    uncalledRe = re.compile('Uncalled bet \(\$(\d+(.\d+)?)\) returned to {}'.format(player))
+    foldRe = re.compile('^{}: folds'.format(player))
+    checkRe = re.compile('^{}: checks'.format(player))
+    callRe = re.compile('^{}: calls \$(\d+(.\d+)?)'.format(player))
+    betRe = re.compile('^{}: bets \$(\d+(.\d+)?)'.format(player))
+    raiseRe = re.compile('^{}: raises \$(\d+(.\d+)?) to \$(\d+(.\d+)?)'.format(player))
+    uncalledRe = re.compile('^Uncalled bet \(\$(\d+(.\d+)?)\) returned to {}'.format(player))
 
     turn = False
     for l in lines:
@@ -222,12 +221,12 @@ def getPlayerTurnActions(lines, player):
 def getPlayerRiverActions(lines, player):
     result = []
 
-    foldRe = re.compile('{}: folds'.format(player))
-    checkRe = re.compile('{}: checks'.format(player))
-    callRe = re.compile('{}: calls \$(\d+(.\d+)?)'.format(player))
-    betRe = re.compile('{}: bets \$(\d+(.\d+)?)'.format(player))
-    raiseRe = re.compile('{}: raises \$(\d+(.\d+)?) to \$(\d+(.\d+)?)'.format(player))
-    uncalledRe = re.compile('Uncalled bet \(\$(\d+(.\d+)?)\) returned to {}'.format(player))
+    foldRe = re.compile('^{}: folds'.format(player))
+    checkRe = re.compile('^{}: checks'.format(player))
+    callRe = re.compile('^{}: calls \$(\d+(.\d+)?)'.format(player))
+    betRe = re.compile('^{}: bets \$(\d+(.\d+)?)'.format(player))
+    raiseRe = re.compile('^{}: raises \$(\d+(.\d+)?) to \$(\d+(.\d+)?)'.format(player))
+    uncalledRe = re.compile('^Uncalled bet \(\$(\d+(.\d+)?)\) returned to {}'.format(player))
 
     river = False
     for l in lines:
@@ -271,7 +270,7 @@ def getPlayerRiverActions(lines, player):
 def getTotalPot(lines):
     result = None
 
-    r = re.compile('Total pot \$(\d+(.\d+)?) \| Rake \$(\d+(.\d+)?)')
+    r = re.compile('^Total pot \$(\d+(.\d+)?) \| Rake \$(\d+(.\d+)?)')
     for l in lines:
         m = re.match(r, l)
         if m != None:
@@ -283,7 +282,7 @@ def getTotalPot(lines):
 def getCollectedFromPot(lines, player):
     result = 0
 
-    collectedRe = re.compile('{} collected \$(\d+(.\d+)?) from pot'.format(player))
+    collectedRe = re.compile('^{} collected \$(\d+(.\d+)?) from pot'.format(player))
 
     for l in lines:
         line = l.rstrip()
