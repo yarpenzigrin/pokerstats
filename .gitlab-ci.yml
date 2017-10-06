@@ -1,0 +1,7 @@
+stages:
+  - test
+
+acceptance_test:
+  stage: test
+  script:
+    - make ac_test
