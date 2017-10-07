@@ -34,7 +34,7 @@ def parseHandsFromFile(filename, player):
 
     handInProcess = False
     for line in lines:
-        if line == '\r\n':
+        if line == '\r\n' or line == '\n':
             if handInProcess:
                 hand.parse(player)
                 if hand.position != None:
