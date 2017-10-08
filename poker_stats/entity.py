@@ -31,36 +31,22 @@ class Action:
         if self.type == self.Uncalled:
             return 'uncalled bet returned {}'.format(self.value)
 
-class Game:
+class Hand:
     def __init__(self):
-        self.site = None
-        self.type = None
-        self.stakes = None
-        self.table_name = None
-        self.table_type = None
+        self.lines = []
+        self.pot = 0
 
-class Player:
-    def __init__(self):
         self.position = None
-        self.starting_stack = None
         self.preflop = []
         self.flop = []
         self.turn = []
         self.river = []
-        self.collected = 0.00
+        self.collected = 0
 
-class Board:
-    def __init__(self):
-        self.flop = None
-        self.turn = None
-        self.river = None
-
-class Hand:
-    def __init__(self):
-        self.lines = []
-        self.id = None
-        self.timestamp = None
-        self.game = Game()
-        self.players = {}
-        self.board = Board()
-        self.pot = None
+    def getProfit(self):
+        def invested(acc, a):
+            if a.type == Action.Raise:
+                return a.value
+            else:
+                return acc + a.value
+        return self.collected - reduce(invested, self.preflop, 0) - reduce(invested, self.flop, 0) - reduce(invested, self.turn, 0) - reduce(invested, self.river, 0)

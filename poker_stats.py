@@ -15,14 +15,14 @@ def dump_hands(hands):
     sys.stdout.writelines(reduce(lambda acc, h: acc + h.lines, hands, []))
 
 def main():
-    hands = handparser.parse_files(config.args.files)
-    hands = handfilter.apply(hands, config.args.player, config.args.voluntary, config.args.position)
+    hands = handparser.parse_files(config.args.files, config.args.player)
+    hands = handfilter.apply(hands, config.args.voluntary, config.args.position)
 
     if config.args.dump:
         dump_hands(hands)
 
     if config.args.report:
-        report.print_stats(hands, config.args.player)
+        report.print_stats(hands)
 
 if __name__ == '__main__':
     main()
