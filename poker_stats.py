@@ -18,10 +18,10 @@ def main():
     hands = handparser.parse_files(config.args.files, config.args.player)
     hands = handfilter.apply(hands, config.args.voluntary, config.args.position)
 
-    if config.args.dump:
+    if config.args.action == 'dump':
         dump_hands(hands)
 
-    if config.args.report:
+    if config.args.action == 'report':
         report.print_stats(hands)
 
 if __name__ == '__main__':
