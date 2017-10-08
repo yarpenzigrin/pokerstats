@@ -16,8 +16,8 @@ def apply(hands, player, voluntary, position):
         hands = filter(flt, hands)
         logging.debug('Voluntarily entered the pot with {} hands'.format(len(hands)))
 
-    if position != None:
-        hands = filter(lambda hand: hand.players[player].position == position, hands)
+    if position:
+        hands = filter(lambda hand: hand.players[player].position in position, hands)
         logging.debug('{} hands played on {}'.format(len(hands), position))
 
     return hands
