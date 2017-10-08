@@ -36,13 +36,13 @@ class Game:
         self.site = None
         self.type = None
         self.stakes = None
-        self.tableName = None
-        self.tableType = None
+        self.table_name = None
+        self.table_type = None
 
 class Player:
     def __init__(self):
         self.position = None
-        self.startingStack = None
+        self.starting_stack = None
         self.preflop = []
         self.flop = []
         self.turn = []
@@ -59,20 +59,8 @@ class Hand:
     def __init__(self):
         self.lines = []
         self.id = None
-        self.timestampplayer = None
+        self.timestamp = None
         self.game = Game()
         self.players = {}
         self.board = Board()
         self.pot = None
-
-        self.position = None
-        self.preflop = []
-        self.collected = 0
-
-    def getProfit(self):
-        def invested(acc, a):
-            if a.type == Action.Raise:
-                return a.value
-            else:
-                return acc + a.value
-        return self.collected - reduce(invested, self.preflop, 0) - reduce(invested, self.flop, 0) - reduce(invested, self.turn, 0) - reduce(invested, self.river, 0)

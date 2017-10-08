@@ -1,12 +1,15 @@
+#!/usr/bin/env python2.7
+# -*- coding: utf-8 -*-
+
 import os
 import sys
 import unittest
 sys.path.append(os.path.abspath('../..'))
 
-from entity import *
-from src.parsing import parseHandsFromFile
+from poker_stats.entity import *
+from poker_stats.handparser import parse_files
 
-class ParsingTests(unittest.TestCase):
+class handparser_tests(unittest.TestCase):
 
     def assertLine(self, expected, actual):
         self.assertEqual(len(expected), len(actual))
@@ -14,23 +17,23 @@ class ParsingTests(unittest.TestCase):
             self.assertEqual(expected[i].type, actual[i].type)
             self.assertEqual(expected[i].value, actual[i].value)
 
-    def assertPlayer(self, players, name, position, startingStack, preflop, flop, turn, river):
+    def assertPlayer(self, players, name, position, starting_stack, preflop, flop, turn, river):
         self.assertEqual(position, players[name].position)
-        self.assertEqual(startingStack, players[name].startingStack)
+        self.assertEqual(starting_stack, players[name].starting_stack)
         self.assertLine(preflop, players[name].preflop)
         self.assertLine(flop, players[name].flop)
         self.assertLine(turn, players[name].turn)
         self.assertLine(river, players[name].river)
 
     def test_ShouldParseCorrectlyOpenRaiseBetBetBetUncalledHand(self):
-        hands = parseHandsFromFile('data/openraise_bet_bet_bet_uncalled.hand')
+        hands = parse_files(['data/openraise_bet_bet_bet_uncalled.hand'])
         self.assertEqual(1, len(hands))
         hand = hands[0]
         self.assertEqual('PokerStars', hand.game.site)
         self.assertEqual('Hold\'em No Limit', hand.game.type)
         self.assertEqual((0.05, 0.10), hand.game.stakes)
-        self.assertEqual('Aludra', hand.game.tableName)
-        self.assertEqual('6-max', hand.game.tableType)
+        self.assertEqual('Aludra', hand.game.table_name)
+        self.assertEqual('6-max', hand.game.table_type)
         self.assertEqual('1', hand.id)
         self.assertEqual('2017/08/07 11:12:54 ET', hand.timestamp)
         self.assertEqual(6, len(hand.players))
@@ -65,7 +68,7 @@ class ParsingTests(unittest.TestCase):
         self.assertPlayer(hand.players, 'PLAYER_CO', 'CO', 10, preflop, flop, turn, river)
 
     def test_ShouldParseCorrectlyOpenRaiseAndAllFoldsPre(self):
-        hands = parseHandsFromFile('data/fold_pre.hand')
+        hands = parse_files(['data/fold_pre.hand'])
         self.assertEqual(1, len(hands))
         hand = hands[0]
 
@@ -84,7 +87,7 @@ class ParsingTests(unittest.TestCase):
         self.assertPlayer(hand.players, 'PLAYER_MP', 'MP', 9.83, mpActions, [], [], [])
 
     def test_ShouldParseCorrectlyOpenRaiseTimeoutAndAllFoldsPre(self):
-        hands = parseHandsFromFile('data/openraise_timeout_uncalled.hand')
+        hands = parse_files(['data/openraise_timeout_uncalled.hand'])
         self.assertEqual(1, len(hands))
         hand = hands[0]
 
