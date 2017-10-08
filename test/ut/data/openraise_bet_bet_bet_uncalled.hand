@@ -1,0 +1,43 @@
+PokerStars Hand #1:  Hold'em No Limit ($0.05/$0.10) - 2017/08/07 23:12:54 CCT [2017/08/07 11:12:54 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: PLAYER_BTN ($21.05 in chips) 
+Seat 2: PLAYER_SB ($10.39 in chips) 
+Seat 3: PLAYER_BB ($10 in chips) 
+Seat 4: PLAYER_UTG ($10.90 in chips) 
+Seat 5: PLAYER_MP ($10 in chips) 
+Seat 6: PLAYER_CO ($10 in chips) 
+PLAYER_SB: posts small blind $0.05
+PLAYER_BB: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to PLAYER_CO [Ah Ac]
+PLAYER_UTG: folds 
+PLAYER_MP: folds 
+PLAYER_CO: raises $0.20 to $0.30
+PLAYER_BTN: folds 
+PLAYER_SB: calls $0.25
+PLAYER_BB: folds 
+*** FLOP *** [4c Kc Ts]
+PLAYER_SB: checks 
+PLAYER_CO: bets $0.40
+PLAYER_SB: calls $0.40
+*** TURN *** [4c Kc Ts] [3s]
+PLAYER_SB: checks 
+PLAYER_CO: bets $0.90
+PLAYER_SB: calls $0.90
+*** RIVER *** [4c Kc Ts 3s] [As]
+PLAYER_SB: checks 
+PLAYER_CO: bets $2
+PLAYER_SB: folds 
+Uncalled bet ($2) returned to PLAYER_CO
+PLAYER_CO collected $3.15 from pot
+PLAYER_CO: doesn't show hand 
+*** SUMMARY ***
+Total pot $3.30 | Rake $0.15 
+Board [4c Kc Ts 3s As]
+Seat 1: PLAYER_BTN (button) folded before Flop (didn't bet)
+Seat 2: PLAYER_SB (small blind) folded on the River
+Seat 3: PLAYER_BB (big blind) folded before Flop
+Seat 4: PLAYER_UTG folded before Flop (didn't bet)
+Seat 5: PLAYER_MP folded before Flop (didn't bet)
+Seat 6: PLAYER_CO collected ($3.15)
+

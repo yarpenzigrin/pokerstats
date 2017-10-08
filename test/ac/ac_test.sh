@@ -1,7 +1,7 @@
 #!/bin/sh
 
 test_dir=`dirname $0`
-script_dir=$test_dir/..
+script_dir=$test_dir/../..
 
 tc_counter=1
 
