@@ -7,6 +7,7 @@ import sys
 
 import entity
 import report
+from src.parsing import parseHandsFromFile
 
 def usage():
     print '''
@@ -25,29 +26,6 @@ def fail(msg):
     logging.error(msg)
     usage()
     sys.exit(1)
-
-def parseHandsFromFile(filename, player):
-    result = []
-
-    with open(filename, 'r') as inputfile:
-        lines = inputfile.readlines()
-
-    handInProcess = False
-    for line in lines:
-        if line == '\r\n' or line == '\n':
-            if handInProcess:
-                hand.parse(player)
-                if hand.position != None:
-                    result.append(hand)
-                handInProcess = False
-        else:
-            if not handInProcess:
-                hand = entity.Hand()
-                handInProcess = True
-
-            hand.lines.append(line)
-
-    return result
 
 def parse_arguments(argv):
     if len(argv) == 0:
@@ -109,16 +87,16 @@ def main(argv):
     hands = []
     for filename in files:
         logging.info('Parsing hands from {}'.format(filename))
-        hands.extend(parseHandsFromFile(filename, player))
+        hands.extend(parseHandsFromFile(filename))
     logging.info('Parsed {} hands'.format(len(hands)))
 
-    hands = filter(lambda h: len(h.preflop) > 0, hands)
+    hands = filter(lambda h: len(h.players[player].preflop) > 0, hands)
     logging.info('{} participated in {} hands'.format(player, len(hands)))
 
     if voluntary:
         def flt(h):
-            a = h.preflop
-            if 'SB' in h.position or 'BB' in h.position:
+            a = h.players[player].preflop
+            if 'SB' in h.players[player].position or 'BB' in h.players[player].position:
                 return a[1].type != entity.Action.Uncalled and a[1].type != entity.Action.Fold
             else:
                 return a[0].type != entity.Action.Fold
@@ -127,7 +105,7 @@ def main(argv):
         logging.info('Voluntarily entered the pot with {} hands'.format(len(hands)))
 
     if position != None:
-        hands = filter(lambda hand: hand.position == position, hands)
+        hands = filter(lambda hand: hand.players[player].position == position, hands)
         logging.info('{} hands played on {}'.format(len(hands), position))
 
     if sort:
@@ -136,7 +114,7 @@ def main(argv):
     if dump:
         dump_hands(hands)
 
-    report.print_stats(hands)
+    report.print_stats(hands, player)
 
 if __name__ == '__main__':
     main(sys.argv[1:])
