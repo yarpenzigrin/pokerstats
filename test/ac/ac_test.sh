@@ -37,6 +37,9 @@ run_test_suite()
     run_tc "poker_stats.py -p HubertusB -f BB -v    -d" test_input02.txt test_output10.txt
     run_tc "poker_stats.py -p HubertusB -f BB    -s -d" test_input03.txt test_output11.txt
     run_tc "poker_stats.py -p HubertusB -f BB       -d" test_input04.txt test_output12.txt
+
+    # temporary AT for reporting until we have UTs
+    run_tc "poker_stats.py -p HubertusB -r" test_input_merged.txt test_output13.txt
 }
 
 run_test_suite

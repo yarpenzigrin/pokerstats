@@ -1,0 +1,10 @@
+Hand statistics
+Hands: 1113
+SB profit: -9.76
+BB profit: -32.95
+UTG profit: -13.64
+MP profit: -14.05
+CO profit: -4.22
+BTN profit: 36.97
+Total profit: -37.65
+Profit/100: -3.38274932615

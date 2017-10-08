@@ -4,7 +4,9 @@
 import os
 import sys
 import unittest
-sys.path.append(os.path.abspath('../..'))
+
+test_dir = os.path.dirname(os.path.realpath(__file__))
+sys.path.append(test_dir + '/../..')
 
 from poker_stats.entity import *
 from poker_stats.handparser import parse_files
@@ -26,7 +28,7 @@ class handparser_tests(unittest.TestCase):
         self.assertLine(river, players[name].river)
 
     def test_ShouldParseCorrectlyOpenRaiseBetBetBetUncalledHand(self):
-        hands = parse_files(['data/openraise_bet_bet_bet_uncalled.hand'])
+        hands = parse_files([test_dir + '/data/openraise_bet_bet_bet_uncalled.hand'])
         self.assertEqual(1, len(hands))
         hand = hands[0]
         self.assertEqual('PokerStars', hand.game.site)
@@ -68,7 +70,7 @@ class handparser_tests(unittest.TestCase):
         self.assertPlayer(hand.players, 'PLAYER_CO', 'CO', 10, preflop, flop, turn, river)
 
     def test_ShouldParseCorrectlyOpenRaiseAndAllFoldsPre(self):
-        hands = parse_files(['data/fold_pre.hand'])
+        hands = parse_files([test_dir + '/data/fold_pre.hand'])
         self.assertEqual(1, len(hands))
         hand = hands[0]
 
@@ -87,7 +89,7 @@ class handparser_tests(unittest.TestCase):
         self.assertPlayer(hand.players, 'PLAYER_MP', 'MP', 9.83, mpActions, [], [], [])
 
     def test_ShouldParseCorrectlyOpenRaiseTimeoutAndAllFoldsPre(self):
-        hands = parse_files(['data/openraise_timeout_uncalled.hand'])
+        hands = parse_files([test_dir + '/data/openraise_timeout_uncalled.hand'])
         self.assertEqual(1, len(hands))
         hand = hands[0]
 

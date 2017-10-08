@@ -1,6 +1,6 @@
 #!/usr/bin/env python2.7
 
-import entity
+from entity import Action
 
 def get_profit_for_player(hand, player):
     def invested(acc, a):
@@ -40,11 +40,11 @@ def print_stats(hands, player):
     print('Total profit: {}'.format(reduce(lambda acc, h: acc + get_profit_for_player(h, player), hands, 0)))
     print('Profit/100: {}'.format(reduce(lambda acc, h: acc + get_profit_for_player(h, player), hands, 0) * 100 / len(hands)))
 
-    print('Hand depth')
-    print('Preflop: {}'.format(len(filter(lambda h: len(h.players[player].flop) == 0, hands))))
-    print('Flop: {}'.format(len(filter(lambda h: len(h.players[player].flop) > 0 and len(h.turn) == 0, hands))))
-    print('Turn: {}'.format(len(filter(lambda h: len(h.players[player].turn) > 0 and len(h.river) == 0, hands))))
-    print('River: {}'.format(len(filter(lambda h: len(h.players[player].river) > 0, hands))))
+    #print('Hand depth')
+    #print('Preflop: {}'.format(len(filter(lambda h: len(h.players[player].flop) == 0, hands))))
+    #print('Flop: {}'.format(len(filter(lambda h: len(h.players[player].flop) > 0 and len(h.turn) == 0, hands))))
+    #print('Turn: {}'.format(len(filter(lambda h: len(h.players[player].turn) > 0 and len(h.river) == 0, hands))))
+    #print('River: {}'.format(len(filter(lambda h: len(h.players[player].river) > 0, hands))))
 
     preflop_lines = {}
     flop_lines = {}
@@ -60,7 +60,7 @@ def print_stats(hands, player):
         l = reduce(lambda acc, a: acc + a.type, h.players[player].river, '')
         #river_lines[l] = river_lines.get(l, 0) + 1
 
-    print('Lines taken (p - post, x - check, c - call, b - bet, r - raise, u - bet uncalled)')
+    #print('Lines taken (p - post, x - check, c - call, b - bet, r - raise, u - bet uncalled)')
     for (l,c) in preflop_lines.iteritems():
         print('Preflop {}: {}'.format(l, c))
     for (l,c) in flop_lines.iteritems():
