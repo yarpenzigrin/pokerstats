@@ -52,15 +52,15 @@ def print_stats(hands, player):
     river_lines = {}
     for h in hands:
         l = reduce(lambda acc, a: acc + a.type, h.players[player].preflop, '')
-        #preflop_lines[l] = preflop_lines.get(l, 0) + 1
+        preflop_lines[l] = preflop_lines.get(l, 0) + 1
         l = reduce(lambda acc, a: acc + a.type, h.players[player].flop, '')
-        #flop_lines[l] = flop_lines.get(l, 0) + 1
+        flop_lines[l] = flop_lines.get(l, 0) + 1
         l = reduce(lambda acc, a: acc + a.type, h.players[player].turn, '')
-        #turn_lines[l] = turn_lines.get(l, 0) + 1
+        turn_lines[l] = turn_lines.get(l, 0) + 1
         l = reduce(lambda acc, a: acc + a.type, h.players[player].river, '')
-        #river_lines[l] = river_lines.get(l, 0) + 1
+        river_lines[l] = river_lines.get(l, 0) + 1
 
-    #print('Lines taken (p - post, x - check, c - call, b - bet, r - raise, u - bet uncalled)')
+    print('Lines taken (p - post, x - check, c - call, b - bet, r - raise, u - bet uncalled)')
     for (l,c) in preflop_lines.iteritems():
         print('Preflop {}: {}'.format(l, c))
     for (l,c) in flop_lines.iteritems():
