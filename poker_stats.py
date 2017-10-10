@@ -8,6 +8,7 @@ import poker_stats.config as config
 import poker_stats.handfilter as handfilter
 import poker_stats.handparser as handparser
 import poker_stats.report as report
+import poker_stats.new_report as new_report
 
 def initialize():
     try:
@@ -33,6 +34,9 @@ def main():
 
     if config.action == 'dump':
         dump_hands(hands)
+
+    if config.action == 'new_report':
+        new_report.print_stats(hands, config.filter['player'], config.lines)
 
     if config.action == 'report':
         report.print_stats(hands, config.filter['player'])

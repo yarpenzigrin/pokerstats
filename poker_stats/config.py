@@ -8,6 +8,7 @@ action = None
 files = []
 filter = { 'player':None, 'position':None, 'voluntary': False }
 sort_dump = False
+lines = 0
 
 def parse_filter(line):
     POSITION = Word('SB') ^ Word('BB') ^ Word('UTG') ^ Word('MP') ^ Word('CO') ^ Word('BTN')
@@ -33,10 +34,15 @@ def parse_args():
     report_parser.add_argument('-f', '--filter', help='Hand filter e. g. --filter "N=HubertusB;P=BTN,CO;V=1"', type=str)
     report_parser.add_argument('files', help='File list', nargs='+')
 
+    new_report_parser = action_parser.add_parser('new_report', help='Print old hand report for a player')
+    new_report_parser.add_argument('-f', '--filter', help='Hand filter e. g. --filter "N=HubertusB;P=BTN,CO;V=1"', type=str)
+    new_report_parser.add_argument('-l', '--lines', help='Count of top unprofitable lines to print (0 - no lines printed)', type=int, default=0)
+    new_report_parser.add_argument('files', help='File list', nargs='+')
+
     return parser.parse_args()
 
 def parse_and_validate_args():
-    global action, files, filter, sort_dump
+    global action, files, filter, sort_dump, lines
     args = parse_args()
     action = args.action
     files = args.files
@@ -44,3 +50,5 @@ def parse_and_validate_args():
         sort_dump = args.sort
     if args.__contains__('filter') and args.filter:
         filter.update(parse_filter(args.filter))
+    if args.__contains__('lines'):
+        lines = args.lines
