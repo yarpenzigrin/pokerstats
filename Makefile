@@ -12,4 +12,4 @@ ac_test:
 	test/ac/ac_test.sh
 
 lint:
-	-pylint --enable=all --disable=C,R --reports=no --jobs=$(shell grep -c processor /proc/cpuinfo) poker_stats.py poker_stats
+	-pylint --rcfile=.pylintrc poker_stats.py poker_stats
