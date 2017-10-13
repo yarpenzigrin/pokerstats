@@ -1,8 +1,7 @@
 #!/usr/bin/env python2.7
+# -*- coding: utf-8 -*-
 
-import re
-
-class Action:
+class Action(object):
     Fold = 'f'
     Check = 'x'
     Call = 'c'
@@ -14,24 +13,25 @@ class Action:
     def __init__(self, atype, avalue):
         self.type = atype
         self.value = avalue
+        self.player = None
 
     def __str__(self):
         if self.type == self.Fold:
-            return 'fold'
+            return '{} fold'.format(self.player.name)
         if self.type == self.Check:
-            return 'check'
+            return '{} check'.format(self.player.name)
         if self.type == self.Call:
-            return 'call {}'.format(self.value)
+            return '{} call {}'.format(self.player.name, self.value)
         if self.type == self.Bet:
-            return 'bet {}'.format(self.value)
+            return '{} bet {}'.format(self.player.name, self.value)
         if self.type == self.Raise:
-            return 'raise {}'.format(self.value)
+            return '{} raise {}'.format(self.player.name, self.value)
         if self.type == self.Post:
-            return 'post {}'.format(self.value)
+            return '{} post {}'.format(self.player.name, self.value)
         if self.type == self.Uncalled:
-            return 'uncalled bet returned {}'.format(self.value)
+            return '{} uncalled bet returned {}'.format(self.player.name, self.value)
 
-class Game:
+class Game(object):
     def __init__(self):
         self.site = None
         self.type = None
@@ -39,8 +39,9 @@ class Game:
         self.table_name = None
         self.table_type = None
 
-class Player:
+class Player(object):
     def __init__(self):
+        self.name = None
         self.position = None
         self.starting_stack = None
         self.preflop = []
@@ -49,13 +50,13 @@ class Player:
         self.river = []
         self.collected = 0.00
 
-class Board:
+class Board(object):
     def __init__(self):
         self.flop = None
         self.turn = None
         self.river = None
 
-class Hand:
+class Hand(object):
     def __init__(self):
         self.lines = []
         self.id = None
@@ -65,3 +66,7 @@ class Hand:
         self.board = Board()
         self.pot = None
         self.rake = None
+        self.preflop = []
+        self.flop = []
+        self.turn = []
+        self.river = []

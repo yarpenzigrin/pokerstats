@@ -19,18 +19,21 @@ def get_profit_for_player(hand, player):
 def print_stats(hands, player):
     for h in []: #hands:
         print(h.lines[0].strip())
-        print("Profit: " + str(h.getProfit()))
         print('PREFLOP')
         print('action {}'.format(reduce(lambda acc, a: acc + str(a) + '|', h.players[player].preflop, "|")))
+        print('action {}'.format(reduce(lambda acc, a: acc + str(a) + '|', h.preflop, "|")))
 
         print('FLOP')
         print('action {}'.format(reduce(lambda acc, a: acc + str(a) + '|', h.players[player].flop, "|")))
+        print('action {}'.format(reduce(lambda acc, a: acc + str(a) + '|', h.flop, "|")))
 
         print('TURN')
         print('action {}'.format(reduce(lambda acc, a: acc + str(a) + '|', h.players[player].turn, "|")))
+        print('action {}'.format(reduce(lambda acc, a: acc + str(a) + '|', h.turn, "|")))
 
         print('RIVER')
         print('action {}'.format(reduce(lambda acc, a: acc + str(a) + '|', h.players[player].river, "|")))
+        print('action {}'.format(reduce(lambda acc, a: acc + str(a) + '|', h.river, "|")))
 
     print('Hand statistics')
     print('Hands: {}'.format(len(hands)))
@@ -39,12 +42,6 @@ def print_stats(hands, player):
         print('{} profit: {}'.format(pos, reduce(lambda acc, h: acc + get_profit_for_player(h, player), filter(lambda h: h.players[player].position == pos, hands), 0)))
     print('Total profit: {}'.format(reduce(lambda acc, h: acc + get_profit_for_player(h, player), hands, 0)))
     print('Profit/100: {}'.format(reduce(lambda acc, h: acc + get_profit_for_player(h, player), hands, 0) * 100 / len(hands)))
-
-    #print('Hand depth')
-    #print('Preflop: {}'.format(len(filter(lambda h: len(h.players[player].flop) == 0, hands))))
-    #print('Flop: {}'.format(len(filter(lambda h: len(h.players[player].flop) > 0 and len(h.turn) == 0, hands))))
-    #print('Turn: {}'.format(len(filter(lambda h: len(h.players[player].turn) > 0 and len(h.river) == 0, hands))))
-    #print('River: {}'.format(len(filter(lambda h: len(h.players[player].river) > 0, hands))))
 
     preflop_lines = {}
     flop_lines = {}

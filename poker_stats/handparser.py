@@ -67,6 +67,7 @@ class Parser:
             m = re.match(self.player_info_re, hand.lines[idx])
             if m != None:
                 player = Player()
+                player.name = m.groups()[1]
                 player.position = self.seat_to_position[m.groups()[0]]
                 player.starting_stack = float(m.groups()[3])
                 hand.players[m.groups()[1]] = player
@@ -75,7 +76,9 @@ class Parser:
     def parse_blind_posts(self, hand, idx):
         m = re.match(self.post_re, hand.lines[idx])
         if m != None:
-            hand.players[m.groups()[0]].preflop.append(Action(Action.Post, float(m.groups()[3])))
+            action = Action(Action.Post, float(m.groups()[3]))
+            action.player = hand.players[m.groups()[0]]
+            hand.players[m.groups()[0]].preflop.append(action)
 
     def parse_action(self, hand, idx, inserter):
         fold_mod = lambda match: inserter(hand, match[0], Action(Action.Fold, 0))
@@ -128,6 +131,8 @@ class Parser:
 
         def insert_action(hand, player, action):
             hand.players[player].preflop.append(action)
+            action.player = hand.players[player]
+            hand.preflop.append(action)
 
         return self.parse_action(hand, idx, insert_action)
 
@@ -139,6 +144,8 @@ class Parser:
 
         def insert_action(hand, player, action):
             hand.players[player].flop.append(action)
+            action.player = hand.players[player]
+            hand.flop.append(action)
 
         return self.parse_action(hand, idx + 1, insert_action)
 
@@ -150,6 +157,8 @@ class Parser:
 
         def insert_action(hand, player, action):
             hand.players[player].turn.append(action)
+            action.player = hand.players[player]
+            hand.turn.append(action)
 
         return self.parse_action(hand, idx + 1, insert_action)
 
@@ -161,6 +170,8 @@ class Parser:
 
         def insert_action(hand, player, action):
             hand.players[player].river.append(action)
+            action.player = hand.players[player]
+            hand.river.append(action)
 
         return self.parse_action(hand, idx + 1, insert_action)
 
