@@ -29,7 +29,8 @@ def main():
     initialize()
 
     hands = handparser.parse_files(config.files)
-    hands = handfilter.apply(hands, config.hand_filter['player'], config.hand_filter['voluntary'], config.hand_filter['position'])
+    hand_filter = handfilter.create(config.hand_filter)
+    hands = handfilter.applyf(hands, hand_filter)
 
     if config.action == 'dump':
         dump_hands(hands)

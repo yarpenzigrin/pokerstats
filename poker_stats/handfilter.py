@@ -1,23 +1,26 @@
 #!/usr/bin/env python2.7
 # -*- coding: utf-8 -*-
 
-import entity
-import logging
+import poker_stats.entity as entity
 
-def apply(hands, player, voluntary, position):
-    if voluntary:
-        def flt(h):
-            a = h.players[player].preflop
-            if 'SB' in h.players[player].position or 'BB' in h.players[player].position:
-                return a[1].type != entity.Action.Uncalled and a[1].type != entity.Action.Fold
-            else:
-                return a[0].type != entity.Action.Fold
+def create(hand_filter):
+    result = []
 
-        hands = filter(flt, hands)
-        logging.debug('Voluntarily entered the pot with {} hands'.format(len(hands)))
+    player = hand_filter.get('player', None)
+    if player:
+        result.append(lambda h: player in h.players.keys())
+    positions = hand_filter.get('positions', None)
+    if player and positions:
+        result.append(lambda h: h.players[player].position in positions)
+    voluntary = hand_filter.get('voluntary', None)
+    if player and voluntary:
+        voluntary = [entity.Action.Bet, entity.Action.Call, entity.Action.Raise]
+        result.append(lambda h: [1 for a in h.players[player].preflop + h.players[player].flop + h.players[player].turn + h.players[player].river \
+                                 if a.type in voluntary])
 
-    if position:
-        hands = filter(lambda hand: hand.players[player].position in position, hands)
-        logging.debug('{} hands played on {}'.format(len(hands), position))
+    return result
 
-    return hands
+def applyf(hands, filters):
+    def pred(hand):
+        return reduce(lambda acc, pred: acc and pred(hand), filters, True)
+    return [hand for hand in hands if pred(hand)]

@@ -6,13 +6,13 @@ from pyparsing import Word, StringEnd, Suppress, ZeroOrMore, alphas, nums
 
 action = None
 files = []
-hand_filter = {'player':None, 'position':None, 'voluntary': False}
+hand_filter = {'player':None, 'positions':None, 'voluntary': False}
 sort_dump = False
 
 def parse_filter(line):
     position = Word('SB') ^ Word('BB') ^ Word('UTG') ^ Word('MP') ^ Word('CO') ^ Word('BTN')
     position_list = position + ZeroOrMore(Suppress(Word(',')) + position)
-    position_filter = (Word('p') ^ Word('pos') ^ Word('position')) + Suppress('=') + position_list("position")
+    position_filter = (Word('p') ^ Word('pos') ^ Word('position')) + Suppress('=') + position_list("positions")
     player_filter = (Word('n') ^ Word('name')) + Suppress('=') + Word(alphas)("player")
     voluntary_filter = (Word('v') ^ Word('voluntary')) + Suppress('=') + Word(nums)("voluntary")
     any_filter = player_filter ^ position_filter ^ voluntary_filter
