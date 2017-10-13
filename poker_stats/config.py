@@ -25,7 +25,7 @@ def parse_args():
     parser.add_argument('-f', '--filter', help='Hand filter e. g. --filter "N=HubertusB;P=BTN,CO;V=1"', type=str, default='V=1')
     action_parser = parser.add_subparsers(help='Available actions', dest='action')
 
-    dump_parser = action_parser.add_parser('dump', help='Dump hands')
+    dump_parser = action_parser.add_parser('dump_ps', help='Dump hands in PS format')
     dump_parser.add_argument('-s', '--sort', action='store_true', help='Sort the dump by the size of the pot')
     dump_parser.add_argument('files', help='File list', nargs='+')
 

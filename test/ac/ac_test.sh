@@ -23,20 +23,20 @@ run_tc()
 
 run_test_suite()
 {
-    run_tc "poker_stats.py --filter name=HubertusB;voluntary=1 dump --sort" test_input01.txt test_output01.txt
-    run_tc "poker_stats.py --filter name=HubertusB;voluntary=1 dump" test_input02.txt test_output02.txt
-    run_tc "poker_stats.py --filter name=HubertusB dump --sort" test_input03.txt test_output03.txt
-    run_tc "poker_stats.py --filter name=HubertusB dump " test_input04.txt test_output04.txt
+    run_tc "poker_stats.py --filter name=HubertusB;voluntary=1 dump_ps --sort" test_input01.txt test_output01.txt
+    run_tc "poker_stats.py --filter name=HubertusB;voluntary=1 dump_ps" test_input02.txt test_output02.txt
+    run_tc "poker_stats.py --filter name=HubertusB dump_ps --sort" test_input03.txt test_output03.txt
+    run_tc "poker_stats.py --filter name=HubertusB dump_ps " test_input04.txt test_output04.txt
 
-    run_tc "poker_stats.py --filter name=HubertusB;position=SB;voluntary=1 dump --sort" test_input01.txt test_output05.txt
-    run_tc "poker_stats.py --filter name=HubertusB;position=SB;voluntary=1 dump" test_input02.txt test_output06.txt
-    run_tc "poker_stats.py --filter name=HubertusB;position=SB dump --sort" test_input03.txt test_output07.txt
-    run_tc "poker_stats.py --filter name=HubertusB;position=SB dump" test_input04.txt test_output08.txt
+    run_tc "poker_stats.py --filter name=HubertusB;position=SB;voluntary=1 dump_ps --sort" test_input01.txt test_output05.txt
+    run_tc "poker_stats.py --filter name=HubertusB;position=SB;voluntary=1 dump_ps" test_input02.txt test_output06.txt
+    run_tc "poker_stats.py --filter name=HubertusB;position=SB dump_ps --sort" test_input03.txt test_output07.txt
+    run_tc "poker_stats.py --filter name=HubertusB;position=SB dump_ps" test_input04.txt test_output08.txt
 
-    run_tc "poker_stats.py --filter name=HubertusB;position=BB;voluntary=1 dump --sort" test_input02.txt test_output09.txt
-    run_tc "poker_stats.py --filter name=HubertusB;position=BB;voluntary=1 dump" test_input02.txt test_output10.txt
-    run_tc "poker_stats.py --filter name=HubertusB;position=BB dump --sort" test_input03.txt test_output11.txt
-    run_tc "poker_stats.py --filter name=HubertusB;position=BB dump" test_input04.txt test_output12.txt
+    run_tc "poker_stats.py --filter name=HubertusB;position=BB;voluntary=1 dump_ps --sort" test_input02.txt test_output09.txt
+    run_tc "poker_stats.py --filter name=HubertusB;position=BB;voluntary=1 dump_ps" test_input02.txt test_output10.txt
+    run_tc "poker_stats.py --filter name=HubertusB;position=BB dump_ps --sort" test_input03.txt test_output11.txt
+    run_tc "poker_stats.py --filter name=HubertusB;position=BB dump_ps" test_input04.txt test_output12.txt
 
     # temporary AT for reporting until we have UTs
     run_tc "poker_stats.py --filter name=HubertusB report" test_input_merged.txt test_output13.txt

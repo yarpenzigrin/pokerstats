@@ -1,8 +1,8 @@
 #!/usr/bin/env python2.7
 # -*- coding: utf-8 -*-
 
-from logging import basicConfig, DEBUG, INFO
-from sys import exit, stdout
+from logging import basicConfig, INFO
+from sys import stdout
 
 import poker_stats.config as config
 import poker_stats.handfilter as handfilter
@@ -10,19 +10,12 @@ import poker_stats.handparser as handparser
 import poker_stats.report as report
 
 def initialize():
-    try:
-        import pyparsing
-    except Exception as e:
-        print e
-        print 'Check your Python installation !'
-        exit(1)
-
     basicConfig(level=INFO, format='[ %(levelname)s ] %(message)s')
     config.parse_and_validate_args()
 
 def dump_hands(hands):
     if config.sort_dump:
-        hands = sorted(hands, key = lambda hand: hand.pot, reverse=True)
+        hands = sorted(hands, key=lambda hand: hand.pot, reverse=True)
     stdout.writelines(reduce(lambda acc, h: acc + h.lines, hands, []))
 
 def main():
@@ -32,7 +25,7 @@ def main():
     hand_filter = handfilter.create(config.hand_filter)
     hands = handfilter.applyf(hands, hand_filter)
 
-    if config.action == 'dump':
+    if config.action == 'dump_ps':
         dump_hands(hands)
 
     if config.action == 'report':
