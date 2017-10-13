@@ -29,13 +29,13 @@ def main():
     initialize()
 
     hands = handparser.parse_files(config.files)
-    hands = handfilter.apply(hands, config.filter['player'], config.filter['voluntary'], config.filter['position'])
+    hands = handfilter.apply(hands, config.hand_filter['player'], config.hand_filter['voluntary'], config.hand_filter['position'])
 
     if config.action == 'dump':
         dump_hands(hands)
 
     if config.action == 'report':
-        report.print_stats(hands, config.filter['player'])
+        report.print_stats(hands, config.hand_filter['player'])
 
 if __name__ == '__main__':
     main()
