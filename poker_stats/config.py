@@ -12,9 +12,9 @@ sort_dump = False
 def parse_filter(line):
     position = Word('SB') ^ Word('BB') ^ Word('UTG') ^ Word('MP') ^ Word('CO') ^ Word('BTN')
     position_list = position + ZeroOrMore(Suppress(Word(',')) + position)
-    position_filter = Word('P') + Suppress('=') + position_list("position")
-    player_filter = Word('N') + Suppress('=') + Word(alphas)("player")
-    voluntary_filter = Word('V') + Suppress('=') + Word(nums)("voluntary")
+    position_filter = (Word('p') ^ Word('pos') ^ Word('position')) + Suppress('=') + position_list("position")
+    player_filter = (Word('n') ^ Word('name')) + Suppress('=') + Word(alphas)("player")
+    voluntary_filter = (Word('v') ^ Word('voluntary')) + Suppress('=') + Word(nums)("voluntary")
     any_filter = player_filter ^ position_filter ^ voluntary_filter
     grammar = any_filter + ZeroOrMore(Suppress(Word(';')) + any_filter) + StringEnd()
 
