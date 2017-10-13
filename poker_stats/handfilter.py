@@ -20,7 +20,11 @@ def create(hand_filter):
 
     return result
 
-def applyf(hands, filters):
+def applyf(hands, filters, sort):
     def pred(hand):
         return reduce(lambda acc, pred: acc and pred(hand), filters, True)
-    return [hand for hand in hands if pred(hand)]
+
+    hands = [hand for hand in hands if pred(hand)]
+    if sort:
+        hands = sorted(hands, key=lambda h: h.pot, reverse=True)
+    return hands

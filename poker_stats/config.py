@@ -7,7 +7,7 @@ from pyparsing import Word, StringEnd, Suppress, ZeroOrMore, alphas, nums
 action = None
 files = []
 hand_filter = {'player':None, 'positions':None, 'voluntary': False}
-sort_dump = False
+sort = False
 
 def parse_filter(line):
     position = Word('SB') ^ Word('BB') ^ Word('UTG') ^ Word('MP') ^ Word('CO') ^ Word('BTN')
@@ -35,11 +35,11 @@ def parse_args():
     return parser.parse_args()
 
 def parse_and_validate_args():
-    global action, files, sort_dump
+    global action, files, sort
     args = parse_args()
     action = args.action
     files = args.files
     if args.__contains__('sort'):
-        sort_dump = args.sort
+        sort = args.sort
 
     hand_filter.update(parse_filter(args.filter))

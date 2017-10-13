@@ -13,20 +13,15 @@ def initialize():
     basicConfig(level=INFO, format='[ %(levelname)s ] %(message)s')
     config.parse_and_validate_args()
 
-def dump_hands(hands):
-    if config.sort_dump:
-        hands = sorted(hands, key=lambda hand: hand.pot, reverse=True)
-    stdout.writelines(reduce(lambda acc, h: acc + h.lines, hands, []))
-
 def main():
     initialize()
 
     hands = handparser.parse_files(config.files)
     hand_filter = handfilter.create(config.hand_filter)
-    hands = handfilter.applyf(hands, hand_filter)
+    hands = handfilter.applyf(hands, hand_filter, config.sort)
 
     if config.action == 'dump_ps':
-        dump_hands(hands)
+        stdout.writelines(reduce(lambda a, h: a + h.lines, hands, []))
 
     if config.action == 'report':
         report.print_stats(hands, config.hand_filter['player'])
