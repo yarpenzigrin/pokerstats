@@ -49,10 +49,6 @@ class Player(object):
         self.name = None
         self.position = None
         self.starting_stack = None
-        self.preflop = []
-        self.flop = []
-        self.turn = []
-        self.river = []
         self.collected = 0.00
 
 class Board(object):
@@ -77,7 +73,34 @@ class Hand(object):
         self.river = []
 
     def preflop_vpip_player_count(self):
-        return len(Set([a.player for a in self.preflop if a.voluntary()]))
+        return len(Set([a.player.name for a in self.preflop if a.voluntary()]))
 
     def flop_player_count(self):
-        return len(Set([a.player for a in self.flop]))
+        return len(Set([a.player.name for a in self.flop]))
+
+    def preflop_actions(self, player_name):
+        return [a for a in self.preflop if a.player.name == player_name]
+
+    def flop_actions(self, player_name):
+        return [a for a in self.flop if a.player.name == player_name]
+
+    def turn_actions(self, player_name):
+        return [a for a in self.turn if a.player.name == player_name]
+
+    def river_actions(self, player_name):
+        return [a for a in self.river if a.player.name == player_name]
+
+    def profit_for_player(self, player_name):
+        def invested(acc, action):
+            if action.type == Action.Raise:
+                return action.value
+            elif action.type == Action.Uncalled:
+                return acc - action.value
+            else:
+                return acc + action.value
+
+        return self.players[player_name].collected \
+                - reduce(invested, self.preflop_actions(player_name), 0) \
+                - reduce(invested, self.flop_actions(player_name), 0) \
+                - reduce(invested, self.turn_actions(player_name), 0) \
+                - reduce(invested, self.river_actions(player_name), 0)

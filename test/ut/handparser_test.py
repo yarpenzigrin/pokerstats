@@ -19,13 +19,13 @@ class handparser_tests(unittest.TestCase):
             self.assertEqual(expected[i].type, actual[i].type)
             self.assertEqual(expected[i].value, actual[i].value)
 
-    def assertPlayer(self, players, name, position, starting_stack, preflop, flop, turn, river):
-        self.assertEqual(position, players[name].position)
-        self.assertEqual(starting_stack, players[name].starting_stack)
-        self.assertLine(preflop, players[name].preflop)
-        self.assertLine(flop, players[name].flop)
-        self.assertLine(turn, players[name].turn)
-        self.assertLine(river, players[name].river)
+    def assertPlayer(self, hand, name, position, starting_stack, preflop, flop, turn, river):
+        self.assertEqual(position, hand.players[name].position)
+        self.assertEqual(starting_stack, hand.players[name].starting_stack)
+        self.assertLine(preflop, hand.preflop_actions(name))
+        self.assertLine(flop, hand.flop_actions(name))
+        self.assertLine(turn, hand.turn_actions(name))
+        self.assertLine(river, hand.river_actions(name))
 
     def test_ShouldParseCorrectlyOpenRaiseBetBetBetUncalledHand(self):
         hands = parse_files([test_dir + '/data/openraise_bet_bet_bet_uncalled.hand'])
@@ -46,20 +46,20 @@ class handparser_tests(unittest.TestCase):
         self.assertEqual(0.15, hand.rake)
 
         preflop = [Action(Action.Fold, 0)]
-        self.assertPlayer(hand.players, 'PLAYER_BTN', 'BTN', 21.05, preflop, [], [], [])
+        self.assertPlayer(hand, 'PLAYER_BTN', 'BTN', 21.05, preflop, [], [], [])
 
         preflop = [Action(Action.Post, 0.05), Action(Action.Call, 0.25)]
         flop = [Action(Action.Check, 0), Action(Action.Call, 0.40)]
         turn = [Action(Action.Check, 0), Action(Action.Call, 0.90)]
         river = [Action(Action.Check, 0), Action(Action.Fold, 0)]
-        self.assertPlayer(hand.players, 'PLAYER_SB', 'SB', 10.39, preflop, flop, turn, river)
-        
+        self.assertPlayer(hand, 'PLAYER_SB', 'SB', 10.39, preflop, flop, turn, river)
+
         preflop = [Action(Action.Post, 0.10), Action(Action.Fold, 0)]
-        self.assertPlayer(hand.players, 'PLAYER_BB', 'BB', 10, preflop, [], [], [])
+        self.assertPlayer(hand, 'PLAYER_BB', 'BB', 10, preflop, [], [], [])
 
         preflop = [Action(Action.Fold, 0)]
-        self.assertPlayer(hand.players, 'PLAYER_UTG', 'UTG', 10.90, preflop, [], [], [])
-        self.assertPlayer(hand.players, 'PLAYER_MP', 'MP', 10, preflop, [], [], [])
+        self.assertPlayer(hand, 'PLAYER_UTG', 'UTG', 10.90, preflop, [], [], [])
+        self.assertPlayer(hand, 'PLAYER_MP', 'MP', 10, preflop, [], [], [])
 
         preflop = [Action(Action.Raise, 0.30)]
         flop = [Action(Action.Bet, 0.40)]
@@ -67,7 +67,7 @@ class handparser_tests(unittest.TestCase):
         river = [Action(Action.Bet, 2.00), Action(Action.Uncalled, 2.00)]
         self.assertEqual('Ah Ac', hand.players['PLAYER_CO'].holding)
         self.assertEqual(3.15, hand.players['PLAYER_CO'].collected)
-        self.assertPlayer(hand.players, 'PLAYER_CO', 'CO', 10, preflop, flop, turn, river)
+        self.assertPlayer(hand, 'PLAYER_CO', 'CO', 10, preflop, flop, turn, river)
 
     def test_ShouldParseCorrectlyOpenRaiseAndAllFoldsPre(self):
         hands = parse_files([test_dir + '/data/fold_pre.hand'])
@@ -75,18 +75,18 @@ class handparser_tests(unittest.TestCase):
         hand = hands[0]
 
         preflopFolds = [Action(Action.Fold, 0)]
-        self.assertPlayer(hand.players, 'PLAYER_UTG', 'UTG', 8.12, preflopFolds, [], [], [])
-        self.assertPlayer(hand.players, 'PLAYER_CO', 'CO', 26.65, preflopFolds, [], [], [])
-        self.assertPlayer(hand.players, 'PLAYER_BTN', 'BTN', 15.75, preflopFolds, [], [], [])
+        self.assertPlayer(hand, 'PLAYER_UTG', 'UTG', 8.12, preflopFolds, [], [], [])
+        self.assertPlayer(hand, 'PLAYER_CO', 'CO', 26.65, preflopFolds, [], [], [])
+        self.assertPlayer(hand, 'PLAYER_BTN', 'BTN', 15.75, preflopFolds, [], [], [])
 
         sbActions = [Action(Action.Post, 0.05), Action(Action.Fold, 0)]
-        self.assertPlayer(hand.players, 'PLAYER_SB', 'SB', 15.83, sbActions, [], [], [])
+        self.assertPlayer(hand, 'PLAYER_SB', 'SB', 15.83, sbActions, [], [], [])
 
         bbActions = [Action(Action.Post, 0.10), Action(Action.Fold, 0)]
-        self.assertPlayer(hand.players, 'PLAYER_BB', 'BB', 9.85, bbActions, [], [], [])
+        self.assertPlayer(hand, 'PLAYER_BB', 'BB', 9.85, bbActions, [], [], [])
 
         mpActions = [Action(Action.Raise, 0.30), Action(Action.Uncalled, 0.20)]
-        self.assertPlayer(hand.players, 'PLAYER_MP', 'MP', 9.83, mpActions, [], [], [])
+        self.assertPlayer(hand, 'PLAYER_MP', 'MP', 9.83, mpActions, [], [], [])
 
     def test_ShouldParseCorrectlyOpenRaiseTimeoutAndAllFoldsPre(self):
         hands = parse_files([test_dir + '/data/openraise_timeout_uncalled.hand'])
@@ -94,16 +94,16 @@ class handparser_tests(unittest.TestCase):
         hand = hands[0]
 
         preflopFolds = [Action(Action.Fold, 0)]
-        self.assertPlayer(hand.players, 'PLAYER_UTG', 'UTG', 9.57, preflopFolds, [], [], [])
-        self.assertPlayer(hand.players, 'PLAYER_CO', 'CO', 10.79, preflopFolds, [], [], [])
-        self.assertPlayer(hand.players, 'PLAYER_BTN', 'BTN', 10.00, preflopFolds, [], [], [])
-        self.assertPlayer(hand.players, 'PLAYER_MP', 'MP', 9.12, preflopFolds, [], [], [])
+        self.assertPlayer(hand, 'PLAYER_UTG', 'UTG', 9.57, preflopFolds, [], [], [])
+        self.assertPlayer(hand, 'PLAYER_CO', 'CO', 10.79, preflopFolds, [], [], [])
+        self.assertPlayer(hand, 'PLAYER_BTN', 'BTN', 10.00, preflopFolds, [], [], [])
+        self.assertPlayer(hand, 'PLAYER_MP', 'MP', 9.12, preflopFolds, [], [], [])
 
         sbActions = [Action(Action.Post, 0.05), Action(Action.Raise, 0.20), Action(Action.Fold, 0)]
-        self.assertPlayer(hand.players, 'PLAYER_SB', 'SB', 13.74, sbActions, [], [], [])
+        self.assertPlayer(hand, 'PLAYER_SB', 'SB', 13.74, sbActions, [], [], [])
 
         bbActions = [Action(Action.Post, 0.10), Action(Action.Raise, 0.65), Action(Action.Uncalled, 0.45)]
-        self.assertPlayer(hand.players, 'PLAYER_BB', 'BB', 14.22, bbActions, [], [], [])
+        self.assertPlayer(hand, 'PLAYER_BB', 'BB', 14.22, bbActions, [], [], [])
 
 if __name__ == "__main__":
     unittest.main()

@@ -78,7 +78,6 @@ class Parser:
         if m != None:
             action = Action(Action.Post, float(m.groups()[3]))
             action.player = hand.players[m.groups()[0]]
-            hand.players[m.groups()[0]].preflop.append(action)
             hand.preflop.append(action)
 
     def parse_action(self, hand, idx, inserter):
@@ -131,7 +130,6 @@ class Parser:
             m = re.match(self.dealt_re, hand.lines[idx])
 
         def insert_action(hand, player, action):
-            hand.players[player].preflop.append(action)
             action.player = hand.players[player]
             hand.preflop.append(action)
 
@@ -144,7 +142,6 @@ class Parser:
         hand.board.flop = m.groups()[0]
 
         def insert_action(hand, player, action):
-            hand.players[player].flop.append(action)
             action.player = hand.players[player]
             hand.flop.append(action)
 
@@ -157,7 +154,6 @@ class Parser:
         hand.board.turn = m.groups()[0]
 
         def insert_action(hand, player, action):
-            hand.players[player].turn.append(action)
             action.player = hand.players[player]
             hand.turn.append(action)
 
@@ -170,7 +166,6 @@ class Parser:
         hand.board.river = m.groups()[0]
 
         def insert_action(hand, player, action):
-            hand.players[player].river.append(action)
             action.player = hand.players[player]
             hand.river.append(action)
 

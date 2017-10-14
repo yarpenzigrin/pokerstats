@@ -15,11 +15,9 @@ def create(hand_filter):
     if player and positions:
         result.append(lambda h: h.players[player].position in positions)
 
-    voluntary = hand_filter.get('voluntary', 'all')
-    if player and voluntary != 'all':
-        vol = [entity.Action.Bet, entity.Action.Call, entity.Action.Raise]
-        pred = lambda h: [1 for a in h.players[player].preflop + h.players[player].flop + \
-                          h.players[player].turn + h.players[player].river if a.type in vol]
+    voluntary = hand_filter.get('voluntary', None)
+    if player and voluntary:
+        pred = lambda h: [1 for a in h.preflop + h.flop + h.turn + h.river if a.voluntary() and a.player.name == player]
         if voluntary == 'only':
             result.append(pred)
         else:
