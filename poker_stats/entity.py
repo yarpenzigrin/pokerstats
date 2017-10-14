@@ -1,6 +1,8 @@
 #!/usr/bin/env python2.7
 # -*- coding: utf-8 -*-
 
+from sets import Set
+
 class Action(object):
     Fold = 'f'
     Check = 'x'
@@ -30,6 +32,9 @@ class Action(object):
             return '{} post {}'.format(self.player.name, self.value)
         if self.type == self.Uncalled:
             return '{} uncalled bet returned {}'.format(self.player.name, self.value)
+
+    def voluntary(self):
+        return self.type in [self.Call, self.Bet, self.Raise]
 
 class Game(object):
     def __init__(self):
@@ -70,3 +75,9 @@ class Hand(object):
         self.flop = []
         self.turn = []
         self.river = []
+
+    def preflop_vpip_player_count(self):
+        return len(Set([a.player for a in self.preflop if a.voluntary()]))
+
+    def flop_player_count(self):
+        return len(Set([a.player for a in self.flop]))

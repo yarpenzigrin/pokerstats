@@ -42,6 +42,7 @@ run_test_suite()
     run_tc "poker_stats.py --filter name=HubertusB report" test_input_merged.txt test_output13.txt
     run_tc "poker_stats.py --filter name=HubertusB;voluntary=only report" test_input_merged.txt test_output14.txt
     run_tc "poker_stats.py --filter name=HubertusB;voluntary=forced report" test_input_merged.txt test_output15.txt
+    run_tc "poker_stats.py --filter name=HubertusB;voluntary=only;flop_players=2 report" test_input_merged.txt test_output16.txt
 }
 
 run_test_suite

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 from argparse import ArgumentParser
-from pyparsing import Word, StringEnd, Suppress, ZeroOrMore, alphas, nums
+from pyparsing import Literal, Word, StringEnd, Suppress, ZeroOrMore, alphas, nums
 
 action = None
 files = []
@@ -10,14 +10,15 @@ hand_filter = {'player':None, 'positions':None, 'voluntary': 'all'}
 sort = False
 
 def parse_filter(line):
-    position = Word('SB') ^ Word('BB') ^ Word('UTG') ^ Word('MP') ^ Word('CO') ^ Word('BTN')
-    position_list = position + ZeroOrMore(Suppress(Word(',')) + position)
-    position_filter = (Word('p') ^ Word('pos') ^ Word('position')) + Suppress('=') + position_list('positions')
-    player_filter = (Word('n') ^ Word('name')) + Suppress('=') + Word(alphas)('player')
-    voluntary_filter = (Word('v') ^ Word('voluntary')) + Suppress('=') + \
-                       (Word('all') ^ Word('only') ^ Word('forced'))('voluntary')
-    any_filter = player_filter ^ position_filter ^ voluntary_filter
-    grammar = any_filter + ZeroOrMore(Suppress(Word(';')) + any_filter) + StringEnd()
+    preflop_players = Literal('preflop_players') + Suppress('=') + Word(nums)('preflop_players')
+    flop_players = Literal('flop_players') + Suppress('=') + Word(nums)('flop_players')
+    single_position = Literal('SB') ^ Literal('BB') ^ Literal('UTG') ^ Literal('MP') ^ Literal('CO') ^ Literal('BTN')
+    position_list = single_position + ZeroOrMore(Suppress(Word(',')) + single_position)
+    position = (Literal('pos') ^ Literal('position')) + Suppress('=') + position_list('positions')
+    player = Literal('name') + Suppress('=') + Word(alphas)('player')
+    voluntary = Literal('voluntary') + Suppress('=') + (Literal('all') ^ Literal('only') ^ Literal('forced'))('voluntary')
+    anyf = (player ^ position ^ voluntary ^ preflop_players ^ flop_players)
+    grammar = anyf + ZeroOrMore(Suppress(Word(';')) + anyf) + StringEnd()
 
     return grammar.parseString(line).asDict()
 

@@ -79,6 +79,7 @@ class Parser:
             action = Action(Action.Post, float(m.groups()[3]))
             action.player = hand.players[m.groups()[0]]
             hand.players[m.groups()[0]].preflop.append(action)
+            hand.preflop.append(action)
 
     def parse_action(self, hand, idx, inserter):
         fold_mod = lambda match: inserter(hand, match[0], Action(Action.Fold, 0))

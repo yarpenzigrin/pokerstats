@@ -1,0 +1,53 @@
+Hand statistics
+Hands: 122
+SB profit: -3.16
+BB profit: -24.64
+UTG profit: -14.25
+MP profit: -4.13
+CO profit: 0.02
+BTN profit: 29.25
+Total profit: -16.91
+Profit/100: -13.8606557377
+Lines taken (p - post, x - check, c - call, b - bet, r - raise, u - bet uncalled)
+Preflop pr: 16
+Preflop c: 11
+Preflop pc: 23
+Preflop rf: 3
+Preflop r: 59
+Preflop rc: 10
+Flop ru: 2
+Flop c: 9
+Flop b: 31
+Flop bc: 3
+Flop xc: 7
+Flop f: 1
+Flop xf: 2
+Flop bf: 3
+Flop bu: 29
+Flop r: 5
+Flop br: 1
+Flop xr: 3
+Flop x: 22
+Flop xru: 1
+Turn ru: 1
+Turn c: 3
+Turn b: 15
+Turn f: 6
+Turn xc: 5
+Turn bc: 2
+Turn xf: 3
+Turn bf: 2
+Turn xr: 1
+Turn bu: 14
+Turn xru: 1
+Turn x: 25
+River bf: 2
+River b: 7
+River f: 8
+River xc: 3
+River bc: 1
+River xf: 1
+River c: 1
+River bu: 6
+River r: 1
+River x: 18
