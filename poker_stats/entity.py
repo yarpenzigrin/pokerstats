@@ -2,8 +2,9 @@
 # -*- coding: utf-8 -*-
 
 from sets import Set
+from enum import Enum
 
-class Action(object):
+class ActionType(Enum):
     Fold = 'f'
     Check = 'x'
     Call = 'c'
@@ -12,29 +13,30 @@ class Action(object):
     Post = 'p'
     Uncalled = 'u'
 
-    def __init__(self, atype, avalue):
+class Action(object):
+    def __init__(self, atype, avalue=0):
         self.type = atype
         self.value = avalue
         self.player = None
 
     def __str__(self):
-        if self.type == self.Fold:
+        if self.type == ActionType.Fold:
             return '{} fold'.format(self.player.name)
-        if self.type == self.Check:
+        if self.type == ActionType.Check:
             return '{} check'.format(self.player.name)
-        if self.type == self.Call:
+        if self.type == ActionType.Call:
             return '{} call {}'.format(self.player.name, self.value)
-        if self.type == self.Bet:
+        if self.type == ActionType.Bet:
             return '{} bet {}'.format(self.player.name, self.value)
-        if self.type == self.Raise:
+        if self.type == ActionType.Raise:
             return '{} raise {}'.format(self.player.name, self.value)
-        if self.type == self.Post:
+        if self.type == ActionType.Post:
             return '{} post {}'.format(self.player.name, self.value)
-        if self.type == self.Uncalled:
+        if self.type == ActionType.Uncalled:
             return '{} uncalled bet returned {}'.format(self.player.name, self.value)
 
     def voluntary(self):
-        return self.type in [self.Call, self.Bet, self.Raise]
+        return self.type in [ActionType.Call, ActionType.Bet, ActionType.Raise]
 
 class Game(object):
     def __init__(self):
@@ -92,9 +94,9 @@ class Hand(object):
 
     def profit_for_player(self, player_name):
         def invested(acc, action):
-            if action.type == Action.Raise:
+            if action.type == ActionType.Raise:
                 return action.value
-            elif action.type == Action.Uncalled:
+            elif action.type == ActionType.Uncalled:
                 return acc - action.value
             else:
                 return acc + action.value

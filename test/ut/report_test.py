@@ -34,25 +34,25 @@ class report_tests(unittest.TestCase):
 
     def test_ShouldCalculateProfitForOpenRaiseNoAction(self):
         hand = self.prepare_hand(0.25, preflop = [
-                Action(Action.Raise, 0.30),
-                Action(Action.Uncalled, 0.20)
+                Action(ActionType.Raise, 0.30),
+                Action(ActionType.Uncalled, 0.20)
             ])
         self.assertAlmostEqual(0.15, hand.profit_for_player(self.player_name), 2)
 
     def test_ShouldCalculateProfitForOpenRaise3BetFromBB4Bet(self):
         hand = self.prepare_hand(2.25, preflop = [
-                Action(Action.Raise, 0.30),
-                Action(Action.Raise, 2.70),
-                Action(Action.Uncalled, 1.60)
+                Action(ActionType.Raise, 0.30),
+                Action(ActionType.Raise, 2.70),
+                Action(ActionType.Uncalled, 1.60)
             ])
         self.assertAlmostEqual(1.15, hand.profit_for_player(self.player_name), 2)
 
     def test_ShouldCalculateProfitForOpenRaiseCallFromBBBetFlopUncalled(self):
         hand = self.prepare_hand(0.65, preflop = [
-                Action(Action.Raise, 0.30)
+                Action(ActionType.Raise, 0.30)
             ], flop = [
-                Action(Action.Bet, 0.35),
-                Action(Action.Uncalled, 0.35)
+                Action(ActionType.Bet, 0.35),
+                Action(ActionType.Uncalled, 0.35)
             ])
         self.assertAlmostEqual(0.35, hand.profit_for_player(self.player_name), 2)
 

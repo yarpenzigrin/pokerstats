@@ -1,8 +1,8 @@
 #!/usr/bin/env python2.7
 # -*- coding: utf-8 -*-
 
-from poker_stats.entity import Action, Player, Hand
 import re
+from poker_stats.entity import Action, ActionType, Hand, Player
 
 class Parser:
     def __init__(self):
@@ -76,17 +76,17 @@ class Parser:
     def parse_blind_posts(self, hand, idx):
         m = re.match(self.post_re, hand.lines[idx])
         if m != None:
-            action = Action(Action.Post, float(m.groups()[3]))
+            action = Action(ActionType.Post, float(m.groups()[3]))
             action.player = hand.players[m.groups()[0]]
             hand.preflop.append(action)
 
     def parse_action(self, hand, idx, inserter):
-        fold_mod = lambda match: inserter(hand, match[0], Action(Action.Fold, 0))
-        check_mod = lambda match: inserter(hand, match[0], Action(Action.Check, 0))
-        call_mod = lambda match: inserter(hand, match[0], Action(Action.Call, float(match[2])))
-        bet_mod = lambda match: inserter(hand, match[0], Action(Action.Bet, float(match[2])))
-        raise_mod = lambda match: inserter(hand, match[0], Action(Action.Raise, float(match[4])))
-        uncalled_mod = lambda match: inserter(hand, match[2], Action(Action.Uncalled, float(match[0])))
+        fold_mod = lambda match: inserter(hand, match[0], Action(ActionType.Fold, 0))
+        check_mod = lambda match: inserter(hand, match[0], Action(ActionType.Check, 0))
+        call_mod = lambda match: inserter(hand, match[0], Action(ActionType.Call, float(match[2])))
+        bet_mod = lambda match: inserter(hand, match[0], Action(ActionType.Bet, float(match[2])))
+        raise_mod = lambda match: inserter(hand, match[0], Action(ActionType.Raise, float(match[4])))
+        uncalled_mod = lambda match: inserter(hand, match[2], Action(ActionType.Uncalled, float(match[0])))
         collected_mod = lambda match: setattr(hand.players[match[0]], 'collected', float(match[2]))
 
         def match_and_return_index(idx, hand, pattern, modifier):
