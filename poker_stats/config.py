@@ -7,6 +7,7 @@ from pyparsing import Literal, Word, StringEnd, Suppress, ZeroOrMore, alphas, nu
 action = None
 files = []
 hand_filter = {}
+player_name = None
 sort = False
 
 def parse_filter(line):
@@ -34,14 +35,20 @@ def parse_args():
     report_parser = action_parser.add_parser('report', help='Print hand report for a player')
     report_parser.add_argument('files', help='File list', nargs='+')
 
+    blind_report_parser = action_parser.add_parser('blind_report', help='Print report for a player about play on the blinds')
+    blind_report_parser.add_argument('player_name', help='Player nickname')
+    blind_report_parser.add_argument('files', help='File list', nargs='+')
+
     return parser.parse_args()
 
 def parse_and_validate_args():
-    global action, files, sort
+    global action, files, player_name, sort
     args = parse_args()
     action = args.action
     files = args.files
-    if args.__contains__('sort'):
+    if args.__contains__('sort') and args.sort:
         sort = args.sort
-    if args.__contains__('filter'):
+    if args.__contains__('filter') and args.filter:
         hand_filter.update(parse_filter(args.filter))
+    if args.__contains__('player_name') and args.player_name:
+        player_name = args.player_name

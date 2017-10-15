@@ -48,12 +48,12 @@ class Parser:
             '%s collected %s from pot' % (self.player_re, self.amt_re))
 
     def parse_game_info(self, hand):
-        m = re.match(self.game_info_re, hand.lines[0])
+        m = re.match(self.game_info_re, hand.lines[0].lstrip('\xef\xbb\xbf'))
         if m != None:
             hand.game.site = m.groups()[0]
             hand.id = m.groups()[1]
             hand.game.type = m.groups()[2]
-            hand.game.stakes = ( float(m.groups()[3]), float(m.groups()[5]) )
+            hand.game.stakes = (float(m.groups()[3]), float(m.groups()[5]))
             hand.timestamp = m.groups()[7]
 
     def parse_table_info(self, hand):
@@ -196,9 +196,15 @@ class Parser:
         result = []
         hand_in_process = False
         for line in lines:
-            if line == '\r\n' or line == '\n':
+            if line.strip():
+                if not hand_in_process:
+                    hand = Hand()
+                    hand_in_process = True
+
+                hand.lines.append(line)
+            else:
                 if hand_in_process:
-                    hand.lines[0].replace('PokerStars Zoom Hand', 'PokerStars Hand')
+                    hand.lines[0] = hand.lines[0].replace('PokerStars Zoom Hand', 'PokerStars Hand')
                     hand.lines.append('\r\n')
                     hand.lines.append('\r\n')
                     hand.lines.append('\r\n')
@@ -206,12 +212,6 @@ class Parser:
                     if hand.pot != None:
                         result.append(hand)
                     hand_in_process = False
-            else:
-                if not hand_in_process:
-                    hand = Hand()
-                    hand_in_process = True
-
-                hand.lines.append(line)
 
         return result
 
@@ -219,9 +219,9 @@ def parse_files(file_names):
     hands = []
     parser = Parser()
 
-    for fn in file_names:
-        with open(fn, 'r') as f:
-            lines = f.readlines()
+    for file_name in file_names:
+        with open(file_name, 'r') as file_desc:
+            lines = file_desc.readlines()
         hands.extend(parser.parse_file_contents(lines))
 
     return hands

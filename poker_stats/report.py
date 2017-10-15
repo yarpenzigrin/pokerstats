@@ -1,55 +1,68 @@
 #!/usr/bin/env python2.7
+# -*- coding: utf-8 -*-
 
-def print_stats(hands, player):
-    for h in []: #hands:
-        print(h.lines[0].strip())
-        print('PREFLOP')
-        print('action {}'.format(reduce(lambda acc, a: acc + str(a) + '|', h.players[player].preflop, "|")))
-        print('action {}'.format(reduce(lambda acc, a: acc + str(a) + '|', h.preflop, "|")))
+from poker_stats.entity import is_call_preflop, is_raise_preflop, is_3bet_preflop, profit_for_player
+from poker_stats.handfilter import apply_filter, create_position_filter, create_voluntary_filter
 
-        print('FLOP')
-        print('action {}'.format(reduce(lambda acc, a: acc + str(a) + '|', h.players[player].flop, "|")))
-        print('action {}'.format(reduce(lambda acc, a: acc + str(a) + '|', h.flop, "|")))
+class BlindReport(object):
+    def __init__(self):
+        self.sb_hand_count = 0
+        self.sb_expected_profit = 0
+        self.sb_vpip = 0
+        self.sb_vpip_profit = 0
+        self.sb_pfr = 0
+        self.sb_pfr_profit = 0
+        self.sb_flat = 0
+        self.sb_flat_profit = 0
+        self.sb_3bet = 0
+        self.sb_3bet_profit = 0
 
-        print('TURN')
-        print('action {}'.format(reduce(lambda acc, a: acc + str(a) + '|', h.players[player].turn, "|")))
-        print('action {}'.format(reduce(lambda acc, a: acc + str(a) + '|', h.turn, "|")))
+        self.bb_hand_count = 0
+        self.bb_expected_profit = 0
+        self.bb_vpip = 0
+        self.bb_vpip_profit = 0
+        self.bb_pfr = 0
+        self.bb_pfr_profit = 0
+        self.bb_flat = 0
+        self.bb_flat_profit = 0
+        self.bb_3bet = 0
+        self.bb_3bet_profit = 0
 
-        print('RIVER')
-        print('action {}'.format(reduce(lambda acc, a: acc + str(a) + '|', h.players[player].river, "|")))
-        print('action {}'.format(reduce(lambda acc, a: acc + str(a) + '|', h.river, "|")))
+def create_blind_report(hands, player_name):
+    report = BlindReport()
 
-    print('Hand statistics')
-    print('Hands: {}'.format(len(hands)))
-    positions = ['SB', 'BB', 'UTG', 'MP', 'CO', 'BTN']
-    for pos in positions:
-        print('{} profit: {}'.format(pos, reduce(lambda acc, h: acc + h.profit_for_player(player), filter(lambda h: h.players[player].position == pos, hands), 0)))
-    print('Total profit: {}'.format(reduce(lambda acc, h: acc + h.profit_for_player(player), hands, 0)))
-    print('Profit/100: {}'.format(reduce(lambda acc, h: acc + h.profit_for_player(player), hands, 0) * 100 / len(hands)))
+    sb_hands = apply_filter(hands, create_position_filter(player_name, ['SB']))
+    sb_voluntary_hands = apply_filter(sb_hands, create_voluntary_filter(player_name, 'only'))
+    sb_pfr_hands = apply_filter(sb_voluntary_hands, lambda h: is_raise_preflop(h, player_name))
+    sb_flat_hands = apply_filter(sb_voluntary_hands, lambda h: is_call_preflop(h, player_name))
+    sb_3bet_hands = apply_filter(sb_voluntary_hands, lambda h: is_3bet_preflop(h, player_name))
 
-    preflop_lines = {}
-    flop_lines = {}
-    turn_lines = {}
-    river_lines = {}
-    for h in hands:
-        l = reduce(lambda acc, a: acc + a.type.value, h.preflop_actions(player), '')
-        preflop_lines[l] = preflop_lines.get(l, 0) + 1
-        l = reduce(lambda acc, a: acc + a.type.value, h.flop_actions(player), '')
-        flop_lines[l] = flop_lines.get(l, 0) + 1
-        l = reduce(lambda acc, a: acc + a.type.value, h.turn_actions(player), '')
-        turn_lines[l] = turn_lines.get(l, 0) + 1
-        l = reduce(lambda acc, a: acc + a.type.value, h.river_actions(player), '')
-        river_lines[l] = river_lines.get(l, 0) + 1
+    report.sb_hand_count = len(sb_hands)
+    report.sb_vpip = round(float(len(sb_voluntary_hands)) / len(sb_hands), 2)
+    report.sb_vpip_profit = profit_for_player(sb_voluntary_hands, player_name)
+    report.sb_expected_profit = -sum([h.game.stakes[0] for h in sb_hands])
+    report.sb_pfr = round(float(len(sb_pfr_hands)) / len(sb_hands), 2)
+    report.sb_pfr_profit = profit_for_player(sb_pfr_hands, player_name)
+    report.sb_flat = round(float(len(sb_flat_hands)) / len(sb_hands), 2)
+    report.sb_flat_profit = profit_for_player(sb_flat_hands, player_name)
+    report.sb_3bet = round(float(len(sb_3bet_hands)) / len(sb_hands), 2)
+    report.sb_3bet_profit = profit_for_player(sb_3bet_hands, player_name)
 
-    print('Lines taken (p - post, x - check, c - call, b - bet, r - raise, u - bet uncalled)')
-    for (l,c) in preflop_lines.iteritems():
-        print('Preflop {}: {}'.format(l, c))
-    for (l,c) in flop_lines.iteritems():
-        if l != '':
-            print('Flop {}: {}'.format(l, c))
-    for (l,c) in turn_lines.iteritems():
-        if l != '':
-            print('Turn {}: {}'.format(l, c))
-    for (l,c) in river_lines.iteritems():
-        if l != '':
-            print('River {}: {}'.format(l, c))
+    bb_hands = apply_filter(hands, create_position_filter(player_name, ['BB']))
+    bb_voluntary_hands = apply_filter(bb_hands, create_voluntary_filter(player_name, 'only'))
+    bb_pfr_hands = apply_filter(bb_voluntary_hands, lambda h: is_raise_preflop(h, player_name))
+    bb_flat_hands = apply_filter(bb_voluntary_hands, lambda h: is_call_preflop(h, player_name))
+    bb_3bet_hands = apply_filter(bb_voluntary_hands, lambda h: is_3bet_preflop(h, player_name))
+
+    report.bb_hand_count = len(bb_hands)
+    report.bb_vpip = round(float(len(bb_voluntary_hands)) / len(bb_hands), 2)
+    report.bb_vpip_profit = profit_for_player(bb_voluntary_hands, player_name)
+    report.bb_expected_profit = -sum([h.game.stakes[1] for h in bb_hands])
+    report.bb_pfr = round(float(len(bb_pfr_hands)) / len(bb_hands), 2)
+    report.bb_pfr_profit = profit_for_player(bb_pfr_hands, player_name)
+    report.bb_flat = round(float(len(bb_flat_hands)) / len(bb_hands), 2)
+    report.bb_flat_profit = profit_for_player(bb_flat_hands, player_name)
+    report.bb_3bet = round(float(len(bb_3bet_hands)) / len(bb_hands), 2)
+    report.bb_3bet_profit = profit_for_player(bb_3bet_hands, player_name)
+
+    return report

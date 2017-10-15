@@ -28,6 +28,8 @@ run_test_suite()
     run_tc "poker_stats.py --filter name=HubertusB dump_ps --sort" test_input03.txt test_output03.txt
     run_tc "poker_stats.py --filter name=HubertusB dump_ps " test_input04.txt test_output04.txt
 
+    run_tc "poker_stats.py blind_report HubertusB" test_input_merged.txt test_output05.txt
+
     # temporary AT for reporting until we have UTs
     run_tc "poker_stats.py --filter name=HubertusB report" test_input_merged.txt test_output13.txt
     run_tc "poker_stats.py --filter name=HubertusB;voluntary=only report" test_input_merged.txt test_output14.txt

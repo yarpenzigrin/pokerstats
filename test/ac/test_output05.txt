@@ -1,0 +1,23 @@
+SMALL BLIND
+Hands played: 183
+Expected profit: -9.15
+VPIP%: 23.0
+VPIP profit: -2.76
+PFR%: 16.0
+PFR profit: 1.44
+Flat%: 7.0
+Flat profit: -4.2
+3bet%: 7.0
+3bet profit: -2.4
+
+BIG BLIND
+Hands played: 185
+Expected profit: -18.5
+VPIP%: 20.0
+VPIP profit: -22.95
+PFR%: 6.0
+PFR profit: -8.42
+Flat%: 13.0
+Flat profit: -14.17
+3bet%: 6.0
+3bet profit: -8.42

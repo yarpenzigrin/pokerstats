@@ -106,3 +106,33 @@ class Hand(object):
                 - reduce(invested, self.flop_actions(player_name), 0) \
                 - reduce(invested, self.turn_actions(player_name), 0) \
                 - reduce(invested, self.river_actions(player_name), 0)
+
+def profit_for_player(hands, player_name):
+    return round(reduce(lambda acc, h: acc + h.profit_for_player(player_name), hands, 0), 2)
+
+def is_call_preflop(hand, player_name):
+    for action in hand.preflop:
+        if action.voluntary() and action.player.name == player_name:
+            return action.type == ActionType.Call
+
+    return False
+
+def is_raise_preflop(hand, player_name):
+    for action in hand.preflop:
+        if action.voluntary() and action.player.name == player_name:
+            return action.type == ActionType.Raise
+
+    return False
+
+def is_3bet_preflop(hand, player_name):
+    villain_raised = False
+
+    for action in hand.preflop:
+        if action.type != ActionType.Raise:
+            continue
+        if villain_raised:
+            return action.player.name == player_name
+        if not villain_raised and action.player.name != player_name:
+            villain_raised = True
+
+    return False
