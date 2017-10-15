@@ -38,10 +38,12 @@ class Parser:
         self.post_re = re.compile('%s: posts (small|big) blind %s' % (self.player_re, self.amt_re))
         self.fold_re = re.compile('{}: folds'.format(self.player_re))
         self.check_re = re.compile('{}: checks'.format(self.player_re))
+        self.call_ai_re = re.compile('{}: calls \$(\d+(.\d+)?) and is all-in'.format(self.player_re))
         self.call_re = re.compile('{}: calls \$(\d+(.\d+)?)'.format(self.player_re))
+        self.bet_ai_re = re.compile('{}: bets \$(\d+(.\d+)?) and is all-in'.format(self.player_re))
         self.bet_re = re.compile('{}: bets \$(\d+(.\d+)?)'.format(self.player_re))
-        self.raise_re = re.compile( \
-            '{}: raises \$(\d+(.\d+)?) to \$(\d+(.\d+)?)'.format(self.player_re))
+        self.raise_ai_re = re.compile('{}: raises \$(\d+(.\d+)?) to \$(\d+(.\d+)?) and is all-in'.format(self.player_re))
+        self.raise_re = re.compile('{}: raises \$(\d+(.\d+)?) to \$(\d+(.\d+)?)'.format(self.player_re))
         self.uncalled_re = re.compile( \
             'Uncalled bet \(\$(\d+(.\d+)?)\) returned to {}'.format(self.player_re))
         self.collected_re = re.compile( \
@@ -81,10 +83,13 @@ class Parser:
             hand.preflop.append(action)
 
     def parse_action(self, hand, idx, inserter):
-        fold_mod = lambda match: inserter(hand, match[0], Action(ActionType.Fold, 0))
-        check_mod = lambda match: inserter(hand, match[0], Action(ActionType.Check, 0))
+        fold_mod = lambda match: inserter(hand, match[0], Action(ActionType.Fold))
+        check_mod = lambda match: inserter(hand, match[0], Action(ActionType.Check))
+        call_ai_mod = lambda match: inserter(hand, match[0], Action(ActionType.CallAi, float(match[2])))
         call_mod = lambda match: inserter(hand, match[0], Action(ActionType.Call, float(match[2])))
+        bet_ai_mod = lambda match: inserter(hand, match[0], Action(ActionType.BetAi, float(match[2])))
         bet_mod = lambda match: inserter(hand, match[0], Action(ActionType.Bet, float(match[2])))
+        raise_ai_mod = lambda match: inserter(hand, match[0], Action(ActionType.RaiseAi, float(match[4])))
         raise_mod = lambda match: inserter(hand, match[0], Action(ActionType.Raise, float(match[4])))
         uncalled_mod = lambda match: inserter(hand, match[2], Action(ActionType.Uncalled, float(match[0])))
         collected_mod = lambda match: setattr(hand.players[match[0]], 'collected', float(match[2]))
@@ -109,8 +114,11 @@ class Parser:
             old_idx = idx
             idx = match_and_return_index(idx, hand, self.fold_re, fold_mod)
             idx = match_and_return_index(idx, hand, self.check_re, check_mod)
+            idx = match_and_return_index(idx, hand, self.call_ai_re, call_ai_mod)
             idx = match_and_return_index(idx, hand, self.call_re, call_mod)
+            idx = match_and_return_index(idx, hand, self.bet_ai_re, bet_ai_mod)
             idx = match_and_return_index(idx, hand, self.bet_re, bet_mod)
+            idx = match_and_return_index(idx, hand, self.raise_ai_re, raise_ai_mod)
             idx = match_and_return_index(idx, hand, self.raise_re, raise_mod)
             idx = match_and_return_index(idx, hand, self.uncalled_re, uncalled_mod)
             idx = match_and_return_index(idx, hand, self.collected_re, collected_mod)

@@ -8,8 +8,11 @@ class ActionType(Enum):
     Fold = 'f'
     Check = 'x'
     Call = 'c'
+    CallAi = 'cai'
     Bet = 'b'
+    BetAi = 'bai'
     Raise = 'r'
+    RaiseAi = 'rai'
     Post = 'p'
     Uncalled = 'u'
 
@@ -36,7 +39,7 @@ class Action(object):
             return '{} uncalled bet returned {}'.format(self.player.name, self.value)
 
     def voluntary(self):
-        return self.type in [ActionType.Call, ActionType.Bet, ActionType.Raise]
+        return self.type in [ActionType.Call, ActionType.CallAi, ActionType.Bet, ActionType.BetAi, ActionType.Raise, ActionType.RaiseAi]
 
 class Game(object):
     def __init__(self):
@@ -94,7 +97,7 @@ class Hand(object):
 
     def profit_for_player(self, player_name):
         def invested(acc, action):
-            if action.type == ActionType.Raise:
+            if action.type in [ActionType.Raise, ActionType.RaiseAi]:
                 return action.value
             elif action.type == ActionType.Uncalled:
                 return acc - action.value
@@ -113,14 +116,14 @@ def profit_for_player(hands, player_name):
 def is_call_preflop(hand, player_name):
     for action in hand.preflop:
         if action.voluntary() and action.player.name == player_name:
-            return action.type == ActionType.Call
+            return action.type in [ActionType.Call, ActionType.CallAi]
 
     return False
 
 def is_raise_preflop(hand, player_name):
     for action in hand.preflop:
         if action.voluntary() and action.player.name == player_name:
-            return action.type == ActionType.Raise
+            return action.type in [ActionType.Raise, ActionType.RaiseAi]
 
     return False
 
@@ -128,7 +131,7 @@ def is_3bet_preflop(hand, player_name):
     villain_raised = False
 
     for action in hand.preflop:
-        if action.type != ActionType.Raise:
+        if action.type not in [ActionType.Raise, ActionType.RaiseAi]:
             continue
         if villain_raised:
             return action.player.name == player_name
