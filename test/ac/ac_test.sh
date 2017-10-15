@@ -4,6 +4,7 @@ test_dir=`dirname $0`
 script_dir=$test_dir/../..
 
 tc_counter=1
+exit_code=0
 
 run_tc()
 {
@@ -17,6 +18,7 @@ run_tc()
         echo "RUN TC$tc_counter: OK"
     else
         echo "RUN TC$tc_counter: NOK"
+        exit_code=1
     fi
     tc_counter=`expr $tc_counter + 1`
 }
@@ -38,3 +40,4 @@ run_test_suite()
 }
 
 run_test_suite
+exit $exit_code
