@@ -4,7 +4,8 @@
 def print_blind_report(report):
     print "SMALL BLIND"
     print "Hands played: {}".format(report.sb_hand_count)
-    print "Expected profit: {}".format(report.sb_expected_profit)
+    print "Forced profit: {}".format(report.sb_forced_profit)
+    print "Expected VPIP profit: {}".format(report.sb_expected_profit)
     print "VPIP%: {}".format(report.sb_vpip * 100)
     print "VPIP profit: {}".format(report.sb_vpip_profit)
     print "PFR%: {}".format(report.sb_pfr * 100)
@@ -16,7 +17,8 @@ def print_blind_report(report):
     print
     print "BIG BLIND"
     print "Hands played: {}".format(report.bb_hand_count)
-    print "Expected profit: {}".format(report.bb_expected_profit)
+    print "Forced profit: {}".format(report.bb_forced_profit)
+    print "Expected VPIP profit: {}".format(report.bb_expected_profit)
     print "VPIP%: {}".format(report.bb_vpip * 100)
     print "VPIP profit: {}".format(report.bb_vpip_profit)
     print "PFR%: {}".format(report.bb_pfr * 100)
