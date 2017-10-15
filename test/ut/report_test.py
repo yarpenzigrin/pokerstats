@@ -9,7 +9,7 @@ test_dir = os.path.dirname(os.path.realpath(__file__))
 sys.path.append(test_dir + '/../..')
 
 from poker_stats.entity import *
-from poker_stats.handparser import parse_files
+from poker_stats.hand_parser import parse_files
 
 class report_tests(unittest.TestCase):
     def __init__(self, *args, **kwargs):

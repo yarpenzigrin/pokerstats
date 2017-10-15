@@ -5,8 +5,8 @@ from logging import basicConfig, INFO
 from sys import stdout
 
 import poker_stats.config as config
-import poker_stats.handfilter as handfilter
-import poker_stats.handparser as handparser
+import poker_stats.hand_filter as hand_filter
+import poker_stats.hand_parser as hand_parser
 import poker_stats.report as report
 import poker_stats.report_printer as report_printer
 
@@ -17,9 +17,9 @@ def initialize():
 def main():
     initialize()
 
-    hands = handparser.parse_files(config.files)
-    hand_filters = handfilter.create(config.hand_filter)
-    hands = handfilter.apply_filters(hands, hand_filters, config.sort)
+    hands = hand_parser.parse_files(config.files)
+    hand_filters = hand_filter.create(config.hand_filter)
+    hands = hand_filter.apply_filters(hands, hand_filters, config.sort)
 
     if config.action == 'dump_ps':
         stdout.writelines(reduce(lambda a, h: a + h.lines, hands, []))

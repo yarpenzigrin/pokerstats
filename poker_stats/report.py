@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 from poker_stats.entity import is_call_preflop, is_raise_preflop, is_3bet_preflop, profit_for_player
-from poker_stats.handfilter import apply_filter, create_position_filter, create_voluntary_filter
+from poker_stats.hand_filter import apply_filter, create_position_filter, create_voluntary_filter
 
 class BlindReport(object):
     def __init__(self):

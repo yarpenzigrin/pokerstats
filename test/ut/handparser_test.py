@@ -9,9 +9,9 @@ test_dir = os.path.dirname(os.path.realpath(__file__))
 sys.path.append(test_dir + '/../..')
 
 from poker_stats.entity import *
-from poker_stats.handparser import parse_files
+from poker_stats.hand_parser import parse_files
 
-class handparser_tests(unittest.TestCase):
+class hand_parser_tests(unittest.TestCase):
 
     def assertLine(self, expected, actual):
         self.assertEqual(len(expected), len(actual))
