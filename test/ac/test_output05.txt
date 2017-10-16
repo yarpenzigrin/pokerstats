@@ -5,12 +5,12 @@ Expected VPIP profit: -2.15
 VPIP profit: -2.76
 Expected forced profit: -7.0
 Forced profit: -7.0
-VPIP%: 23.0
-PFR%: 16.0
+VPIP%: 23.5
+PFR%: 16.39
 PFR profit: 1.44
-Flat%: 7.0
+Flat%: 7.1
 Flat profit: -4.2
-3bet%: 7.0
+3bet%: 6.56
 3bet profit: -2.4
 
 BIG BLIND
@@ -21,9 +21,9 @@ VPIP profit: -22.95
 Expected forced profit: -14.8
 Forced profit: -10.0
 VPIP%: 20.0
-PFR%: 6.0
+PFR%: 6.49
 PFR profit: -8.42
-Flat%: 13.0
+Flat%: 12.97
 Flat profit: -14.17
-3bet%: 6.0
+3bet%: 6.49
 3bet profit: -8.42

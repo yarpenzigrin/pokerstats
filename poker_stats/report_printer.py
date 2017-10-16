@@ -9,12 +9,12 @@ def print_blind_report(report):
     print "VPIP profit: {}".format(report.sb_vpip_profit)
     print "Expected forced profit: {}".format(report.sb_expected_forced_profit)
     print "Forced profit: {}".format(report.sb_forced_profit)
-    print "VPIP%: {}".format(report.sb_vpip * 100)
-    print "PFR%: {}".format(report.sb_pfr * 100)
+    print "VPIP%: {}".format(report.sb_vpip)
+    print "PFR%: {}".format(report.sb_pfr)
     print "PFR profit: {}".format(report.sb_pfr_profit)
-    print "Flat%: {}".format(report.sb_flat * 100)
+    print "Flat%: {}".format(report.sb_flat)
     print "Flat profit: {}".format(report.sb_flat_profit)
-    print "3bet%: {}".format(report.sb_3bet * 100)
+    print "3bet%: {}".format(report.sb_3bet)
     print "3bet profit: {}".format(report.sb_3bet_profit)
     print
     print "BIG BLIND"
@@ -24,12 +24,12 @@ def print_blind_report(report):
     print "VPIP profit: {}".format(report.bb_vpip_profit)
     print "Expected forced profit: {}".format(report.bb_expected_forced_profit)
     print "Forced profit: {}".format(report.bb_forced_profit)
-    print "VPIP%: {}".format(report.bb_vpip * 100)
-    print "PFR%: {}".format(report.bb_pfr * 100)
+    print "VPIP%: {}".format(report.bb_vpip)
+    print "PFR%: {}".format(report.bb_pfr)
     print "PFR profit: {}".format(report.bb_pfr_profit)
-    print "Flat%: {}".format(report.bb_flat * 100)
+    print "Flat%: {}".format(report.bb_flat)
     print "Flat profit: {}".format(report.bb_flat_profit)
-    print "3bet%: {}".format(report.bb_3bet * 100)
+    print "3bet%: {}".format(report.bb_3bet)
     print "3bet profit: {}".format(report.bb_3bet_profit)
 
 def print_stats(hands, player):
