@@ -1,0 +1,66 @@
+
+SB
+Hands played: 183
+VPIP%: 23.5
+PFR%: 16.39
+PFR profit: 1.44
+Flat%: 7.1
+Flat profit: -4.2
+3bet%: 6.56
+3bet profit: -2.4
+Total position profit: -9.76
+
+BB
+Hands played: 185
+VPIP%: 20.0
+PFR%: 6.49
+PFR profit: -8.42
+Flat%: 12.97
+Flat profit: -14.17
+3bet%: 6.49
+3bet profit: -8.42
+Total position profit: -32.95
+
+UTG
+Hands played: 190
+VPIP%: 31.05
+PFR%: 30.53
+PFR profit: -13.09
+Flat%: 0.53
+Flat profit: -0.55
+3bet%: 0.53
+3bet profit: -2.0
+Total position profit: -13.64
+
+MP
+Hands played: 187
+VPIP%: 30.48
+PFR%: 29.41
+PFR profit: -21.12
+Flat%: 1.07
+Flat profit: 7.07
+3bet%: 1.07
+3bet profit: -1.3
+Total position profit: -14.05
+
+CO
+Hands played: 183
+VPIP%: 25.14
+PFR%: 22.4
+PFR profit: 3.05
+Flat%: 2.73
+Flat profit: -7.27
+3bet%: 2.73
+3bet profit: 2.21
+Total position profit: -4.22
+
+BTN
+Hands played: 185
+VPIP%: 36.22
+PFR%: 29.73
+PFR profit: 23.43
+Flat%: 6.49
+Flat profit: 13.54
+3bet%: 4.86
+3bet profit: 22.78
+Total position profit: 36.97

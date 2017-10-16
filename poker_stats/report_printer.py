@@ -2,35 +2,31 @@
 # -*- coding: utf-8 -*-
 
 def print_blind_report(report):
-    print "SMALL BLIND"
-    print "Hands played: {}".format(report.sb_hand_count)
+    print_position_report(report.sb_report)
     print "Expected profit: {}".format(report.sb_expected_profit)
-    print "Expected VPIP profit: {}".format(report.sb_expected_vpip_profit)
     print "VPIP profit: {}".format(report.sb_vpip_profit)
-    print "Expected forced profit: {}".format(report.sb_expected_forced_profit)
+    print "Expected VPIP profit: {}".format(report.sb_expected_vpip_profit)
     print "Forced profit: {}".format(report.sb_forced_profit)
-    print "VPIP%: {}".format(report.sb_vpip)
-    print "PFR%: {}".format(report.sb_pfr)
-    print "PFR profit: {}".format(report.sb_pfr_profit)
-    print "Flat%: {}".format(report.sb_flat)
-    print "Flat profit: {}".format(report.sb_flat_profit)
-    print "3bet%: {}".format(report.sb_3bet)
-    print "3bet profit: {}".format(report.sb_3bet_profit)
-    print
-    print "BIG BLIND"
-    print "Hands played: {}".format(report.bb_hand_count)
+    print "Expected forced profit: {}".format(report.sb_expected_forced_profit)
+    print_position_report(report.bb_report)
     print "Expected profit: {}".format(report.bb_expected_profit)
-    print "Expected VPIP profit: {}".format(report.bb_expected_vpip_profit)
     print "VPIP profit: {}".format(report.bb_vpip_profit)
-    print "Expected forced profit: {}".format(report.bb_expected_forced_profit)
+    print "Expected VPIP profit: {}".format(report.bb_expected_vpip_profit)
     print "Forced profit: {}".format(report.bb_forced_profit)
-    print "VPIP%: {}".format(report.bb_vpip)
-    print "PFR%: {}".format(report.bb_pfr)
-    print "PFR profit: {}".format(report.bb_pfr_profit)
-    print "Flat%: {}".format(report.bb_flat)
-    print "Flat profit: {}".format(report.bb_flat_profit)
-    print "3bet%: {}".format(report.bb_3bet)
-    print "3bet profit: {}".format(report.bb_3bet_profit)
+    print "Expected forced profit: {}".format(report.bb_expected_forced_profit)
+
+def print_position_report(report):
+    print
+    print report.position
+    print "Hands played: {}".format(report.hand_count)
+    print "VPIP%: {}".format(report.vpip)
+    print "PFR%: {}".format(report.pfr)
+    print "PFR profit: {}".format(report.pfr_profit)
+    print "Flat%: {}".format(report.flat)
+    print "Flat profit: {}".format(report.flat_profit)
+    print "3bet%: {}".format(report.threebet)
+    print "3bet profit: {}".format(report.threebet_profit)
+    print "Total position profit: {}".format(report.profit)
 
 def print_stats(hands, player):
     for h in []: #hands:

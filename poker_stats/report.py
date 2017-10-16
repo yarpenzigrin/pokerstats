@@ -6,33 +6,32 @@ from poker_stats.hand_filter import apply_filter, create_position_filter, create
 
 class BlindReport(object):
     def __init__(self):
-        self.sb_hand_count = 0
         self.sb_expected_profit = 0
         self.sb_expected_vpip_profit = 0
         self.sb_vpip_profit = 0
         self.sb_expected_forced_profit = 0
         self.sb_forced_profit = 0
-        self.sb_vpip = 0
-        self.sb_pfr = 0
-        self.sb_pfr_profit = 0
-        self.sb_flat = 0
-        self.sb_flat_profit = 0
-        self.sb_3bet = 0
-        self.sb_3bet_profit = 0
+        self.sb_report = None
 
-        self.bb_hand_count = 0
         self.bb_expected_profit = 0
         self.bb_expected_vpip_profit = 0
         self.bb_vpip_profit = 0
         self.bb_expected_forced_profit = 0
         self.bb_forced_profit = 0
-        self.bb_vpip = 0
-        self.bb_pfr = 0
-        self.bb_pfr_profit = 0
-        self.bb_flat = 0
-        self.bb_flat_profit = 0
-        self.bb_3bet = 0
-        self.bb_3bet_profit = 0
+        self.bb_report = None
+
+class PositionReport(object):
+    def __init__(self):
+        self.position = None
+        self.hand_count = 0
+        self.profit = 0
+        self.vpip = 0
+        self.pfr = 0
+        self.pfr_profit = 0
+        self.flat = 0
+        self.flat_profit = 0
+        self.threebet = 0
+        self.threebet_profit = 0
 
 def create_blind_report(hands, player_name):
     report = BlindReport()
@@ -40,43 +39,45 @@ def create_blind_report(hands, player_name):
     sb_hands = apply_filter(hands, create_position_filter(player_name, ['SB']))
     sb_voluntary_hands = apply_filter(sb_hands, create_voluntary_filter(player_name, 'only'))
     sb_forced_hands = apply_filter(sb_hands, create_voluntary_filter(player_name, 'forced'))
-    sb_pfr_hands = apply_filter(sb_voluntary_hands, lambda h: is_raise_preflop(h, player_name))
-    sb_flat_hands = apply_filter(sb_voluntary_hands, lambda h: is_call_preflop(h, player_name))
-    sb_3bet_hands = apply_filter(sb_voluntary_hands, lambda h: is_3bet_preflop(h, player_name))
 
-    report.sb_hand_count = len(sb_hands)
+    report.sb_report = create_position_report(hands, player_name, 'SB')
     report.sb_expected_profit = -sum([h.game.stakes[0] for h in sb_hands])
     report.sb_expected_vpip_profit = -sum([h.game.stakes[0] for h in sb_voluntary_hands])
     report.sb_vpip_profit = profit_for_player(sb_voluntary_hands, player_name)
     report.sb_expected_forced_profit = -sum([h.game.stakes[0] for h in sb_forced_hands])
     report.sb_forced_profit = profit_for_player(sb_forced_hands, player_name)
-    report.sb_vpip = round(float(len(sb_voluntary_hands) * 100) / len(sb_hands), 2)
-    report.sb_pfr = round(float(len(sb_pfr_hands) * 100) / len(sb_hands), 2)
-    report.sb_pfr_profit = profit_for_player(sb_pfr_hands, player_name)
-    report.sb_flat = round(float(len(sb_flat_hands) * 100) / len(sb_hands), 2)
-    report.sb_flat_profit = profit_for_player(sb_flat_hands, player_name)
-    report.sb_3bet = round(float(len(sb_3bet_hands) * 100) / len(sb_hands), 2)
-    report.sb_3bet_profit = profit_for_player(sb_3bet_hands, player_name)
 
     bb_hands = apply_filter(hands, create_position_filter(player_name, ['BB']))
     bb_voluntary_hands = apply_filter(bb_hands, create_voluntary_filter(player_name, 'only'))
     bb_forced_hands = apply_filter(bb_hands, create_voluntary_filter(player_name, 'forced'))
-    bb_pfr_hands = apply_filter(bb_voluntary_hands, lambda h: is_raise_preflop(h, player_name))
-    bb_flat_hands = apply_filter(bb_voluntary_hands, lambda h: is_call_preflop(h, player_name))
-    bb_3bet_hands = apply_filter(bb_voluntary_hands, lambda h: is_3bet_preflop(h, player_name))
 
-    report.bb_hand_count = len(bb_hands)
+    report.bb_report = create_position_report(hands, player_name, 'BB')
     report.bb_expected_profit = -sum([h.game.stakes[1] for h in bb_hands])
     report.bb_expected_vpip_profit = -sum([h.game.stakes[1] for h in bb_voluntary_hands])
     report.bb_vpip_profit = profit_for_player(bb_voluntary_hands, player_name)
     report.bb_expected_forced_profit = -sum([h.game.stakes[1] for h in bb_forced_hands])
     report.bb_forced_profit = profit_for_player(bb_forced_hands, player_name)
-    report.bb_vpip = round(float(len(bb_voluntary_hands) * 100) / len(bb_hands), 2)
-    report.bb_pfr = round(float(len(bb_pfr_hands) * 100) / len(bb_hands), 2)
-    report.bb_pfr_profit = profit_for_player(bb_pfr_hands, player_name)
-    report.bb_flat = round(float(len(bb_flat_hands) * 100) / len(bb_hands), 2)
-    report.bb_flat_profit = profit_for_player(bb_flat_hands, player_name)
-    report.bb_3bet = round(float(len(bb_3bet_hands) * 100) / len(bb_hands), 2)
-    report.bb_3bet_profit = profit_for_player(bb_3bet_hands, player_name)
+
+    return report
+
+def create_position_report(hands, player_name, position):
+    report = PositionReport()
+
+    position_hands = apply_filter(hands, create_position_filter(player_name, [position]))
+    voluntary_hands = apply_filter(position_hands, create_voluntary_filter(player_name, 'only'))
+    pfr_hands = apply_filter(voluntary_hands, lambda h: is_raise_preflop(h, player_name))
+    flat_hands = apply_filter(voluntary_hands, lambda h: is_call_preflop(h, player_name))
+    threebet_hands = apply_filter(voluntary_hands, lambda h: is_3bet_preflop(h, player_name))
+
+    report.position = position
+    report.hand_count = len(position_hands)
+    report.profit = profit_for_player(position_hands, player_name)
+    report.vpip = round(float(len(voluntary_hands) * 100) / report.hand_count, 2)
+    report.pfr = round(float(len(pfr_hands) * 100) / report.hand_count, 2)
+    report.pfr_profit = profit_for_player(pfr_hands, player_name)
+    report.flat = round(float(len(flat_hands) * 100) / report.hand_count, 2)
+    report.flat_profit = profit_for_player(flat_hands, player_name)
+    report.threebet = round(float(len(threebet_hands) * 100) / report.hand_count, 2)
+    report.threebet_profit = profit_for_player(threebet_hands, player_name)
 
     return report

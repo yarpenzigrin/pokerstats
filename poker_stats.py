@@ -31,5 +31,11 @@ def main():
         rep = report.create_blind_report(hands, config.player_name)
         report_printer.print_blind_report(rep)
 
+    if config.action == 'position_report':
+        positions = ['SB', 'BB', 'UTG', 'MP', 'CO', 'BTN']
+        reports = [report.create_position_report(hands, config.player_name, p) for p in positions]
+        for rep in reports:
+            report_printer.print_position_report(rep)
+
 if __name__ == '__main__':
     main()

@@ -39,6 +39,10 @@ def parse_args():
     blind_report_parser.add_argument('player_name', help='Player nickname')
     blind_report_parser.add_argument('files', help='File list', nargs='+')
 
+    position_report_parser = action_parser.add_parser('position_report', help='Print positional report for a player')
+    position_report_parser.add_argument('player_name', help='Player nickname')
+    position_report_parser.add_argument('files', help='File list', nargs='+')
+
     return parser.parse_args()
 
 def parse_and_validate_args():
