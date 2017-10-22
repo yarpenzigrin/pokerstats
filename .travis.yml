@@ -8,8 +8,7 @@ notifications:
     on_failure: always
 
 install:
-  - pip install pyparsing
-  - pip install pylint
+  - pip install -r requirements.txt
 
 script:
   - make ut_test
