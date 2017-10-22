@@ -1,6 +1,8 @@
 #!/usr/bin/env python2.7
 # -*- coding: utf-8 -*-
 
+from os import listdir
+from os.path import isdir, join
 import re
 from poker_stats.entity import Action, ActionType, Hand, Player
 
@@ -228,8 +230,12 @@ def parse_files(file_names):
     parser = Parser()
 
     for file_name in file_names:
-        with open(file_name, 'r') as file_desc:
-            lines = file_desc.readlines()
-        hands.extend(parser.parse_file_contents(lines))
+        if isdir(file_name):
+            files_in_dir = [join(file_name, f) for f in listdir(file_name)]
+            hands.extend(parse_files(files_in_dir))
+        else:
+            with open(file_name, 'r') as file_desc:
+                lines = file_desc.readlines()
+            hands.extend(parser.parse_file_contents(lines))
 
     return hands
