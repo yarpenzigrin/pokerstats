@@ -5,7 +5,7 @@ def create_player_filter(player):
     return lambda h: player in h.players.keys()
 
 def create_position_filter(player, positions):
-    return lambda h: h.players[player].position in positions
+    return lambda h: player in h.players and h.players[player].position in positions
 
 def create_voluntary_filter(player, voluntary):
     pred = lambda h: [1 for a in h.preflop + h.flop + h.turn + h.river if a.voluntary() and a.player.name == player]

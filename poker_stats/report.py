@@ -41,22 +41,22 @@ def create_blind_report(hands, player_name):
     sb_forced_hands = apply_filter(sb_hands, create_voluntary_filter(player_name, 'forced'))
 
     report.sb_report = create_position_report(hands, player_name, 'SB')
-    report.sb_expected_profit = -sum([h.game.stakes[0] for h in sb_hands])
-    report.sb_expected_vpip_profit = -sum([h.game.stakes[0] for h in sb_voluntary_hands])
-    report.sb_vpip_profit = profit_for_player(sb_voluntary_hands, player_name)
-    report.sb_expected_forced_profit = -sum([h.game.stakes[0] for h in sb_forced_hands])
-    report.sb_forced_profit = profit_for_player(sb_forced_hands, player_name)
+    report.sb_expected_profit = round(-sum([h.game.stakes[0] for h in sb_hands]), 2)
+    report.sb_expected_vpip_profit = round(-sum([h.game.stakes[0] for h in sb_voluntary_hands]), 2)
+    report.sb_vpip_profit = round(profit_for_player(sb_voluntary_hands, player_name), 2)
+    report.sb_expected_forced_profit = round(-sum([h.game.stakes[0] for h in sb_forced_hands]), 2)
+    report.sb_forced_profit = round(profit_for_player(sb_forced_hands, player_name), 2)
 
     bb_hands = apply_filter(hands, create_position_filter(player_name, ['BB']))
     bb_voluntary_hands = apply_filter(bb_hands, create_voluntary_filter(player_name, 'only'))
     bb_forced_hands = apply_filter(bb_hands, create_voluntary_filter(player_name, 'forced'))
 
     report.bb_report = create_position_report(hands, player_name, 'BB')
-    report.bb_expected_profit = -sum([h.game.stakes[1] for h in bb_hands])
-    report.bb_expected_vpip_profit = -sum([h.game.stakes[1] for h in bb_voluntary_hands])
-    report.bb_vpip_profit = profit_for_player(bb_voluntary_hands, player_name)
-    report.bb_expected_forced_profit = -sum([h.game.stakes[1] for h in bb_forced_hands])
-    report.bb_forced_profit = profit_for_player(bb_forced_hands, player_name)
+    report.bb_expected_profit = round(-sum([h.game.stakes[1] for h in bb_hands]), 2)
+    report.bb_expected_vpip_profit = round(-sum([h.game.stakes[1] for h in bb_voluntary_hands]), 2)
+    report.bb_vpip_profit = round(profit_for_player(bb_voluntary_hands, player_name), 2)
+    report.bb_expected_forced_profit = round(-sum([h.game.stakes[1] for h in bb_forced_hands]), 2)
+    report.bb_forced_profit = round(profit_for_player(bb_forced_hands, player_name), 2)
 
     return report
 
@@ -71,6 +71,9 @@ def create_position_report(hands, player_name, position):
 
     report.position = position
     report.hand_count = len(position_hands)
+    if report.hand_count == 0:
+        return report
+
     report.profit = profit_for_player(position_hands, player_name)
     report.vpip = round(float(len(voluntary_hands) * 100) / report.hand_count, 2)
     report.pfr = round(float(len(pfr_hands) * 100) / report.hand_count, 2)
