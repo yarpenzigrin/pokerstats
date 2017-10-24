@@ -71,7 +71,7 @@ class Parser:
             m = re.match(self.player_info_re, hand.lines[idx])
             if m != None:
                 player = Player()
-                player.name = m.groups()[1]
+                player.name = m.groups()[1].decode('utf-8')
                 player.position = self.seat_to_position[m.groups()[0]]
                 player.starting_stack = float(m.groups()[3])
                 hand.players[m.groups()[1]] = player
