@@ -12,4 +12,4 @@ ac_test:
 	test/ac/ac_test.sh
 
 lint:
-	-pylint --rcfile=.pylintrc poker_stats.py poker_stats
+	-pylint --rcfile=.pylintrc api.py poker_stats.py poker_stats
