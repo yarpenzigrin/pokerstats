@@ -66,7 +66,7 @@ class report_tests(unittest.TestCase):
         self.assertAlmostEqual(-0.10, hand.profit_for_player('PLAYER_BB'), 2)
         self.assertAlmostEqual(0, hand.profit_for_player('PLAYER_UTG'), 2)
         self.assertAlmostEqual(0, hand.profit_for_player('PLAYER_MP'), 2)
-        self.assertAlmostEqual(1.70 - hand.rake, hand.profit_for_player('PLAYER_CO'), 2)
+        self.assertAlmostEqual(1.55, hand.profit_for_player('PLAYER_CO'), 2)
 
     def test_ShouldCalculateProfitForParsedHandFoldPre(self):
         hands = parse_files([test_dir + '/data/fold_pre.hand'])
@@ -77,7 +77,7 @@ class report_tests(unittest.TestCase):
         self.assertAlmostEqual(-0.05, hand.profit_for_player('PLAYER_SB'), 2)
         self.assertAlmostEqual(-0.10, hand.profit_for_player('PLAYER_BB'), 2)
         self.assertAlmostEqual(0, hand.profit_for_player('PLAYER_UTG'), 2)
-        self.assertAlmostEqual(0.15 - hand.rake, hand.profit_for_player('PLAYER_MP'), 2)
+        self.assertAlmostEqual(0.15, hand.profit_for_player('PLAYER_MP'), 2)
         self.assertAlmostEqual(0, hand.profit_for_player('PLAYER_CO'), 2)
 
     def test_ShouldCalculateProfitForParsedHandBlinidVsBlindTimeout(self):
@@ -87,7 +87,7 @@ class report_tests(unittest.TestCase):
 
         self.assertAlmostEqual(0, hand.profit_for_player('PLAYER_BTN'), 2)
         self.assertAlmostEqual(-0.20, hand.profit_for_player('PLAYER_SB'), 2)
-        self.assertAlmostEqual(0.20 - hand.rake, hand.profit_for_player('PLAYER_BB'), 2)
+        self.assertAlmostEqual(0.20, hand.profit_for_player('PLAYER_BB'), 2)
         self.assertAlmostEqual(0, hand.profit_for_player('PLAYER_UTG'), 2)
         self.assertAlmostEqual(0, hand.profit_for_player('PLAYER_MP'), 2)
         self.assertAlmostEqual(0, hand.profit_for_player('PLAYER_CO'), 2)
@@ -96,7 +96,7 @@ class report_tests(unittest.TestCase):
         hands = parse_files([test_dir + '/data/sorted_btn.hand'])
 
         hand = hands[0]
-        self.assertAlmostEqual(11.74 - hand.rake, hand.profit_for_player('HubertusB'), 2)
+        self.assertAlmostEqual(10.71, hand.profit_for_player('HubertusB'), 2)
         self.assertAlmostEqual(-0.05, hand.profit_for_player('longbreath'), 2)
         self.assertAlmostEqual(-0.10, hand.profit_for_player('dima kk club'), 2)
         self.assertAlmostEqual(-0.35, hand.profit_for_player('Forstning'), 2)
@@ -109,10 +109,10 @@ class report_tests(unittest.TestCase):
         self.assertAlmostEqual(-0.10, hand.profit_for_player('Snegul'), 2)
         self.assertAlmostEqual(0, hand.profit_for_player('KnME'), 2)
         self.assertAlmostEqual(-0.20, hand.profit_for_player('kasztanek136'), 2)
-        self.assertAlmostEqual(10.10 - hand.rake, hand.profit_for_player('littlekhans'), 2)
+        self.assertAlmostEqual(9.21, hand.profit_for_player('littlekhans'), 2)
 
         hand = hands[2]
-        self.assertAlmostEqual(7.54 - hand.rake, hand.profit_for_player('HubertusB'), 2)
+        self.assertAlmostEqual(6.88, hand.profit_for_player('HubertusB'), 2)
         self.assertAlmostEqual(-0.05, hand.profit_for_player('MrDaxooo'), 2)
         self.assertAlmostEqual(-0.10, hand.profit_for_player('Adrian197879'), 2)
         self.assertAlmostEqual(-0.30, hand.profit_for_player('takezo0229'), 2)
@@ -120,7 +120,7 @@ class report_tests(unittest.TestCase):
         self.assertAlmostEqual(0, hand.profit_for_player('ckostt'), 2)
 
         hand = hands[3]
-        self.assertAlmostEqual(6.79 - hand.rake, hand.profit_for_player('HubertusB'), 2)
+        self.assertAlmostEqual(6.19, hand.profit_for_player('HubertusB'), 2)
         self.assertAlmostEqual(-0.05, hand.profit_for_player('kosta455'), 2)
         self.assertAlmostEqual(-0.10, hand.profit_for_player('aruranka'), 2)
         self.assertAlmostEqual(0, hand.profit_for_player('pody606'), 2)
@@ -128,7 +128,7 @@ class report_tests(unittest.TestCase):
         self.assertAlmostEqual(0, hand.profit_for_player('bratykow'), 2)
 
         hand = hands[4]
-        self.assertAlmostEqual(6.26 - hand.rake, hand.profit_for_player('HubertusB'), 2)
+        self.assertAlmostEqual(5.7, hand.profit_for_player('HubertusB'), 2)
         self.assertAlmostEqual(-0.05, hand.profit_for_player('MOSUTANA'), 2)
         self.assertAlmostEqual(-0.10, hand.profit_for_player('0Darkman0'), 2)
         self.assertAlmostEqual(0, hand.profit_for_player('_-BATRIM-_'), 2)
@@ -139,7 +139,7 @@ class report_tests(unittest.TestCase):
         hands = parse_files([test_dir + '/data/sorted_sb.hand'])
 
         hand = hands[0]
-        self.assertAlmostEqual(10.62 - hand.rake, hand.profit_for_player('pobedito'), 2)
+        self.assertAlmostEqual(9.67, hand.profit_for_player('pobedito'), 2)
         self.assertAlmostEqual(-10.52, hand.profit_for_player('HubertusB'), 2)
         self.assertAlmostEqual(-0.10, hand.profit_for_player('8_PILOT_8'), 2)
         self.assertAlmostEqual(0, hand.profit_for_player('MaikStasiv'), 2)
@@ -148,14 +148,14 @@ class report_tests(unittest.TestCase):
 
         hand = hands[1]
         self.assertAlmostEqual(0, hand.profit_for_player('Driver1966ss'), 2)
-        self.assertAlmostEqual(5.28 - hand.rake, hand.profit_for_player('HubertusB'), 2)
+        self.assertAlmostEqual(4.82, hand.profit_for_player('HubertusB'), 2)
         self.assertAlmostEqual(-0.10, hand.profit_for_player('cupko0'), 2)
         self.assertAlmostEqual(-4.98, hand.profit_for_player('davejb68'), 2)
         self.assertAlmostEqual(0, hand.profit_for_player('huang hans01'), 2)
         self.assertAlmostEqual(-0.20, hand.profit_for_player('pool_king111'), 2)
 
         hand = hands[2]
-        self.assertAlmostEqual(3.60 - hand.rake, hand.profit_for_player('vlad oleynik'), 2)
+        self.assertAlmostEqual(3.28, hand.profit_for_player('vlad oleynik'), 2)
         self.assertAlmostEqual(-3.50, hand.profit_for_player('HubertusB'), 2)
         self.assertAlmostEqual(-0.10, hand.profit_for_player('starkmage'), 2)
         self.assertAlmostEqual(0, hand.profit_for_player('KnME'), 2)

@@ -11,8 +11,7 @@ def create_voluntary_filter(player, voluntary):
     pred = lambda h: [1 for a in h.preflop + h.flop + h.turn + h.river if a.voluntary() and a.player.name == player]
     if voluntary == 'only':
         return pred
-    else:
-        return lambda h: not pred(h)
+    return lambda h: not pred(h)
 
 def create_preflop_players_filter(preflop_players):
     return lambda h: h.preflop_vpip_player_count() == int(preflop_players)

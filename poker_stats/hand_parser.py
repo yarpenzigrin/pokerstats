@@ -6,85 +6,79 @@ from os.path import isdir, join
 import re
 from poker_stats.entity import Action, ActionType, Hand, Player
 
-class Parser:
+class Parser(object): # pylint: disable=too-many-instance-attributes
     def __init__(self):
-        self.amt_re = '\$(\d+(.\d+)?)'
-        self.player_re = '(\S+(\s+\S+)*)'
+        self.amt_re = r'\$(\d+(.\d+)?)'
+        self.player_re = r'(\S+(\s+\S+)*)'
 
         # Example:
         # PokerStars Hand #1:  Hold'em No Limit ($0.05/$0.10) - 2017/08/07 23:12:54 CCT [2017/08/07 11:12:54 ET]
-        self.game_info_re = re.compile('(\w+) Hand #(\d+):\s+(\w.+)\s\(%s/%s\).*\[(.*)\]' \
+        self.game_info_re = re.compile(r'(\w+) Hand #(\d+):\s+(\w.+)\s\(%s/%s\).*\[(.*)\]' \
             % (self.amt_re, self.amt_re))
 
         # Example:
         # Table 'Aludra' 6-max Seat #1 is the button
-        self.table_info_re = re.compile('Table \'(.*)\' (\S+)')
+        self.table_info_re = re.compile(r'Table \'(.*)\' (\S+)')
 
         # Example:
         # Seat 1: PLAYER_BTN ($21.05 in chips)
-        self.player_info_re = re.compile('Seat (\d+): %s \(%s' % (self.player_re, self.amt_re))
+        self.player_info_re = re.compile(r'Seat (\d+): %s \(%s' % (self.player_re, self.amt_re))
 
-        self.table_type_to_player_count = { '6-max': 6, '9-max': 9, '10-max': 10, 'heads-up': 2 }
-        self.seat_to_position = { '1':'BTN', '2':'SB', '3':'BB', '4':'UTG', '5':'MP', '6':'CO' }
+        self.table_type_to_player_count = {'6-max': 6, '9-max': 9, '10-max': 10, 'heads-up': 2}
+        self.seat_to_position = {'1':'BTN', '2':'SB', '3':'BB', '4':'UTG', '5':'MP', '6':'CO'}
 
         # Example:
         # Dealt to PLAYER_CO [Ah Ac]
-        self.dealt_re = re.compile('Dealt to %s \[(.*)\]' % self.player_re)
-        self.flop_re = re.compile('\*\*\* FLOP \*\*\*\s+\[(.*)\]')
-        self.turn_re = re.compile('\*\*\* TURN \*\*\*\s+\[.*\]\s+\[(.*)\]')
-        self.river_re = re.compile('\*\*\* RIVER \*\*\*\s+\[.*\]\s+\[(.*)\]')
-        self.pot_re = re.compile('Total pot %s \| Rake %s' % (self.amt_re, self.amt_re))
+        self.dealt_re = re.compile(r'Dealt to %s \[(.*)\]' % self.player_re)
+        self.flop_re = re.compile(r'\*\*\* FLOP \*\*\*\s+\[(.*)\]')
+        self.turn_re = re.compile(r'\*\*\* TURN \*\*\*\s+\[.*\]\s+\[(.*)\]')
+        self.river_re = re.compile(r'\*\*\* RIVER \*\*\*\s+\[.*\]\s+\[(.*)\]')
+        self.pot_re = re.compile(r'Total pot %s \| Rake %s' % (self.amt_re, self.amt_re))
 
         # Example:
         # PLAYER_SB: posts small blind $0.05
-        self.post_re = re.compile('%s: posts (small|big) blind %s' % (self.player_re, self.amt_re))
-        self.fold_re = re.compile('{}: folds'.format(self.player_re))
-        self.check_re = re.compile('{}: checks'.format(self.player_re))
-        self.call_ai_re = re.compile('{}: calls \$(\d+(.\d+)?) and is all-in'.format(self.player_re))
-        self.call_re = re.compile('{}: calls \$(\d+(.\d+)?)'.format(self.player_re))
-        self.bet_ai_re = re.compile('{}: bets \$(\d+(.\d+)?) and is all-in'.format(self.player_re))
-        self.bet_re = re.compile('{}: bets \$(\d+(.\d+)?)'.format(self.player_re))
-        self.raise_ai_re = re.compile('{}: raises \$(\d+(.\d+)?) to \$(\d+(.\d+)?) and is all-in'.format(self.player_re))
-        self.raise_re = re.compile('{}: raises \$(\d+(.\d+)?) to \$(\d+(.\d+)?)'.format(self.player_re))
-        self.uncalled_re = re.compile( \
-            'Uncalled bet \(\$(\d+(.\d+)?)\) returned to {}'.format(self.player_re))
-        self.collected_re = re.compile( \
-            '%s collected %s from pot' % (self.player_re, self.amt_re))
+        self.post_re = re.compile(r'%s: posts (small|big) blind %s' % (self.player_re, self.amt_re))
+        self.fold_re = re.compile(r'{}: folds'.format(self.player_re))
+        self.check_re = re.compile(r'{}: checks'.format(self.player_re))
+        self.call_ai_re = re.compile(r'{}: calls \$(\d+(.\d+)?) and is all-in'.format(self.player_re))
+        self.call_re = re.compile(r'{}: calls \$(\d+(.\d+)?)'.format(self.player_re))
+        self.bet_ai_re = re.compile(r'{}: bets \$(\d+(.\d+)?) and is all-in'.format(self.player_re))
+        self.bet_re = re.compile(r'{}: bets \$(\d+(.\d+)?)'.format(self.player_re))
+        self.raise_ai_re = re.compile(r'{}: raises \$(\d+(.\d+)?) to \$(\d+(.\d+)?) and is all-in'.format(self.player_re))
+        self.raise_re = re.compile(r'{}: raises \$(\d+(.\d+)?) to \$(\d+(.\d+)?)'.format(self.player_re))
+        self.uncalled_re = re.compile(r'Uncalled bet \(\$(\d+(.\d+)?)\) returned to {}'.format(self.player_re))
+        self.collected_re = re.compile(r'%s collected %s from pot' % (self.player_re, self.amt_re))
 
     def parse_game_info(self, hand):
-        m = re.match(self.game_info_re, hand.lines[0].lstrip('\xef\xbb\xbf'))
-        if m != None:
-            hand.game.site = m.groups()[0]
-            hand.id = m.groups()[1]
-            hand.game.type = m.groups()[2]
-            hand.game.stakes = (float(m.groups()[3]), float(m.groups()[5]))
-            hand.timestamp = m.groups()[7]
+        m_res = re.match(self.game_info_re, hand.lines[0].lstrip('\xef\xbb\xbf'))
+        if m_res != None:
+            hand.stakes = (float(m_res.groups()[3]), float(m_res.groups()[5]))
 
     def parse_table_info(self, hand):
-        m = re.match(self.table_info_re, hand.lines[1])
-        if m != None:
-            hand.game.table_name = m.groups()[0]
-            hand.game.table_type = m.groups()[1]
+        m_res = re.match(self.table_info_re, hand.lines[1])
+        if m_res != None:
+            # currently not used
+            pass
 
     def parse_player_info(self, hand):
-        for idx in xrange(2, 2 + self.table_type_to_player_count[hand.game.table_type]):
-            m = re.match(self.player_info_re, hand.lines[idx])
-            if m != None:
+        idx = 2
+        for idx in xrange(2, 2 + 6):
+            m_res = re.match(self.player_info_re, hand.lines[idx])
+            if m_res != None:
                 player = Player()
-                player.name = m.groups()[1].decode('utf-8')
-                player.position = self.seat_to_position[m.groups()[0]]
-                player.starting_stack = float(m.groups()[3])
-                hand.players[m.groups()[1]] = player
+                player.name = m_res.groups()[1].decode('utf-8')
+                player.position = self.seat_to_position[m_res.groups()[0]]
+                hand.players[m_res.groups()[1]] = player
         return idx + 1
 
     def parse_blind_posts(self, hand, idx):
-        m = re.match(self.post_re, hand.lines[idx])
-        if m != None:
-            action = Action(ActionType.Post, float(m.groups()[3]))
-            action.player = hand.players[m.groups()[0]]
+        m_res = re.match(self.post_re, hand.lines[idx])
+        if m_res != None:
+            action = Action(ActionType.Post, float(m_res.groups()[3]))
+            action.player = hand.players[m_res.groups()[0]]
             hand.preflop.append(action)
 
-    def parse_action(self, hand, idx, inserter):
+    def parse_action(self, hand, idx, inserter): # pylint: disable=too-many-locals
         fold_mod = lambda match: inserter(hand, match[0], Action(ActionType.Fold))
         check_mod = lambda match: inserter(hand, match[0], Action(ActionType.Check))
         call_ai_mod = lambda match: inserter(hand, match[0], Action(ActionType.CallAi, float(match[2])))
@@ -97,9 +91,9 @@ class Parser:
         collected_mod = lambda match: setattr(hand.players[match[0]], 'collected', float(match[2]))
 
         def match_and_return_index(idx, hand, pattern, modifier):
-            m = re.match(pattern, hand.lines[idx])
-            if m != None:
-                modifier(m.groups())
+            m_res = re.match(pattern, hand.lines[idx])
+            if m_res != None:
+                modifier(m_res.groups())
                 return idx + 1
             return idx
 
@@ -133,11 +127,11 @@ class Parser:
         if '*** HOLE CARDS ***' not in hand.lines[idx]:
             return idx
         idx += 1
-        m = re.match(self.dealt_re, hand.lines[idx])
-        while m != None:
-            hand.players[m.groups()[0]].holding = m.groups()[2]
+        m_res = re.match(self.dealt_re, hand.lines[idx])
+        while m_res is not None:
+            hand.players[m_res.groups()[0]].holding = m_res.groups()[2]
             idx += 1
-            m = re.match(self.dealt_re, hand.lines[idx])
+            m_res = re.match(self.dealt_re, hand.lines[idx])
 
         def insert_action(hand, player, action):
             action.player = hand.players[player]
@@ -146,10 +140,9 @@ class Parser:
         return self.parse_action(hand, idx, insert_action)
 
     def parse_flop_action(self, hand, idx):
-        m = re.match(self.flop_re, hand.lines[idx])
-        if m == None:
+        m_res = re.match(self.flop_re, hand.lines[idx])
+        if m_res is None:
             return idx
-        hand.board.flop = m.groups()[0]
 
         def insert_action(hand, player, action):
             action.player = hand.players[player]
@@ -158,10 +151,9 @@ class Parser:
         return self.parse_action(hand, idx + 1, insert_action)
 
     def parse_turn_action(self, hand, idx):
-        m = re.match(self.turn_re, hand.lines[idx])
-        if m == None:
+        m_res = re.match(self.turn_re, hand.lines[idx])
+        if m_res is None:
             return idx
-        hand.board.turn = m.groups()[0]
 
         def insert_action(hand, player, action):
             action.player = hand.players[player]
@@ -170,10 +162,9 @@ class Parser:
         return self.parse_action(hand, idx + 1, insert_action)
 
     def parse_river_action(self, hand, idx):
-        m = re.match(self.river_re, hand.lines[idx])
-        if m == None:
+        m_res = re.match(self.river_re, hand.lines[idx])
+        if m_res is None:
             return idx
-        hand.board.river = m.groups()[0]
 
         def insert_action(hand, player, action):
             action.player = hand.players[player]
@@ -184,10 +175,9 @@ class Parser:
     def parse_summary(self, hand, idx):
         for i in xrange(idx, len(hand.lines)):
             if '*** SUMMARY ***' in hand.lines[i]:
-                m = re.match(self.pot_re, hand.lines[i+1])
-                if m != None:
-                    hand.pot = float(m.groups()[0])
-                    hand.rake = float(m.groups()[2])
+                m_res = re.match(self.pot_re, hand.lines[i+1])
+                if m_res != None:
+                    hand.pot = float(m_res.groups()[0])
                 break
 
     def parse_hand(self, hand):

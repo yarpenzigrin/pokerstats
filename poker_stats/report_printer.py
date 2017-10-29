@@ -28,6 +28,7 @@ def print_position_report(report):
     print "3bet profit: {}".format(report.threebet_profit)
     print "Total position profit: {}".format(report.profit)
 
+# pylint: skip-file
 def print_stats(hands, player):
     for h in []: #hands:
         print(h.lines[0].strip())

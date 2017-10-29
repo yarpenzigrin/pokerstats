@@ -1,10 +1,9 @@
 #!/usr/bin/env python2.7
 # -*- coding: utf-8 -*-
 
-from sets import Set
 from enum import Enum
 
-class ActionType(Enum):
+class ActionType(Enum): # pylint: disable=too-few-public-methods
     Fold = 'f'
     Check = 'x'
     Call = 'c'
@@ -16,13 +15,13 @@ class ActionType(Enum):
     Post = 'p'
     Uncalled = 'u'
 
-class Action(object):
+class Action(object): # pylint: disable=too-few-public-methods
     def __init__(self, atype, avalue=0):
         self.type = atype
         self.value = avalue
         self.player = None
 
-    def __str__(self):
+    def __str__(self): # pylint: disable=too-many-return-statements
         if self.type == ActionType.Fold:
             return '{} fold'.format(self.player.name)
         if self.type == ActionType.Check:
@@ -41,47 +40,22 @@ class Action(object):
     def voluntary(self):
         return self.type in [ActionType.Call, ActionType.CallAi, ActionType.Bet, ActionType.BetAi, ActionType.Raise, ActionType.RaiseAi]
 
-class Game(object):
-    def __init__(self):
-        self.site = None
-        self.type = None
-        self.stakes = None
-        self.table_name = None
-        self.table_type = None
-
-class Player(object):
+class Player(object): # pylint: disable=too-few-public-methods
     def __init__(self):
         self.name = None
         self.position = None
-        self.starting_stack = None
         self.collected = 0.00
 
-class Board(object):
-    def __init__(self):
-        self.flop = None
-        self.turn = None
-        self.river = None
-
-class Hand(object):
+class Hand(object): # pylint: disable=too-many-instance-attributes
     def __init__(self):
         self.lines = []
-        self.id = None
-        self.timestamp = None
-        self.game = Game()
         self.players = {}
-        self.board = Board()
         self.pot = None
-        self.rake = None
+        self.stakes = None
         self.preflop = []
         self.flop = []
         self.turn = []
         self.river = []
-
-    def preflop_vpip_player_count(self):
-        return len(Set([a.player.name for a in self.preflop if a.voluntary()]))
-
-    def flop_player_count(self):
-        return len(Set([a.player.name for a in self.flop]))
 
     def preflop_actions(self, player_name):
         return [a for a in self.preflop if a.player.name == player_name]
@@ -101,8 +75,7 @@ class Hand(object):
                 return action.value
             elif action.type == ActionType.Uncalled:
                 return acc - action.value
-            else:
-                return acc + action.value
+            return acc + action.value
 
         return self.players[player_name].collected \
                 - reduce(invested, self.preflop_actions(player_name), 0) \

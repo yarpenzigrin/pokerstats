@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 from argparse import ArgumentParser
-from pyparsing import Literal, Word, StringEnd, Suppress, ZeroOrMore, alphas, nums
+from pyparsing import Literal, Word, StringEnd, Suppress, ZeroOrMore, alphas
 
 action = None
 files = []
@@ -11,14 +11,12 @@ player_name = None
 sort = False
 
 def parse_filter(line):
-    preflop_players = Literal('preflop_players') + Suppress('=') + Word(nums)('preflop_players')
-    flop_players = Literal('flop_players') + Suppress('=') + Word(nums)('flop_players')
     single_position = Literal('SB') ^ Literal('BB') ^ Literal('UTG') ^ Literal('MP') ^ Literal('CO') ^ Literal('BTN')
     position_list = single_position + ZeroOrMore(Suppress(Word(',')) + single_position)
     position = (Literal('pos') ^ Literal('position')) + Suppress('=') + position_list('positions')
     player = Literal('name') + Suppress('=') + Word(alphas)('player')
     voluntary = Literal('voluntary') + Suppress('=') + (Literal('only') ^ Literal('forced'))('voluntary')
-    anyf = (player ^ position ^ voluntary ^ preflop_players ^ flop_players)
+    anyf = (player ^ position ^ voluntary)
     grammar = anyf + ZeroOrMore(Suppress(Word(';')) + anyf) + StringEnd()
 
     return grammar.parseString(line).asDict()
