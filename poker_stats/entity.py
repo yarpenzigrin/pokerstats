@@ -39,6 +39,7 @@ class Player(object): # pylint: disable=too-few-public-methods
 
 class Hand(object): # pylint: disable=too-many-instance-attributes
     def __init__(self):
+        self.id = None
         self.lines = []
         self.players = {}
         self.pot = None
@@ -93,3 +94,8 @@ def is_3bet_preflop(actions, player_name):
     raises = [a for a in actions if a.is_raise()]
     return is_raise_preflop(actions, player_name) and len(raises) >= 2 and \
            raises[0].player.name != player_name and raises[1].player.name == player_name
+
+def is_4bet_preflop(actions, player_name):
+    raises = [a for a in actions if a.is_raise()]
+    return is_raise_preflop(actions, player_name) and len(raises) >= 3 and \
+          raises[2].player.name == player_name

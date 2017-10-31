@@ -136,5 +136,34 @@ class Test_is_3bet_preflop(TestCase):
                        (hero, ActionType.RaiseAi), (villain, ActionType.Fold))
         self.assertTrue(is_3bet_preflop(acts, hero))
 
+class Test_is_4bet_preflop(TestCase):
+    def test_no_actions(self):
+        acts = actions()
+        self.assertFalse(is_4bet_preflop(acts, hero))
+
+    def test_open_raise(self):
+        acts = actions((villain, ActionType.Post), (hero, ActionType.Raise))
+        self.assertFalse(is_4bet_preflop(acts, hero))
+
+    def test_5bet_shove(self):
+        acts = actions((villain, ActionType.Raise), (hero, ActionType.Raise), (villain, ActionType.Raise),\
+                       (hero, ActionType.RaiseAi), (villain, ActionType.Fold))
+        self.assertFalse(is_4bet_preflop(acts, hero))
+
+    def test_4bet(self):
+        acts = actions((villain1, ActionType.Post), (hero, ActionType.Raise), (villain2, ActionType.Raise),\
+                       (villain1, ActionType.Fold), (hero, ActionType.Raise))
+        self.assertTrue(is_4bet_preflop(acts, hero))
+
+    def test_cold_4bet(self):
+        acts = actions((villain1, ActionType.Post), (villain2, ActionType.Raise), (villain3, ActionType.Raise),\
+                       (hero, ActionType.Raise))
+        self.assertTrue(is_4bet_preflop(acts, hero))
+
+    def test_bb_4bet_villain_limp_reraises(self):
+        acts = actions((villain, ActionType.Post), (hero, ActionType.Post), (villain, ActionType.Call),\
+                       (hero, ActionType.Raise), (villain, ActionType.Raise), (hero, ActionType.Raise))
+        self.assertTrue(is_4bet_preflop(acts, hero))
+
 if __name__ == '__main__':
     main()

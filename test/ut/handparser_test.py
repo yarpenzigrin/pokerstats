@@ -30,6 +30,7 @@ class hand_parser_tests(unittest.TestCase):
         hands = parse_files([test_dir + '/data/openraise_bet_bet_bet_uncalled.hand'])
         self.assertEqual(1, len(hands))
         hand = hands[0]
+        self.assertEqual('1', hand.id)
         self.assertEqual((0.05, 0.10), hand.stakes)
         self.assertEqual(6, len(hand.players))
         self.assertEqual(3.30, hand.pot)

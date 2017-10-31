@@ -52,6 +52,7 @@ class Parser(object): # pylint: disable=too-many-instance-attributes
     def parse_game_info(self, hand):
         m_res = re.match(self.game_info_re, hand.lines[0].lstrip('\xef\xbb\xbf'))
         if m_res != None:
+            hand.id = m_res.groups()[1]
             hand.stakes = (float(m_res.groups()[3]), float(m_res.groups()[5]))
 
     def parse_table_info(self, hand):

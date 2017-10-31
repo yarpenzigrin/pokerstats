@@ -1,7 +1,7 @@
 #!/usr/bin/env python2.7
 # -*- coding: utf-8 -*-
 
-from poker_stats.entity import is_call_preflop, is_raise_preflop, is_3bet_preflop, profit_for_player # pylint: disable=no-name-in-module
+from poker_stats.entity import is_call_preflop, is_raise_preflop, is_3bet_preflop, is_4bet_preflop, profit_for_player # pylint: disable=no-name-in-module
 from poker_stats.hand_filter import apply_filter, create_position_filter, create_voluntary_filter
 
 class BlindReport(object): # pylint: disable=too-many-instance-attributes,too-few-public-methods
@@ -32,6 +32,8 @@ class PositionReport(object): # pylint: disable=too-many-instance-attributes,too
         self.flat_profit = 0
         self.threebet = 0
         self.threebet_profit = 0
+        self.fourbet = 0
+        self.fourbet_profit = 0
 
 def create_blind_report(hands, player_name):
     report = BlindReport()
@@ -68,6 +70,7 @@ def create_position_report(hands, player_name, position):
     pfr_hands = apply_filter(voluntary_hands, lambda h: is_raise_preflop(h.preflop, player_name))
     flat_hands = apply_filter(voluntary_hands, lambda h: is_call_preflop(h.preflop, player_name))
     threebet_hands = apply_filter(voluntary_hands, lambda h: is_3bet_preflop(h.preflop, player_name))
+    fourbet_hands = apply_filter(voluntary_hands, lambda h: is_4bet_preflop(h.preflop, player_name))
 
     report.position = position
     report.hand_count = len(position_hands)
@@ -82,5 +85,7 @@ def create_position_report(hands, player_name, position):
     report.flat_profit = profit_for_player(flat_hands, player_name)
     report.threebet = round(float(len(threebet_hands) * 100) / report.hand_count, 2)
     report.threebet_profit = profit_for_player(threebet_hands, player_name)
+    report.fourbet = round(float(len(fourbet_hands) * 100) / report.hand_count, 2)
+    report.fourbet_profit = profit_for_player(fourbet_hands, player_name)
 
     return report

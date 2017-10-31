@@ -26,6 +26,8 @@ def print_position_report(report):
     print "Flat profit: {}".format(report.flat_profit)
     print "3bet%: {}".format(report.threebet)
     print "3bet profit: {}".format(report.threebet_profit)
+    print "4bet%: {}".format(report.fourbet)
+    print "4bet profit: {}".format(report.fourbet_profit)
     print "Total position profit: {}".format(report.profit)
 
 # pylint: skip-file
