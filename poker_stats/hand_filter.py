@@ -8,7 +8,7 @@ def create_position_filter(player, positions):
     return lambda h: player in h.players and h.players[player].position in positions
 
 def create_voluntary_filter(player, voluntary):
-    pred = lambda h: [1 for a in h.preflop + h.flop + h.turn + h.river if a.voluntary() and a.player.name == player]
+    pred = lambda h: [1 for a in h.preflop + h.flop + h.turn + h.river if a.is_voluntary() and a.player.name == player]
     if voluntary == 'only':
         return pred
     return lambda h: not pred(h)

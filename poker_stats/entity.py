@@ -21,24 +21,15 @@ class Action(object): # pylint: disable=too-few-public-methods
         self.value = avalue
         self.player = None
 
-    def __str__(self): # pylint: disable=too-many-return-statements
-        if self.type == ActionType.Fold:
-            return '{} fold'.format(self.player.name)
-        if self.type == ActionType.Check:
-            return '{} check'.format(self.player.name)
-        if self.type == ActionType.Call:
-            return '{} call {}'.format(self.player.name, self.value)
-        if self.type == ActionType.Bet:
-            return '{} bet {}'.format(self.player.name, self.value)
-        if self.type == ActionType.Raise:
-            return '{} raise {}'.format(self.player.name, self.value)
-        if self.type == ActionType.Post:
-            return '{} post {}'.format(self.player.name, self.value)
-        if self.type == ActionType.Uncalled:
-            return '{} uncalled bet returned {}'.format(self.player.name, self.value)
+    def is_call(self):
+        return self.type in [ActionType.Call, ActionType.CallAi]
 
-    def voluntary(self):
-        return self.type in [ActionType.Call, ActionType.CallAi, ActionType.Bet, ActionType.BetAi, ActionType.Raise, ActionType.RaiseAi]
+    def is_raise(self):
+        return self.type in [ActionType.Raise, ActionType.RaiseAi]
+
+    def is_voluntary(self):
+        return self.type in [ActionType.Call, ActionType.CallAi, ActionType.Bet, ActionType.BetAi,\
+                             ActionType.Raise, ActionType.RaiseAi]
 
 class Player(object): # pylint: disable=too-few-public-methods
     def __init__(self):
@@ -71,7 +62,7 @@ class Hand(object): # pylint: disable=too-many-instance-attributes
 
     def profit_for_player(self, player_name):
         def invested(acc, action):
-            if action.type in [ActionType.Raise, ActionType.RaiseAi]:
+            if action.is_raise():
                 return action.value
             elif action.type == ActionType.Uncalled:
                 return acc - action.value
@@ -88,17 +79,17 @@ def profit_for_player(hands, player_name):
 
 def is_call_preflop(actions, player_name):
     for action in actions:
-        if action.player.name == player_name and action.voluntary():
-            return action.type in [ActionType.Call, ActionType.CallAi]
+        if action.player.name == player_name and action.is_voluntary():
+            return action.is_call()
     return False
 
 def is_raise_preflop(actions, player_name):
     for action in actions:
-        if action.player.name == player_name and action.voluntary():
-            return action.type in [ActionType.Raise, ActionType.RaiseAi]
+        if action.player.name == player_name and action.is_voluntary():
+            return action.is_raise()
     return False
 
 def is_3bet_preflop(actions, player_name):
-    raises = [a for a in actions if a.type in [ActionType.Raise, ActionType.RaiseAi]]
+    raises = [a for a in actions if a.is_raise()]
     return is_raise_preflop(actions, player_name) and len(raises) >= 2 and \
            raises[0].player.name != player_name and raises[1].player.name == player_name
