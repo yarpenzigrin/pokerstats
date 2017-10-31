@@ -10,6 +10,7 @@ notifications:
 install:
   - pip install -r requirements.txt
   - python --version
+  - coverage --version
   - pylint --version
 
 script:
