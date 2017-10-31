@@ -17,7 +17,8 @@ def initialize():
 def main():
     initialize()
 
-    hands = hand_parser.parse_files(config.files)
+    store_lines = config.action == 'dump_ps'
+    hands = hand_parser.parse_files(config.files, store_lines)
     hand_filters = hand_filter.create(config.hand_filter)
     hands = hand_filter.apply_filters(hands, hand_filters, config.sort)
 

@@ -192,7 +192,7 @@ class Parser(object): # pylint: disable=too-many-instance-attributes
         idx = self.parse_river_action(hand, idx)
         self.parse_summary(hand, idx)
 
-    def parse_file_contents(self, lines):
+    def parse_file_contents(self, lines, store_lines):
         result = []
         hand_in_process = False
         for line in lines:
@@ -210,22 +210,24 @@ class Parser(object): # pylint: disable=too-many-instance-attributes
                     hand.lines.append('\r\n')
                     self.parse_hand(hand)
                     if hand.pot != None:
+                        if not store_lines:
+                            hand.lines = None
                         result.append(hand)
                     hand_in_process = False
 
         return result
 
-def parse_files(file_names):
+def parse_files(file_names, store_lines=False):
     hands = []
     parser = Parser()
 
     for file_name in file_names:
         if isdir(file_name):
             files_in_dir = [join(file_name, f) for f in listdir(file_name)]
-            hands.extend(parse_files(files_in_dir))
+            hands.extend(parse_files(files_in_dir, store_lines))
         else:
             with open(file_name, 'r') as file_desc:
                 lines = file_desc.readlines()
-            hands.extend(parser.parse_file_contents(lines))
+            hands.extend(parser.parse_file_contents(lines, store_lines))
 
     return hands
