@@ -65,9 +65,9 @@ def create_position_report(hands, player_name, position):
 
     position_hands = apply_filter(hands, create_position_filter(player_name, [position]))
     voluntary_hands = apply_filter(position_hands, create_voluntary_filter(player_name, 'only'))
-    pfr_hands = apply_filter(voluntary_hands, lambda h: is_raise_preflop(h, player_name))
-    flat_hands = apply_filter(voluntary_hands, lambda h: is_call_preflop(h, player_name))
-    threebet_hands = apply_filter(voluntary_hands, lambda h: is_3bet_preflop(h, player_name))
+    pfr_hands = apply_filter(voluntary_hands, lambda h: is_raise_preflop(h.preflop, player_name))
+    flat_hands = apply_filter(voluntary_hands, lambda h: is_call_preflop(h.preflop, player_name))
+    threebet_hands = apply_filter(voluntary_hands, lambda h: is_3bet_preflop(h.preflop, player_name))
 
     report.position = position
     report.hand_count = len(position_hands)

@@ -28,8 +28,8 @@ PFR%: 30.53
 PFR profit: -13.09
 Flat%: 0.53
 Flat profit: -0.55
-3bet%: 0.53
-3bet profit: -2.0
+3bet%: 0.0
+3bet profit: 0.0
 Total position profit: -13.64
 
 MP
@@ -50,8 +50,8 @@ PFR%: 22.4
 PFR profit: 3.05
 Flat%: 2.73
 Flat profit: -7.27
-3bet%: 2.73
-3bet profit: 2.21
+3bet%: 2.19
+3bet profit: 1.11
 Total position profit: -4.22
 
 BTN

@@ -86,29 +86,19 @@ class Hand(object): # pylint: disable=too-many-instance-attributes
 def profit_for_player(hands, player_name):
     return round(reduce(lambda acc, h: acc + h.profit_for_player(player_name), hands, 0), 2)
 
-def is_call_preflop(hand, player_name):
-    for action in hand.preflop:
-        if action.voluntary() and action.player.name == player_name:
+def is_call_preflop(actions, player_name):
+    for action in actions:
+        if action.player.name == player_name and action.voluntary():
             return action.type in [ActionType.Call, ActionType.CallAi]
-
     return False
 
-def is_raise_preflop(hand, player_name):
-    for action in hand.preflop:
-        if action.voluntary() and action.player.name == player_name:
+def is_raise_preflop(actions, player_name):
+    for action in actions:
+        if action.player.name == player_name and action.voluntary():
             return action.type in [ActionType.Raise, ActionType.RaiseAi]
-
     return False
 
-def is_3bet_preflop(hand, player_name):
-    villain_raised = False
-
-    for action in hand.preflop:
-        if action.type not in [ActionType.Raise, ActionType.RaiseAi]:
-            continue
-        if villain_raised:
-            return action.player.name == player_name
-        if not villain_raised and action.player.name != player_name:
-            villain_raised = True
-
-    return False
+def is_3bet_preflop(actions, player_name):
+    raises = [a for a in actions if a.type in [ActionType.Raise, ActionType.RaiseAi]]
+    return is_raise_preflop(actions, player_name) and len(raises) >= 2 and \
+           raises[0].player.name != player_name and raises[1].player.name == player_name
