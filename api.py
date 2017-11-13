@@ -13,6 +13,12 @@ def api_position_report(player_name, position):
     rep = report.create_position_report(hands, player_name, position)
     return jsonify(vars(rep))
 
+@app.route('/api/0.1/position_report/<player_name>', methods=['GET'])
+def api_all_position_report(player_name):
+    positions = ['SB', 'BB', 'UTG', 'MP', 'CO', 'BTN']
+    reports = [report.create_position_report(hands, player_name, p) for p in positions]
+    return jsonify([vars(r) for r in reports])
+
 @app.route('/api/0.1/blind_report/<player_name>', methods=['GET'])
 def api_blind_report(player_name):
     rep = report.create_blind_report(hands, player_name)
