@@ -7,7 +7,6 @@ def print_blind_report(report):
     print "VPIP profit: {}".format(report.sb_vpip_profit)
     print "Expected VPIP profit: {}".format(report.sb_expected_vpip_profit)
     print "Forced profit: {}".format(report.sb_forced_profit)
-    print "Expected forced profit: {}".format(report.sb_expected_forced_profit)
     print_position_report(report.bb_report)
     print "Expected profit: {}".format(report.bb_expected_profit)
     print "VPIP profit: {}".format(report.bb_vpip_profit)
