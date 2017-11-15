@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 from argparse import ArgumentParser
-from pyparsing import Literal, Word, StringEnd, Suppress, ZeroOrMore, alphas
+from pyparsing import Literal, Word, StringEnd, Suppress, ZeroOrMore
 
 action = None
 files = []
@@ -14,23 +14,24 @@ def parse_filter(line):
     single_position = Literal('SB') ^ Literal('BB') ^ Literal('UTG') ^ Literal('MP') ^ Literal('CO') ^ Literal('BTN')
     position_list = single_position + ZeroOrMore(Suppress(Word(',')) + single_position)
     position = (Literal('pos') ^ Literal('position')) + Suppress('=') + position_list('positions')
-    player = Literal('name') + Suppress('=') + Word(alphas)('player')
     voluntary = Literal('voluntary') + Suppress('=') + (Literal('only') ^ Literal('forced'))('voluntary')
-    anyf = (player ^ position ^ voluntary)
+    anyf = (position ^ voluntary)
     grammar = anyf + ZeroOrMore(Suppress(Word(';')) + anyf) + StringEnd()
 
     return grammar.parseString(line).asDict()
 
 def parse_args():
     parser = ArgumentParser()
-    parser.add_argument('-f', '--filter', help='Hand filter e. g. --filter "name=HubertusB;position=BTN,CO;voluntary=forced"')
+    parser.add_argument('-f', '--filter', help='Hand filter e. g. --filter "position=BTN,CO;voluntary=forced"')
     action_parser = parser.add_subparsers(help='Available actions', dest='action')
 
     dump_parser = action_parser.add_parser('dump_ps', help='Dump hands in PS format')
     dump_parser.add_argument('-s', '--sort', action='store_true', help='Sort the dump by the size of the pot')
+    dump_parser.add_argument('player_name', help='Player nickname')
     dump_parser.add_argument('files', help='File list', nargs='+')
 
     report_parser = action_parser.add_parser('report', help='Print hand report for a player')
+    report_parser.add_argument('player_name', help='Player nickname')
     report_parser.add_argument('files', help='File list', nargs='+')
 
     blind_report_parser = action_parser.add_parser('blind_report', help='Print report for a player about play on the blinds')

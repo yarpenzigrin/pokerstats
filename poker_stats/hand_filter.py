@@ -13,34 +13,18 @@ def create_voluntary_filter(player, voluntary):
         return pred
     return lambda h: not pred(h)
 
-def create_preflop_players_filter(preflop_players):
-    return lambda h: h.preflop_vpip_player_count() == int(preflop_players)
-
-def create_flop_players_filter(flop_players):
-    return lambda h: h.flop_player_count() == int(flop_players)
-
-def create(hand_filter):
+def create(hand_filter, player_name):
     result = []
 
-    player = hand_filter.get('player', None)
-    if player:
-        result.append(create_player_filter(player))
+    result.append(create_player_filter(player_name))
 
     positions = hand_filter.get('positions', None)
-    if player and positions:
-        result.append(create_position_filter(player, positions))
+    if positions:
+        result.append(create_position_filter(player_name, positions))
 
     voluntary = hand_filter.get('voluntary', None)
-    if player and voluntary:
-        result.append(create_voluntary_filter(player, voluntary))
-
-    preflop_players = hand_filter.get('preflop_players', None)
-    if preflop_players:
-        result.append(create_preflop_players_filter(preflop_players))
-
-    flop_players = hand_filter.get('flop_players', None)
-    if flop_players:
-        result.append(create_flop_players_filter(flop_players))
+    if voluntary:
+        result.append(create_voluntary_filter(player_name, voluntary))
 
     return result
 
