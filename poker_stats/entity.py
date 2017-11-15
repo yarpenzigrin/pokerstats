@@ -90,6 +90,14 @@ def is_raise_preflop(actions, player_name):
             return action.is_raise()
     return False
 
+def is_successful_steal_preflop(actions, player_name):
+    return not is_3bet_preflop(actions, player_name) and \
+           [ActionType.Raise, ActionType.Uncalled] == [a.type for a in actions if a.player.name == player_name]
+
+def is_unsuccessful_steal_preflop(actions, player_name):
+    return not is_3bet_preflop(actions, player_name) and \
+           [ActionType.Raise, ActionType.Fold] == [a.type for a in actions if a.player.name == player_name]
+
 def is_3bet_preflop(actions, player_name):
     raises = [a for a in actions if a.is_raise()]
     return is_raise_preflop(actions, player_name) and len(raises) >= 2 and \

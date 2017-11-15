@@ -1,8 +1,12 @@
 #!/usr/bin/env python2.7
 # -*- coding: utf-8 -*-
 
-from poker_stats.entity import is_call_preflop, is_raise_preflop, is_3bet_preflop, is_4bet_preflop, profit_for_player # pylint: disable=no-name-in-module
-from poker_stats.hand_filter import apply_filter, create_position_filter, create_voluntary_filter
+from poker_stats.entity import is_call_preflop, is_raise_preflop, is_3bet_preflop, is_4bet_preflop # pylint: disable=no-name-in-module
+from poker_stats.entity import is_successful_steal_preflop, is_unsuccessful_steal_preflop, profit_for_player # pylint: disable=no-name-in-module
+from poker_stats.hand_filter import apply_filter, create_player_filter, create_position_filter, create_voluntary_filter
+
+def div(num1, num2):
+    return round(float(num1) / num2, 2)
 
 class BlindReport(object): # pylint: disable=too-many-instance-attributes,too-few-public-methods
     def __init__(self):
@@ -34,6 +38,22 @@ class PositionReport(object): # pylint: disable=too-many-instance-attributes,too
         self.threebet_profit = 0
         self.fourbet = 0
         self.fourbet_profit = 0
+
+class PreflopReport(object): # pylint: disable=too-many-instance-attributes,too-few-public-methods
+    def __init__(self):
+        self.hand_count = None
+        self.steal_success = None
+        self.steal_fail = None
+        self.steal_profit = None
+        self.steal_profit_per_100 = None
+        self.vpip = None
+        self.pfr = None
+        self.threebet = None
+        self.threebet_profit = None
+        self.fourbet = None
+        self.fourbet_profit = None
+        self.profit = None
+        self.profit_per_100 = None
 
 def create_blind_report(hands, player_name):
     report = BlindReport()
@@ -87,5 +107,34 @@ def create_position_report(hands, player_name, position):
     report.threebet_profit = profit_for_player(threebet_hands, player_name)
     report.fourbet = round(float(len(fourbet_hands) * 100) / report.hand_count, 2)
     report.fourbet_profit = profit_for_player(fourbet_hands, player_name)
+
+    return report
+
+def create_preflop_report(hands, player_name):
+    report = PreflopReport()
+
+    hands = apply_filter(hands, create_player_filter(player_name))
+    hands_len = len(hands)
+    voluntary_hands = apply_filter(hands, create_voluntary_filter(player_name, 'only'))
+    voluntary_hands_len = len(voluntary_hands)
+    pfr_hands = apply_filter(voluntary_hands, lambda h: is_raise_preflop(h.preflop, player_name))
+    stolen_pot_hands = apply_filter(voluntary_hands, lambda h: is_successful_steal_preflop(h.preflop, player_name))
+    failed_steal_hands = apply_filter(voluntary_hands, lambda h: is_unsuccessful_steal_preflop(h.preflop, player_name))
+    threebet_hands = apply_filter(voluntary_hands, lambda h: is_3bet_preflop(h.preflop, player_name))
+    fourbet_hands = apply_filter(voluntary_hands, lambda h: is_4bet_preflop(h.preflop, player_name))
+
+    report.hand_count = hands_len
+    report.steal_success = div(len(stolen_pot_hands) * 100, voluntary_hands_len)
+    report.steal_fail = div(len(failed_steal_hands) * 100, voluntary_hands_len)
+    report.steal_profit = profit_for_player(stolen_pot_hands + failed_steal_hands, player_name)
+    report.steal_profit_per_100 = div(report.steal_profit * 100, voluntary_hands_len)
+    report.vpip = div(voluntary_hands_len * 100, hands_len)
+    report.pfr = div(len(pfr_hands) * 100, hands_len)
+    report.threebet = div(len(threebet_hands) * 100, hands_len)
+    report.threebet_profit = profit_for_player(threebet_hands, player_name)
+    report.fourbet = div(len(fourbet_hands) * 100, hands_len)
+    report.fourbet_profit = profit_for_player(fourbet_hands, player_name)
+    report.profit = profit_for_player(hands, player_name)
+    report.profit_per_100 = div(report.profit * 100, hands_len)
 
     return report

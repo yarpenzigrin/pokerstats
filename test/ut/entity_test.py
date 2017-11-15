@@ -88,6 +88,77 @@ class Test_is_raise_preflop(TestCase):
                                (hero, ActionType.Raise))
         self.assertTrue(is_raise_preflop(acts, hero))
 
+class Test_is_successful_steal_preflop(TestCase):
+    def test_no_actions(self):
+        acts = actions()
+        self.assertFalse(is_successful_steal_preflop(acts, hero))
+
+    def test_open_raise_villain_calls(self):
+        acts = actions((villain, ActionType.Post), (hero, ActionType.Raise), (villain, ActionType.Call))
+        self.assertFalse(is_successful_steal_preflop(acts, hero))
+
+    def test_3bet_villain_folds(self):
+        acts = actions((villain, ActionType.Raise), (hero, ActionType.Raise), (villain, ActionType.Fold),\
+                       (hero, ActionType.Uncalled))
+        self.assertFalse(is_successful_steal_preflop(acts, hero))
+
+    def test_4bet_villain_folds(self):
+        acts = actions((hero, ActionType.Raise), (villain, ActionType.Raise),\
+                       (hero, ActionType.Raise), (villain, ActionType.Fold), (hero, ActionType.Uncalled))
+        self.assertFalse(is_successful_steal_preflop(acts, hero))
+
+    def test_open_raise_villain_folds(self):
+        acts = actions((villain, ActionType.Post), (hero, ActionType.Raise), (villain, ActionType.Fold),\
+                       (hero, ActionType.Uncalled))
+        self.assertTrue(is_successful_steal_preflop(acts, hero))
+
+    def test_isolate_limper(self):
+        acts = actions((villain1, ActionType.Post), (villain2, ActionType.Call), (hero, ActionType.Raise),\
+                       (villain1, ActionType.Fold), (villain2, ActionType.Fold), (hero, ActionType.Uncalled))
+        self.assertTrue(is_successful_steal_preflop(acts, hero))
+
+class Test_is_unsuccessful_steal_preflop(TestCase):
+    def test_no_actions(self):
+        acts = actions()
+        self.assertFalse(is_unsuccessful_steal_preflop(acts, hero))
+
+    def test_open_raise_villain_folds(self):
+        acts = actions((villain, ActionType.Post), (hero, ActionType.Raise),\
+                       (villain, ActionType.Fold), (hero, ActionType.Uncalled))
+        self.assertFalse(is_unsuccessful_steal_preflop(acts, hero))
+
+    def test_open_raise_villain_calls(self):
+        acts = actions((villain, ActionType.Post), (hero, ActionType.Raise), (villain, ActionType.Call))
+        self.assertFalse(is_unsuccessful_steal_preflop(acts, hero))
+
+    def test_3bet_villain_folds(self):
+        acts = actions((villain, ActionType.Raise), (hero, ActionType.Raise), (villain, ActionType.Fold),\
+                       (hero, ActionType.Uncalled))
+        self.assertFalse(is_unsuccessful_steal_preflop(acts, hero))
+
+    def test_3bet_villain_calls(self):
+        acts = actions((villain, ActionType.Raise), (hero, ActionType.Raise), (villain, ActionType.Call))
+        self.assertFalse(is_unsuccessful_steal_preflop(acts, hero))
+
+    def test_4bet_villain_folds(self):
+        acts = actions((hero, ActionType.Raise), (villain, ActionType.Raise),\
+                       (hero, ActionType.Raise), (villain, ActionType.Fold), (hero, ActionType.Uncalled))
+        self.assertFalse(is_unsuccessful_steal_preflop(acts, hero))
+
+    def test_4bet_villain_calls(self):
+        acts = actions((hero, ActionType.Raise), (villain, ActionType.Raise),\
+                       (hero, ActionType.Raise), (villain, ActionType.Call))
+        self.assertFalse(is_unsuccessful_steal_preflop(acts, hero))
+
+    def test_3bet_hero_folds(self):
+        acts = actions((hero, ActionType.Raise), (villain, ActionType.Raise), (hero, ActionType.Fold))
+        self.assertTrue(is_unsuccessful_steal_preflop(acts, hero))
+
+    def test_3bet_cold_4bet_hero_folds(self):
+        acts = actions((hero, ActionType.Raise), (villain1, ActionType.Raise), (villain2, ActionType.Raise),\
+                       (hero, ActionType.Fold))
+        self.assertTrue(is_unsuccessful_steal_preflop(acts, hero))
+
 class Test_is_3bet_preflop(TestCase):
     def test_no_actions(self):
         acts = actions()

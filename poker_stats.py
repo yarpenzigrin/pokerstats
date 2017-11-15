@@ -38,5 +38,9 @@ def main():
         for rep in reports:
             report_printer.print_position_report(rep)
 
+    if config.action == 'preflop_report':
+        rep = report.create_preflop_report(hands, config.player_name)
+        report_printer.print_preflop_report(rep)
+
 if __name__ == '__main__':
     main()
