@@ -25,19 +25,14 @@ run_tc()
 
 run_test_suite()
 {
-    run_tc "poker_stats.py --filter voluntary=forced dump_ps HubertusB" test_input01.txt test_output01.txt
-    run_tc "poker_stats.py --filter voluntary=only dump_ps HubertusB" test_input02.txt test_output02.txt
-    run_tc "poker_stats.py dump_ps --sort HubertusB" test_input03.txt test_output03.txt
-    run_tc "poker_stats.py dump_ps HubertusB" test_input04.txt test_output04.txt
+    run_tc "poker_stats.py --filter voluntary=forced dump_ps --sort HubertusB" test_input01.txt test_output01.txt
+    run_tc "poker_stats.py --filter pos=BTN;3bet dump_ps HubertusB" test_input02.txt test_output02.txt
+    run_tc "poker_stats.py --filter voluntary=only;4bet dump_ps HubertusB" test_input03.txt test_output03.txt
 
+    run_tc "poker_stats.py report HubertusB" test_input_merged.txt test_output04.txt
     run_tc "poker_stats.py blind_report HubertusB" test_input_merged.txt test_output05.txt
     run_tc "poker_stats.py position_report HubertusB" test_input_merged.txt test_output06.txt
     run_tc "poker_stats.py preflop_report HubertusB" test_input_merged.txt test_output07.txt
-
-    # temporary AT for reporting until we have UTs
-    run_tc "poker_stats.py report HubertusB" test_input_merged.txt test_output13.txt
-    run_tc "poker_stats.py --filter voluntary=only report HubertusB" test_input_merged.txt test_output14.txt
-    run_tc "poker_stats.py --filter voluntary=forced report HubertusB" test_input_merged.txt test_output15.txt
 }
 
 run_test_suite
