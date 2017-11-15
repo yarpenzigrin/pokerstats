@@ -1,19 +1,25 @@
 #!/usr/bin/env python2.7
 # -*- coding: utf-8 -*-
 
-from poker_stats.entity import is_3bet_preflop, is_4bet_preflop # pylint: disable=no-name-in-module
+from poker_stats.entity import is_call_preflop, is_raise_preflop, is_3bet_preflop, is_4bet_preflop # pylint: disable=no-name-in-module
 
-def create_player_filter(player):
-    return lambda h: player in h.players.keys()
+def create_player_filter(player_name):
+    return lambda h: player_name in h.players.keys()
 
-def create_position_filter(player, positions):
-    return lambda h: player in h.players and h.players[player].position in positions
+def create_position_filter(player_name, positions):
+    return lambda h: player_name in h.players and h.players[player_name].position in positions
 
-def create_voluntary_filter(player, voluntary):
-    pred = lambda h: [1 for a in h.preflop + h.flop + h.turn + h.river if a.is_voluntary() and a.player.name == player]
+def create_voluntary_filter(player_name, voluntary):
+    pred = lambda h: [1 for a in h.preflop + h.flop + h.turn + h.river if a.is_voluntary() and a.player.name == player_name]
     if voluntary == 'only':
         return pred
     return lambda h: not pred(h)
+
+def create_call_pf_filter(player_name):
+    return lambda h: is_call_preflop(h.preflop, player_name)
+
+def create_pfr_filter(player_name):
+    return lambda h: is_raise_preflop(h.preflop, player_name)
 
 def create_3bet_filter(player_name):
     return lambda h: is_3bet_preflop(h.preflop, player_name)

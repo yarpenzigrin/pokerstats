@@ -1,9 +1,9 @@
 #!/usr/bin/env python2.7
 # -*- coding: utf-8 -*-
 
-from poker_stats.entity import is_call_preflop, is_raise_preflop, is_3bet_preflop, is_4bet_preflop # pylint: disable=no-name-in-module
 from poker_stats.entity import is_successful_steal_preflop, is_unsuccessful_steal_preflop, profit_for_player # pylint: disable=no-name-in-module
-from poker_stats.hand_filter import apply_filter, create_player_filter, create_position_filter, create_voluntary_filter
+from poker_stats.hand_filter import apply_filter, create_call_pf_filter, create_pfr_filter, create_3bet_filter
+from poker_stats.hand_filter import create_4bet_filter, create_position_filter, create_voluntary_filter
 
 def div(num1, num2):
     return round(float(num1) / num2, 2)
@@ -86,10 +86,10 @@ def create_position_report(hands, player_name, position):
     position_hands = apply_filter(hands, create_position_filter(player_name, [position]))
     position_hands_len = len(position_hands)
     voluntary_hands = apply_filter(position_hands, create_voluntary_filter(player_name, 'only'))
-    pfr_hands = apply_filter(voluntary_hands, lambda h: is_raise_preflop(h.preflop, player_name))
-    flat_hands = apply_filter(voluntary_hands, lambda h: is_call_preflop(h.preflop, player_name))
-    threebet_hands = apply_filter(voluntary_hands, lambda h: is_3bet_preflop(h.preflop, player_name))
-    fourbet_hands = apply_filter(voluntary_hands, lambda h: is_4bet_preflop(h.preflop, player_name))
+    pfr_hands = apply_filter(voluntary_hands, create_pfr_filter(player_name))
+    flat_hands = apply_filter(voluntary_hands, create_call_pf_filter(player_name))
+    threebet_hands = apply_filter(voluntary_hands, create_3bet_filter(player_name))
+    fourbet_hands = apply_filter(voluntary_hands, create_4bet_filter(player_name))
 
     report.position = position
     report.hand_count = position_hands_len
@@ -112,15 +112,14 @@ def create_position_report(hands, player_name, position):
 def create_preflop_report(hands, player_name):
     report = PreflopReport()
 
-    hands = apply_filter(hands, create_player_filter(player_name))
     hands_len = len(hands)
     voluntary_hands = apply_filter(hands, create_voluntary_filter(player_name, 'only'))
     voluntary_hands_len = len(voluntary_hands)
-    pfr_hands = apply_filter(voluntary_hands, lambda h: is_raise_preflop(h.preflop, player_name))
+    pfr_hands = apply_filter(voluntary_hands, create_pfr_filter(player_name))
     stolen_pot_hands = apply_filter(voluntary_hands, lambda h: is_successful_steal_preflop(h.preflop, player_name))
     failed_steal_hands = apply_filter(voluntary_hands, lambda h: is_unsuccessful_steal_preflop(h.preflop, player_name))
-    threebet_hands = apply_filter(voluntary_hands, lambda h: is_3bet_preflop(h.preflop, player_name))
-    fourbet_hands = apply_filter(voluntary_hands, lambda h: is_4bet_preflop(h.preflop, player_name))
+    threebet_hands = apply_filter(voluntary_hands, create_3bet_filter(player_name))
+    fourbet_hands = apply_filter(voluntary_hands, create_4bet_filter(player_name))
 
     report.hand_count = hands_len
     report.steal_success = div(len(stolen_pot_hands) * 100, voluntary_hands_len)
