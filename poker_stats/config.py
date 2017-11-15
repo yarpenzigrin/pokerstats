@@ -15,7 +15,9 @@ def parse_filter(line):
     position_list = single_position + ZeroOrMore(Suppress(Word(',')) + single_position)
     position = (Literal('pos') ^ Literal('position')) + Suppress('=') + position_list('positions')
     voluntary = Literal('voluntary') + Suppress('=') + (Literal('only') ^ Literal('forced'))('voluntary')
-    anyf = (position ^ voluntary)
+    threebet = Literal('3bet')('3bet')
+    fourbet = Literal('4bet')('4bet')
+    anyf = (position ^ voluntary ^ threebet ^ fourbet)
     grammar = anyf + ZeroOrMore(Suppress(Word(';')) + anyf) + StringEnd()
 
     return grammar.parseString(line).asDict()

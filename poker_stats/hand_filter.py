@@ -1,6 +1,8 @@
 #!/usr/bin/env python2.7
 # -*- coding: utf-8 -*-
 
+from poker_stats.entity import is_3bet_preflop, is_4bet_preflop # pylint: disable=no-name-in-module
+
 def create_player_filter(player):
     return lambda h: player in h.players.keys()
 
@@ -12,6 +14,12 @@ def create_voluntary_filter(player, voluntary):
     if voluntary == 'only':
         return pred
     return lambda h: not pred(h)
+
+def create_3bet_filter(player_name):
+    return lambda h: is_3bet_preflop(h.preflop, player_name)
+
+def create_4bet_filter(player_name):
+    return lambda h: is_4bet_preflop(h.preflop, player_name)
 
 def create(hand_filter, player_name):
     result = []
@@ -25,6 +33,14 @@ def create(hand_filter, player_name):
     voluntary = hand_filter.get('voluntary', None)
     if voluntary:
         result.append(create_voluntary_filter(player_name, voluntary))
+
+    threebet = hand_filter.get('3bet', None)
+    if threebet:
+        result.append(create_3bet_filter(player_name))
+
+    fourbet = hand_filter.get('4bet', None)
+    if fourbet:
+        result.append(create_4bet_filter(player_name))
 
     return result
 
