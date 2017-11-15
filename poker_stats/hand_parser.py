@@ -1,6 +1,7 @@
 #!/usr/bin/env python2.7
 # -*- coding: utf-8 -*-
 
+from codecs import BOM_UTF8
 from os import listdir
 from os.path import isdir, join
 import re
@@ -50,7 +51,7 @@ class Parser(object): # pylint: disable=too-many-instance-attributes
         self.collected_re = re.compile(r'%s collected %s from pot' % (self.player_re, self.amt_re))
 
     def parse_game_info(self, hand):
-        m_res = re.match(self.game_info_re, hand.lines[0].lstrip('\xef\xbb\xbf'))
+        m_res = re.match(self.game_info_re, hand.lines[0].lstrip(BOM_UTF8))
         if m_res != None:
             hand.id = m_res.groups()[1]
             hand.stakes = (float(m_res.groups()[3]), float(m_res.groups()[5]))

@@ -1,6 +1,7 @@
 #!/usr/bin/env python2.7
 # -*- coding: utf-8 -*-
 
+from codecs import BOM_UTF8
 from logging import basicConfig, INFO
 from sys import stdout
 
@@ -23,6 +24,7 @@ def main():
     hands = hand_filter.apply_filters(hands, hand_filters, config.sort)
 
     if config.action == 'dump_ps':
+        stdout.write(BOM_UTF8)
         stdout.writelines(reduce(lambda a, h: a + h.lines, hands, []))
 
     if config.action == 'report':
