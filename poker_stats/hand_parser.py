@@ -69,27 +69,27 @@ class Parser(object): # pylint: disable=too-many-instance-attributes
                 player = Player()
                 player.name = m_res.groups()[1].decode('utf-8')
                 player.position = self.seat_to_position[m_res.groups()[0]]
-                hand.players[m_res.groups()[1]] = player
+                hand.players[player.name] = player
         return idx + 1
 
     def parse_blind_posts(self, hand, idx):
         m_res = re.match(self.post_re, hand.lines[idx])
         if m_res != None:
             action = Action(ActionType.Post, float(m_res.groups()[3]))
-            action.player = hand.players[m_res.groups()[0]]
+            action.player = hand.players[m_res.groups()[0].decode('utf-8')]
             hand.preflop.append(action)
 
     def parse_action(self, hand, idx, inserter): # pylint: disable=too-many-locals
-        fold_mod = lambda match: inserter(hand, match[0], Action(ActionType.Fold))
-        check_mod = lambda match: inserter(hand, match[0], Action(ActionType.Check))
-        call_ai_mod = lambda match: inserter(hand, match[0], Action(ActionType.CallAi, float(match[2])))
-        call_mod = lambda match: inserter(hand, match[0], Action(ActionType.Call, float(match[2])))
-        bet_ai_mod = lambda match: inserter(hand, match[0], Action(ActionType.BetAi, float(match[2])))
-        bet_mod = lambda match: inserter(hand, match[0], Action(ActionType.Bet, float(match[2])))
-        raise_ai_mod = lambda match: inserter(hand, match[0], Action(ActionType.RaiseAi, float(match[4])))
-        raise_mod = lambda match: inserter(hand, match[0], Action(ActionType.Raise, float(match[4])))
-        uncalled_mod = lambda match: inserter(hand, match[2], Action(ActionType.Uncalled, float(match[0])))
-        collected_mod = lambda match: setattr(hand.players[match[0]], 'collected', float(match[2]))
+        fold_mod = lambda m: inserter(hand, m[0].decode('utf-8'), Action(ActionType.Fold))
+        check_mod = lambda m: inserter(hand, m[0].decode('utf-8'), Action(ActionType.Check))
+        call_ai_mod = lambda m: inserter(hand, m[0].decode('utf-8'), Action(ActionType.CallAi, float(m[2])))
+        call_mod = lambda m: inserter(hand, m[0].decode('utf-8'), Action(ActionType.Call, float(m[2])))
+        bet_ai_mod = lambda m: inserter(hand, m[0].decode('utf-8'), Action(ActionType.BetAi, float(m[2])))
+        bet_mod = lambda m: inserter(hand, m[0].decode('utf-8'), Action(ActionType.Bet, float(m[2])))
+        raise_ai_mod = lambda m: inserter(hand, m[0].decode('utf-8'), Action(ActionType.RaiseAi, float(m[4])))
+        raise_mod = lambda m: inserter(hand, m[0].decode('utf-8'), Action(ActionType.Raise, float(m[4])))
+        uncalled_mod = lambda m: inserter(hand, m[2].decode('utf-8'), Action(ActionType.Uncalled, float(m[0])))
+        collected_mod = lambda m: setattr(hand.players[m[0].decode('utf-8')], 'collected', float(m[2]))
 
         def match_and_return_index(idx, hand, pattern, modifier):
             m_res = re.match(pattern, hand.lines[idx])
@@ -130,7 +130,7 @@ class Parser(object): # pylint: disable=too-many-instance-attributes
         idx += 1
         m_res = re.match(self.dealt_re, hand.lines[idx])
         while m_res is not None:
-            hand.players[m_res.groups()[0]].holding = m_res.groups()[2]
+            hand.players[m_res.groups()[0].decode('utf-8')].holding = m_res.groups()[2]
             idx += 1
             m_res = re.match(self.dealt_re, hand.lines[idx])
 
