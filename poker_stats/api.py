@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 
 from flask import Flask, jsonify
-import poker_stats.hand_parser as hand_parser
-import poker_stats.report as report
+from . import hand_parser
+from . import report
 
 app = Flask(__name__)
 hands = hand_parser.parse_files(['./session'])

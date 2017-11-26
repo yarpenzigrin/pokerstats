@@ -12,8 +12,8 @@ run_tc()
     inp=$2
     out=$3
 
-    echo "RUN TC$tc_counter: ($script_dir/$prog $test_dir/$inp)"
-    $script_dir/$prog $test_dir/$inp 2>/dev/null | diff -u - $test_dir/$out >/dev/null
+    echo "RUN TC$tc_counter: ('$prog $test_dir/$inp' vs. '$test_dir/$out')"
+    $prog $test_dir/$inp 2>/dev/null | diff -u - $test_dir/$out >/dev/null
     if [ $? -eq 0 ]; then
         echo "RUN TC$tc_counter: OK"
     else
@@ -25,14 +25,14 @@ run_tc()
 
 run_test_suite()
 {
-    run_tc "poker_stats.py --filter voluntary=forced dump_ps --sort HubertusB" test_input01.txt test_output01.txt
-    run_tc "poker_stats.py --filter pos=BTN;3bet dump_ps HubertusB" test_input02.txt test_output02.txt
-    run_tc "poker_stats.py --filter voluntary=only;4bet dump_ps HubertusB" test_input03.txt test_output03.txt
+    run_tc "python2.7 -m poker_stats --filter voluntary=forced dump_ps --sort HubertusB" test_input01.txt test_output01.txt
+    run_tc "python2.7 -m poker_stats --filter pos=BTN;3bet dump_ps HubertusB" test_input02.txt test_output02.txt
+    run_tc "python2.7 -m poker_stats --filter voluntary=only;4bet dump_ps HubertusB" test_input03.txt test_output03.txt
 
-    run_tc "poker_stats.py report HubertusB" test_input_merged.txt test_output04.txt
-    run_tc "poker_stats.py blind_report HubertusB" test_input_merged.txt test_output05.txt
-    run_tc "poker_stats.py position_report HubertusB" test_input_merged.txt test_output06.txt
-    run_tc "poker_stats.py preflop_report HubertusB" test_input_merged.txt test_output07.txt
+    run_tc "python2.7 -m poker_stats report HubertusB" test_input_merged.txt test_output04.txt
+    run_tc "python2.7 -m poker_stats blind_report HubertusB" test_input_merged.txt test_output05.txt
+    run_tc "python2.7 -m poker_stats position_report HubertusB" test_input_merged.txt test_output06.txt
+    run_tc "python2.7 -m poker_stats preflop_report HubertusB" test_input_merged.txt test_output07.txt
 }
 
 run_test_suite

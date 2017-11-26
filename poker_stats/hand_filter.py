@@ -1,7 +1,7 @@
 #!/usr/bin/env python2.7
 # -*- coding: utf-8 -*-
 
-from poker_stats.entity import is_call_preflop, is_raise_preflop, is_3bet_preflop, is_4bet_preflop # pylint: disable=no-name-in-module
+from .entity import is_call_preflop, is_raise_preflop, is_3bet_preflop, is_4bet_preflop # pylint: disable=no-name-in-module
 
 def create_player_filter(player_name):
     return lambda h: player_name in h.players.keys()

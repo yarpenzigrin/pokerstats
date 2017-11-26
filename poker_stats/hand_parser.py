@@ -5,7 +5,7 @@ from codecs import BOM_UTF8
 from os import listdir
 from os.path import isdir, join
 import re
-from poker_stats.entity import Action, ActionType, Hand, Player # pylint: disable=no-name-in-module
+from .entity import Action, ActionType, Hand, Player # pylint: disable=no-name-in-module
 
 class Parser(object): # pylint: disable=too-many-instance-attributes
     def __init__(self):

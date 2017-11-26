@@ -1,9 +1,9 @@
 #!/usr/bin/env python2.7
 # -*- coding: utf-8 -*-
 
-from poker_stats.entity import is_successful_steal_preflop, is_unsuccessful_steal_preflop, profit_for_player # pylint: disable=no-name-in-module
-from poker_stats.hand_filter import apply_filter, create_call_pf_filter, create_pfr_filter, create_3bet_filter
-from poker_stats.hand_filter import create_4bet_filter, create_position_filter, create_voluntary_filter
+from .entity import is_successful_steal_preflop, is_unsuccessful_steal_preflop, profit_for_player # pylint: disable=no-name-in-module
+from .hand_filter import apply_filter, create_call_pf_filter, create_pfr_filter, create_3bet_filter
+from .hand_filter import create_4bet_filter, create_position_filter, create_voluntary_filter
 
 def div(num1, num2):
     return round(float(num1) / num2, 2)
