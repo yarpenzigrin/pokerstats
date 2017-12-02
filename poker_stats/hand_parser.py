@@ -14,7 +14,7 @@ class Parser(object): # pylint: disable=too-many-instance-attributes
 
         # Example:
         # PokerStars Hand #1:  Hold'em No Limit ($0.05/$0.10) - 2017/08/07 23:12:54 CCT [2017/08/07 11:12:54 ET]
-        self.game_info_re = re.compile(r'(\w+) Hand #(\d+):\s+(\w.+)\s\(%s/%s\).*\[(.*)\]' \
+        self.game_info_re = re.compile(r'(\w+) Hand #(\d+):\s+(\w.+)\s\(%s/%s\)' \
             % (self.amt_re, self.amt_re))
 
         # Example:
