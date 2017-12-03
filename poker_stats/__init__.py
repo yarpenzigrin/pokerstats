@@ -39,6 +39,8 @@ def main():
         reports = [report.create_position_report(hands, config.player_name, p) for p in positions]
         for rep in reports:
             report_printer.print_position_report(rep)
+        rep = report.create_profit_report(hands, config.player_name)
+        report_printer.print_profit_report(rep)
 
     if config.action == 'preflop_report':
         rep = report.create_preflop_report(hands, config.player_name)

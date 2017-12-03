@@ -1,13 +1,18 @@
 Hands played: 1113
-Steal success%: 25.89
-Steal fail%: 7.12
-Steal profit: 5.8
-Steal profit (/100): 1.88
 VPIP%: 27.76
 PFR%: 22.55
+PFR profit: -14.71
+Flat%: 5.12
+Flat profit: -5.58
 3bet%: 3.5
 3bet profit: 11.77
 4bet%: 0.36
 4bet profit: -9.37
 Total profit: -37.65
 Total profit (/100): -3.38
+
+Steal success%: 31.87
+Steal fail%: 8.76
+Steal profit: 5.8
+Steal profit (/100): 2.31
+

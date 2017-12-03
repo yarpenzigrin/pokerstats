@@ -1,4 +1,3 @@
-
 SB
 Hands played: 183
 VPIP%: 23.5
@@ -10,7 +9,8 @@ Flat profit: -4.2
 3bet profit: -2.4
 4bet%: 0.0
 4bet profit: 0.0
-Total position profit: -9.76
+Total profit: -9.76
+Total profit (/100): -5.33
 
 BB
 Hands played: 185
@@ -23,7 +23,8 @@ Flat profit: -14.17
 3bet profit: -8.42
 4bet%: 0.0
 4bet profit: 0.0
-Total position profit: -32.95
+Total profit: -32.95
+Total profit (/100): -17.81
 
 UTG
 Hands played: 190
@@ -36,7 +37,8 @@ Flat profit: -0.55
 3bet profit: 0.0
 4bet%: 0.53
 4bet profit: -2.0
-Total position profit: -13.64
+Total profit: -13.64
+Total profit (/100): -7.18
 
 MP
 Hands played: 187
@@ -49,7 +51,8 @@ Flat profit: 7.07
 3bet profit: -1.3
 4bet%: 0.0
 4bet profit: 0.0
-Total position profit: -14.05
+Total profit: -14.05
+Total profit (/100): -7.51
 
 CO
 Hands played: 183
@@ -62,7 +65,8 @@ Flat profit: -7.27
 3bet profit: 1.11
 4bet%: 0.55
 4bet profit: 1.1
-Total position profit: -4.22
+Total profit: -4.22
+Total profit (/100): -2.31
 
 BTN
 Hands played: 185
@@ -75,4 +79,19 @@ Flat profit: 13.54
 3bet profit: 22.78
 4bet%: 1.08
 4bet profit: -8.47
-Total position profit: 36.97
+Total profit: 36.97
+Total profit (/100): 19.98
+
+Hands played: 1113
+VPIP%: 27.76
+PFR%: 22.55
+PFR profit: -14.71
+Flat%: 5.12
+Flat profit: -5.58
+3bet%: 3.5
+3bet profit: 11.77
+4bet%: 0.36
+4bet profit: -9.37
+Total profit: -37.65
+Total profit (/100): -3.38
+

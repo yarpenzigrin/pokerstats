@@ -7,16 +7,16 @@ def print_blind_report(report):
     print "VPIP profit: {}".format(report.sb_vpip_profit)
     print "Expected VPIP profit: {}".format(report.sb_expected_vpip_profit)
     print "Forced profit: {}".format(report.sb_forced_profit)
+    print
     print_position_report(report.bb_report)
     print "Expected profit: {}".format(report.bb_expected_profit)
     print "VPIP profit: {}".format(report.bb_vpip_profit)
     print "Expected VPIP profit: {}".format(report.bb_expected_vpip_profit)
     print "Forced profit: {}".format(report.bb_forced_profit)
     print "Expected forced profit: {}".format(report.bb_expected_forced_profit)
-
-def print_position_report(report):
     print
-    print report.position
+
+def print_profit_report(report):
     print "Hands played: {}".format(report.hand_count)
     print "VPIP%: {}".format(report.vpip)
     print "PFR%: {}".format(report.pfr)
@@ -27,22 +27,21 @@ def print_position_report(report):
     print "3bet profit: {}".format(report.threebet_profit)
     print "4bet%: {}".format(report.fourbet)
     print "4bet profit: {}".format(report.fourbet_profit)
-    print "Total position profit: {}".format(report.profit)
+    print "Total profit: {}".format(report.profit)
+    print "Total profit (/100): {}".format(report.profit_per_100)
+    print
+
+def print_position_report(report):
+    print report.position
+    print_profit_report(report.profit_report)
 
 def print_preflop_report(report):
-    print 'Hands played: {}'.format(report.hand_count)
+    print_profit_report(report.profit_report)
     print 'Steal success%: {}'.format(report.steal_success)
     print 'Steal fail%: {}'.format(report.steal_fail)
     print 'Steal profit: {}'.format(report.steal_profit)
     print 'Steal profit (/100): {}'.format(report.steal_profit_per_100)
-    print "VPIP%: {}".format(report.vpip)
-    print "PFR%: {}".format(report.pfr)
-    print "3bet%: {}".format(report.threebet)
-    print "3bet profit: {}".format(report.threebet_profit)
-    print "4bet%: {}".format(report.fourbet)
-    print "4bet profit: {}".format(report.fourbet_profit)
-    print "Total profit: {}".format(report.profit)
-    print "Total profit (/100): {}".format(report.profit_per_100)
+    print
 
 # pylint: skip-file
 def print_stats(hands, player):
