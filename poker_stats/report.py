@@ -3,7 +3,8 @@
 
 from .entity import is_successful_steal_preflop, is_unsuccessful_steal_preflop, profit_for_player # pylint: disable=no-name-in-module
 from .hand_filter import apply_filter, create_call_pf_filter, create_pfr_filter, create_3bet_filter
-from .hand_filter import create_4bet_filter, create_player_filter, create_position_filter, create_voluntary_filter
+from .hand_filter import create_4bet_filter, create_player_filter, create_position_filter
+from .hand_filter import create_preflop_ai_filter, create_voluntary_filter
 
 def div(num1, num2):
     if num2 == 0:
@@ -51,6 +52,7 @@ class PreflopReport(object): # pylint: disable=too-many-instance-attributes,too-
         self.steal_fail = 0
         self.steal_profit = 0
         self.steal_profit_per_100 = 0
+        self.ai_preflop_profit = 0
         self.profit_report = None
 
 def create_blind_report(hands, player_name):
@@ -129,6 +131,7 @@ def create_preflop_report(hands, player_name):
     report.steal_fail = div(len(failed_steal_hands) * 100, pfr_hands_len)
     report.steal_profit = profit_for_player(stolen_pot_hands + failed_steal_hands, player_name)
     report.steal_profit_per_100 = div(report.steal_profit * 100, pfr_hands_len)
+    report.ai_preflop_profit = profit_for_player(apply_filter(hands, create_preflop_ai_filter(player_name)), player_name)
     report.profit_report = create_profit_report(hands, player_name)
 
     return report

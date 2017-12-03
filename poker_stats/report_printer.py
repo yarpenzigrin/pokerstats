@@ -41,6 +41,7 @@ def print_preflop_report(report):
     print 'Steal fail%: {}'.format(report.steal_fail)
     print 'Steal profit: {}'.format(report.steal_profit)
     print 'Steal profit (/100): {}'.format(report.steal_profit_per_100)
+    print 'AI preflop profit: {}'.format(report.ai_preflop_profit)
     print
 
 # pylint: skip-file

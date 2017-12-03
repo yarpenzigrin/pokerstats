@@ -15,4 +15,5 @@ Steal success%: 31.87
 Steal fail%: 8.76
 Steal profit: 5.8
 Steal profit (/100): 2.31
+AI preflop profit: 3.56
 

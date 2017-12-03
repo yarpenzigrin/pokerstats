@@ -31,6 +31,9 @@ class Action(object): # pylint: disable=too-few-public-methods
         return self.type in [ActionType.Call, ActionType.CallAi, ActionType.Bet, ActionType.BetAi,\
                              ActionType.Raise, ActionType.RaiseAi]
 
+    def is_all_in(self):
+        return self.type in [ActionType.BetAi, ActionType.RaiseAi, ActionType.CallAi]
+
 class Player(object): # pylint: disable=too-few-public-methods
     def __init__(self):
         self.name = None
@@ -107,3 +110,6 @@ def is_4bet_preflop(actions, player_name):
     raises = [a for a in actions if a.is_raise()]
     return is_raise_preflop(actions, player_name) and len(raises) >= 3 and \
           raises[2].player.name == player_name
+
+def is_player_ai(actions, player_name):
+    return [a for a in actions if a.player.name == player_name and a.is_all_in()]
