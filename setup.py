@@ -4,7 +4,7 @@
 from setuptools import find_packages, setup
 
 setup(name='poker_stats',
-      version='0.1.0.dev2',
+      version='0.1.0.dev3',
       author='Polish Poker Community in Manila',
       author_email='dev@null.com',
       url='https://github.com/yarpenzigrin/pokerstats',
