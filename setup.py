@@ -4,7 +4,7 @@
 from setuptools import find_packages, setup
 
 setup(name='poker_stats',
-      version='0.1.0.dev3',
+      version='0.1.0.dev4',
       author='Polish Poker Community in Manila',
       author_email='dev@null.com',
       url='https://github.com/yarpenzigrin/pokerstats',
@@ -19,5 +19,5 @@ setup(name='poker_stats',
       packages=find_packages(exclude=['test', 'test.ut']),
       entry_points={'console_scripts':['poker_stats = poker_stats:main']},
       python_requires='>=2.7, <3',
-      install_requires=['enum34==1.1.6', 'pyparsing==2.1.10', 'Flask==0.12.2', 'gunicorn==19.7.1']
+      install_requires=['enum34==1.1.6', 'pyparsing==2.2.0', 'Flask==0.12.2', 'gunicorn==19.7.1']
 )
