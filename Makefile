@@ -1,4 +1,4 @@
-.PHONY: test ut_test ac_test lint upload clean
+.PHONY: test ut_test ac_test lint env upload clean
 
 MAKEFLAGS += --silent
 
@@ -13,6 +13,15 @@ ac_test:
 
 lint:
 	pylint --rcfile=.pylintrc poker_stats
+
+env: python_env
+	echo
+	echo "Don't forget to 'source python_env/bin/activate' before starting the work"
+	echo
+
+python_env:
+	virtualenv python_env
+	echo '. ./python_env/bin/activate && pip install -r requirements.txt' | $(SHELL)
 
 upload: clean test
 	git push --force heroku develop:master

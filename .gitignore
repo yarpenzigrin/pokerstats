@@ -1,5 +1,6 @@
-*.py[cod]
 *.egg-info
+*.pyc
 .coverage
 build
 dist
+python_env
