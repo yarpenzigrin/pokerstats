@@ -24,8 +24,8 @@ python_env:
 	echo '. ./python_env/bin/activate && pip install -r requirements.txt' | $(SHELL)
 
 upload: clean test
+	./setup.py sdist bdist_wheel upload $(V)
 	git push --force heroku develop:master
-	./setup.py sdist bdist_wheel upload
 
 clean:
 	find -name '*.pyc' -exec rm -f {} \;
