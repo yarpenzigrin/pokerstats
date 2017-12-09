@@ -1,0 +1,3487 @@
+﻿PokerStars Zoom Hand #178828883623:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:15:39 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: janq3 ($2 in chips) 
+Seat 2: TomoKondo ($2.71 in chips) 
+Seat 3: bocian666 ($2 in chips) 
+Seat 4: GreyWolf9999 ($2.20 in chips) 
+Seat 5: serenya1981 ($1.97 in chips) 
+Seat 6: leowin2017 ($1.39 in chips) 
+TomoKondo: posts small blind $0.01
+bocian666: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [9h 3c]
+GreyWolf9999: folds 
+serenya1981: folds 
+leowin2017: folds 
+janq3: folds 
+TomoKondo: folds 
+Uncalled bet ($0.01) returned to bocian666
+bocian666 collected $0.02 from pot
+bocian666: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.02 | Rake $0 
+Seat 1: janq3 (button) folded before Flop (didn't bet)
+Seat 2: TomoKondo (small blind) folded before Flop
+Seat 3: bocian666 (big blind) collected ($0.02)
+Seat 4: GreyWolf9999 folded before Flop (didn't bet)
+Seat 5: serenya1981 folded before Flop (didn't bet)
+Seat 6: leowin2017 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178828895702:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:16:00 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: bocian666 ($2.01 in chips) 
+Seat 2: p00ker_pl ($4.38 in chips) 
+Seat 3: aguerro1506 ($1.04 in chips) 
+Seat 4: MoreThen3 ($2.40 in chips) 
+Seat 5: And18AA ($9.13 in chips) 
+Seat 6: Card_Sharp78 ($2.08 in chips) 
+p00ker_pl: posts small blind $0.01
+aguerro1506: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [8d Ac]
+MoreThen3: folds 
+And18AA: folds 
+Card_Sharp78: raises $0.04 to $0.06
+bocian666: folds 
+p00ker_pl: folds 
+aguerro1506: folds 
+Uncalled bet ($0.04) returned to Card_Sharp78
+Card_Sharp78 collected $0.05 from pot
+Card_Sharp78: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 
+Seat 1: bocian666 (button) folded before Flop (didn't bet)
+Seat 2: p00ker_pl (small blind) folded before Flop
+Seat 3: aguerro1506 (big blind) folded before Flop
+Seat 4: MoreThen3 folded before Flop (didn't bet)
+Seat 5: And18AA folded before Flop (didn't bet)
+Seat 6: Card_Sharp78 collected ($0.05)
+
+
+
+PokerStars Zoom Hand #178828918546:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:16:40 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: rurapente147 ($2.16 in chips) 
+Seat 2: 87Good ($5.77 in chips) 
+Seat 3: Francyz_32 ($4.83 in chips) 
+Seat 4: antinny ($5.84 in chips) 
+Seat 5: LuckyBBastar ($2.01 in chips) 
+Seat 6: bocian666 ($2 in chips) 
+87Good: posts small blind $0.01
+Francyz_32: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [Qs 5h]
+antinny: folds 
+LuckyBBastar: raises $0.04 to $0.06
+bocian666: folds 
+rurapente147: folds 
+87Good: folds 
+Francyz_32: folds 
+Uncalled bet ($0.04) returned to LuckyBBastar
+LuckyBBastar collected $0.05 from pot
+LuckyBBastar: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 
+Seat 1: rurapente147 (button) folded before Flop (didn't bet)
+Seat 2: 87Good (small blind) folded before Flop
+Seat 3: Francyz_32 (big blind) folded before Flop
+Seat 4: antinny folded before Flop (didn't bet)
+Seat 5: LuckyBBastar collected ($0.05)
+Seat 6: bocian666 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178828908240:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:16:22 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: mhdavies1 ($6.48 in chips) 
+Seat 2: bocian666 ($2.01 in chips) 
+Seat 3: VOVKINO75 ($1.16 in chips) 
+Seat 4: aleks118 ($4.62 in chips) 
+Seat 5: rurapente147 ($2.09 in chips) 
+Seat 6: VladoRS911 ($3.60 in chips) 
+bocian666: posts small blind $0.01
+VOVKINO75: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [9s Qs]
+aleks118: folds 
+rurapente147: folds 
+VladoRS911: folds 
+mhdavies1: raises $0.04 to $0.06
+bocian666: folds 
+VOVKINO75: calls $0.04
+*** FLOP *** [Jd Kd 2c]
+VOVKINO75: checks 
+mhdavies1: checks 
+*** TURN *** [Jd Kd 2c] [Qc]
+VOVKINO75: checks 
+mhdavies1: checks 
+*** RIVER *** [Jd Kd 2c Qc] [6h]
+VOVKINO75: checks 
+mhdavies1: bets $0.06
+VOVKINO75: folds 
+Uncalled bet ($0.06) returned to mhdavies1
+mhdavies1 collected $0.13 from pot
+mhdavies1: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.13 | Rake $0 
+Board [Jd Kd 2c Qc 6h]
+Seat 1: mhdavies1 (button) collected ($0.13)
+Seat 2: bocian666 (small blind) folded before Flop
+Seat 3: VOVKINO75 (big blind) folded on the River
+Seat 4: aleks118 folded before Flop (didn't bet)
+Seat 5: rurapente147 folded before Flop (didn't bet)
+Seat 6: VladoRS911 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178828927762:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:16:56 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: werendor ($2.15 in chips) 
+Seat 2: lil casa ($0.88 in chips) 
+Seat 3: shige 30 ($1.97 in chips) 
+Seat 4: ZhirikNN ($4.37 in chips) 
+Seat 5: bocian666 ($2 in chips) 
+Seat 6: edvalbak ($2.97 in chips) 
+lil casa: posts small blind $0.01
+shige 30: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [Qd Ks]
+ZhirikNN: folds 
+bocian666 has timed out
+bocian666: folds 
+edvalbak: folds 
+werendor: raises $0.04 to $0.06
+lil casa: folds 
+shige 30: folds 
+Uncalled bet ($0.04) returned to werendor
+werendor collected $0.05 from pot
+werendor: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 
+Seat 1: werendor (button) collected ($0.05)
+Seat 2: lil casa (small blind) folded before Flop
+Seat 3: shige 30 (big blind) folded before Flop
+Seat 4: ZhirikNN folded before Flop (didn't bet)
+Seat 5: bocian666 folded before Flop (didn't bet)
+Seat 6: edvalbak folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178828948383:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:17:32 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: iqorrrrr ($2.59 in chips) 
+Seat 2: DGORDG1 ($3.34 in chips) 
+Seat 3: bocian666 ($2 in chips) 
+Seat 4: BelyaevOne ($2.01 in chips) 
+Seat 5: panteliscun ($1.98 in chips) 
+Seat 6: Luniar567 ($1 in chips) 
+DGORDG1: posts small blind $0.01
+bocian666: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [Qc Ts]
+BelyaevOne: folds 
+panteliscun: raises $0.04 to $0.06
+Luniar567: folds 
+iqorrrrr: folds 
+DGORDG1: folds 
+bocian666: folds 
+Uncalled bet ($0.04) returned to panteliscun
+panteliscun collected $0.05 from pot
+panteliscun: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 
+Seat 1: iqorrrrr (button) folded before Flop (didn't bet)
+Seat 2: DGORDG1 (small blind) folded before Flop
+Seat 3: bocian666 (big blind) folded before Flop
+Seat 4: BelyaevOne folded before Flop (didn't bet)
+Seat 5: panteliscun collected ($0.05)
+Seat 6: Luniar567 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178828954661:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:17:43 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: Mishanya kul ($14.56 in chips) 
+Seat 2: XRezi99 ($2.32 in chips) 
+Seat 3: skit54312 ($3.59 in chips) 
+Seat 4: Sergirk79 ($2.24 in chips) 
+Seat 5: bocian666 ($1.98 in chips) 
+Seat 6: MoreThen3 ($3.28 in chips) 
+XRezi99: posts small blind $0.01
+skit54312: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [Th 7h]
+Sergirk79: folds 
+bocian666: folds 
+MoreThen3: folds 
+Mishanya kul: folds 
+XRezi99: folds 
+Uncalled bet ($0.01) returned to skit54312
+skit54312 collected $0.02 from pot
+skit54312: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.02 | Rake $0 
+Seat 1: Mishanya kul (button) folded before Flop (didn't bet)
+Seat 2: XRezi99 (small blind) folded before Flop
+Seat 3: skit54312 (big blind) collected ($0.02)
+Seat 4: Sergirk79 folded before Flop (didn't bet)
+Seat 5: bocian666 folded before Flop (didn't bet)
+Seat 6: MoreThen3 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178828963893:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:17:59 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: scotty233 ($2.42 in chips) 
+Seat 2: bocian666 ($1.98 in chips) 
+Seat 3: TITANnvkz ($2.66 in chips) 
+Seat 4: Neuro Fuzzy ($2.91 in chips) 
+Seat 5: Martyrius89 ($2.09 in chips) 
+Seat 6: PASHA0112 ($2 in chips) 
+bocian666: posts small blind $0.01
+TITANnvkz: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [Qd 7c]
+Neuro Fuzzy: folds 
+Martyrius89: folds 
+PASHA0112: folds 
+scotty233: folds 
+bocian666: folds 
+Uncalled bet ($0.01) returned to TITANnvkz
+TITANnvkz collected $0.02 from pot
+TITANnvkz: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.02 | Rake $0 
+Seat 1: scotty233 (button) folded before Flop (didn't bet)
+Seat 2: bocian666 (small blind) folded before Flop
+Seat 3: TITANnvkz (big blind) collected ($0.02)
+Seat 4: Neuro Fuzzy folded before Flop (didn't bet)
+Seat 5: Martyrius89 folded before Flop (didn't bet)
+Seat 6: PASHA0112 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178828959364:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:17:51 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: oana_pys ($1.94 in chips) 
+Seat 2: parisvii1986 ($2.39 in chips) 
+Seat 3: Kourishou22 ($3.48 in chips) 
+Seat 4: bocian666 ($1.98 in chips) 
+Seat 5: Sergirk79 ($3.30 in chips) 
+Seat 6: redbkey ($1.41 in chips) 
+parisvii1986: posts small blind $0.01
+Kourishou22: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [Js 8c]
+bocian666: folds 
+Sergirk79: folds 
+redbkey: folds 
+oana_pys: calls $0.02
+parisvii1986: folds 
+Kourishou22: checks 
+*** FLOP *** [3d 7s Ks]
+Kourishou22: checks 
+oana_pys: checks 
+*** TURN *** [3d 7s Ks] [Qh]
+Kourishou22: bets $0.02
+oana_pys: folds 
+Uncalled bet ($0.02) returned to Kourishou22
+Kourishou22 collected $0.05 from pot
+Kourishou22: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 
+Board [3d 7s Ks Qh]
+Seat 1: oana_pys (button) folded on the Turn
+Seat 2: parisvii1986 (small blind) folded before Flop
+Seat 3: Kourishou22 (big blind) collected ($0.05)
+Seat 4: bocian666 folded before Flop (didn't bet)
+Seat 5: Sergirk79 folded before Flop (didn't bet)
+Seat 6: redbkey folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178828970179:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:18:10 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: bocian666 ($1.97 in chips) 
+Seat 2: RiseRock ($2 in chips) 
+Seat 3: deadmouse77 ($1.99 in chips) 
+Seat 4: asyasun ($2 in chips) 
+Seat 5: zuliya87 ($0.68 in chips) 
+Seat 6: danila87xdss ($2.81 in chips) 
+RiseRock: posts small blind $0.01
+deadmouse77: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [Kh 9s]
+asyasun: folds 
+zuliya87: calls $0.02
+danila87xdss: raises $0.06 to $0.08
+bocian666: folds 
+RiseRock: folds 
+deadmouse77: folds 
+zuliya87: folds 
+Uncalled bet ($0.06) returned to danila87xdss
+danila87xdss collected $0.07 from pot
+danila87xdss: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.07 | Rake $0 
+Seat 1: bocian666 (button) folded before Flop (didn't bet)
+Seat 2: RiseRock (small blind) folded before Flop
+Seat 3: deadmouse77 (big blind) folded before Flop
+Seat 4: asyasun folded before Flop (didn't bet)
+Seat 5: zuliya87 folded before Flop
+Seat 6: danila87xdss collected ($0.07)
+
+
+
+PokerStars Zoom Hand #178828974791:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:18:18 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: 1firstbase1 ($3.99 in chips) 
+Seat 2: ILoveNatasha ($1.10 in chips) 
+Seat 3: Medasa ($4.93 in chips) 
+Seat 4: rearmouse ($3.19 in chips) 
+Seat 5: Snegul ($0.77 in chips) 
+Seat 6: bocian666 ($1.97 in chips) 
+ILoveNatasha: posts small blind $0.01
+Medasa: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [Ts Tc]
+rearmouse: folds 
+Snegul has timed out
+Snegul: folds 
+bocian666: raises $0.02 to $0.04
+1firstbase1: raises $0.08 to $0.12
+ILoveNatasha: folds 
+Medasa: folds 
+bocian666: calls $0.08
+*** FLOP *** [4c 5h Kh]
+bocian666: checks 
+1firstbase1: bets $0.13
+bocian666: calls $0.13
+*** TURN *** [4c 5h Kh] [7d]
+bocian666: checks 
+1firstbase1: bets $0.24
+bocian666: calls $0.24
+*** RIVER *** [4c 5h Kh 7d] [Td]
+bocian666: checks 
+1firstbase1: checks 
+*** SHOW DOWN ***
+bocian666: shows [Ts Tc] (three of a kind, Tens)
+1firstbase1: mucks hand 
+bocian666 collected $0.97 from pot
+*** SUMMARY ***
+Total pot $1.01 | Rake $0.04 
+Board [4c 5h Kh 7d Td]
+Seat 1: 1firstbase1 (button) mucked [2s Ks]
+Seat 2: ILoveNatasha (small blind) folded before Flop
+Seat 3: Medasa (big blind) folded before Flop
+Seat 4: rearmouse folded before Flop (didn't bet)
+Seat 5: Snegul folded before Flop (didn't bet)
+Seat 6: bocian666 showed [Ts Tc] and won ($0.97) with three of a kind, Tens
+
+
+
+PokerStars Zoom Hand #178829021274:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:19:39 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: Masticlox ($6.62 in chips) 
+Seat 2: craven7777 ($2.08 in chips) 
+Seat 3: Tosch85 ($2 in chips) 
+Seat 4: bocian666 ($2.45 in chips) 
+Seat 5: aremus2008 ($3.62 in chips) 
+Seat 6: Runwon ($2.15 in chips) 
+craven7777: posts small blind $0.01
+Tosch85: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [3c 2d]
+bocian666: folds 
+aremus2008: folds 
+Runwon: raises $0.02 to $0.04
+Masticlox: folds 
+craven7777: folds 
+Tosch85: folds 
+Uncalled bet ($0.02) returned to Runwon
+Runwon collected $0.05 from pot
+Runwon: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 
+Seat 1: Masticlox (button) folded before Flop (didn't bet)
+Seat 2: craven7777 (small blind) folded before Flop
+Seat 3: Tosch85 (big blind) folded before Flop
+Seat 4: bocian666 folded before Flop (didn't bet)
+Seat 5: aremus2008 folded before Flop (didn't bet)
+Seat 6: Runwon collected ($0.05)
+
+
+
+PokerStars Zoom Hand #178829027726:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:19:50 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: ADWish ($1.31 in chips) 
+Seat 2: Ameobi9 ($2.28 in chips) 
+Seat 3: bocian666 ($2.45 in chips) 
+Seat 4: O_Atec ($2 in chips) 
+Seat 5: themis_89@ho ($4.35 in chips) 
+Seat 6: actionMoon ($2.24 in chips) 
+Ameobi9: posts small blind $0.01
+bocian666: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [9s 9h]
+O_Atec: folds 
+themis_89@ho: folds 
+actionMoon: folds 
+ADWish: folds 
+Ameobi9: raises $0.04 to $0.06
+bocian666: raises $0.12 to $0.18
+Ameobi9: calls $0.12
+*** FLOP *** [Js 8c 4c]
+Ameobi9: checks 
+bocian666: bets $0.19
+Ameobi9: folds 
+Uncalled bet ($0.19) returned to bocian666
+bocian666 collected $0.35 from pot
+bocian666: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.36 | Rake $0.01 
+Board [Js 8c 4c]
+Seat 1: ADWish (button) folded before Flop (didn't bet)
+Seat 2: Ameobi9 (small blind) folded on the Flop
+Seat 3: bocian666 (big blind) collected ($0.35)
+Seat 4: O_Atec folded before Flop (didn't bet)
+Seat 5: themis_89@ho folded before Flop (didn't bet)
+Seat 6: actionMoon folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829052440:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:20:33 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: levktv ($1.86 in chips) 
+Seat 2: bocian666 ($2.62 in chips) 
+Seat 3: Siensei ($2.29 in chips) 
+Seat 4: scotty233 ($2.73 in chips) 
+Seat 5: Valihanoff ($3.71 in chips) 
+Seat 6: Caffezord ($2.33 in chips) 
+bocian666: posts small blind $0.01
+Siensei: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [Js 7h]
+scotty233: raises $0.05 to $0.07
+Valihanoff: folds 
+Caffezord: calls $0.07
+levktv: folds 
+bocian666: folds 
+Siensei: folds 
+*** FLOP *** [6h Jc 7c]
+scotty233: bets $0.11
+Caffezord: raises $0.26 to $0.37
+scotty233: calls $0.26
+*** TURN *** [6h Jc 7c] [2s]
+scotty233: bets $0.62
+Caffezord: calls $0.62
+*** RIVER *** [6h Jc 7c 2s] [Ts]
+scotty233: checks 
+Caffezord: checks 
+*** SHOW DOWN ***
+scotty233: shows [Ah Kd] (high card Ace)
+Caffezord: shows [8c Tc] (a pair of Tens)
+Caffezord collected $2.07 from pot
+*** SUMMARY ***
+Total pot $2.15 | Rake $0.08 
+Board [6h Jc 7c 2s Ts]
+Seat 1: levktv (button) folded before Flop (didn't bet)
+Seat 2: bocian666 (small blind) folded before Flop
+Seat 3: Siensei (big blind) folded before Flop
+Seat 4: scotty233 showed [Ah Kd] and lost with high card Ace
+Seat 5: Valihanoff folded before Flop (didn't bet)
+Seat 6: Caffezord showed [8c Tc] and won ($2.07) with a pair of Tens
+
+
+
+PokerStars Zoom Hand #178829057688:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:20:42 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: bocian666 ($2.61 in chips) 
+Seat 2: soranh ($2.25 in chips) 
+Seat 3: Bigspinflip ($9.82 in chips) 
+Seat 4: orangos ($0.93 in chips) 
+Seat 5: dntp ($2.05 in chips) 
+Seat 6: ADrinalli ($2.05 in chips) 
+soranh: posts small blind $0.01
+Bigspinflip: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [Th Td]
+orangos: folds 
+dntp: folds 
+ADrinalli: raises $0.04 to $0.06
+bocian666: raises $0.12 to $0.18
+soranh: folds 
+Bigspinflip: calls $0.16
+ADrinalli: folds 
+*** FLOP *** [Ac Qh Js]
+Bigspinflip: checks 
+bocian666: checks 
+*** TURN *** [Ac Qh Js] [Ks]
+Bigspinflip: bets $0.23
+bocian666: calls $0.23
+*** RIVER *** [Ac Qh Js Ks] [8s]
+Bigspinflip: checks 
+bocian666: bets $0.66
+Bigspinflip: calls $0.66
+*** SHOW DOWN ***
+bocian666: shows [Th Td] (a straight, Ten to Ace)
+Bigspinflip: mucks hand 
+bocian666 collected $2.13 from pot
+*** SUMMARY ***
+Total pot $2.21 | Rake $0.08 
+Board [Ac Qh Js Ks 8s]
+Seat 1: bocian666 (button) showed [Th Td] and won ($2.13) with a straight, Ten to Ace
+Seat 2: soranh (small blind) folded before Flop
+Seat 3: Bigspinflip (big blind) mucked [Ad 6d]
+Seat 4: orangos folded before Flop (didn't bet)
+Seat 5: dntp folded before Flop (didn't bet)
+Seat 6: ADrinalli folded before Flop
+
+
+
+PokerStars Zoom Hand #178829092867:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:21:43 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: toropiga87 ($2.59 in chips) 
+Seat 2: Nasuc0820 ($2.72 in chips) 
+Seat 3: janq3 ($2.16 in chips) 
+Seat 4: jugador l70 ($4.06 in chips) 
+Seat 5: 1310red ($3.10 in chips) 
+Seat 6: bocian666 ($3.67 in chips) 
+Nasuc0820: posts small blind $0.01
+janq3: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [2d 3c]
+jugador l70: folds 
+1310red: raises $0.05 to $0.07
+bocian666: folds 
+toropiga87: folds 
+Nasuc0820: folds 
+janq3: folds 
+Uncalled bet ($0.05) returned to 1310red
+1310red collected $0.05 from pot
+1310red: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 
+Seat 1: toropiga87 (button) folded before Flop (didn't bet)
+Seat 2: Nasuc0820 (small blind) folded before Flop
+Seat 3: janq3 (big blind) folded before Flop
+Seat 4: jugador l70 folded before Flop (didn't bet)
+Seat 5: 1310red collected ($0.05)
+Seat 6: bocian666 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829101101:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:21:57 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: Sorz60229 ($3.32 in chips) 
+Seat 2: papelzinho ($2.03 in chips) 
+Seat 3: gakochet9x96 ($1.17 in chips) 
+Seat 4: CoreyThorpe ($1.93 in chips) 
+Seat 5: bocian666 ($3.67 in chips) 
+Seat 6: Siensei ($2.04 in chips) 
+papelzinho: posts small blind $0.01
+gakochet9x96: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [3s Kh]
+CoreyThorpe: folds 
+bocian666: folds 
+Siensei: folds 
+Sorz60229: folds 
+papelzinho: raises $0.06 to $0.08
+gakochet9x96: folds 
+Uncalled bet ($0.06) returned to papelzinho
+papelzinho collected $0.04 from pot
+papelzinho: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.04 | Rake $0 
+Seat 1: Sorz60229 (button) folded before Flop (didn't bet)
+Seat 2: papelzinho (small blind) collected ($0.04)
+Seat 3: gakochet9x96 (big blind) folded before Flop
+Seat 4: CoreyThorpe folded before Flop (didn't bet)
+Seat 5: bocian666 folded before Flop (didn't bet)
+Seat 6: Siensei folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829105757:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:22:05 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: ADWish ($1.64 in chips) 
+Seat 2: parisvii1986 ($2.36 in chips) 
+Seat 3: bocian666 ($3.67 in chips) 
+Seat 4: O_Atec ($2.04 in chips) 
+Seat 5: GKA74 ($2.82 in chips) 
+Seat 6: Mishanya kul ($14.02 in chips) 
+parisvii1986: posts small blind $0.01
+bocian666: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [8d 8h]
+O_Atec: folds 
+GKA74: folds 
+Mishanya kul: folds 
+ADWish: folds 
+parisvii1986: folds 
+Uncalled bet ($0.01) returned to bocian666
+bocian666 collected $0.02 from pot
+bocian666: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.02 | Rake $0 
+Seat 1: ADWish (button) folded before Flop (didn't bet)
+Seat 2: parisvii1986 (small blind) folded before Flop
+Seat 3: bocian666 (big blind) collected ($0.02)
+Seat 4: O_Atec folded before Flop (didn't bet)
+Seat 5: GKA74 folded before Flop (didn't bet)
+Seat 6: Mishanya kul folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829115724:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:22:22 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: 4L3NN 5U5L0V ($2.83 in chips) 
+Seat 2: Aenari ($0.54 in chips) 
+Seat 3: Renciukas ($2 in chips) 
+Seat 4: djafar63 ($3.97 in chips) 
+Seat 5: _Eduardo™_j1 ($2 in chips) 
+Seat 6: bocian666 ($3.68 in chips) 
+Aenari: posts small blind $0.01
+Renciukas: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [5h 7d]
+djafar63: folds 
+_Eduardo™_j1: folds 
+bocian666: folds 
+4L3NN 5U5L0V: folds 
+Aenari: folds 
+Uncalled bet ($0.01) returned to Renciukas
+Renciukas collected $0.02 from pot
+Renciukas: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.02 | Rake $0 
+Seat 1: 4L3NN 5U5L0V (button) folded before Flop (didn't bet)
+Seat 2: Aenari (small blind) folded before Flop
+Seat 3: Renciukas (big blind) collected ($0.02)
+Seat 4: djafar63 folded before Flop (didn't bet)
+Seat 5: _Eduardo™_j1 folded before Flop (didn't bet)
+Seat 6: bocian666 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829121593:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:22:32 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: bocian666 ($3.68 in chips) 
+Seat 2: themis_89@ho ($6.60 in chips) 
+Seat 3: dntp ($2.22 in chips) 
+Seat 4: jase28 ($2.07 in chips) 
+Seat 5: All4Money91 ($2.13 in chips) 
+Seat 6: sergelektrik ($5.94 in chips) 
+themis_89@ho: posts small blind $0.01
+dntp: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [Ts 7h]
+jase28: folds 
+All4Money91: folds 
+sergelektrik: raises $0.04 to $0.06
+bocian666: folds 
+themis_89@ho: folds 
+dntp: folds 
+Uncalled bet ($0.04) returned to sergelektrik
+sergelektrik collected $0.05 from pot
+sergelektrik: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 
+Seat 1: bocian666 (button) folded before Flop (didn't bet)
+Seat 2: themis_89@ho (small blind) folded before Flop
+Seat 3: dntp (big blind) folded before Flop
+Seat 4: jase28 folded before Flop (didn't bet)
+Seat 5: All4Money91 folded before Flop (didn't bet)
+Seat 6: sergelektrik collected ($0.05)
+
+
+
+PokerStars Zoom Hand #178829137861:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:23:00 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: lebedevrs30 ($1.25 in chips) 
+Seat 2: bocian666 ($3.68 in chips) 
+Seat 3: felsarinn ($9.53 in chips) 
+Seat 4: helicocat ($4.05 in chips) 
+Seat 5: RiseRock ($2.12 in chips) 
+Seat 6: Gavenyi ($2.36 in chips) 
+bocian666: posts small blind $0.01
+felsarinn: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [Js 7c]
+helicocat: folds 
+RiseRock: raises $0.03 to $0.05
+Gavenyi: folds 
+lebedevrs30: folds 
+bocian666: folds 
+felsarinn: folds 
+Uncalled bet ($0.03) returned to RiseRock
+RiseRock collected $0.05 from pot
+RiseRock: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 
+Seat 1: lebedevrs30 (button) folded before Flop (didn't bet)
+Seat 2: bocian666 (small blind) folded before Flop
+Seat 3: felsarinn (big blind) folded before Flop
+Seat 4: helicocat folded before Flop (didn't bet)
+Seat 5: RiseRock collected ($0.05)
+Seat 6: Gavenyi folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829142487:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:23:08 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: Azanvic ($2 in chips) 
+Seat 2: ILoveNatasha ($1.71 in chips) 
+Seat 3: bocian666 ($3.67 in chips) 
+Seat 4: dyingSun ($2.27 in chips) 
+Seat 5: aleks118 ($2.79 in chips) 
+Seat 6: svadharma ($2.25 in chips) 
+ILoveNatasha: posts small blind $0.01
+bocian666: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [Qc 7d]
+dyingSun: folds 
+aleks118: folds 
+svadharma: folds 
+Azanvic: raises $0.03 to $0.05
+ILoveNatasha: folds 
+bocian666: folds 
+Uncalled bet ($0.03) returned to Azanvic
+Azanvic collected $0.05 from pot
+Azanvic: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 
+Seat 1: Azanvic (button) collected ($0.05)
+Seat 2: ILoveNatasha (small blind) folded before Flop
+Seat 3: bocian666 (big blind) folded before Flop
+Seat 4: dyingSun folded before Flop (didn't bet)
+Seat 5: aleks118 folded before Flop (didn't bet)
+Seat 6: svadharma folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829131539:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:22:49 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: galina116 ($1 in chips) 
+Seat 2: jogadort10 ($2.91 in chips) 
+Seat 3: Snukeris147 ($5.81 in chips) 
+Seat 4: bocian666 ($3.68 in chips) 
+Seat 5: quick140 ($1.97 in chips) 
+Seat 6: Luniar567 ($2.04 in chips) 
+jogadort10: posts small blind $0.01
+Snukeris147: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [Td 3h]
+bocian666: folds 
+quick140: folds 
+Luniar567: folds 
+galina116: calls $0.02
+jogadort10: calls $0.01
+Snukeris147: checks 
+*** FLOP *** [8h Ks Js]
+jogadort10: checks 
+Snukeris147: checks 
+galina116: checks 
+*** TURN *** [8h Ks Js] [Th]
+jogadort10: bets $0.03
+Snukeris147: folds 
+galina116: calls $0.03
+*** RIVER *** [8h Ks Js Th] [Jd]
+jogadort10: bets $0.06
+galina116: raises $0.06 to $0.12
+jogadort10: calls $0.06
+*** SHOW DOWN ***
+galina116: shows [Qs 9h] (a straight, Nine to King)
+jogadort10: mucks hand 
+galina116 collected $0.35 from pot
+*** SUMMARY ***
+Total pot $0.36 | Rake $0.01 
+Board [8h Ks Js Th Jd]
+Seat 1: galina116 (button) showed [Qs 9h] and won ($0.35) with a straight, Nine to King
+Seat 2: jogadort10 (small blind) mucked [9d Jh]
+Seat 3: Snukeris147 (big blind) folded on the Turn
+Seat 4: bocian666 folded before Flop (didn't bet)
+Seat 5: quick140 folded before Flop (didn't bet)
+Seat 6: Luniar567 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829148327:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:23:18 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: bocian666 ($3.65 in chips) 
+Seat 2: Runwon ($2.76 in chips) 
+Seat 3: Bruputtir ($2 in chips) 
+Seat 4: andeee74 ($2.09 in chips) 
+Seat 5: RayRaySayNay ($6.59 in chips) 
+Seat 6: antinny ($3.83 in chips) 
+Runwon: posts small blind $0.01
+Bruputtir: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [Kh Ah]
+andeee74: folds 
+RayRaySayNay: raises $0.04 to $0.06
+antinny: folds 
+bocian666: calls $0.06
+Runwon: folds 
+Bruputtir: calls $0.04
+*** FLOP *** [8d 7s 4s]
+Bruputtir: checks 
+RayRaySayNay: bets $0.06
+bocian666: calls $0.06
+Bruputtir: calls $0.06
+*** TURN *** [8d 7s 4s] [Th]
+Bruputtir: checks 
+RayRaySayNay: checks 
+bocian666: bets $0.28
+Bruputtir: calls $0.28
+RayRaySayNay: calls $0.28
+*** RIVER *** [8d 7s 4s Th] [Ts]
+Bruputtir: checks 
+RayRaySayNay: checks 
+bocian666: checks 
+*** SHOW DOWN ***
+Bruputtir: shows [6h 3h] (a pair of Tens)
+RayRaySayNay: shows [Jc Js] (two pair, Jacks and Tens)
+bocian666: mucks hand 
+RayRaySayNay collected $1.17 from pot
+*** SUMMARY ***
+Total pot $1.21 | Rake $0.04 
+Board [8d 7s 4s Th Ts]
+Seat 1: bocian666 (button) mucked [Kh Ah]
+Seat 2: Runwon (small blind) folded before Flop
+Seat 3: Bruputtir (big blind) showed [6h 3h] and lost with a pair of Tens
+Seat 4: andeee74 folded before Flop (didn't bet)
+Seat 5: RayRaySayNay showed [Jc Js] and won ($1.17) with two pair, Jacks and Tens
+Seat 6: antinny folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829187181:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:24:25 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: qk rodriguez ($2 in chips) 
+Seat 2: valmirmendes ($3.22 in chips) 
+Seat 3: olegov934 ($0.83 in chips) 
+Seat 4: Sorz60229 ($5.63 in chips) 
+Seat 5: bocian666 ($3.25 in chips) 
+Seat 6: RomanSlivovice ($2 in chips) 
+valmirmendes: posts small blind $0.01
+olegov934: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [7s 7d]
+Sorz60229: folds 
+bocian666: raises $0.04 to $0.06
+RomanSlivovice: folds 
+qk rodriguez: folds 
+valmirmendes: folds 
+olegov934: folds 
+Uncalled bet ($0.04) returned to bocian666
+bocian666 collected $0.05 from pot
+bocian666: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 
+Seat 1: qk rodriguez (button) folded before Flop (didn't bet)
+Seat 2: valmirmendes (small blind) folded before Flop
+Seat 3: olegov934 (big blind) folded before Flop
+Seat 4: Sorz60229 folded before Flop (didn't bet)
+Seat 5: bocian666 collected ($0.05)
+Seat 6: RomanSlivovice folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829197066:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:24:42 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: Caffezord ($2 in chips) 
+Seat 2: bocian666 ($3.28 in chips) 
+Seat 3: OMEGA XQ ($1.30 in chips) 
+Seat 4: senator2202 ($6.20 in chips) 
+Seat 5: sakharova ($1.29 in chips) 
+Seat 6: asta este ($0.61 in chips) 
+bocian666: posts small blind $0.01
+OMEGA XQ: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [9c 6s]
+senator2202: raises $0.04 to $0.06
+sakharova: folds 
+asta este: folds 
+Caffezord: folds 
+bocian666: folds 
+OMEGA XQ: folds 
+Uncalled bet ($0.04) returned to senator2202
+senator2202 collected $0.05 from pot
+senator2202: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 
+Seat 1: Caffezord (button) folded before Flop (didn't bet)
+Seat 2: bocian666 (small blind) folded before Flop
+Seat 3: OMEGA XQ (big blind) folded before Flop
+Seat 4: senator2202 collected ($0.05)
+Seat 5: sakharova folded before Flop (didn't bet)
+Seat 6: asta este folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829206795:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:24:59 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: parisvii1986 ($3.87 in chips) 
+Seat 2: Gekke Gerrie ($2.27 in chips) 
+Seat 3: RlySoldier ($1.29 in chips) 
+Seat 4: bocian666 ($3.27 in chips) 
+Seat 5: Jmak23 ($0.43 in chips) 
+Seat 6: Rus. Pioneer ($3.54 in chips) 
+Gekke Gerrie: posts small blind $0.01
+RlySoldier: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [Ad Js]
+bocian666: folds 
+Jmak23: folds 
+Rus. Pioneer: folds 
+parisvii1986: folds 
+Gekke Gerrie: folds 
+Uncalled bet ($0.01) returned to RlySoldier
+RlySoldier collected $0.02 from pot
+RlySoldier: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.02 | Rake $0 
+Seat 1: parisvii1986 (button) folded before Flop (didn't bet)
+Seat 2: Gekke Gerrie (small blind) folded before Flop
+Seat 3: RlySoldier (big blind) collected ($0.02)
+Seat 4: bocian666 folded before Flop (didn't bet)
+Seat 5: Jmak23 folded before Flop (didn't bet)
+Seat 6: Rus. Pioneer folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829215427:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:25:14 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: GrimZul ($2.02 in chips) 
+Seat 2: Francyz_32 ($3.50 in chips) 
+Seat 3: bocian666 ($3.27 in chips) 
+Seat 4: Liquid2424 ($4.50 in chips) 
+Seat 5: K@pblch ($2.17 in chips) 
+Seat 6: kralle29 ($2.71 in chips) 
+Francyz_32: posts small blind $0.01
+bocian666: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [5h 8c]
+Liquid2424: folds 
+K@pblch: folds 
+kralle29: folds 
+GrimZul: folds 
+Francyz_32: folds 
+Uncalled bet ($0.01) returned to bocian666
+bocian666 collected $0.02 from pot
+bocian666: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.02 | Rake $0 
+Seat 1: GrimZul (button) folded before Flop (didn't bet)
+Seat 2: Francyz_32 (small blind) folded before Flop
+Seat 3: bocian666 (big blind) collected ($0.02)
+Seat 4: Liquid2424 folded before Flop (didn't bet)
+Seat 5: K@pblch folded before Flop (didn't bet)
+Seat 6: kralle29 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829219555:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:25:21 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: LuckyBBastar ($3.06 in chips) 
+Seat 2: tamozhnya87 ($1.72 in chips) 
+Seat 3: Manuroth ($1.11 in chips) 
+Seat 4: helicocat ($4 in chips) 
+Seat 5: svadharma ($2 in chips) 
+Seat 6: bocian666 ($3.28 in chips) 
+tamozhnya87: posts small blind $0.01
+Manuroth: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [4c Kd]
+helicocat: folds 
+svadharma: raises $0.03 to $0.05
+bocian666: folds 
+LuckyBBastar: calls $0.05
+tamozhnya87: folds 
+Manuroth: folds 
+*** FLOP *** [Ks 5d 6h]
+svadharma: bets $0.06
+LuckyBBastar: folds 
+Uncalled bet ($0.06) returned to svadharma
+svadharma collected $0.13 from pot
+svadharma: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.13 | Rake $0 
+Board [Ks 5d 6h]
+Seat 1: LuckyBBastar (button) folded on the Flop
+Seat 2: tamozhnya87 (small blind) folded before Flop
+Seat 3: Manuroth (big blind) folded before Flop
+Seat 4: helicocat folded before Flop (didn't bet)
+Seat 5: svadharma collected ($0.13)
+Seat 6: bocian666 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829228231:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:25:36 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: bocian666 ($3.28 in chips) 
+Seat 2: NetAgent1 ($2.18 in chips) 
+Seat 3: mietek fog ($3.54 in chips) 
+Seat 4: Alex GoUp ($2.24 in chips) 
+Seat 5: kunjos ($1.11 in chips) 
+Seat 6: actionMoon ($2.45 in chips) 
+NetAgent1: posts small blind $0.01
+mietek fog: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [3d 8h]
+Alex GoUp: folds 
+kunjos: raises $1.09 to $1.11 and is all-in
+actionMoon: folds 
+bocian666: folds 
+NetAgent1: folds 
+mietek fog: folds 
+Uncalled bet ($1.09) returned to kunjos
+kunjos collected $0.05 from pot
+kunjos: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 
+Seat 1: bocian666 (button) folded before Flop (didn't bet)
+Seat 2: NetAgent1 (small blind) folded before Flop
+Seat 3: mietek fog (big blind) folded before Flop
+Seat 4: Alex GoUp folded before Flop (didn't bet)
+Seat 5: kunjos collected ($0.05)
+Seat 6: actionMoon folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829233930:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:25:46 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: SANA55577 ($2.36 in chips) 
+Seat 2: somen1991 ($1.95 in chips) 
+Seat 3: edvalbak ($1.88 in chips) 
+Seat 4: DavidR798 ($3.20 in chips) 
+Seat 5: bocian666 ($3.28 in chips) 
+Seat 6: FVN56 ($5.10 in chips) 
+somen1991: posts small blind $0.01
+edvalbak: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [3h 9c]
+DavidR798: raises $0.05 to $0.07
+bocian666: folds 
+FVN56: folds 
+SANA55577: folds 
+somen1991: folds 
+edvalbak: folds 
+Uncalled bet ($0.05) returned to DavidR798
+DavidR798 collected $0.05 from pot
+DavidR798: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 
+Seat 1: SANA55577 (button) folded before Flop (didn't bet)
+Seat 2: somen1991 (small blind) folded before Flop
+Seat 3: edvalbak (big blind) folded before Flop
+Seat 4: DavidR798 collected ($0.05)
+Seat 5: bocian666 folded before Flop (didn't bet)
+Seat 6: FVN56 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829244491:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:26:04 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: gakochet9x96 ($1.06 in chips) 
+Seat 2: Jmak23 ($0.55 in chips) 
+Seat 3: RiseRock ($2.10 in chips) 
+Seat 4: bocian666 ($3.28 in chips) 
+Seat 5: fecergy ($2 in chips) 
+Seat 6: 00 itapro 00 ($1.93 in chips) 
+Jmak23: posts small blind $0.01
+RiseRock: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [Ac Td]
+bocian666: folds 
+fecergy: folds 
+00 itapro 00: raises $0.03 to $0.05
+gakochet9x96: folds 
+Jmak23: folds 
+RiseRock: folds 
+Uncalled bet ($0.03) returned to 00 itapro 00
+00 itapro 00 collected $0.05 from pot
+00 itapro 00: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 
+Seat 1: gakochet9x96 (button) folded before Flop (didn't bet)
+Seat 2: Jmak23 (small blind) folded before Flop
+Seat 3: RiseRock (big blind) folded before Flop
+Seat 4: bocian666 folded before Flop (didn't bet)
+Seat 5: fecergy folded before Flop (didn't bet)
+Seat 6: 00 itapro 00 collected ($0.05)
+
+
+
+PokerStars Zoom Hand #178829249012:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:26:12 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: Bluesky0821 ($1.98 in chips) 
+Seat 2: deka525 ($2.37 in chips) 
+Seat 3: gkalltheway ($3.01 in chips) 
+Seat 4: aleks118 ($9.39 in chips) 
+Seat 5: PiccoloPD1 ($2.70 in chips) 
+Seat 6: bocian666 ($3.28 in chips) 
+deka525: posts small blind $0.01
+gkalltheway: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [Qh 6h]
+aleks118: raises $0.04 to $0.06
+PiccoloPD1: folds 
+bocian666: folds 
+Bluesky0821: calls $0.06
+deka525: folds 
+gkalltheway: calls $0.04
+*** FLOP *** [5h Ah 2s]
+gkalltheway: bets $0.10
+aleks118: folds 
+Bluesky0821: folds 
+Uncalled bet ($0.10) returned to gkalltheway
+gkalltheway collected $0.18 from pot
+gkalltheway: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.19 | Rake $0.01 
+Board [5h Ah 2s]
+Seat 1: Bluesky0821 (button) folded on the Flop
+Seat 2: deka525 (small blind) folded before Flop
+Seat 3: gkalltheway (big blind) collected ($0.18)
+Seat 4: aleks118 folded on the Flop
+Seat 5: PiccoloPD1 folded before Flop (didn't bet)
+Seat 6: bocian666 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829254809:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:26:22 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: gorgia61 ($2.70 in chips) 
+Seat 2: bocian666 ($3.28 in chips) 
+Seat 3: WiseYorsh ($1.91 in chips) 
+Seat 4: richardjjon ($2.63 in chips) 
+Seat 5: svadharma ($2 in chips) 
+Seat 6: tamozhnya87 ($1.75 in chips) 
+bocian666: posts small blind $0.01
+WiseYorsh: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [Th 6s]
+richardjjon: folds 
+svadharma: folds 
+tamozhnya87: folds 
+gorgia61: raises $0.02 to $0.04
+bocian666: folds 
+WiseYorsh: calls $0.02
+*** FLOP *** [5d 2d 8d]
+WiseYorsh: checks 
+gorgia61: checks 
+*** TURN *** [5d 2d 8d] [9h]
+WiseYorsh: bets $0.06
+gorgia61: folds 
+Uncalled bet ($0.06) returned to WiseYorsh
+WiseYorsh collected $0.09 from pot
+WiseYorsh: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.09 | Rake $0 
+Board [5d 2d 8d 9h]
+Seat 1: gorgia61 (button) folded on the Turn
+Seat 2: bocian666 (small blind) folded before Flop
+Seat 3: WiseYorsh (big blind) collected ($0.09)
+Seat 4: richardjjon folded before Flop (didn't bet)
+Seat 5: svadharma folded before Flop (didn't bet)
+Seat 6: tamozhnya87 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829259453:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:26:30 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: svadharma ($2.19 in chips) 
+Seat 2: nakam024 ($1.92 in chips) 
+Seat 3: devianin96 ($2 in chips) 
+Seat 4: jorking17 ($1.55 in chips) 
+Seat 5: bocian666 ($3.27 in chips) 
+Seat 6: 99BARSUM99 ($2 in chips) 
+nakam024: posts small blind $0.01
+devianin96: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [5s 5d]
+jorking17: raises $0.02 to $0.04
+bocian666: calls $0.04
+99BARSUM99: calls $0.04
+svadharma: folds 
+nakam024: folds 
+devianin96: folds 
+*** FLOP *** [3h Kc 6d]
+jorking17: checks 
+bocian666: bets $0.08
+99BARSUM99: folds 
+jorking17: folds 
+Uncalled bet ($0.08) returned to bocian666
+bocian666 collected $0.14 from pot
+bocian666: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.15 | Rake $0.01 
+Board [3h Kc 6d]
+Seat 1: svadharma (button) folded before Flop (didn't bet)
+Seat 2: nakam024 (small blind) folded before Flop
+Seat 3: devianin96 (big blind) folded before Flop
+Seat 4: jorking17 folded on the Flop
+Seat 5: bocian666 collected ($0.14)
+Seat 6: 99BARSUM99 folded on the Flop
+
+
+
+PokerStars Zoom Hand #178829280448:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:27:06 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: DGORDG1 ($4.53 in chips) 
+Seat 2: sagekami ($3.22 in chips) 
+Seat 3: JAQUEPOKER ($1.57 in chips) 
+Seat 4: bocian666 ($3.37 in chips) 
+Seat 5: tsikoos ($9.58 in chips) 
+Seat 6: Snegul ($0.64 in chips) 
+sagekami: posts small blind $0.01
+JAQUEPOKER: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [8h 7h]
+bocian666: folds 
+tsikoos: folds 
+Snegul: folds 
+DGORDG1: folds 
+sagekami: calls $0.01
+JAQUEPOKER: raises $0.06 to $0.08
+sagekami: folds 
+Uncalled bet ($0.06) returned to JAQUEPOKER
+JAQUEPOKER collected $0.04 from pot
+JAQUEPOKER: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.04 | Rake $0 
+Seat 1: DGORDG1 (button) folded before Flop (didn't bet)
+Seat 2: sagekami (small blind) folded before Flop
+Seat 3: JAQUEPOKER (big blind) collected ($0.04)
+Seat 4: bocian666 folded before Flop (didn't bet)
+Seat 5: tsikoos folded before Flop (didn't bet)
+Seat 6: Snegul folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829285733:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:27:15 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: CUPIDO27 ($2.50 in chips) 
+Seat 2: Dmitry20279 ($4.57 in chips) 
+Seat 3: bocian666 ($3.37 in chips) 
+Seat 4: 1310red ($2.76 in chips) 
+Seat 5: WiseYorsh ($1.91 in chips) 
+Seat 6: DavidR798 ($1.29 in chips) 
+Dmitry20279: posts small blind $0.01
+bocian666: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [5h Qc]
+1310red: folds 
+WiseYorsh: folds 
+DavidR798: raises $0.05 to $0.07
+CUPIDO27: folds 
+Dmitry20279: folds 
+bocian666: folds 
+Uncalled bet ($0.05) returned to DavidR798
+DavidR798 collected $0.05 from pot
+DavidR798: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 
+Seat 1: CUPIDO27 (button) folded before Flop (didn't bet)
+Seat 2: Dmitry20279 (small blind) folded before Flop
+Seat 3: bocian666 (big blind) folded before Flop
+Seat 4: 1310red folded before Flop (didn't bet)
+Seat 5: WiseYorsh folded before Flop (didn't bet)
+Seat 6: DavidR798 collected ($0.05)
+
+
+
+PokerStars Zoom Hand #178829291531:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:27:25 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: Grom808 ($2.22 in chips) 
+Seat 2: bocian666 ($3.35 in chips) 
+Seat 3: toropiga87 ($2 in chips) 
+Seat 4: 777BPYH777 ($3.03 in chips) 
+Seat 5: Tesla1981DA ($0.85 in chips) 
+Seat 6: reif ggrange ($1.99 in chips) 
+bocian666: posts small blind $0.01
+toropiga87: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [5h Qd]
+777BPYH777: folds 
+Tesla1981DA: folds 
+reif ggrange: folds 
+Grom808: folds 
+bocian666: folds 
+Uncalled bet ($0.01) returned to toropiga87
+toropiga87 collected $0.02 from pot
+toropiga87: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.02 | Rake $0 
+Seat 1: Grom808 (button) folded before Flop (didn't bet)
+Seat 2: bocian666 (small blind) folded before Flop
+Seat 3: toropiga87 (big blind) collected ($0.02)
+Seat 4: 777BPYH777 folded before Flop (didn't bet)
+Seat 5: Tesla1981DA folded before Flop (didn't bet)
+Seat 6: reif ggrange folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829298387:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:27:37 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: bocian666 ($3.34 in chips) 
+Seat 2: grzwor ($2.03 in chips) 
+Seat 3: kroila ($4.52 in chips) 
+Seat 4: yaroslavus ($2.02 in chips) 
+Seat 5: Gakisnupster ($2.14 in chips) 
+Seat 6: Caxep_58 ($1.97 in chips) 
+grzwor: posts small blind $0.01
+kroila: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [Td 2c]
+yaroslavus: folds 
+Gakisnupster: folds 
+Caxep_58: folds 
+bocian666: folds 
+grzwor: folds 
+Uncalled bet ($0.01) returned to kroila
+kroila collected $0.02 from pot
+kroila: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.02 | Rake $0 
+Seat 1: bocian666 (button) folded before Flop (didn't bet)
+Seat 2: grzwor (small blind) folded before Flop
+Seat 3: kroila (big blind) collected ($0.02)
+Seat 4: yaroslavus folded before Flop (didn't bet)
+Seat 5: Gakisnupster folded before Flop (didn't bet)
+Seat 6: Caxep_58 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829302999:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:27:45 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: YV01 ($3.90 in chips) 
+Seat 2: k7devil ($1 in chips) 
+Seat 3: wolf_2303 ($1.35 in chips) 
+Seat 4: TITANnvkz ($4.06 in chips) 
+Seat 5: bocian666 ($3.34 in chips) 
+Seat 6: grzwor ($2.55 in chips) 
+k7devil: posts small blind $0.01
+wolf_2303: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [9h 6h]
+TITANnvkz: folds 
+bocian666: folds 
+grzwor: folds 
+YV01: folds 
+k7devil: folds 
+Uncalled bet ($0.01) returned to wolf_2303
+wolf_2303 collected $0.02 from pot
+wolf_2303: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.02 | Rake $0 
+Seat 1: YV01 (button) folded before Flop (didn't bet)
+Seat 2: k7devil (small blind) folded before Flop
+Seat 3: wolf_2303 (big blind) collected ($0.02)
+Seat 4: TITANnvkz folded before Flop (didn't bet)
+Seat 5: bocian666 folded before Flop (didn't bet)
+Seat 6: grzwor folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829308169:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:27:54 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: mietek fog ($3.40 in chips) 
+Seat 2: holywing ($2.13 in chips) 
+Seat 3: Sergirk79 ($2.95 in chips) 
+Seat 4: Manuroth ($1.83 in chips) 
+Seat 5: Snukeris147 ($3.76 in chips) 
+Seat 6: bocian666 ($3.34 in chips) 
+holywing: posts small blind $0.01
+Sergirk79: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [8d Ks]
+Manuroth: folds 
+Snukeris147: folds 
+bocian666: folds 
+mietek fog: raises $0.02 to $0.04
+holywing: calls $0.03
+Sergirk79: folds 
+*** FLOP *** [3c 5s Qd]
+holywing: checks 
+mietek fog: bets $0.04
+holywing: folds 
+Uncalled bet ($0.04) returned to mietek fog
+mietek fog collected $0.10 from pot
+mietek fog: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.10 | Rake $0 
+Board [3c 5s Qd]
+Seat 1: mietek fog (button) collected ($0.10)
+Seat 2: holywing (small blind) folded on the Flop
+Seat 3: Sergirk79 (big blind) folded before Flop
+Seat 4: Manuroth folded before Flop (didn't bet)
+Seat 5: Snukeris147 folded before Flop (didn't bet)
+Seat 6: bocian666 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829318561:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:28:12 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: GKA74 ($2.80 in chips) 
+Seat 2: globusik58 ($1.18 in chips) 
+Seat 3: bocian666 ($3.34 in chips) 
+Seat 4: ccvvisa ($2.31 in chips) 
+Seat 5: Yung_sanya ($0.98 in chips) 
+Seat 6: SapientiAA ($1.53 in chips) 
+globusik58: posts small blind $0.01
+bocian666: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [9s Jd]
+ccvvisa: folds 
+Yung_sanya: folds 
+SapientiAA: folds 
+GKA74: raises $0.02 to $0.04
+globusik58: raises $0.02 to $0.06
+bocian666: folds 
+GKA74: calls $0.02
+*** FLOP *** [9c 2h 3c]
+globusik58: checks 
+GKA74: checks 
+*** TURN *** [9c 2h 3c] [6d]
+globusik58: bets $0.04
+GKA74: calls $0.04
+*** RIVER *** [9c 2h 3c 6d] [Qh]
+globusik58: bets $0.22
+GKA74: calls $0.22
+*** SHOW DOWN ***
+globusik58: shows [Qc Qs] (three of a kind, Queens)
+GKA74: mucks hand 
+globusik58 collected $0.64 from pot
+*** SUMMARY ***
+Total pot $0.66 | Rake $0.02 
+Board [9c 2h 3c 6d Qh]
+Seat 1: GKA74 (button) mucked [Jc Qd]
+Seat 2: globusik58 (small blind) showed [Qc Qs] and won ($0.64) with three of a kind, Queens
+Seat 3: bocian666 (big blind) folded before Flop
+Seat 4: ccvvisa folded before Flop (didn't bet)
+Seat 5: Yung_sanya folded before Flop (didn't bet)
+Seat 6: SapientiAA folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829324838:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:28:23 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: bocian666 ($3.32 in chips) 
+Seat 2: RayRaySayNay ($9.40 in chips) 
+Seat 3: Sergi_sema90 ($1 in chips) 
+Seat 4: GrimZul ($2.37 in chips) 
+Seat 5: MLancelot ($2.04 in chips) 
+Seat 6: EnterNumLock ($2.12 in chips) 
+RayRaySayNay: posts small blind $0.01
+Sergi_sema90: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [Ts Ac]
+GrimZul: folds 
+MLancelot: folds 
+EnterNumLock: folds 
+bocian666: raises $0.02 to $0.04
+RayRaySayNay: calls $0.03
+Sergi_sema90: calls $0.02
+*** FLOP *** [Kd 6s Kc]
+RayRaySayNay: checks 
+Sergi_sema90: checks 
+bocian666: checks 
+*** TURN *** [Kd 6s Kc] [9d]
+RayRaySayNay: checks 
+Sergi_sema90: checks 
+bocian666: checks 
+*** RIVER *** [Kd 6s Kc 9d] [4d]
+RayRaySayNay: bets $0.08
+Sergi_sema90: folds 
+bocian666: calls $0.08
+*** SHOW DOWN ***
+RayRaySayNay: shows [Kh Jc] (three of a kind, Kings)
+bocian666: mucks hand 
+RayRaySayNay collected $0.27 from pot
+*** SUMMARY ***
+Total pot $0.28 | Rake $0.01 
+Board [Kd 6s Kc 9d 4d]
+Seat 1: bocian666 (button) mucked [Ts Ac]
+Seat 2: RayRaySayNay (small blind) showed [Kh Jc] and won ($0.27) with three of a kind, Kings
+Seat 3: Sergi_sema90 (big blind) folded on the River
+Seat 4: GrimZul folded before Flop (didn't bet)
+Seat 5: MLancelot folded before Flop (didn't bet)
+Seat 6: EnterNumLock folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829313336:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:28:03 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: kpboro ($3.17 in chips) 
+Seat 2: helicocat ($6.70 in chips) 
+Seat 3: Andrey&Julya ($2.68 in chips) 
+Seat 4: Daylor570 ($2.05 in chips) 
+Seat 5: bocian666 ($3.34 in chips) 
+Seat 6: globeter ($2.19 in chips) 
+helicocat: posts small blind $0.01
+Andrey&Julya: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [Qh 5d]
+Daylor570: raises $0.03 to $0.05
+bocian666: folds 
+globeter: calls $0.05
+kpboro: calls $0.05
+helicocat: folds 
+Andrey&Julya: calls $0.03
+*** FLOP *** [Qc 6c Js]
+Andrey&Julya: bets $0.08
+Daylor570: calls $0.08
+globeter: calls $0.08
+kpboro: calls $0.08
+*** TURN *** [Qc 6c Js] [9s]
+Andrey&Julya: bets $0.10
+Daylor570: folds 
+globeter: calls $0.10
+kpboro: raises $0.40 to $0.50
+Andrey&Julya: calls $0.40
+globeter: folds 
+*** RIVER *** [Qc 6c Js 9s] [3d]
+Andrey&Julya: checks 
+kpboro: bets $0.60
+Andrey&Julya: calls $0.60
+*** SHOW DOWN ***
+kpboro: shows [9c Jd] (two pair, Jacks and Nines)
+Andrey&Julya: mucks hand 
+kpboro collected $2.73 from pot
+*** SUMMARY ***
+Total pot $2.83 | Rake $0.10 
+Board [Qc 6c Js 9s 3d]
+Seat 1: kpboro (button) showed [9c Jd] and won ($2.73) with two pair, Jacks and Nines
+Seat 2: helicocat (small blind) folded before Flop
+Seat 3: Andrey&Julya (big blind) mucked [Kh 8s]
+Seat 4: Daylor570 folded on the Turn
+Seat 5: bocian666 folded before Flop (didn't bet)
+Seat 6: globeter folded on the Turn
+
+
+
+PokerStars Zoom Hand #178829360890:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:29:25 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: mietek fog ($2 in chips) 
+Seat 2: kosta2907 ($2.80 in chips) 
+Seat 3: RayRaySayNay ($9.55 in chips) 
+Seat 4: bocian666 ($3.20 in chips) 
+Seat 5: Siensei ($2.03 in chips) 
+Seat 6: decy44 ($1.01 in chips) 
+kosta2907: posts small blind $0.01
+RayRaySayNay: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [9s 8h]
+bocian666: folds 
+Siensei: folds 
+decy44: raises $0.04 to $0.06
+mietek fog: folds 
+kosta2907: folds 
+RayRaySayNay: folds 
+Uncalled bet ($0.04) returned to decy44
+decy44 collected $0.05 from pot
+decy44: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 
+Seat 1: mietek fog (button) folded before Flop (didn't bet)
+Seat 2: kosta2907 (small blind) folded before Flop
+Seat 3: RayRaySayNay (big blind) folded before Flop
+Seat 4: bocian666 folded before Flop (didn't bet)
+Seat 5: Siensei folded before Flop (didn't bet)
+Seat 6: decy44 collected ($0.05)
+
+
+
+PokerStars Zoom Hand #178829366120:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:29:34 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: KolaTHT ($2.83 in chips) 
+Seat 2: bocian666 ($3.20 in chips) 
+Seat 3: devianin96 ($2 in chips) 
+Seat 4: SnowRus ($2 in chips) 
+Seat 5: 6ikarenamas9 ($2.50 in chips) 
+Seat 6: is2011 ($2.44 in chips) 
+bocian666: posts small blind $0.01
+devianin96: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [Kd 2c]
+SnowRus: folds 
+6ikarenamas9: folds 
+is2011: folds 
+KolaTHT: raises $0.04 to $0.06
+bocian666: folds 
+devianin96: folds 
+Uncalled bet ($0.04) returned to KolaTHT
+KolaTHT collected $0.05 from pot
+KolaTHT: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 
+Seat 1: KolaTHT (button) collected ($0.05)
+Seat 2: bocian666 (small blind) folded before Flop
+Seat 3: devianin96 (big blind) folded before Flop
+Seat 4: SnowRus folded before Flop (didn't bet)
+Seat 5: 6ikarenamas9 folded before Flop (didn't bet)
+Seat 6: is2011 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829371270:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:29:43 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: CheckcAT1207 ($2.72 in chips) 
+Seat 2: _Eduardo™_j1 ($2.87 in chips) 
+Seat 3: HNigalo ($2.70 in chips) 
+Seat 4: DiegoRhcp13 ($3.89 in chips) 
+Seat 5: bocian666 ($3.19 in chips) 
+Seat 6: Medasa ($3.99 in chips) 
+_Eduardo™_j1: posts small blind $0.01
+HNigalo: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [2d 5d]
+DiegoRhcp13: folds 
+bocian666: folds 
+Medasa: folds 
+CheckcAT1207: raises $0.04 to $0.06
+_Eduardo™_j1: folds 
+HNigalo: folds 
+Uncalled bet ($0.04) returned to CheckcAT1207
+CheckcAT1207 collected $0.05 from pot
+CheckcAT1207: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 
+Seat 1: CheckcAT1207 (button) collected ($0.05)
+Seat 2: _Eduardo™_j1 (small blind) folded before Flop
+Seat 3: HNigalo (big blind) folded before Flop
+Seat 4: DiegoRhcp13 folded before Flop (didn't bet)
+Seat 5: bocian666 folded before Flop (didn't bet)
+Seat 6: Medasa folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829376390:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:29:52 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: X BOOVER X ($1.98 in chips) 
+Seat 2: aghenitei13 ($3.85 in chips) 
+Seat 3: bocian666 ($3.19 in chips) 
+Seat 4: JCG22222 ($1.32 in chips) 
+Seat 5: lucaam5 ($3.69 in chips) 
+Seat 6: Herbi1997 ($1.70 in chips) 
+aghenitei13: posts small blind $0.01
+bocian666: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [Th 2h]
+JCG22222: folds 
+lucaam5: raises $0.02 to $0.04
+Herbi1997: raises $0.02 to $0.06
+X BOOVER X: raises $1.92 to $1.98 and is all-in
+aghenitei13: folds 
+bocian666: folds 
+lucaam5: folds 
+Herbi1997: calls $1.64 and is all-in
+Uncalled bet ($0.28) returned to X BOOVER X
+*** FLOP *** [Tc 5c Jd]
+*** TURN *** [Tc 5c Jd] [6d]
+*** RIVER *** [Tc 5c Jd 6d] [Ts]
+*** SHOW DOWN ***
+Herbi1997: shows [Js Qd] (two pair, Jacks and Tens)
+X BOOVER X: shows [Ah Kh] (a pair of Tens)
+Herbi1997 collected $3.35 from pot
+*** SUMMARY ***
+Total pot $3.47 | Rake $0.12 
+Board [Tc 5c Jd 6d Ts]
+Seat 1: X BOOVER X (button) showed [Ah Kh] and lost with a pair of Tens
+Seat 2: aghenitei13 (small blind) folded before Flop
+Seat 3: bocian666 (big blind) folded before Flop
+Seat 4: JCG22222 folded before Flop (didn't bet)
+Seat 5: lucaam5 folded before Flop
+Seat 6: Herbi1997 showed [Js Qd] and won ($3.35) with two pair, Jacks and Tens
+
+
+
+PokerStars Zoom Hand #178829382298:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:30:02 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: Kurttta ($2.84 in chips) 
+Seat 2: Holand153 ($2.03 in chips) 
+Seat 3: gorgia61 ($2.66 in chips) 
+Seat 4: bocian666 ($3.17 in chips) 
+Seat 5: busdriver296 ($6.28 in chips) 
+Seat 6: All4Money91 ($2.21 in chips) 
+Holand153: posts small blind $0.01
+gorgia61: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [4d Qh]
+bocian666: folds 
+busdriver296: folds 
+All4Money91: folds 
+Kurttta: folds 
+Holand153: folds 
+Uncalled bet ($0.01) returned to gorgia61
+gorgia61 collected $0.02 from pot
+gorgia61: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.02 | Rake $0 
+Seat 1: Kurttta (button) folded before Flop (didn't bet)
+Seat 2: Holand153 (small blind) folded before Flop
+Seat 3: gorgia61 (big blind) collected ($0.02)
+Seat 4: bocian666 folded before Flop (didn't bet)
+Seat 5: busdriver296 folded before Flop (didn't bet)
+Seat 6: All4Money91 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829386882:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:30:10 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: bocian666 ($3.17 in chips) 
+Seat 2: EnterNumLock ($2.22 in chips) 
+Seat 3: kosta2907 ($2.76 in chips) 
+Seat 4: Est222 ($5.01 in chips) 
+Seat 5: Kurttta ($2.84 in chips) 
+Seat 6: Tmalikis1 ($7.45 in chips) 
+EnterNumLock: posts small blind $0.01
+kosta2907: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [5c 8s]
+Est222: folds 
+Kurttta: folds 
+Tmalikis1: folds 
+bocian666: folds 
+EnterNumLock: raises $0.04 to $0.06
+kosta2907: folds 
+Uncalled bet ($0.04) returned to EnterNumLock
+EnterNumLock collected $0.04 from pot
+EnterNumLock: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.04 | Rake $0 
+Seat 1: bocian666 (button) folded before Flop (didn't bet)
+Seat 2: EnterNumLock (small blind) collected ($0.04)
+Seat 3: kosta2907 (big blind) folded before Flop
+Seat 4: Est222 folded before Flop (didn't bet)
+Seat 5: Kurttta folded before Flop (didn't bet)
+Seat 6: Tmalikis1 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829355052:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:29:15 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: And18AA ($2 in chips) 
+Seat 2: ropog ($2.05 in chips) 
+Seat 3: YSZ458 ($2.14 in chips) 
+Seat 4: okolobaxa ($2.34 in chips) 
+Seat 5: 7twin7 ($2.53 in chips) 
+Seat 6: bocian666 ($3.20 in chips) 
+ropog: posts small blind $0.01
+YSZ458: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [6c 3h]
+okolobaxa: raises $0.02 to $0.04
+7twin7: folds 
+bocian666: folds 
+And18AA: folds 
+ropog: calls $0.03
+YSZ458: raises $0.16 to $0.20
+okolobaxa: calls $0.16
+ropog: calls $0.16
+*** FLOP *** [4d Qs Ah]
+ropog: checks 
+YSZ458: bets $0.31
+okolobaxa: folds 
+ropog: raises $0.47 to $0.78
+YSZ458: calls $0.47
+*** TURN *** [4d Qs Ah] [5s]
+ropog: bets $1.07 and is all-in
+YSZ458: calls $1.07
+*** RIVER *** [4d Qs Ah 5s] [Jd]
+*** SHOW DOWN ***
+ropog: shows [4c 4h] (three of a kind, Fours)
+YSZ458: shows [Kc As] (a pair of Aces)
+ropog collected $4.15 from pot
+*** SUMMARY ***
+Total pot $4.30 | Rake $0.15 
+Board [4d Qs Ah 5s Jd]
+Seat 1: And18AA (button) folded before Flop (didn't bet)
+Seat 2: ropog (small blind) showed [4c 4h] and won ($4.15) with three of a kind, Fours
+Seat 3: YSZ458 (big blind) showed [Kc As] and lost with a pair of Aces
+Seat 4: okolobaxa folded on the Flop
+Seat 5: 7twin7 folded before Flop (didn't bet)
+Seat 6: bocian666 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829396351:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:30:26 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: Renciukas ($2.01 in chips) 
+Seat 2: bocian666 ($3.17 in chips) 
+Seat 3: fatallrfehlr ($1.96 in chips) 
+Seat 4: tedo1969 ($3.23 in chips) 
+Seat 5: devianin96 ($2.67 in chips) 
+Seat 6: androigo ($2.94 in chips) 
+bocian666: posts small blind $0.01
+fatallrfehlr: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [4s 6d]
+tedo1969: folds 
+devianin96: folds 
+androigo: folds 
+Renciukas: folds 
+bocian666: folds 
+Uncalled bet ($0.01) returned to fatallrfehlr
+fatallrfehlr collected $0.02 from pot
+fatallrfehlr: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.02 | Rake $0 
+Seat 1: Renciukas (button) folded before Flop (didn't bet)
+Seat 2: bocian666 (small blind) folded before Flop
+Seat 3: fatallrfehlr (big blind) collected ($0.02)
+Seat 4: tedo1969 folded before Flop (didn't bet)
+Seat 5: devianin96 folded before Flop (didn't bet)
+Seat 6: androigo folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829401720:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:30:35 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: tanutarou ($2 in chips) 
+Seat 2: sahok677 ($2.34 in chips) 
+Seat 3: bocian666 ($3.16 in chips) 
+Seat 4: sergei_sopa ($7.50 in chips) 
+Seat 5: wartune80 ($1.98 in chips) 
+Seat 6: Renciukas ($2 in chips) 
+sahok677: posts small blind $0.01
+bocian666: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [9c 4d]
+sergei_sopa: folds 
+wartune80: folds 
+Renciukas: folds 
+tanutarou: folds 
+sahok677: raises $0.04 to $0.06
+bocian666: folds 
+Uncalled bet ($0.04) returned to sahok677
+sahok677 collected $0.04 from pot
+sahok677: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.04 | Rake $0 
+Seat 1: tanutarou (button) folded before Flop (didn't bet)
+Seat 2: sahok677 (small blind) collected ($0.04)
+Seat 3: bocian666 (big blind) folded before Flop
+Seat 4: sergei_sopa folded before Flop (didn't bet)
+Seat 5: wartune80 folded before Flop (didn't bet)
+Seat 6: Renciukas folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829391138:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:30:17 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: Luniar567 ($0.27 in chips) 
+Seat 2: firebrigadenor ($2.67 in chips) 
+Seat 3: AGT1960 ($1.30 in chips) 
+Seat 4: Kurttta ($2.84 in chips) 
+Seat 5: vrachx7 ($2.26 in chips) 
+Seat 6: bocian666 ($3.17 in chips) 
+firebrigadenor: posts small blind $0.01
+AGT1960: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [8d 3c]
+Kurttta: folds 
+vrachx7: folds 
+bocian666: folds 
+Luniar567: raises $0.02 to $0.04
+firebrigadenor: folds 
+AGT1960: raises $0.10 to $0.14
+Luniar567: calls $0.10
+*** FLOP *** [2c Qc Kd]
+AGT1960: bets $0.21
+Luniar567: calls $0.13 and is all-in
+Uncalled bet ($0.08) returned to AGT1960
+*** TURN *** [2c Qc Kd] [3h]
+*** RIVER *** [2c Qc Kd 3h] [4d]
+*** SHOW DOWN ***
+AGT1960: shows [9d 9c] (a pair of Nines)
+Luniar567: shows [Tc Ah] (high card Ace)
+AGT1960 collected $0.53 from pot
+*** SUMMARY ***
+Total pot $0.55 | Rake $0.02 
+Board [2c Qc Kd 3h 4d]
+Seat 1: Luniar567 (button) showed [Tc Ah] and lost with high card Ace
+Seat 2: firebrigadenor (small blind) folded before Flop
+Seat 3: AGT1960 (big blind) showed [9d 9c] and won ($0.53) with a pair of Nines
+Seat 4: Kurttta folded before Flop (didn't bet)
+Seat 5: vrachx7 folded before Flop (didn't bet)
+Seat 6: bocian666 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829408056:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:30:46 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: bocian666 ($3.14 in chips) 
+Seat 2: Est222 ($4.99 in chips) 
+Seat 3: SHAXTER7777 ($2.99 in chips) 
+Seat 4: Toxask465 ($0.55 in chips) 
+Seat 5: krat7 ($1.31 in chips) 
+Seat 6: parisvii1986 ($4.33 in chips) 
+Est222: posts small blind $0.01
+SHAXTER7777: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [Qd Qc]
+Toxask465: folds 
+krat7: calls $0.02
+parisvii1986: folds 
+bocian666: raises $0.10 to $0.12
+Est222: folds 
+SHAXTER7777: folds 
+krat7: calls $0.10
+*** FLOP *** [2d 7s 3s]
+krat7: bets $0.06
+bocian666: raises $0.30 to $0.36
+krat7: folds 
+Uncalled bet ($0.30) returned to bocian666
+bocian666 collected $0.38 from pot
+bocian666: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.39 | Rake $0.01 
+Board [2d 7s 3s]
+Seat 1: bocian666 (button) collected ($0.38)
+Seat 2: Est222 (small blind) folded before Flop
+Seat 3: SHAXTER7777 (big blind) folded before Flop
+Seat 4: Toxask465 folded before Flop (didn't bet)
+Seat 5: krat7 folded on the Flop
+Seat 6: parisvii1986 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829444508:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:31:48 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: mativ77 ($3.14 in chips) 
+Seat 2: Den10001 ($2 in chips) 
+Seat 3: somen1991 ($2.20 in chips) 
+Seat 4: Boobslap ($1.04 in chips) 
+Seat 5: ierixon8 ($2.72 in chips) 
+Seat 6: bocian666 ($3.34 in chips) 
+Den10001: posts small blind $0.01
+somen1991: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [Th 3s]
+Boobslap: folds 
+ierixon8: folds 
+bocian666: folds 
+mativ77: folds 
+Den10001: raises $0.04 to $0.06
+somen1991: raises $0.12 to $0.18
+Den10001: folds 
+Uncalled bet ($0.12) returned to somen1991
+somen1991 collected $0.12 from pot
+somen1991: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.12 | Rake $0 
+Seat 1: mativ77 (button) folded before Flop (didn't bet)
+Seat 2: Den10001 (small blind) folded before Flop
+Seat 3: somen1991 (big blind) collected ($0.12)
+Seat 4: Boobslap folded before Flop (didn't bet)
+Seat 5: ierixon8 folded before Flop (didn't bet)
+Seat 6: bocian666 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829450345:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:31:58 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: androigo ($2.85 in chips) 
+Seat 2: bocian666 ($3.34 in chips) 
+Seat 3: Fairfax916 ($2.03 in chips) 
+Seat 4: NIK-PaVeL13 ($3.07 in chips) 
+Seat 5: jomalejandro ($1.98 in chips) 
+Seat 6: ccvvisa ($2.12 in chips) 
+bocian666: posts small blind $0.01
+Fairfax916: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [5h Jc]
+NIK-PaVeL13: raises $0.05 to $0.07
+jomalejandro: calls $0.07
+ccvvisa: folds 
+androigo: folds 
+bocian666: folds 
+Fairfax916: folds 
+*** FLOP *** [9c 5d 3h]
+NIK-PaVeL13: bets $0.16
+jomalejandro: folds 
+Uncalled bet ($0.16) returned to NIK-PaVeL13
+NIK-PaVeL13 collected $0.16 from pot
+NIK-PaVeL13: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.17 | Rake $0.01 
+Board [9c 5d 3h]
+Seat 1: androigo (button) folded before Flop (didn't bet)
+Seat 2: bocian666 (small blind) folded before Flop
+Seat 3: Fairfax916 (big blind) folded before Flop
+Seat 4: NIK-PaVeL13 collected ($0.16)
+Seat 5: jomalejandro folded on the Flop
+Seat 6: ccvvisa folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829455602:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:32:07 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: Hansiboy88 ($2.06 in chips) 
+Seat 2: qpsq ($2.72 in chips) 
+Seat 3: BelyaevOne ($2.71 in chips) 
+Seat 4: bocian666 ($3.33 in chips) 
+Seat 5: 777BPYH777 ($4.30 in chips) 
+Seat 6: levktv ($1.24 in chips) 
+qpsq: posts small blind $0.01
+BelyaevOne: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [7h 7c]
+bocian666: folds 
+777BPYH777: folds 
+levktv: folds 
+Hansiboy88: folds 
+qpsq: raises $0.04 to $0.06
+BelyaevOne: folds 
+Uncalled bet ($0.04) returned to qpsq
+qpsq collected $0.04 from pot
+qpsq: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.04 | Rake $0 
+Seat 1: Hansiboy88 (button) folded before Flop (didn't bet)
+Seat 2: qpsq (small blind) collected ($0.04)
+Seat 3: BelyaevOne (big blind) folded before Flop
+Seat 4: bocian666 folded before Flop (didn't bet)
+Seat 5: 777BPYH777 folded before Flop (didn't bet)
+Seat 6: levktv folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829461546:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:32:17 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: FlyingDildoR ($2.12 in chips) 
+Seat 2: ufaks ($1.98 in chips) 
+Seat 3: bocian666 ($3.33 in chips) 
+Seat 4: marushka73 ($1.77 in chips) 
+Seat 5: boxer821 ($2.06 in chips) 
+Seat 6: sagekami ($3.08 in chips) 
+ufaks: posts small blind $0.01
+bocian666: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [3d 3h]
+marushka73: folds 
+boxer821: raises $0.04 to $0.06
+sagekami: folds 
+FlyingDildoR: folds 
+ufaks: folds 
+bocian666: calls $0.04
+*** FLOP *** [Jc 6h 3c]
+bocian666: checks 
+boxer821: bets $0.08
+bocian666: calls $0.08
+*** TURN *** [Jc 6h 3c] [9c]
+bocian666: checks 
+boxer821: checks 
+*** RIVER *** [Jc 6h 3c 9c] [9s]
+bocian666: checks 
+boxer821: bets $0.21
+bocian666: raises $0.61 to $0.82
+boxer821: folds 
+Uncalled bet ($0.61) returned to bocian666
+bocian666 collected $0.69 from pot
+bocian666: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.71 | Rake $0.02 
+Board [Jc 6h 3c 9c 9s]
+Seat 1: FlyingDildoR (button) folded before Flop (didn't bet)
+Seat 2: ufaks (small blind) folded before Flop
+Seat 3: bocian666 (big blind) collected ($0.69)
+Seat 4: marushka73 folded before Flop (didn't bet)
+Seat 5: boxer821 folded on the River
+Seat 6: sagekami folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829497866:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:33:19 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: jimmy0021 ($1.38 in chips) 
+Seat 2: Adekvat.ua ($1.93 in chips) 
+Seat 3: meagain00 ($0.80 in chips) 
+Seat 4: Hansiboy88 ($3.53 in chips) 
+Seat 5: bocian666 ($3.67 in chips) 
+Seat 6: serialfolder ($4.01 in chips) 
+Adekvat.ua: posts small blind $0.01
+meagain00: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [Js Jh]
+Hansiboy88: folds 
+bocian666: raises $0.04 to $0.06
+serialfolder: folds 
+jimmy0021: calls $0.06
+Adekvat.ua: folds 
+meagain00: folds 
+*** FLOP *** [7s 4d 5s]
+bocian666: bets $0.10
+jimmy0021: folds 
+Uncalled bet ($0.10) returned to bocian666
+bocian666 collected $0.14 from pot
+bocian666: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.15 | Rake $0.01 
+Board [7s 4d 5s]
+Seat 1: jimmy0021 (button) folded on the Flop
+Seat 2: Adekvat.ua (small blind) folded before Flop
+Seat 3: meagain00 (big blind) folded before Flop
+Seat 4: Hansiboy88 folded before Flop (didn't bet)
+Seat 5: bocian666 collected ($0.14)
+Seat 6: serialfolder folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829520686:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:33:58 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: bocian666 ($3.75 in chips) 
+Seat 2: firebrigadenor ($2.08 in chips) 
+Seat 3: levktv ($0.98 in chips) 
+Seat 4: sagekami ($2.29 in chips) 
+Seat 5: Mokervott55 ($1.45 in chips) 
+Seat 6: GrimZul ($2 in chips) 
+firebrigadenor: posts small blind $0.01
+levktv: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [Tc 9c]
+sagekami: folds 
+Mokervott55: folds 
+GrimZul: folds 
+bocian666: raises $0.02 to $0.04
+firebrigadenor: folds 
+levktv: folds 
+Uncalled bet ($0.02) returned to bocian666
+bocian666 collected $0.05 from pot
+bocian666: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 
+Seat 1: bocian666 (button) collected ($0.05)
+Seat 2: firebrigadenor (small blind) folded before Flop
+Seat 3: levktv (big blind) folded before Flop
+Seat 4: sagekami folded before Flop (didn't bet)
+Seat 5: Mokervott55 folded before Flop (didn't bet)
+Seat 6: GrimZul folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829528875:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:34:12 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: Fairfax916 ($2.02 in chips) 
+Seat 2: bocian666 ($3.78 in chips) 
+Seat 3: Romário Sccp ($3.77 in chips) 
+Seat 4: RiseRock ($2 in chips) 
+Seat 5: Prezesur ($2.19 in chips) 
+Seat 6: svadharma ($2.26 in chips) 
+bocian666: posts small blind $0.01
+Romário Sccp: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [8d 2d]
+RiseRock: folds 
+Prezesur: folds 
+svadharma: folds 
+Fairfax916: folds 
+bocian666: folds 
+Uncalled bet ($0.01) returned to Romário Sccp
+Romário Sccp collected $0.02 from pot
+Romário Sccp: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.02 | Rake $0 
+Seat 1: Fairfax916 (button) folded before Flop (didn't bet)
+Seat 2: bocian666 (small blind) folded before Flop
+Seat 3: Romário Sccp (big blind) collected ($0.02)
+Seat 4: RiseRock folded before Flop (didn't bet)
+Seat 5: Prezesur folded before Flop (didn't bet)
+Seat 6: svadharma folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829516053:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:33:50 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: kailass ($2 in chips) 
+Seat 2: HarrisvEijk ($1.01 in chips) 
+Seat 3: YSZ458 ($2 in chips) 
+Seat 4: mietek fog ($2 in chips) 
+Seat 5: bocian666 ($3.75 in chips) 
+Seat 6: lucaam5 ($4.01 in chips) 
+HarrisvEijk: posts small blind $0.01
+YSZ458: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [5s Qd]
+mietek fog: folds 
+bocian666: folds 
+lucaam5: folds 
+kailass: folds 
+HarrisvEijk: calls $0.01
+YSZ458: checks 
+*** FLOP *** [2d 5c 9c]
+HarrisvEijk: bets $0.06
+YSZ458: calls $0.06
+*** TURN *** [2d 5c 9c] [Jd]
+HarrisvEijk: bets $0.10
+YSZ458: folds 
+Uncalled bet ($0.10) returned to HarrisvEijk
+HarrisvEijk collected $0.15 from pot
+HarrisvEijk: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.16 | Rake $0.01 
+Board [2d 5c 9c Jd]
+Seat 1: kailass (button) folded before Flop (didn't bet)
+Seat 2: HarrisvEijk (small blind) collected ($0.15)
+Seat 3: YSZ458 (big blind) folded on the Turn
+Seat 4: mietek fog folded before Flop (didn't bet)
+Seat 5: bocian666 folded before Flop (didn't bet)
+Seat 6: lucaam5 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829534861:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:34:22 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: VladoRS911 ($2 in chips) 
+Seat 2: Dmitry20279 ($4.21 in chips) 
+Seat 3: MaxDeftones ($2 in chips) 
+Seat 4: Crin23 ($0.59 in chips) 
+Seat 5: 777uliana777 ($2.27 in chips) 
+Seat 6: bocian666 ($3.77 in chips) 
+Dmitry20279: posts small blind $0.01
+MaxDeftones: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [Qs 3d]
+Crin23: folds 
+777uliana777: folds 
+bocian666: folds 
+VladoRS911: folds 
+Dmitry20279: folds 
+Uncalled bet ($0.01) returned to MaxDeftones
+MaxDeftones collected $0.02 from pot
+MaxDeftones: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.02 | Rake $0 
+Seat 1: VladoRS911 (button) folded before Flop (didn't bet)
+Seat 2: Dmitry20279 (small blind) folded before Flop
+Seat 3: MaxDeftones (big blind) collected ($0.02)
+Seat 4: Crin23 folded before Flop (didn't bet)
+Seat 5: 777uliana777 folded before Flop (didn't bet)
+Seat 6: bocian666 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829540132:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:34:31 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: ADrinalli ($2.61 in chips) 
+Seat 2: DDS_AA ($1.99 in chips) 
+Seat 3: keenakeena73 ($0.65 in chips) 
+Seat 4: bocian666 ($3.77 in chips) 
+Seat 5: GLws ($1.99 in chips) 
+Seat 6: _Eduardo™_j1 ($2.27 in chips) 
+DDS_AA: posts small blind $0.01
+keenakeena73: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [Kd 2s]
+bocian666: folds 
+GLws: folds 
+_Eduardo™_j1: folds 
+ADrinalli: folds 
+DDS_AA: folds 
+Uncalled bet ($0.01) returned to keenakeena73
+keenakeena73 collected $0.02 from pot
+keenakeena73: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.02 | Rake $0 
+Seat 1: ADrinalli (button) folded before Flop (didn't bet)
+Seat 2: DDS_AA (small blind) folded before Flop
+Seat 3: keenakeena73 (big blind) collected ($0.02)
+Seat 4: bocian666 folded before Flop (didn't bet)
+Seat 5: GLws folded before Flop (didn't bet)
+Seat 6: _Eduardo™_j1 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829544822:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:34:39 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: Prudge ($2.35 in chips) 
+Seat 2: firebrigadenor ($2.18 in chips) 
+Seat 3: bocian666 ($3.77 in chips) 
+Seat 4: kad-imos1 ($2 in chips) 
+Seat 5: marij262 ($0.72 in chips) 
+Seat 6: sH.s.o ($2.55 in chips) 
+firebrigadenor: posts small blind $0.01
+bocian666: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [5c 3c]
+kad-imos1: folds 
+marij262: calls $0.02
+sH.s.o: folds 
+Prudge: folds 
+firebrigadenor: folds 
+bocian666: checks 
+*** FLOP *** [8c Kd 4s]
+bocian666: bets $0.04
+marij262: folds 
+Uncalled bet ($0.04) returned to bocian666
+bocian666 collected $0.05 from pot
+bocian666: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 
+Board [8c Kd 4s]
+Seat 1: Prudge (button) folded before Flop (didn't bet)
+Seat 2: firebrigadenor (small blind) folded before Flop
+Seat 3: bocian666 (big blind) collected ($0.05)
+Seat 4: kad-imos1 folded before Flop (didn't bet)
+Seat 5: marij262 folded on the Flop
+Seat 6: sH.s.o folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829557153:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:35:00 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: chezet-75 ($3.23 in chips) 
+Seat 2: Kopito16 ($0.86 in chips) 
+Seat 3: 4L3NN 5U5L0V ($1.90 in chips) 
+Seat 4: gorgia61 ($4.76 in chips) 
+Seat 5: aremus2008 ($2.94 in chips) 
+Seat 6: bocian666 ($3.80 in chips) 
+Kopito16: posts small blind $0.01
+4L3NN 5U5L0V: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [Ks 9c]
+gorgia61: folds 
+aremus2008: raises $0.02 to $0.04
+bocian666: folds 
+chezet-75: folds 
+Kopito16: folds 
+4L3NN 5U5L0V: folds 
+Uncalled bet ($0.02) returned to aremus2008
+aremus2008 collected $0.05 from pot
+aremus2008: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 
+Seat 1: chezet-75 (button) folded before Flop (didn't bet)
+Seat 2: Kopito16 (small blind) folded before Flop
+Seat 3: 4L3NN 5U5L0V (big blind) folded before Flop
+Seat 4: gorgia61 folded before Flop (didn't bet)
+Seat 5: aremus2008 collected ($0.05)
+Seat 6: bocian666 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829562413:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:35:09 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: Ideskipper ($2.43 in chips) 
+Seat 2: aalucardd ($2 in chips) 
+Seat 3: Manuroth ($0.79 in chips) 
+Seat 4: Siensei ($2.21 in chips) 
+Seat 5: bocian666 ($3.80 in chips) 
+Seat 6: FantomAsasin ($2.17 in chips) 
+aalucardd: posts small blind $0.01
+Manuroth: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [Kh 6d]
+Siensei: folds 
+bocian666: folds 
+FantomAsasin: raises $0.04 to $0.06
+Ideskipper: folds 
+aalucardd: folds 
+Manuroth: folds 
+Uncalled bet ($0.04) returned to FantomAsasin
+FantomAsasin collected $0.05 from pot
+FantomAsasin: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 
+Seat 1: Ideskipper (button) folded before Flop (didn't bet)
+Seat 2: aalucardd (small blind) folded before Flop
+Seat 3: Manuroth (big blind) folded before Flop
+Seat 4: Siensei folded before Flop (didn't bet)
+Seat 5: bocian666 folded before Flop (didn't bet)
+Seat 6: FantomAsasin collected ($0.05)
+
+
+
+PokerStars Zoom Hand #178829567778:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:35:18 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: bocian666 ($3.80 in chips) 
+Seat 2: VladoRS911 ($2 in chips) 
+Seat 3: CMKUSH ($1.50 in chips) 
+Seat 4: EiRA89 ($1.92 in chips) 
+Seat 5: pashanv8686 ($2.09 in chips) 
+Seat 6: keenakeena73 ($2.98 in chips) 
+VladoRS911: posts small blind $0.01
+CMKUSH: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [8c 9c]
+EiRA89: folds 
+pashanv8686: raises $0.02 to $0.04
+keenakeena73: folds 
+bocian666: calls $0.04
+VladoRS911: folds 
+CMKUSH: folds 
+*** FLOP *** [8h 4s 6s]
+pashanv8686: checks 
+bocian666: bets $0.08
+pashanv8686: folds 
+Uncalled bet ($0.08) returned to bocian666
+bocian666 collected $0.11 from pot
+bocian666: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.11 | Rake $0 
+Board [8h 4s 6s]
+Seat 1: bocian666 (button) collected ($0.11)
+Seat 2: VladoRS911 (small blind) folded before Flop
+Seat 3: CMKUSH (big blind) folded before Flop
+Seat 4: EiRA89 folded before Flop (didn't bet)
+Seat 5: pashanv8686 folded on the Flop
+Seat 6: keenakeena73 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829589195:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:35:54 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: Sergirk79 ($2.90 in chips) 
+Seat 2: bocian666 ($3.87 in chips) 
+Seat 3: AlexFilin 80 ($1.68 in chips) 
+Seat 4: Prezesur ($2.53 in chips) 
+Seat 5: DONGUS722 ($1.90 in chips) 
+Seat 6: Kaiwall ($2.07 in chips) 
+bocian666: posts small blind $0.01
+AlexFilin 80: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [8c Tc]
+Prezesur: folds 
+DONGUS722: folds 
+Kaiwall: folds 
+Sergirk79: raises $0.04 to $0.06
+bocian666: folds 
+AlexFilin 80: folds 
+Uncalled bet ($0.04) returned to Sergirk79
+Sergirk79 collected $0.05 from pot
+Sergirk79: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 
+Seat 1: Sergirk79 (button) collected ($0.05)
+Seat 2: bocian666 (small blind) folded before Flop
+Seat 3: AlexFilin 80 (big blind) folded before Flop
+Seat 4: Prezesur folded before Flop (didn't bet)
+Seat 5: DONGUS722 folded before Flop (didn't bet)
+Seat 6: Kaiwall folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829599370:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:36:11 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: Kurttta ($2.27 in chips) 
+Seat 2: MelmotTTT ($2.06 in chips) 
+Seat 3: bocian666 ($3.86 in chips) 
+Seat 4: alexxxa10 ($2 in chips) 
+Seat 5: TomoKondo ($2 in chips) 
+Seat 6: RcL777 ($0.91 in chips) 
+MelmotTTT: posts small blind $0.01
+bocian666: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [Tc Qs]
+alexxxa10: folds 
+TomoKondo: raises $0.03 to $0.05
+RcL777: folds 
+Kurttta: folds 
+MelmotTTT: folds 
+bocian666: folds 
+Uncalled bet ($0.03) returned to TomoKondo
+TomoKondo collected $0.05 from pot
+TomoKondo: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 
+Seat 1: Kurttta (button) folded before Flop (didn't bet)
+Seat 2: MelmotTTT (small blind) folded before Flop
+Seat 3: bocian666 (big blind) folded before Flop
+Seat 4: alexxxa10 folded before Flop (didn't bet)
+Seat 5: TomoKondo collected ($0.05)
+Seat 6: RcL777 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829594587:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:36:03 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: RO[M@N]$ng ($1.47 in chips) 
+Seat 2: kpboro ($2.02 in chips) 
+Seat 3: nshochan11 ($3.81 in chips) 
+Seat 4: Bernbach ($1.01 in chips) 
+Seat 5: bocian666 ($3.86 in chips) 
+Seat 6: serialfolder ($2.61 in chips) 
+kpboro: posts small blind $0.01
+nshochan11: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [8c 6c]
+Bernbach: folds 
+bocian666: folds 
+serialfolder: raises $0.04 to $0.06
+RO[M@N]$ng has timed out
+RO[M@N]$ng: folds 
+kpboro: folds 
+nshochan11: folds 
+Uncalled bet ($0.04) returned to serialfolder
+serialfolder collected $0.05 from pot
+serialfolder: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 
+Seat 1: RO[M@N]$ng (button) folded before Flop (didn't bet)
+Seat 2: kpboro (small blind) folded before Flop
+Seat 3: nshochan11 (big blind) folded before Flop
+Seat 4: Bernbach folded before Flop (didn't bet)
+Seat 5: bocian666 folded before Flop (didn't bet)
+Seat 6: serialfolder collected ($0.05)
+
+
+
+PokerStars Zoom Hand #178829608353:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:36:26 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: bocian666 ($3.84 in chips) 
+Seat 2: ufaks ($2.07 in chips) 
+Seat 3: placuch ($2.85 in chips) 
+Seat 4: JAQUEPOKER ($1.97 in chips) 
+Seat 5: <Denis888GR> ($1.88 in chips) 
+Seat 6: antinny ($3.49 in chips) 
+ufaks: posts small blind $0.01
+placuch: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [7h Ac]
+JAQUEPOKER: folds 
+<Denis888GR>: folds 
+antinny: folds 
+bocian666: raises $0.02 to $0.04
+ufaks: folds 
+placuch: folds 
+Uncalled bet ($0.02) returned to bocian666
+bocian666 collected $0.05 from pot
+bocian666: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 
+Seat 1: bocian666 (button) collected ($0.05)
+Seat 2: ufaks (small blind) folded before Flop
+Seat 3: placuch (big blind) folded before Flop
+Seat 4: JAQUEPOKER folded before Flop (didn't bet)
+Seat 5: <Denis888GR> folded before Flop (didn't bet)
+Seat 6: antinny folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829620784:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:36:47 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: novobibeevo ($1.02 in chips) 
+Seat 2: ZhirikNN ($3.32 in chips) 
+Seat 3: EnterNumLock ($2.10 in chips) 
+Seat 4: svadharma ($2.17 in chips) 
+Seat 5: helicocat ($4.01 in chips) 
+Seat 6: bocian666 ($3.87 in chips) 
+ZhirikNN: posts small blind $0.01
+EnterNumLock: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [8d 2h]
+svadharma: raises $0.03 to $0.05
+helicocat: folds 
+bocian666: folds 
+novobibeevo: folds 
+ZhirikNN: folds 
+EnterNumLock: folds 
+Uncalled bet ($0.03) returned to svadharma
+svadharma collected $0.05 from pot
+svadharma: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 
+Seat 1: novobibeevo (button) folded before Flop (didn't bet)
+Seat 2: ZhirikNN (small blind) folded before Flop
+Seat 3: EnterNumLock (big blind) folded before Flop
+Seat 4: svadharma collected ($0.05)
+Seat 5: helicocat folded before Flop (didn't bet)
+Seat 6: bocian666 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829637475:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:37:15 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: SHAXTER7777 ($2.60 in chips) 
+Seat 2: michaelodonovan ($0.98 in chips) 
+Seat 3: pkr_str3368 ($2.46 in chips) 
+Seat 4: Luís Edu1311 ($0.51 in chips) 
+Seat 5: bocian666 ($3.86 in chips) 
+Seat 6: konstantinma ($1.96 in chips) 
+michaelodonovan: posts small blind $0.01
+pkr_str3368: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [Th 2h]
+Luís Edu1311: folds 
+bocian666: folds 
+konstantinma: raises $0.04 to $0.06
+SHAXTER7777: raises $0.15 to $0.21
+michaelodonovan: folds 
+pkr_str3368: folds 
+konstantinma: folds 
+Uncalled bet ($0.15) returned to SHAXTER7777
+SHAXTER7777 collected $0.15 from pot
+SHAXTER7777: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.15 | Rake $0 
+Seat 1: SHAXTER7777 (button) collected ($0.15)
+Seat 2: michaelodonovan (small blind) folded before Flop
+Seat 3: pkr_str3368 (big blind) folded before Flop
+Seat 4: Luís Edu1311 folded before Flop (didn't bet)
+Seat 5: bocian666 folded before Flop (didn't bet)
+Seat 6: konstantinma folded before Flop
+
+
+
+PokerStars Zoom Hand #178829630829:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:37:04 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: fedya910 ($3.44 in chips) 
+Seat 2: bocian666 ($3.87 in chips) 
+Seat 3: indfnte! ($2.22 in chips) 
+Seat 4: YSZ458 ($2.30 in chips) 
+Seat 5: janq3 ($3.86 in chips) 
+Seat 6: Nervusus ($2.05 in chips) 
+bocian666: posts small blind $0.01
+indfnte!: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [Jh 6h]
+YSZ458: folds 
+janq3: folds 
+Nervusus: folds 
+fedya910: calls $0.02
+bocian666: folds 
+indfnte!: checks 
+*** FLOP *** [Qs 7d Qd]
+indfnte!: checks 
+fedya910: checks 
+*** TURN *** [Qs 7d Qd] [As]
+indfnte!: bets $0.03
+fedya910: calls $0.03
+*** RIVER *** [Qs 7d Qd As] [2s]
+indfnte!: checks 
+fedya910: bets $0.11
+indfnte!: folds 
+Uncalled bet ($0.11) returned to fedya910
+fedya910 collected $0.11 from pot
+fedya910: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.11 | Rake $0 
+Board [Qs 7d Qd As 2s]
+Seat 1: fedya910 (button) collected ($0.11)
+Seat 2: bocian666 (small blind) folded before Flop
+Seat 3: indfnte! (big blind) folded on the River
+Seat 4: YSZ458 folded before Flop (didn't bet)
+Seat 5: janq3 folded before Flop (didn't bet)
+Seat 6: Nervusus folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829643413:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:37:25 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: sH.s.o ($2.19 in chips) 
+Seat 2: Caxep_58 ($1.80 in chips) 
+Seat 3: bocian666 ($3.86 in chips) 
+Seat 4: fdmarroco ($3.03 in chips) 
+Seat 5: boxer821 ($2.11 in chips) 
+Seat 6: Snukeris147 ($3.24 in chips) 
+Caxep_58: posts small blind $0.01
+bocian666: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [4d 6c]
+fdmarroco: folds 
+boxer821: folds 
+Snukeris147: raises $0.04 to $0.06
+sH.s.o: folds 
+Caxep_58: folds 
+bocian666: folds 
+Uncalled bet ($0.04) returned to Snukeris147
+Snukeris147 collected $0.05 from pot
+Snukeris147: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 
+Seat 1: sH.s.o (button) folded before Flop (didn't bet)
+Seat 2: Caxep_58 (small blind) folded before Flop
+Seat 3: bocian666 (big blind) folded before Flop
+Seat 4: fdmarroco folded before Flop (didn't bet)
+Seat 5: boxer821 folded before Flop (didn't bet)
+Seat 6: Snukeris147 collected ($0.05)
+
+
+
+PokerStars Zoom Hand #178829626033:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:36:56 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: senator2202 ($5.14 in chips) 
+Seat 2: GLws ($1.98 in chips) 
+Seat 3: selivan ($2.40 in chips) 
+Seat 4: bocian666 ($3.87 in chips) 
+Seat 5: Fellipe.tm ($2.04 in chips) 
+Seat 6: Geolog800 ($5.97 in chips) 
+GLws: posts small blind $0.01
+selivan: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [6d 3d]
+bocian666: folds 
+Fellipe.tm: calls $0.02
+Geolog800: folds 
+senator2202: folds 
+GLws: folds 
+selivan: checks 
+*** FLOP *** [9d 2s 6c]
+selivan: checks 
+Fellipe.tm: bets $0.02
+selivan: calls $0.02
+*** TURN *** [9d 2s 6c] [Tc]
+selivan: checks 
+Fellipe.tm: bets $0.08
+selivan: calls $0.08
+*** RIVER *** [9d 2s 6c Tc] [6h]
+selivan: checks 
+Fellipe.tm: bets $0.24
+selivan: folds 
+Uncalled bet ($0.24) returned to Fellipe.tm
+Fellipe.tm collected $0.24 from pot
+Fellipe.tm: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.25 | Rake $0.01 
+Board [9d 2s 6c Tc 6h]
+Seat 1: senator2202 (button) folded before Flop (didn't bet)
+Seat 2: GLws (small blind) folded before Flop
+Seat 3: selivan (big blind) folded on the River
+Seat 4: bocian666 folded before Flop (didn't bet)
+Seat 5: Fellipe.tm collected ($0.24)
+Seat 6: Geolog800 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829655806:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:37:46 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: Edya2727 ($4.06 in chips) 
+Seat 2: kaaput ($2.52 in chips) 
+Seat 3: PASHA0112 ($2 in chips) 
+Seat 4: parisvii1986 ($3.65 in chips) 
+Seat 5: papelzinho ($2 in chips) 
+Seat 6: bocian666 ($3.84 in chips) 
+kaaput: posts small blind $0.01
+PASHA0112: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [9s 5d]
+parisvii1986: folds 
+papelzinho: folds 
+bocian666: folds 
+Edya2727: raises $0.03 to $0.05
+kaaput: folds 
+PASHA0112: folds 
+Uncalled bet ($0.03) returned to Edya2727
+Edya2727 collected $0.05 from pot
+Edya2727: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 
+Seat 1: Edya2727 (button) collected ($0.05)
+Seat 2: kaaput (small blind) folded before Flop
+Seat 3: PASHA0112 (big blind) folded before Flop
+Seat 4: parisvii1986 folded before Flop (didn't bet)
+Seat 5: papelzinho folded before Flop (didn't bet)
+Seat 6: bocian666 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829660039:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:37:53 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: aalucardd ($2.20 in chips) 
+Seat 2: Azanvic ($2 in chips) 
+Seat 3: Nervusus ($2 in chips) 
+Seat 4: Masticlox ($5.99 in chips) 
+Seat 5: bocian666 ($3.84 in chips) 
+Seat 6: Kurttta ($3.28 in chips) 
+Azanvic: posts small blind $0.01
+Nervusus: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [3h Th]
+Masticlox: folds 
+bocian666: folds 
+Kurttta: folds 
+aalucardd: raises $0.02 to $0.04
+Azanvic: folds 
+Nervusus: folds 
+Uncalled bet ($0.02) returned to aalucardd
+aalucardd collected $0.05 from pot
+aalucardd: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 
+Seat 1: aalucardd (button) collected ($0.05)
+Seat 2: Azanvic (small blind) folded before Flop
+Seat 3: Nervusus (big blind) folded before Flop
+Seat 4: Masticlox folded before Flop (didn't bet)
+Seat 5: bocian666 folded before Flop (didn't bet)
+Seat 6: Kurttta folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829671348:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:38:12 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: Masticlox ($5.65 in chips) 
+Seat 2: 4L3NN 5U5L0V ($2.69 in chips) 
+Seat 3: bocian666 ($3.83 in chips) 
+Seat 4: 1310red ($3.42 in chips) 
+Seat 5: xristosG115 ($2.17 in chips) 
+Seat 6: themis_89@ho ($2.99 in chips) 
+4L3NN 5U5L0V: posts small blind $0.01
+bocian666: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [7d Jc]
+1310red: folds 
+xristosG115: folds 
+themis_89@ho: folds 
+Masticlox: raises $0.02 to $0.04
+4L3NN 5U5L0V: folds 
+bocian666: folds 
+Uncalled bet ($0.02) returned to Masticlox
+Masticlox collected $0.05 from pot
+Masticlox: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 
+Seat 1: Masticlox (button) collected ($0.05)
+Seat 2: 4L3NN 5U5L0V (small blind) folded before Flop
+Seat 3: bocian666 (big blind) folded before Flop
+Seat 4: 1310red folded before Flop (didn't bet)
+Seat 5: xristosG115 folded before Flop (didn't bet)
+Seat 6: themis_89@ho folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829666565:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:38:04 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: SnowRus ($2.14 in chips) 
+Seat 2: bocian666 ($3.84 in chips) 
+Seat 3: kaaput ($2.02 in chips) 
+Seat 4: dmxruff ($5.17 in chips) 
+Seat 5: Caxep_58 ($1.95 in chips) 
+Seat 6: parhimka ($2.03 in chips) 
+bocian666: posts small blind $0.01
+kaaput: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [8c Ah]
+dmxruff: calls $0.02
+Caxep_58: calls $0.02
+parhimka: folds 
+SnowRus: folds 
+bocian666: folds 
+kaaput: checks 
+*** FLOP *** [Td 7c Qd]
+kaaput: checks 
+dmxruff: bets $0.04
+Caxep_58: folds 
+kaaput: folds 
+Uncalled bet ($0.04) returned to dmxruff
+dmxruff collected $0.07 from pot
+dmxruff: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.07 | Rake $0 
+Board [Td 7c Qd]
+Seat 1: SnowRus (button) folded before Flop (didn't bet)
+Seat 2: bocian666 (small blind) folded before Flop
+Seat 3: kaaput (big blind) folded on the Flop
+Seat 4: dmxruff collected ($0.07)
+Seat 5: Caxep_58 folded on the Flop
+Seat 6: parhimka folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829650521:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:37:37 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: bocian666 ($3.84 in chips) 
+Seat 2: RiseRock ($2 in chips) 
+Seat 3: franquillooo ($5.14 in chips) 
+Seat 4: SteckKiller ($1.99 in chips) 
+Seat 5: Sergirk79 ($2.86 in chips) 
+Seat 6: ufaks ($2.03 in chips) 
+RiseRock: posts small blind $0.01
+franquillooo: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [4h 2c]
+SteckKiller: raises $0.04 to $0.06
+Sergirk79: calls $0.06
+ufaks: calls $0.06
+bocian666: folds 
+RiseRock: folds 
+franquillooo: folds 
+*** FLOP *** [8d 9h As]
+SteckKiller: bets $0.16
+Sergirk79: folds 
+ufaks: calls $0.16
+*** TURN *** [8d 9h As] [7h]
+SteckKiller: bets $0.34
+ufaks: folds 
+Uncalled bet ($0.34) returned to SteckKiller
+SteckKiller collected $0.51 from pot
+SteckKiller: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.53 | Rake $0.02 
+Board [8d 9h As 7h]
+Seat 1: bocian666 (button) folded before Flop (didn't bet)
+Seat 2: RiseRock (small blind) folded before Flop
+Seat 3: franquillooo (big blind) folded before Flop
+Seat 4: SteckKiller collected ($0.51)
+Seat 5: Sergirk79 folded on the Flop
+Seat 6: ufaks folded on the Turn
+
+
+
+PokerStars Zoom Hand #178829676637:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:38:21 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: bocian666 ($3.81 in chips) 
+Seat 2: sH.s.o ($2.17 in chips) 
+Seat 3: johnd54 ($2 in chips) 
+Seat 4: edvalbak ($2.94 in chips) 
+Seat 5: Adekaros4 ($2.92 in chips) 
+Seat 6: YSZ458 ($2.33 in chips) 
+sH.s.o: posts small blind $0.01
+johnd54: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [8h As]
+edvalbak: raises $0.04 to $0.06
+Adekaros4: folds 
+YSZ458: folds 
+bocian666: folds 
+sH.s.o: folds 
+johnd54: folds 
+Uncalled bet ($0.04) returned to edvalbak
+edvalbak collected $0.05 from pot
+edvalbak: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 
+Seat 1: bocian666 (button) folded before Flop (didn't bet)
+Seat 2: sH.s.o (small blind) folded before Flop
+Seat 3: johnd54 (big blind) folded before Flop
+Seat 4: edvalbak collected ($0.05)
+Seat 5: Adekaros4 folded before Flop (didn't bet)
+Seat 6: YSZ458 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829687353:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:38:39 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: eyzella ($2 in chips) 
+Seat 2: MaxDeftones ($3.04 in chips) 
+Seat 3: craven7777 ($3.04 in chips) 
+Seat 4: viigrivau ($2.27 in chips) 
+Seat 5: Tesla1981DA ($2.39 in chips) 
+Seat 6: bocian666 ($3.81 in chips) 
+MaxDeftones: posts small blind $0.01
+craven7777: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [9s 4d]
+viigrivau: folds 
+Tesla1981DA: folds 
+bocian666: folds 
+eyzella: raises $0.02 to $0.04
+MaxDeftones: folds 
+craven7777: folds 
+Uncalled bet ($0.02) returned to eyzella
+eyzella collected $0.05 from pot
+eyzella: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 
+Seat 1: eyzella (button) collected ($0.05)
+Seat 2: MaxDeftones (small blind) folded before Flop
+Seat 3: craven7777 (big blind) folded before Flop
+Seat 4: viigrivau folded before Flop (didn't bet)
+Seat 5: Tesla1981DA folded before Flop (didn't bet)
+Seat 6: bocian666 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829681301:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:38:29 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: Holand153 ($2 in chips) 
+Seat 2: sanek5323 ($2 in chips) 
+Seat 3: viigrivau ($1.87 in chips) 
+Seat 4: bocian666 ($3.81 in chips) 
+Seat 5: iMergeRanges ($2.62 in chips) 
+Seat 6: farm zoid ($2 in chips) 
+sanek5323: posts small blind $0.01
+viigrivau: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [6d 9d]
+bocian666: folds 
+iMergeRanges: folds 
+farm zoid: raises $0.02 to $0.04
+Holand153: raises $0.10 to $0.14
+sanek5323: folds 
+viigrivau: folds 
+farm zoid: raises $0.31 to $0.45
+Holand153: folds 
+Uncalled bet ($0.31) returned to farm zoid
+farm zoid collected $0.31 from pot
+farm zoid: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.31 | Rake $0 
+Seat 1: Holand153 (button) folded before Flop
+Seat 2: sanek5323 (small blind) folded before Flop
+Seat 3: viigrivau (big blind) folded before Flop
+Seat 4: bocian666 folded before Flop (didn't bet)
+Seat 5: iMergeRanges folded before Flop (didn't bet)
+Seat 6: farm zoid collected ($0.31)
+
+
+
+PokerStars Zoom Hand #178829692088:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:38:47 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: nakam024 ($2.12 in chips) 
+Seat 2: docent3366 ($2.51 in chips) 
+Seat 3: Tesla1981DA ($2.39 in chips) 
+Seat 4: bocian666 ($3.81 in chips) 
+Seat 5: PASHA0112 ($2 in chips) 
+Seat 6: Zamglai ($2.88 in chips) 
+docent3366: posts small blind $0.01
+Tesla1981DA: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [Kd Td]
+bocian666: folds 
+PASHA0112: folds 
+Zamglai: raises $0.03 to $0.05
+nakam024: folds 
+docent3366: folds 
+Tesla1981DA: folds 
+Uncalled bet ($0.03) returned to Zamglai
+Zamglai collected $0.05 from pot
+Zamglai: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 
+Seat 1: nakam024 (button) folded before Flop (didn't bet)
+Seat 2: docent3366 (small blind) folded before Flop
+Seat 3: Tesla1981DA (big blind) folded before Flop
+Seat 4: bocian666 folded before Flop (didn't bet)
+Seat 5: PASHA0112 folded before Flop (didn't bet)
+Seat 6: Zamglai collected ($0.05)
+
+
+
+PokerStars Zoom Hand #178829698072:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:38:57 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: dyingSun ($2.96 in chips) 
+Seat 2: serenya1981 ($3.97 in chips) 
+Seat 3: 2704210 ($2 in chips) 
+Seat 4: bocian666 ($3.81 in chips) 
+Seat 5: Vyacheslav N ($2 in chips) 
+Seat 6: _Eduardo™_j1 ($2.86 in chips) 
+serenya1981: posts small blind $0.01
+2704210: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [Qd Ks]
+bocian666: folds 
+Vyacheslav N: folds 
+_Eduardo™_j1: folds 
+dyingSun: raises $0.04 to $0.06
+serenya1981: folds 
+2704210: folds 
+Uncalled bet ($0.04) returned to dyingSun
+dyingSun collected $0.05 from pot
+dyingSun: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 
+Seat 1: dyingSun (button) collected ($0.05)
+Seat 2: serenya1981 (small blind) folded before Flop
+Seat 3: 2704210 (big blind) folded before Flop
+Seat 4: bocian666 folded before Flop (didn't bet)
+Seat 5: Vyacheslav N folded before Flop (didn't bet)
+Seat 6: _Eduardo™_j1 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829704003:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:39:07 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: vvovan ($1.84 in chips) 
+Seat 2: bocian666 ($3.81 in chips) 
+Seat 3: Snukeris147 ($2.79 in chips) 
+Seat 4: ALKOVNIK ($2.40 in chips) 
+Seat 5: amigo_mesh ($3.20 in chips) 
+Seat 6: PASHA0112 ($2 in chips) 
+bocian666: posts small blind $0.01
+Snukeris147: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [9c Tc]
+ALKOVNIK: folds 
+amigo_mesh: folds 
+PASHA0112: raises $0.04 to $0.06
+vvovan: folds 
+bocian666: folds 
+Snukeris147: calls $0.04
+*** FLOP *** [Th 3s Qc]
+Snukeris147: checks 
+PASHA0112: checks 
+*** TURN *** [Th 3s Qc] [Js]
+Snukeris147: checks 
+PASHA0112: bets $0.08
+Snukeris147: folds 
+Uncalled bet ($0.08) returned to PASHA0112
+PASHA0112 collected $0.13 from pot
+PASHA0112: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.13 | Rake $0 
+Board [Th 3s Qc Js]
+Seat 1: vvovan (button) folded before Flop (didn't bet)
+Seat 2: bocian666 (small blind) folded before Flop
+Seat 3: Snukeris147 (big blind) folded on the Turn
+Seat 4: ALKOVNIK folded before Flop (didn't bet)
+Seat 5: amigo_mesh folded before Flop (didn't bet)
+Seat 6: PASHA0112 collected ($0.13)
+
+
+
+PokerStars Zoom Hand #178829715994:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:39:27 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: senator2202 ($2.18 in chips) 
+Seat 2: outcomer ($6.28 in chips) 
+Seat 3: Demon39888 ($2.07 in chips) 
+Seat 4: Anusnimus ($2 in chips) 
+Seat 5: bocian666 ($3.80 in chips) 
+Seat 6: SteckKiller ($2.18 in chips) 
+outcomer: posts small blind $0.01
+Demon39888: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [Ah Js]
+Anusnimus: folds 
+bocian666: raises $0.04 to $0.06
+SteckKiller: raises $0.12 to $0.18
+senator2202: folds 
+outcomer: folds 
+Demon39888: folds 
+bocian666: folds 
+Uncalled bet ($0.12) returned to SteckKiller
+SteckKiller collected $0.15 from pot
+SteckKiller: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.15 | Rake $0 
+Seat 1: senator2202 (button) folded before Flop (didn't bet)
+Seat 2: outcomer (small blind) folded before Flop
+Seat 3: Demon39888 (big blind) folded before Flop
+Seat 4: Anusnimus folded before Flop (didn't bet)
+Seat 5: bocian666 folded before Flop
+Seat 6: SteckKiller collected ($0.15)
+
+
+
+PokerStars Zoom Hand #178829730443:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:39:51 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: bocian666 ($3.74 in chips) 
+Seat 2: DRimache ($2.14 in chips) 
+Seat 3: -olejek-777- ($7.48 in chips) 
+Seat 4: Nervusus ($2.02 in chips) 
+Seat 5: CHANGER66 ($1.33 in chips) 
+Seat 6: 7twin7 ($2.15 in chips) 
+DRimache: posts small blind $0.01
+-olejek-777-: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [4c Td]
+Nervusus: folds 
+CHANGER66: folds 
+7twin7: folds 
+bocian666: folds 
+DRimache: folds 
+Uncalled bet ($0.01) returned to -olejek-777-
+-olejek-777- collected $0.02 from pot
+-olejek-777-: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.02 | Rake $0 
+Seat 1: bocian666 (button) folded before Flop (didn't bet)
+Seat 2: DRimache (small blind) folded before Flop
+Seat 3: -olejek-777- (big blind) collected ($0.02)
+Seat 4: Nervusus folded before Flop (didn't bet)
+Seat 5: CHANGER66 folded before Flop (didn't bet)
+Seat 6: 7twin7 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829735935:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:40:00 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: devianin96 ($2 in chips) 
+Seat 2: Masticlox ($6.04 in chips) 
+Seat 3: bocian666 ($3.74 in chips) 
+Seat 4: Luís Edu1311 ($0.92 in chips) 
+Seat 5: helicocat ($4.25 in chips) 
+Seat 6: pashanv8686 ($2 in chips) 
+Masticlox: posts small blind $0.01
+bocian666: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [Qc 8h]
+Luís Edu1311: folds 
+helicocat: folds 
+pashanv8686: folds 
+devianin96: folds 
+Masticlox: folds 
+Uncalled bet ($0.01) returned to bocian666
+bocian666 collected $0.02 from pot
+bocian666: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.02 | Rake $0 
+Seat 1: devianin96 (button) folded before Flop (didn't bet)
+Seat 2: Masticlox (small blind) folded before Flop
+Seat 3: bocian666 (big blind) collected ($0.02)
+Seat 4: Luís Edu1311 folded before Flop (didn't bet)
+Seat 5: helicocat folded before Flop (didn't bet)
+Seat 6: pashanv8686 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829741930:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:40:10 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: Alex73regRU ($3.49 in chips) 
+Seat 2: D.V.Ulanov ($1.74 in chips) 
+Seat 3: nshochan11 ($4.01 in chips) 
+Seat 4: bocian666 ($3.75 in chips) 
+Seat 5: All4Money91 ($2.93 in chips) 
+Seat 6: GKA74 ($2.59 in chips) 
+D.V.Ulanov: posts small blind $0.01
+nshochan11: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [6d 5h]
+bocian666: folds 
+All4Money91: folds 
+GKA74: folds 
+Alex73regRU: folds 
+D.V.Ulanov: calls $0.01
+nshochan11: checks 
+*** FLOP *** [Tc Qh 4h]
+D.V.Ulanov: checks 
+nshochan11: bets $0.03
+D.V.Ulanov: folds 
+Uncalled bet ($0.03) returned to nshochan11
+nshochan11 collected $0.04 from pot
+nshochan11: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.04 | Rake $0 
+Board [Tc Qh 4h]
+Seat 1: Alex73regRU (button) folded before Flop (didn't bet)
+Seat 2: D.V.Ulanov (small blind) folded on the Flop
+Seat 3: nshochan11 (big blind) collected ($0.04)
+Seat 4: bocian666 folded before Flop (didn't bet)
+Seat 5: All4Money91 folded before Flop (didn't bet)
+Seat 6: GKA74 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829747205:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:40:19 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: stars vova 5 ($1.26 in chips) 
+Seat 2: bocian666 ($3.75 in chips) 
+Seat 3: rucheiok ($1.85 in chips) 
+Seat 4: Martyrius89 ($2.04 in chips) 
+Seat 5: firebrigadenor ($2 in chips) 
+Seat 6: MstrJJ ($4.47 in chips) 
+bocian666: posts small blind $0.01
+rucheiok: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [Qh 5s]
+Martyrius89: folds 
+firebrigadenor: folds 
+MstrJJ: folds 
+stars vova 5: calls $0.02
+bocian666: folds 
+rucheiok: checks 
+*** FLOP *** [Jd 9d 6c]
+rucheiok: bets $0.04
+stars vova 5: calls $0.04
+*** TURN *** [Jd 9d 6c] [4d]
+rucheiok: bets $0.07
+stars vova 5: calls $0.07
+*** RIVER *** [Jd 9d 6c 4d] [5c]
+rucheiok: checks 
+stars vova 5: bets $0.12
+rucheiok: calls $0.12
+*** SHOW DOWN ***
+stars vova 5: shows [8s Tc] (high card Jack)
+rucheiok: shows [Jc Ad] (a pair of Jacks)
+rucheiok collected $0.49 from pot
+*** SUMMARY ***
+Total pot $0.51 | Rake $0.02 
+Board [Jd 9d 6c 4d 5c]
+Seat 1: stars vova 5 (button) showed [8s Tc] and lost with high card Jack
+Seat 2: bocian666 (small blind) folded before Flop
+Seat 3: rucheiok (big blind) showed [Jc Ad] and won ($0.49) with a pair of Jacks
+Seat 4: Martyrius89 folded before Flop (didn't bet)
+Seat 5: firebrigadenor folded before Flop (didn't bet)
+Seat 6: MstrJJ folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829757824:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:40:37 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: viking778 ($1.32 in chips) 
+Seat 2: niikolle ($2 in chips) 
+Seat 3: boxer821 ($2.06 in chips) 
+Seat 4: Blin199 ($1.35 in chips) 
+Seat 5: Tmalikis1 ($3.44 in chips) 
+Seat 6: bocian666 ($3.74 in chips) 
+niikolle: posts small blind $0.01
+boxer821: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [Td 5d]
+Blin199: calls $0.02
+Tmalikis1: folds 
+bocian666: folds 
+viking778: folds 
+niikolle: raises $0.04 to $0.06
+boxer821: folds 
+Blin199: calls $0.04
+*** FLOP *** [2s 8c Qh]
+niikolle: bets $0.11
+Blin199: calls $0.11
+*** TURN *** [2s 8c Qh] [3s]
+niikolle: bets $0.18
+Blin199: folds 
+Uncalled bet ($0.18) returned to niikolle
+niikolle collected $0.35 from pot
+niikolle: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.36 | Rake $0.01 
+Board [2s 8c Qh 3s]
+Seat 1: viking778 (button) folded before Flop (didn't bet)
+Seat 2: niikolle (small blind) collected ($0.35)
+Seat 3: boxer821 (big blind) folded before Flop
+Seat 4: Blin199 folded on the Turn
+Seat 5: Tmalikis1 folded before Flop (didn't bet)
+Seat 6: bocian666 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829765445:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:40:50 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: drevnii333 ($2 in chips) 
+Seat 2: Rogério Alve ($1.28 in chips) 
+Seat 3: bocian666 ($3.74 in chips) 
+Seat 4: vvv3333 ($1.92 in chips) 
+Seat 5: CaptTugbeard ($5.44 in chips) 
+Seat 6: sergofan733 ($2.70 in chips) 
+Rogério Alve: posts small blind $0.01
+bocian666: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [Ad As]
+vvv3333: raises $0.02 to $0.04
+CaptTugbeard: folds 
+sergofan733: calls $0.04
+drevnii333: folds 
+Rogério Alve: calls $0.03
+bocian666: raises $0.20 to $0.24
+vvv3333: folds 
+sergofan733: calls $0.20
+Rogério Alve: calls $0.20
+*** FLOP *** [8s 7s Th]
+Rogério Alve: bets $0.36
+bocian666: calls $0.36
+sergofan733: calls $0.36
+*** TURN *** [8s 7s Th] [4s]
+Rogério Alve: checks 
+bocian666: bets $1
+sergofan733: folds 
+Rogério Alve: calls $0.68 and is all-in
+Uncalled bet ($0.32) returned to bocian666
+*** RIVER *** [8s 7s Th 4s] [8h]
+*** SHOW DOWN ***
+Rogério Alve: shows [Qh 8c] (three of a kind, Eights)
+bocian666: shows [Ad As] (two pair, Aces and Eights)
+Rogério Alve collected $3.09 from pot
+*** SUMMARY ***
+Total pot $3.20 | Rake $0.11 
+Board [8s 7s Th 4s 8h]
+Seat 1: drevnii333 (button) folded before Flop (didn't bet)
+Seat 2: Rogério Alve (small blind) showed [Qh 8c] and won ($3.09) with three of a kind, Eights
+Seat 3: bocian666 (big blind) showed [Ad As] and lost with two pair, Aces and Eights
+Seat 4: vvv3333 folded before Flop
+Seat 5: CaptTugbeard folded before Flop (didn't bet)
+Seat 6: sergofan733 folded on the Turn
+
+
+
+PokerStars Zoom Hand #178829816038:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:42:15 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: TITANnvkz ($4.13 in chips) 
+Seat 2: bigfreddo86 ($3.42 in chips) 
+Seat 3: Todrinkornot ($1.24 in chips) 
+Seat 4: Bluesky0821 ($2.03 in chips) 
+Seat 5: bocian666 ($2.46 in chips) 
+Seat 6: Chezaree ($2.14 in chips) 
+bigfreddo86: posts small blind $0.01
+Todrinkornot: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [Tc Kd]
+Bluesky0821: folds 
+bocian666: folds 
+Chezaree: folds 
+TITANnvkz: folds 
+bigfreddo86: folds 
+Uncalled bet ($0.01) returned to Todrinkornot
+Todrinkornot collected $0.02 from pot
+Todrinkornot: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.02 | Rake $0 
+Seat 1: TITANnvkz (button) folded before Flop (didn't bet)
+Seat 2: bigfreddo86 (small blind) folded before Flop
+Seat 3: Todrinkornot (big blind) collected ($0.02)
+Seat 4: Bluesky0821 folded before Flop (didn't bet)
+Seat 5: bocian666 folded before Flop (didn't bet)
+Seat 6: Chezaree folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #178829826150:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:42:32 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: bocian666 ($2.46 in chips) 
+Seat 2: zzdaw ($2.01 in chips) 
+Seat 3: Nervusus ($2 in chips) 
+Seat 4: janq3 ($2 in chips) 
+Seat 5: Holand153 ($2.25 in chips) 
+Seat 6: And18AA ($2.74 in chips) 
+zzdaw: posts small blind $0.01
+Nervusus: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [3d Kd]
+janq3: folds 
+Holand153: folds 
+And18AA: raises $0.04 to $0.06
+bocian666: folds 
+zzdaw: folds 
+Nervusus: folds 
+Uncalled bet ($0.04) returned to And18AA
+And18AA collected $0.05 from pot
+And18AA: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 
+Seat 1: bocian666 (button) folded before Flop (didn't bet)
+Seat 2: zzdaw (small blind) folded before Flop
+Seat 3: Nervusus (big blind) folded before Flop
+Seat 4: janq3 folded before Flop (didn't bet)
+Seat 5: Holand153 folded before Flop (didn't bet)
+Seat 6: And18AA collected ($0.05)
+
+
+
+PokerStars Zoom Hand #178829835613:  Hold'em No Limit ($0.01/$0.02) - 2017/11/28 10:42:48 ET
+Table 'Halley' 6-max Seat #1 is the button
+Seat 1: Caxep_58 ($1.84 in chips) 
+Seat 2: squ33z3r ($2 in chips) 
+Seat 3: ericko123456 ($2.25 in chips) 
+Seat 4: FantomAsasin ($2.13 in chips) 
+Seat 5: bocian666 ($2.46 in chips) 
+Seat 6: Elvismagnum95 ($2.54 in chips) 
+squ33z3r: posts small blind $0.01
+ericko123456: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bocian666 [Qd Qh]
+FantomAsasin: folds 
+bocian666: raises $0.04 to $0.06
+Elvismagnum95: folds 
+Caxep_58: folds 
+squ33z3r: folds 
+ericko123456: folds 
+Uncalled bet ($0.04) returned to bocian666
+bocian666 collected $0.05 from pot
+bocian666: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 
+Seat 1: Caxep_58 (button) folded before Flop (didn't bet)
+Seat 2: squ33z3r (small blind) folded before Flop
+Seat 3: ericko123456 (big blind) folded before Flop
+Seat 4: FantomAsasin folded before Flop (didn't bet)
+Seat 5: bocian666 collected ($0.05)
+Seat 6: Elvismagnum95 folded before Flop (didn't bet)
+
+
+
