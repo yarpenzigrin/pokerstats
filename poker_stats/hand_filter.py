@@ -1,13 +1,16 @@
 #!/usr/bin/env python2.7
 # -*- coding: utf-8 -*-
 
-from .entity import is_call_preflop, is_player_ai, is_raise_preflop, is_3bet_preflop, is_4bet_preflop # pylint: disable=no-name-in-module
+from .entity import is_holding_matching, is_call_preflop, is_player_ai, is_raise_preflop, is_3bet_preflop, is_4bet_preflop # pylint: disable=no-name-in-module
 
 def create_player_filter(player_name):
     return lambda h: player_name in h.players.keys()
 
 def create_position_filter(player_name, positions):
     return lambda h: player_name in h.players and h.players[player_name].position in positions
+
+def create_holding_filter(player_name, holding):
+    return lambda h: is_holding_matching(h, player_name, holding)
 
 def create_voluntary_filter(player_name, voluntary):
     pred = lambda h: [1 for a in h.preflop + h.flop + h.turn + h.river if a.is_voluntary() and a.player.name == player_name]
@@ -38,6 +41,10 @@ def create(hand_filter, player_name):
     positions = hand_filter.get('positions', None)
     if positions:
         result.append(create_position_filter(player_name, positions))
+
+    holding = hand_filter.get('holding', None)
+    if holding:
+        result.append(create_holding_filter(player_name, holding))
 
     voluntary = hand_filter.get('voluntary', None)
     if voluntary:

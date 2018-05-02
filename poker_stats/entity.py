@@ -38,6 +38,7 @@ class Player(object): # pylint: disable=too-few-public-methods
     def __init__(self):
         self.name = None
         self.position = None
+        self.holding = None
         self.collected = 0.00
 
 class Hand(object): # pylint: disable=too-many-instance-attributes
@@ -80,6 +81,19 @@ class Hand(object): # pylint: disable=too-many-instance-attributes
 
 def profit_for_player(hands, player_name):
     return round(reduce(lambda acc, h: acc + h.profit_for_player(player_name), hands, 0), 2)
+
+def is_holding_matching(hand, player_name, holding):
+    ph = hand.players.get(player_name, None)
+    if not ph or not ph.holding:
+        return False
+
+    suitedness = holding[2:]
+    if suitedness == 's' and ph.holding[1] != ph.holding[4] or suitedness == 'o' and ph.holding[1] == ph.holding[4]:
+        return False
+
+    card1 = holding[0]
+    card2 = holding[1]
+    return (ph.holding[0] == card1 and ph.holding[3] == card2) or (ph.holding[0] == card2 and ph.holding[3] == card1)
 
 def is_call_preflop(actions, player_name):
     for action in actions:

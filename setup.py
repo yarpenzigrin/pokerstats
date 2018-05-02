@@ -9,11 +9,11 @@ sys.argv = sys.argv[:-1]
 
 setuptools.setup(name='poker_stats',
       version=version,
-      author='Polish Poker Community in Manila',
+      author='Michal Nowak and Damian Szuberski for Polish Poker Community in Manila',
       author_email='dev@null.com',
       url='https://github.com/yarpenzigrin/pokerstats',
       description='Statistics generator for poker hands played online',
-      long_description='Statistics generator for poker hands played online\nUnder construction',
+      long_description='Statistics generator for poker hands played online',
       classifiers=[
           'Development Status :: 2 - Pre-Alpha',
           'Intended Audience :: End Users/Desktop',
