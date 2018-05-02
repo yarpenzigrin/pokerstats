@@ -206,6 +206,8 @@ class Parser(object): # pylint: disable=too-many-instance-attributes
                 hand.lines.append(line)
             else:
                 if hand_in_process:
+                    if hand.lines[0].startswith(BOM_UTF8):
+                        hand.lines[0] = hand.lines[0][len(BOM_UTF8):]
                     hand.lines[0] = hand.lines[0].replace('PokerStars Zoom Hand', 'PokerStars Hand')
                     hand.lines.append('\r\n')
                     hand.lines.append('\r\n')
