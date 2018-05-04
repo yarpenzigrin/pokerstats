@@ -55,7 +55,7 @@ class hand_parser_tests(unittest.TestCase):
         flop = [Action(ActionType.Bet, 0.40)]
         turn = [Action(ActionType.Bet, 0.90)]
         river = [Action(ActionType.Bet, 2.00), Action(ActionType.Uncalled, 2.00)]
-        self.assertEqual('Ah Ac', hand.players['PLAYER_CO'].holding)
+        self.assertEqual('AA', hand.players['PLAYER_CO'].holding)
         self.assertEqual(3.15, hand.players['PLAYER_CO'].collected)
         self.assertPlayer(hand, 'PLAYER_CO', 'CO', preflop, flop, turn, river)
 

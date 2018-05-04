@@ -87,13 +87,7 @@ def is_holding_matching(hand, player_name, holding):
     if not ph or not ph.holding:
         return False
 
-    suitedness = holding[2:]
-    if suitedness == 's' and ph.holding[1] != ph.holding[4] or suitedness == 'o' and ph.holding[1] == ph.holding[4]:
-        return False
-
-    card1 = holding[0]
-    card2 = holding[1]
-    return (ph.holding[0] == card1 and ph.holding[3] == card2) or (ph.holding[0] == card2 and ph.holding[3] == card1)
+    return (ph.holding[0:2] == holding[0:2] or ph.holding[0:2] == holding[1::-1]) and (not holding[2:] or ph.holding[2:] == holding[2:])
 
 def is_call_preflop(actions, player_name):
     for action in actions:

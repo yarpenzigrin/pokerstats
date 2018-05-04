@@ -7,6 +7,22 @@ from os.path import isdir, join
 import re
 from .entity import Action, ActionType, Hand, Player # pylint: disable=no-name-in-module
 
+def cards_to_holding(cards):
+    prio = {}
+    for crd in range(2, 10):
+        prio[str(crd)] = crd
+    prio.update({'T':10, 'J':11, 'Q':12, 'K':13, 'A':14})
+
+    if prio[cards[0]] >= prio[cards[3]]:
+        card1 = cards[0]
+        card2 = cards[3]
+    else:
+        card1 = cards[3]
+        card2 = cards[0]
+    suitedness = 's' if cards[1] == cards[4] else 'o'
+
+    return card1 + card2 + (suitedness if card1 != card2 else '')
+
 class Parser(object): # pylint: disable=too-many-instance-attributes
     def __init__(self):
         self.amt_re = r'\$(\d+(.\d+)?)'
@@ -131,7 +147,7 @@ class Parser(object): # pylint: disable=too-many-instance-attributes
         idx += 1
         m_res = re.match(self.dealt_re, hand.lines[idx])
         while m_res is not None:
-            hand.players[m_res.groups()[0].decode('utf-8')].holding = m_res.groups()[2]
+            hand.players[m_res.groups()[0].decode('utf-8')].holding = cards_to_holding(m_res.groups()[2])
             idx += 1
             m_res = re.match(self.dealt_re, hand.lines[idx])
 

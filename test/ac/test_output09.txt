@@ -1,0 +1,32 @@
+﻿PokerStars Hand #174030062161:  Hold'em No Limit ($0.05/$0.10) - 2017/08/07 20:26:17 CCT [2017/08/07 8:26:17 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: LoveOnTop ($10.25 in chips) 
+Seat 2: straicar ($9.90 in chips) 
+Seat 3: Larisa0705 ($10 in chips) 
+Seat 4: DJ_Maniac385 ($16.85 in chips) 
+Seat 5: HubertusB ($4.55 in chips) 
+Seat 6: bluffshanx ($11.97 in chips) 
+straicar: posts small blind $0.05
+Larisa0705: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [Ah Qd]
+DJ_Maniac385: folds 
+HubertusB: raises $0.20 to $0.30
+bluffshanx: folds 
+LoveOnTop: folds 
+straicar: folds 
+Larisa0705: folds 
+Uncalled bet ($0.20) returned to HubertusB
+HubertusB collected $0.25 from pot
+HubertusB: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.25 | Rake $0 
+Seat 1: LoveOnTop (button) folded before Flop (didn't bet)
+Seat 2: straicar (small blind) folded before Flop
+Seat 3: Larisa0705 (big blind) folded before Flop
+Seat 4: DJ_Maniac385 folded before Flop (didn't bet)
+Seat 5: HubertusB collected ($0.25)
+Seat 6: bluffshanx folded before Flop (didn't bet)
+
+
+
