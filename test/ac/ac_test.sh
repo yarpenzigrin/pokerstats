@@ -35,6 +35,7 @@ run_test_suite()
     run_tc "python2.7 -m poker_stats blind_report HubertusB" test_input_merged.txt test_output05.txt
     run_tc "python2.7 -m poker_stats position_report HubertusB" test_input_merged.txt test_output06.txt
     run_tc "python2.7 -m poker_stats preflop_report HubertusB" test_input_merged.txt test_output07.txt
+    run_tc "python2.7 -m poker_stats holding_report HubertusB" test_input_merged.txt test_output_holding_report.txt
 }
 
 run_test_suite

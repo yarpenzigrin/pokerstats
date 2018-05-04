@@ -49,6 +49,10 @@ def parse_args():
     preflop_report_parser.add_argument('player_name', help='Player nickname')
     preflop_report_parser.add_argument('files', help='File list', nargs='+')
 
+    holding_report_parser = action_parser.add_parser('holding_report', help='Print report for a player about holdings')
+    holding_report_parser.add_argument('player_name', help='Player nickname')
+    holding_report_parser.add_argument('files', help='File list', nargs='+')
+
     return parser.parse_args()
 
 def parse_and_validate_args():

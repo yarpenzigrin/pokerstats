@@ -1,6 +1,13 @@
 #!/usr/bin/env python2.7
 # -*- coding: utf-8 -*-
 
+def print_holding_report(report):
+    print 'Holdings profitability'
+    print
+    print '<holding> <hands played> <profit>'
+    for st in report.stats:
+        print '{:3} {:6} {:>8.2f}'.format(st.holding, st.holding_count, st.profit)
+
 def print_blind_report(report):
     print_position_report(report.sb_report)
     print "Expected profit: {}".format(report.sb_expected_profit)

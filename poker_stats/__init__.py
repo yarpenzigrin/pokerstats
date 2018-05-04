@@ -30,6 +30,10 @@ def main():
     if config.action == 'report':
         report_printer.print_stats(hands, config.player_name)
 
+    if config.action == 'holding_report':
+        rep = report.create_holding_report(hands, config.player_name)
+        report_printer.print_holding_report(rep)
+
     if config.action == 'blind_report':
         rep = report.create_blind_report(hands, config.player_name)
         report_printer.print_blind_report(rep)

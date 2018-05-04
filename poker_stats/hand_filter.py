@@ -4,7 +4,7 @@
 from .entity import is_holding_matching, is_call_preflop, is_player_ai, is_raise_preflop, is_3bet_preflop, is_4bet_preflop # pylint: disable=no-name-in-module
 
 def create_player_filter(player_name):
-    return lambda h: player_name in h.players.keys()
+    return lambda h: player_name in h.players
 
 def create_position_filter(player_name, positions):
     return lambda h: player_name in h.players and h.players[player_name].position in positions

@@ -3,7 +3,7 @@
 
 from .entity import is_successful_steal_preflop, is_unsuccessful_steal_preflop, profit_for_player # pylint: disable=no-name-in-module
 from .hand_filter import apply_filter, create_call_pf_filter, create_pfr_filter, create_3bet_filter
-from .hand_filter import create_4bet_filter, create_player_filter, create_position_filter
+from .hand_filter import create_4bet_filter, create_position_filter
 from .hand_filter import create_preflop_ai_filter, create_voluntary_filter
 
 def div(num1, num2):
@@ -55,6 +55,16 @@ class PreflopReport(object): # pylint: disable=too-many-instance-attributes,too-
         self.ai_preflop_profit = 0
         self.profit_report = None
 
+class HoldingReport(object): # pylint: disable=too-few-public-methods
+    class HoldingProfit(object): # pylint: disable=too-few-public-methods
+        def __init__(self, holding, profit, holding_count):
+            self.holding = holding
+            self.profit = profit
+            self.holding_count = holding_count
+
+    def __init__(self):
+        self.stats = []
+
 def create_blind_report(hands, player_name):
     report = BlindReport()
 
@@ -84,7 +94,6 @@ def create_blind_report(hands, player_name):
 def create_profit_report(hands, player_name):
     report = ProfitReport()
 
-    hands = apply_filter(hands, create_player_filter(player_name))
     hands_len = len(hands)
     voluntary_hands = apply_filter(hands, create_voluntary_filter(player_name, 'only'))
     pfr_hands = apply_filter(voluntary_hands, create_pfr_filter(player_name))
@@ -133,5 +142,21 @@ def create_preflop_report(hands, player_name):
     report.steal_profit_per_100 = div(report.steal_profit * 100, pfr_hands_len)
     report.ai_preflop_profit = profit_for_player(apply_filter(hands, create_preflop_ai_filter(player_name)), player_name)
     report.profit_report = create_profit_report(hands, player_name)
+
+    return report
+
+def create_holding_report(hands, player_name):
+    report = HoldingReport()
+
+    stats = {}
+    for hand in hands:
+        holding = hand.players[player_name].holding
+        old = stats.get(holding, HoldingReport.HoldingProfit(holding, 0.00, 0))
+        (old.profit, old.holding_count) = (old.profit + hand.profit_for_player(player_name), old.holding_count + 1)
+        stats[holding] = old
+
+    for val in stats.itervalues():
+        report.stats.append(val)
+    report.stats = sorted(report.stats, key=lambda e: e.profit)
 
     return report
