@@ -1,0 +1,3684 @@
+﻿PokerStars Zoom Hand #186014351121:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 1:58:30 CCT [2018/05/04 13:58:30 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: doriplayer ($12.08 in chips) 
+Seat 2: smasher1472 ($12.12 in chips) 
+Seat 3: HubertusB ($10 in chips) 
+Seat 4: calthedude ($23.47 in chips) 
+Seat 5: gavrik720 ($5.24 in chips) 
+Seat 6: Psychol11111 ($10.80 in chips) 
+smasher1472: posts small blind $0.05
+HubertusB: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [7c 8h]
+calthedude: folds 
+gavrik720: folds 
+Psychol11111: folds 
+doriplayer: folds 
+smasher1472: calls $0.05
+HubertusB: checks 
+*** FLOP *** [9c Ad 5c]
+smasher1472: checks 
+HubertusB: checks 
+*** TURN *** [9c Ad 5c] [Jc]
+smasher1472: bets $0.14
+HubertusB: calls $0.14
+*** RIVER *** [9c Ad 5c Jc] [Qd]
+smasher1472: bets $0.35
+HubertusB: folds 
+Uncalled bet ($0.35) returned to smasher1472
+smasher1472 collected $0.46 from pot
+smasher1472: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.48 | Rake $0.02 
+Board [9c Ad 5c Jc Qd]
+Seat 1: doriplayer (button) folded before Flop (didn't bet)
+Seat 2: smasher1472 (small blind) collected ($0.46)
+Seat 3: HubertusB (big blind) folded on the River
+Seat 4: calthedude folded before Flop (didn't bet)
+Seat 5: gavrik720 folded before Flop (didn't bet)
+Seat 6: Psychol11111 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186014370439:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 1:59:05 CCT [2018/05/04 13:59:05 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: west green88 ($12.40 in chips) 
+Seat 2: HubertusB ($9.76 in chips) 
+Seat 3: DP Neue ($10 in chips) 
+Seat 4: 2poiRiver ($43.85 in chips) 
+Seat 5: chemergez ($10 in chips) 
+Seat 6: domitorii ($10.75 in chips) 
+HubertusB: posts small blind $0.05
+DP Neue: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [Ac Qd]
+2poiRiver: folds 
+chemergez: folds 
+domitorii: folds 
+west green88: folds 
+HubertusB: raises $0.20 to $0.30
+DP Neue: calls $0.20
+*** FLOP *** [4c Qc 8h]
+HubertusB: bets $0.20
+DP Neue: folds 
+Uncalled bet ($0.20) returned to HubertusB
+HubertusB collected $0.57 from pot
+HubertusB: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.60 | Rake $0.03 
+Board [4c Qc 8h]
+Seat 1: west green88 (button) folded before Flop (didn't bet)
+Seat 2: HubertusB (small blind) collected ($0.57)
+Seat 3: DP Neue (big blind) folded on the Flop
+Seat 4: 2poiRiver folded before Flop (didn't bet)
+Seat 5: chemergez folded before Flop (didn't bet)
+Seat 6: domitorii folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186014396454:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 1:59:53 CCT [2018/05/04 13:59:53 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: Alexjke55 ($9.97 in chips) 
+Seat 2: MIT_PKR ($10.78 in chips) 
+Seat 3: PutA:)OnLife ($12.83 in chips) 
+Seat 4: MOPEXOD ($20.98 in chips) 
+Seat 5: rack1777 ($10.25 in chips) 
+Seat 6: HubertusB ($10.03 in chips) 
+MIT_PKR: posts small blind $0.05
+PutA:)OnLife: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [4d Qh]
+MOPEXOD: folds 
+rack1777: folds 
+HubertusB: folds 
+Alexjke55: raises $0.20 to $0.30
+MIT_PKR: folds 
+PutA:)OnLife: folds 
+Uncalled bet ($0.20) returned to Alexjke55
+Alexjke55 collected $0.25 from pot
+Alexjke55: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.25 | Rake $0 
+Seat 1: Alexjke55 (button) collected ($0.25)
+Seat 2: MIT_PKR (small blind) folded before Flop
+Seat 3: PutA:)OnLife (big blind) folded before Flop
+Seat 4: MOPEXOD folded before Flop (didn't bet)
+Seat 5: rack1777 folded before Flop (didn't bet)
+Seat 6: HubertusB folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186014391534:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 1:59:44 CCT [2018/05/04 13:59:44 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: HubertusB ($10.03 in chips) 
+Seat 2: kreoll ($19.34 in chips) 
+Seat 3: petar_z_p87 ($24.19 in chips) 
+Seat 4: fede 7ñl ($10.43 in chips) 
+Seat 5: zdaz1 ($35.34 in chips) 
+Seat 6: Boom591 ($10 in chips) 
+kreoll: posts small blind $0.05
+petar_z_p87: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [Qc 9h]
+fede 7ñl: folds 
+zdaz1: raises $0.30 to $0.40
+Boom591: folds 
+HubertusB: folds 
+kreoll: calls $0.35
+petar_z_p87: folds 
+*** FLOP *** [9s 8h Qd]
+kreoll: checks 
+zdaz1: bets $0.38
+kreoll: calls $0.38
+*** TURN *** [9s 8h Qd] [7d]
+kreoll: checks 
+zdaz1: checks 
+*** RIVER *** [9s 8h Qd 7d] [As]
+kreoll: bets $1.59
+zdaz1: folds 
+Uncalled bet ($1.59) returned to kreoll
+kreoll collected $1.59 from pot
+kreoll: doesn't show hand 
+*** SUMMARY ***
+Total pot $1.66 | Rake $0.07 
+Board [9s 8h Qd 7d As]
+Seat 1: HubertusB (button) folded before Flop (didn't bet)
+Seat 2: kreoll (small blind) collected ($1.59)
+Seat 3: petar_z_p87 (big blind) folded before Flop
+Seat 4: fede 7ñl folded before Flop (didn't bet)
+Seat 5: zdaz1 folded on the River
+Seat 6: Boom591 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186014401353:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:00:02 CCT [2018/05/04 14:00:02 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: rack1777 ($17.72 in chips) 
+Seat 2: kenneeoin ($6.03 in chips) 
+Seat 3: HubertusB ($10.03 in chips) 
+Seat 4: hellfire436 ($11.25 in chips) 
+Seat 5: sshan ($10.39 in chips) 
+Seat 6: artur11ar560 ($5.08 in chips) 
+kenneeoin: posts small blind $0.05
+HubertusB: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [Kd Ks]
+hellfire436: folds 
+sshan: folds 
+artur11ar560: calls $0.10
+rack1777: folds 
+kenneeoin: calls $0.05
+HubertusB: raises $0.30 to $0.40
+artur11ar560: calls $0.30
+kenneeoin: folds 
+*** FLOP *** [8s 3c 5s]
+HubertusB: bets $0.30
+artur11ar560: calls $0.30
+*** TURN *** [8s 3c 5s] [Kh]
+HubertusB: checks 
+artur11ar560: bets $0.40
+HubertusB: calls $0.40
+*** RIVER *** [8s 3c 5s Kh] [Jh]
+HubertusB: bets $1.30
+artur11ar560: folds 
+Uncalled bet ($1.30) returned to HubertusB
+HubertusB collected $2.20 from pot
+HubertusB: doesn't show hand 
+*** SUMMARY ***
+Total pot $2.30 | Rake $0.10 
+Board [8s 3c 5s Kh Jh]
+Seat 1: rack1777 (button) folded before Flop (didn't bet)
+Seat 2: kenneeoin (small blind) folded before Flop
+Seat 3: HubertusB (big blind) collected ($2.20)
+Seat 4: hellfire436 folded before Flop (didn't bet)
+Seat 5: sshan folded before Flop (didn't bet)
+Seat 6: artur11ar560 folded on the River
+
+
+
+PokerStars Zoom Hand #186014449570:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:01:28 CCT [2018/05/04 14:01:28 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: BigBadBoy779 ($8.98 in chips) 
+Seat 2: mohandes81 ($28.46 in chips) 
+Seat 3: B.Flashed ($14.03 in chips) 
+Seat 4: HappyZKoala ($10.48 in chips) 
+Seat 5: HubertusB ($11.13 in chips) 
+Seat 6: ssl_saya ($15.72 in chips) 
+mohandes81: posts small blind $0.05
+B.Flashed: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [2c 4d]
+HappyZKoala: folds 
+HubertusB: folds 
+ssl_saya: folds 
+BigBadBoy779: folds 
+mohandes81: folds 
+Uncalled bet ($0.05) returned to B.Flashed
+B.Flashed collected $0.10 from pot
+B.Flashed: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.10 | Rake $0 
+Seat 1: BigBadBoy779 (button) folded before Flop (didn't bet)
+Seat 2: mohandes81 (small blind) folded before Flop
+Seat 3: B.Flashed (big blind) collected ($0.10)
+Seat 4: HappyZKoala folded before Flop (didn't bet)
+Seat 5: HubertusB folded before Flop (didn't bet)
+Seat 6: ssl_saya folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186014456492:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:01:39 CCT [2018/05/04 14:01:39 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: smasher1472 ($18.54 in chips) 
+Seat 2: AngelBear82 ($33.98 in chips) 
+Seat 3: JohnSF7 ($10.70 in chips) 
+Seat 4: woodman228 ($15.24 in chips) 
+Seat 5: HubertusB ($11.13 in chips) 
+Seat 6: Hekanekoff ($22.10 in chips) 
+AngelBear82: posts small blind $0.05
+JohnSF7: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [5d Js]
+woodman228: folds 
+HubertusB: folds 
+Hekanekoff: folds 
+smasher1472: folds 
+AngelBear82: folds 
+Uncalled bet ($0.05) returned to JohnSF7
+JohnSF7 collected $0.10 from pot
+JohnSF7: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.10 | Rake $0 
+Seat 1: smasher1472 (button) folded before Flop (didn't bet)
+Seat 2: AngelBear82 (small blind) folded before Flop
+Seat 3: JohnSF7 (big blind) collected ($0.10)
+Seat 4: woodman228 folded before Flop (didn't bet)
+Seat 5: HubertusB folded before Flop (didn't bet)
+Seat 6: Hekanekoff folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186014459788:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:01:44 CCT [2018/05/04 14:01:44 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: DP Neue ($9.50 in chips) 
+Seat 2: HubertusB ($11.13 in chips) 
+Seat 3: calthedude ($24.91 in chips) 
+Seat 4: Sushi Taxi ($2.79 in chips) 
+Seat 5: HUNGRYFORDO ($22.73 in chips) 
+Seat 6: kreoll ($21.49 in chips) 
+HubertusB: posts small blind $0.05
+calthedude: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [Jh Qc]
+Sushi Taxi: raises $0.15 to $0.25
+HUNGRYFORDO: folds 
+kreoll: folds 
+DP Neue: folds 
+HubertusB: folds 
+calthedude: folds 
+Uncalled bet ($0.15) returned to Sushi Taxi
+Sushi Taxi collected $0.25 from pot
+Sushi Taxi: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.25 | Rake $0 
+Seat 1: DP Neue (button) folded before Flop (didn't bet)
+Seat 2: HubertusB (small blind) folded before Flop
+Seat 3: calthedude (big blind) folded before Flop
+Seat 4: Sushi Taxi collected ($0.25)
+Seat 5: HUNGRYFORDO folded before Flop (didn't bet)
+Seat 6: kreoll folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186014453248:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:01:34 CCT [2018/05/04 14:01:34 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: HubertusB ($11.13 in chips) 
+Seat 2: chezyyyy ($11.25 in chips) 
+Seat 3: Chmuri7 ($12.52 in chips) 
+Seat 4: IntenseDnB ($11.39 in chips) 
+Seat 5: wlad198 ($10.15 in chips) 
+Seat 6: Draugsvoll ($10.10 in chips) 
+chezyyyy: posts small blind $0.05
+Chmuri7: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [Qc 6s]
+IntenseDnB: raises $0.15 to $0.25
+wlad198: folds 
+Draugsvoll: folds 
+HubertusB: folds 
+chezyyyy: calls $0.20
+Chmuri7: calls $0.15
+*** FLOP *** [8h Ks Jc]
+chezyyyy: checks 
+Chmuri7: checks 
+IntenseDnB: bets $0.24
+chezyyyy: calls $0.24
+Chmuri7: calls $0.24
+*** TURN *** [8h Ks Jc] [7d]
+chezyyyy: bets $0.10
+Chmuri7: calls $0.10
+IntenseDnB: raises $1.50 to $1.60
+chezyyyy: folds 
+Chmuri7: folds 
+Uncalled bet ($1.50) returned to IntenseDnB
+IntenseDnB collected $1.69 from pot
+IntenseDnB: doesn't show hand 
+*** SUMMARY ***
+Total pot $1.77 | Rake $0.08 
+Board [8h Ks Jc 7d]
+Seat 1: HubertusB (button) folded before Flop (didn't bet)
+Seat 2: chezyyyy (small blind) folded on the Turn
+Seat 3: Chmuri7 (big blind) folded on the Turn
+Seat 4: IntenseDnB collected ($1.69)
+Seat 5: wlad198 folded before Flop (didn't bet)
+Seat 6: Draugsvoll folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186014464218:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:01:51 CCT [2018/05/04 14:01:51 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: YoyoY0000 ($21.47 in chips) 
+Seat 2: DP Neue ($9.50 in chips) 
+Seat 3: feel the vib ($10.06 in chips) 
+Seat 4: LumpyBadbeat ($6.12 in chips) 
+Seat 5: zdaz1 ($53.52 in chips) 
+Seat 6: HubertusB ($11.08 in chips) 
+DP Neue: posts small blind $0.05
+feel the vib: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [Ad Jc]
+LumpyBadbeat: folds 
+zdaz1: folds 
+HubertusB: raises $0.16 to $0.26
+YoyoY0000: calls $0.26
+DP Neue: folds 
+feel the vib: folds 
+*** FLOP *** [Qc 6c Kc]
+HubertusB: bets $0.35
+YoyoY0000: raises $0.80 to $1.15
+HubertusB: calls $0.80
+*** TURN *** [Qc 6c Kc] [5c]
+HubertusB: bets $1.19
+YoyoY0000: calls $1.19
+*** RIVER *** [Qc 6c Kc 5c] [4s]
+HubertusB: bets $2.15
+YoyoY0000: raises $5.65 to $7.80
+HubertusB: calls $5.65
+*** SHOW DOWN ***
+YoyoY0000: shows [Ac 3c] (a flush, Ace high)
+HubertusB: mucks hand 
+YoyoY0000 collected $20.01 from pot
+*** SUMMARY ***
+Total pot $20.95 | Rake $0.94 
+Board [Qc 6c Kc 5c 4s]
+Seat 1: YoyoY0000 (button) showed [Ac 3c] and won ($20.01) with a flush, Ace high
+Seat 2: DP Neue (small blind) folded before Flop
+Seat 3: feel the vib (big blind) folded before Flop
+Seat 4: LumpyBadbeat folded before Flop (didn't bet)
+Seat 5: zdaz1 folded before Flop (didn't bet)
+Seat 6: HubertusB mucked [Ad Jc]
+
+
+
+PokerStars Zoom Hand #186014506981:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:02:54 CCT [2018/05/04 14:02:54 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: Drawzee ($10 in chips) 
+Seat 2: AngelBear82 ($17.47 in chips) 
+Seat 3: HubertusB ($0.68 in chips) 
+Seat 4: zacharias12 ($4.30 in chips) 
+Seat 5: Okkultist1888 ($22.60 in chips) 
+Seat 6: Draugsvoll ($10.35 in chips) 
+AngelBear82: posts small blind $0.05
+HubertusB: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [Qd 4c]
+zacharias12: folds 
+Okkultist1888: folds 
+Draugsvoll: folds 
+Drawzee: folds 
+AngelBear82: folds 
+Uncalled bet ($0.05) returned to HubertusB
+HubertusB collected $0.10 from pot
+HubertusB: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.10 | Rake $0 
+Seat 1: Drawzee (button) folded before Flop (didn't bet)
+Seat 2: AngelBear82 (small blind) folded before Flop
+Seat 3: HubertusB (big blind) collected ($0.10)
+Seat 4: zacharias12 folded before Flop (didn't bet)
+Seat 5: Okkultist1888 folded before Flop (didn't bet)
+Seat 6: Draugsvoll folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186014520242:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:03:13 CCT [2018/05/04 14:03:13 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: HubertusB ($10 in chips) 
+Seat 2: EvgVa ($10.05 in chips) 
+Seat 3: Real Muscles ($13.10 in chips) 
+Seat 4: death1198 ($7.82 in chips) 
+Seat 5: BigBadBoy779 ($8.43 in chips) 
+Seat 6: kruegerzzz ($4.94 in chips) 
+EvgVa: posts small blind $0.05
+Real Muscles: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [8s 3h]
+death1198: folds 
+BigBadBoy779: folds 
+kruegerzzz: folds 
+HubertusB: folds 
+EvgVa: folds 
+Uncalled bet ($0.05) returned to Real Muscles
+Real Muscles collected $0.10 from pot
+Real Muscles: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.10 | Rake $0 
+Seat 1: HubertusB (button) folded before Flop (didn't bet)
+Seat 2: EvgVa (small blind) folded before Flop
+Seat 3: Real Muscles (big blind) collected ($0.10)
+Seat 4: death1198 folded before Flop (didn't bet)
+Seat 5: BigBadBoy779 folded before Flop (didn't bet)
+Seat 6: kruegerzzz folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186014525695:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:03:21 CCT [2018/05/04 14:03:21 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: Ro008 ($17.01 in chips) 
+Seat 2: APDontRVRMe ($14.04 in chips) 
+Seat 3: nl_shizik ($14.75 in chips) 
+Seat 4: Deghirra ($9.05 in chips) 
+Seat 5: HubertusB ($10 in chips) 
+Seat 6: illuvatar125 ($16.65 in chips) 
+APDontRVRMe: posts small blind $0.05
+nl_shizik: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [6h Ks]
+Deghirra: folds 
+HubertusB: folds 
+illuvatar125: folds 
+Ro008: folds 
+APDontRVRMe: folds 
+Uncalled bet ($0.05) returned to nl_shizik
+nl_shizik collected $0.10 from pot
+nl_shizik: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.10 | Rake $0 
+Seat 1: Ro008 (button) folded before Flop (didn't bet)
+Seat 2: APDontRVRMe (small blind) folded before Flop
+Seat 3: nl_shizik (big blind) collected ($0.10)
+Seat 4: Deghirra folded before Flop (didn't bet)
+Seat 5: HubertusB folded before Flop (didn't bet)
+Seat 6: illuvatar125 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186014537198:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:03:38 CCT [2018/05/04 14:03:38 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: sTIKs21 ($12.77 in chips) 
+Seat 2: bertie7777 ($17.44 in chips) 
+Seat 3: DieEneGozer ($10.56 in chips) 
+Seat 4: avocado21 ($3.01 in chips) 
+Seat 5: Psychol11111 ($10.51 in chips) 
+Seat 6: HubertusB ($9.95 in chips) 
+bertie7777: posts small blind $0.05
+DieEneGozer: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [8d 3c]
+avocado21: folds 
+Psychol11111: folds 
+HubertusB: folds 
+sTIKs21: folds 
+bertie7777: folds 
+Uncalled bet ($0.05) returned to DieEneGozer
+DieEneGozer collected $0.10 from pot
+DieEneGozer: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.10 | Rake $0 
+Seat 1: sTIKs21 (button) folded before Flop (didn't bet)
+Seat 2: bertie7777 (small blind) folded before Flop
+Seat 3: DieEneGozer (big blind) collected ($0.10)
+Seat 4: avocado21 folded before Flop (didn't bet)
+Seat 5: Psychol11111 folded before Flop (didn't bet)
+Seat 6: HubertusB folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186014533764:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:03:33 CCT [2018/05/04 14:03:33 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: danielbarbamisi ($11.87 in chips) 
+Seat 2: HubertusB ($10 in chips) 
+Seat 3: UltimateHer0 ($22.09 in chips) 
+Seat 4: Dodo1085 ($38.63 in chips) 
+Seat 5: gegara4444 ($31.95 in chips) 
+Seat 6: Papa_Prey ($10.45 in chips) 
+HubertusB: posts small blind $0.05
+UltimateHer0: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [Qc 6d]
+Dodo1085: raises $0.20 to $0.30
+gegara4444: folds 
+Papa_Prey: folds 
+danielbarbamisi: folds 
+HubertusB: folds 
+UltimateHer0: folds 
+Uncalled bet ($0.20) returned to Dodo1085
+Dodo1085 collected $0.25 from pot
+Dodo1085: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.25 | Rake $0 
+Seat 1: danielbarbamisi (button) folded before Flop (didn't bet)
+Seat 2: HubertusB (small blind) folded before Flop
+Seat 3: UltimateHer0 (big blind) folded before Flop
+Seat 4: Dodo1085 collected ($0.25)
+Seat 5: gegara4444 folded before Flop (didn't bet)
+Seat 6: Papa_Prey folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186014516224:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:03:07 CCT [2018/05/04 14:03:07 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: l_man06 ($10 in chips) 
+Seat 2: butcher2501 ($10.35 in chips) 
+Seat 3: Bur1k ($10 in chips) 
+Seat 4: HubertusB ($10 in chips) 
+Seat 5: AngelBear82 ($17.42 in chips) 
+Seat 6: DP Neue ($8.22 in chips) 
+butcher2501: posts small blind $0.05
+Bur1k: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [5s 3h]
+HubertusB: folds 
+AngelBear82: folds 
+DP Neue: raises $0.20 to $0.30
+l_man06: raises $0.70 to $1
+butcher2501: folds 
+Bur1k: folds 
+DP Neue: calls $0.70
+*** FLOP *** [Qc 8h Jc]
+DP Neue: checks 
+l_man06: checks 
+*** TURN *** [Qc 8h Jc] [Qs]
+DP Neue: checks 
+l_man06: bets $0.64
+DP Neue: folds 
+Uncalled bet ($0.64) returned to l_man06
+l_man06 collected $2.05 from pot
+l_man06: doesn't show hand 
+*** SUMMARY ***
+Total pot $2.15 | Rake $0.10 
+Board [Qc 8h Jc Qs]
+Seat 1: l_man06 (button) collected ($2.05)
+Seat 2: butcher2501 (small blind) folded before Flop
+Seat 3: Bur1k (big blind) folded before Flop
+Seat 4: HubertusB folded before Flop (didn't bet)
+Seat 5: AngelBear82 folded before Flop (didn't bet)
+Seat 6: DP Neue folded on the Turn
+
+
+
+PokerStars Zoom Hand #186014540634:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:03:43 CCT [2018/05/04 14:03:43 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: FloFla777 ($12.67 in chips) 
+Seat 2: AngelBear82 ($37.91 in chips) 
+Seat 3: AHTuKuJIJIEP ($10 in chips) 
+Seat 4: HubertusB ($9.95 in chips) 
+Seat 5: OeTen101 ($26.21 in chips) 
+Seat 6: Roland3399 ($20.01 in chips) 
+AngelBear82: posts small blind $0.05
+AHTuKuJIJIEP: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [5d 8h]
+HubertusB: folds 
+OeTen101: folds 
+Roland3399: folds 
+FloFla777: folds 
+AngelBear82: raises $0.20 to $0.30
+AHTuKuJIJIEP: folds 
+Uncalled bet ($0.20) returned to AngelBear82
+AngelBear82 collected $0.20 from pot
+AngelBear82: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.20 | Rake $0 
+Seat 1: FloFla777 (button) folded before Flop (didn't bet)
+Seat 2: AngelBear82 (small blind) collected ($0.20)
+Seat 3: AHTuKuJIJIEP (big blind) folded before Flop
+Seat 4: HubertusB folded before Flop (didn't bet)
+Seat 5: OeTen101 folded before Flop (didn't bet)
+Seat 6: Roland3399 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186014544140:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:03:48 CCT [2018/05/04 14:03:48 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: teebeutel16 ($13.20 in chips) 
+Seat 2: sg7444 ($7.03 in chips) 
+Seat 3: HubertusB ($9.95 in chips) 
+Seat 4: Khudz ($11.75 in chips) 
+Seat 5: Okkultist1888 ($29.90 in chips) 
+Seat 6: Hekanekoff ($33.21 in chips) 
+sg7444: posts small blind $0.05
+HubertusB: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [Kd Qh]
+Khudz: folds 
+Okkultist1888: folds 
+Hekanekoff: folds 
+teebeutel16: folds 
+sg7444: calls $0.05
+HubertusB: checks 
+*** FLOP *** [2c 5c Ac]
+sg7444: checks 
+HubertusB: checks 
+*** TURN *** [2c 5c Ac] [7d]
+sg7444: checks 
+HubertusB: checks 
+*** RIVER *** [2c 5c Ac 7d] [Ad]
+sg7444: checks 
+HubertusB: checks 
+*** SHOW DOWN ***
+sg7444: shows [Kh 9s] (a pair of Aces)
+HubertusB: shows [Kd Qh] (a pair of Aces - King+Queen kicker)
+HubertusB collected $0.19 from pot
+*** SUMMARY ***
+Total pot $0.20 | Rake $0.01 
+Board [2c 5c Ac 7d Ad]
+Seat 1: teebeutel16 (button) folded before Flop (didn't bet)
+Seat 2: sg7444 (small blind) showed [Kh 9s] and lost with a pair of Aces
+Seat 3: HubertusB (big blind) showed [Kd Qh] and won ($0.19) with a pair of Aces
+Seat 4: Khudz folded before Flop (didn't bet)
+Seat 5: Okkultist1888 folded before Flop (didn't bet)
+Seat 6: Hekanekoff folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186014560105:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:04:11 CCT [2018/05/04 14:04:11 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: HubertusB ($10.04 in chips) 
+Seat 2: SIvan1951 ($7.69 in chips) 
+Seat 3: lt_poker_id ($6.57 in chips) 
+Seat 4: Ro008 ($13.62 in chips) 
+Seat 5: Pertuza ($8.76 in chips) 
+Seat 6: PutA:)OnLife ($14.18 in chips) 
+SIvan1951: posts small blind $0.05
+lt_poker_id: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [Ks 4c]
+Ro008: folds 
+Pertuza: folds 
+PutA:)OnLife: folds 
+HubertusB: folds 
+SIvan1951: folds 
+Uncalled bet ($0.05) returned to lt_poker_id
+lt_poker_id collected $0.10 from pot
+lt_poker_id: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.10 | Rake $0 
+Seat 1: HubertusB (button) folded before Flop (didn't bet)
+Seat 2: SIvan1951 (small blind) folded before Flop
+Seat 3: lt_poker_id (big blind) collected ($0.10)
+Seat 4: Ro008 folded before Flop (didn't bet)
+Seat 5: Pertuza folded before Flop (didn't bet)
+Seat 6: PutA:)OnLife folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186014563506:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:04:16 CCT [2018/05/04 14:04:16 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: f0rest2727 ($9.85 in chips) 
+Seat 2: HubertusB ($10.04 in chips) 
+Seat 3: Mikedem ($14.65 in chips) 
+Seat 4: danielbarbamisi ($11.77 in chips) 
+Seat 5: c8889 ($11.99 in chips) 
+Seat 6: PimpMyLife1 ($10 in chips) 
+HubertusB: posts small blind $0.05
+Mikedem: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [2d Ad]
+danielbarbamisi: folds 
+c8889: folds 
+PimpMyLife1: folds 
+f0rest2727: folds 
+HubertusB: raises $0.16 to $0.26
+Mikedem: calls $0.16
+*** FLOP *** [4c Ks 6d]
+HubertusB: checks 
+Mikedem: bets $0.25
+HubertusB: calls $0.25
+*** TURN *** [4c Ks 6d] [Jc]
+HubertusB: checks 
+Mikedem: checks 
+*** RIVER *** [4c Ks 6d Jc] [9c]
+HubertusB: checks 
+Mikedem: checks 
+*** SHOW DOWN ***
+HubertusB: shows [2d Ad] (high card Ace)
+Mikedem: shows [3h 9h] (a pair of Nines)
+Mikedem collected $0.97 from pot
+*** SUMMARY ***
+Total pot $1.02 | Rake $0.05 
+Board [4c Ks 6d Jc 9c]
+Seat 1: f0rest2727 (button) folded before Flop (didn't bet)
+Seat 2: HubertusB (small blind) showed [2d Ad] and lost with high card Ace
+Seat 3: Mikedem (big blind) showed [3h 9h] and won ($0.97) with a pair of Nines
+Seat 4: danielbarbamisi folded before Flop (didn't bet)
+Seat 5: c8889 folded before Flop (didn't bet)
+Seat 6: PimpMyLife1 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186014594669:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:05:01 CCT [2018/05/04 14:05:01 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: MariusTrif ($12.52 in chips) 
+Seat 2: EvgVa ($18.79 in chips) 
+Seat 3: Roland3399 ($19.41 in chips) 
+Seat 4: Mikedem ($15.11 in chips) 
+Seat 5: HubertusB ($9.53 in chips) 
+Seat 6: darkowa ($12.86 in chips) 
+EvgVa: posts small blind $0.05
+Roland3399: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [Jh Ad]
+Mikedem: folds 
+HubertusB: raises $0.20 to $0.30
+darkowa: folds 
+MariusTrif: folds 
+EvgVa: raises $0.70 to $1
+Roland3399: folds 
+HubertusB: folds 
+Uncalled bet ($0.70) returned to EvgVa
+EvgVa collected $0.70 from pot
+EvgVa: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.70 | Rake $0 
+Seat 1: MariusTrif (button) folded before Flop (didn't bet)
+Seat 2: EvgVa (small blind) collected ($0.70)
+Seat 3: Roland3399 (big blind) folded before Flop
+Seat 4: Mikedem folded before Flop (didn't bet)
+Seat 5: HubertusB folded before Flop
+Seat 6: darkowa folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186014602507:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:05:12 CCT [2018/05/04 14:05:12 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: AngelBear82 ($16.04 in chips) 
+Seat 2: Astromariy ($10.87 in chips) 
+Seat 3: 007drahos ($12.56 in chips) 
+Seat 4: Drawzee ($10 in chips) 
+Seat 5: zdaz1 ($35.36 in chips) 
+Seat 6: HubertusB ($9.23 in chips) 
+Astromariy: posts small blind $0.05
+007drahos: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [As Qd]
+Drawzee: raises $0.15 to $0.25
+zdaz1: folds 
+HubertusB: calls $0.25
+AngelBear82: folds 
+Astromariy: folds 
+007drahos: calls $0.15
+*** FLOP *** [Ks Th 3s]
+007drahos: checks 
+Drawzee: checks 
+HubertusB: checks 
+*** TURN *** [Ks Th 3s] [8c]
+007drahos: checks 
+Drawzee: checks 
+HubertusB: checks 
+*** RIVER *** [Ks Th 3s 8c] [4s]
+007drahos: bets $0.40
+Drawzee: folds 
+HubertusB: calls $0.40
+*** SHOW DOWN ***
+007drahos: shows [5c Qc] (high card King)
+HubertusB: shows [As Qd] (high card Ace)
+HubertusB collected $1.53 from pot
+*** SUMMARY ***
+Total pot $1.60 | Rake $0.07 
+Board [Ks Th 3s 8c 4s]
+Seat 1: AngelBear82 (button) folded before Flop (didn't bet)
+Seat 2: Astromariy (small blind) folded before Flop
+Seat 3: 007drahos (big blind) showed [5c Qc] and lost with high card King
+Seat 4: Drawzee folded on the River
+Seat 5: zdaz1 folded before Flop (didn't bet)
+Seat 6: HubertusB showed [As Qd] and won ($1.53) with high card Ace
+
+
+
+PokerStars Zoom Hand #186014642911:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:06:12 CCT [2018/05/04 14:06:12 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: AHTuKuJIJIEP ($9.70 in chips) 
+Seat 2: 0FWGKT4 ($12.38 in chips) 
+Seat 3: HubertusB ($10.11 in chips) 
+Seat 4: FloFla777 ($11.78 in chips) 
+Seat 5: klopen1982 ($10.23 in chips) 
+Seat 6: Draugsvoll ($10 in chips) 
+0FWGKT4: posts small blind $0.05
+HubertusB: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [Ts 7h]
+FloFla777: folds 
+klopen1982: folds 
+Draugsvoll: folds 
+AHTuKuJIJIEP: folds 
+0FWGKT4: folds 
+Uncalled bet ($0.05) returned to HubertusB
+HubertusB collected $0.10 from pot
+HubertusB: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.10 | Rake $0 
+Seat 1: AHTuKuJIJIEP (button) folded before Flop (didn't bet)
+Seat 2: 0FWGKT4 (small blind) folded before Flop
+Seat 3: HubertusB (big blind) collected ($0.10)
+Seat 4: FloFla777 folded before Flop (didn't bet)
+Seat 5: klopen1982 folded before Flop (didn't bet)
+Seat 6: Draugsvoll folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186014651567:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:06:24 CCT [2018/05/04 14:06:24 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: Psychol11111 ($10 in chips) 
+Seat 2: SamTanya ($12.13 in chips) 
+Seat 3: sendzimir74 ($10 in chips) 
+Seat 4: HubertusB ($10.16 in chips) 
+Seat 5: DaWySheCk ($10.28 in chips) 
+Seat 6: alexandro156 ($17.27 in chips) 
+SamTanya: posts small blind $0.05
+sendzimir74: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [Jd Td]
+HubertusB: raises $0.16 to $0.26
+DaWySheCk: folds 
+alexandro156: calls $0.26
+Psychol11111: folds 
+SamTanya: folds 
+sendzimir74: folds 
+*** FLOP *** [6c 5d 2c]
+HubertusB: checks 
+alexandro156: bets $0.25
+HubertusB: calls $0.25
+*** TURN *** [6c 5d 2c] [Kh]
+HubertusB: checks 
+alexandro156: checks 
+*** RIVER *** [6c 5d 2c Kh] [Ah]
+HubertusB: checks 
+alexandro156: checks 
+*** SHOW DOWN ***
+HubertusB: shows [Jd Td] (high card Ace)
+alexandro156: shows [8s 8d] (a pair of Eights)
+alexandro156 collected $1.12 from pot
+*** SUMMARY ***
+Total pot $1.17 | Rake $0.05 
+Board [6c 5d 2c Kh Ah]
+Seat 1: Psychol11111 (button) folded before Flop (didn't bet)
+Seat 2: SamTanya (small blind) folded before Flop
+Seat 3: sendzimir74 (big blind) folded before Flop
+Seat 4: HubertusB showed [Jd Td] and lost with high card Ace
+Seat 5: DaWySheCk folded before Flop (didn't bet)
+Seat 6: alexandro156 showed [8s 8d] and won ($1.12) with a pair of Eights
+
+
+
+PokerStars Zoom Hand #186014691538:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:07:21 CCT [2018/05/04 14:07:21 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: BadMan513 ($12.31 in chips) 
+Seat 2: HubertusB ($9.65 in chips) 
+Seat 3: fff1d ($10.40 in chips) 
+Seat 4: darkowa ($12.68 in chips) 
+Seat 5: rednax487 ($10 in chips) 
+Seat 6: vlad0512 ($11.44 in chips) 
+HubertusB: posts small blind $0.05
+fff1d: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [7s 2d]
+darkowa: folds 
+rednax487: folds 
+vlad0512: folds 
+BadMan513: raises $0.13 to $0.23
+HubertusB: folds 
+fff1d: folds 
+Uncalled bet ($0.13) returned to BadMan513
+BadMan513 collected $0.25 from pot
+BadMan513: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.25 | Rake $0 
+Seat 1: BadMan513 (button) collected ($0.25)
+Seat 2: HubertusB (small blind) folded before Flop
+Seat 3: fff1d (big blind) folded before Flop
+Seat 4: darkowa folded before Flop (didn't bet)
+Seat 5: rednax487 folded before Flop (didn't bet)
+Seat 6: vlad0512 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186014695757:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:07:27 CCT [2018/05/04 14:07:27 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: HubertusB ($9.60 in chips) 
+Seat 2: BuBBleBoy548 ($10 in chips) 
+Seat 3: 1nsideMyMind ($10.20 in chips) 
+Seat 4: vladko555 ($38.98 in chips) 
+Seat 5: f0rest2727 ($10.37 in chips) 
+Seat 6: Psychol11111 ($10 in chips) 
+BuBBleBoy548: posts small blind $0.05
+1nsideMyMind: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [5c 6s]
+vladko555: folds 
+f0rest2727: folds 
+Psychol11111: folds 
+HubertusB: raises $0.16 to $0.26
+BuBBleBoy548: folds 
+1nsideMyMind: folds 
+Uncalled bet ($0.16) returned to HubertusB
+HubertusB collected $0.25 from pot
+HubertusB: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.25 | Rake $0 
+Seat 1: HubertusB (button) collected ($0.25)
+Seat 2: BuBBleBoy548 (small blind) folded before Flop
+Seat 3: 1nsideMyMind (big blind) folded before Flop
+Seat 4: vladko555 folded before Flop (didn't bet)
+Seat 5: f0rest2727 folded before Flop (didn't bet)
+Seat 6: Psychol11111 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186014687334:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:07:15 CCT [2018/05/04 14:07:15 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: jhoelpatan ($10 in chips) 
+Seat 2: Tinbasher414 ($8.18 in chips) 
+Seat 3: AHTuKuJIJIEP ($9.15 in chips) 
+Seat 4: HubertusB ($9.65 in chips) 
+Seat 5: MJTT1 ($16.19 in chips) 
+Seat 6: PimpMyLife1 ($10.10 in chips) 
+Tinbasher414: posts small blind $0.05
+AHTuKuJIJIEP: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [Qd Tc]
+HubertusB: folds 
+MJTT1: folds 
+PimpMyLife1: folds 
+jhoelpatan: raises $0.20 to $0.30
+Tinbasher414: raises $0.65 to $0.95
+AHTuKuJIJIEP: folds 
+jhoelpatan: folds 
+Uncalled bet ($0.65) returned to Tinbasher414
+Tinbasher414 collected $0.70 from pot
+Tinbasher414: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.70 | Rake $0 
+Seat 1: jhoelpatan (button) folded before Flop
+Seat 2: Tinbasher414 (small blind) collected ($0.70)
+Seat 3: AHTuKuJIJIEP (big blind) folded before Flop
+Seat 4: HubertusB folded before Flop (didn't bet)
+Seat 5: MJTT1 folded before Flop (didn't bet)
+Seat 6: PimpMyLife1 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186014711977:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:07:50 CCT [2018/05/04 14:07:50 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: Chmuri7 ($24.06 in chips) 
+Seat 2: ford170596.s ($9.49 in chips) 
+Seat 3: AlexxelA5848 ($8.48 in chips) 
+Seat 4: svirstar999 ($14.62 in chips) 
+Seat 5: MrThony ($10.17 in chips) 
+Seat 6: HubertusB ($9.75 in chips) 
+ford170596.s: posts small blind $0.05
+AlexxelA5848: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [3c 4d]
+svirstar999: folds 
+MrThony: folds 
+HubertusB: folds 
+Chmuri7: folds 
+ford170596.s: raises $0.10 to $0.20
+AlexxelA5848: calls $0.10
+*** FLOP *** [7c 3h 9d]
+ford170596.s: bets $0.10
+AlexxelA5848: calls $0.10
+*** TURN *** [7c 3h 9d] [5c]
+ford170596.s: bets $0.10
+AlexxelA5848: raises $0.50 to $0.60
+ford170596.s: folds 
+Uncalled bet ($0.50) returned to AlexxelA5848
+AlexxelA5848 collected $0.76 from pot
+AlexxelA5848: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.80 | Rake $0.04 
+Board [7c 3h 9d 5c]
+Seat 1: Chmuri7 (button) folded before Flop (didn't bet)
+Seat 2: ford170596.s (small blind) folded on the Turn
+Seat 3: AlexxelA5848 (big blind) collected ($0.76)
+Seat 4: svirstar999 folded before Flop (didn't bet)
+Seat 5: MrThony folded before Flop (didn't bet)
+Seat 6: HubertusB folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186014719620:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:08:01 CCT [2018/05/04 14:08:01 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: -0-TaHya-0- ($10.90 in chips) 
+Seat 2: no present ($9.90 in chips) 
+Seat 3: HubertusB ($9.75 in chips) 
+Seat 4: 7freejack8 ($14.95 in chips) 
+Seat 5: kruegerzzz ($4.63 in chips) 
+Seat 6: Slavzhik7 ($12.12 in chips) 
+no present: posts small blind $0.05
+HubertusB: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [Ts 5c]
+7freejack8: calls $0.10
+kruegerzzz: folds 
+Slavzhik7: calls $0.10
+-0-TaHya-0-: folds 
+no present: folds 
+HubertusB: checks 
+*** FLOP *** [8d Th 3h]
+HubertusB: checks 
+7freejack8: bets $0.20
+Slavzhik7: folds 
+HubertusB: raises $0.40 to $0.60
+7freejack8: calls $0.40
+*** TURN *** [8d Th 3h] [3d]
+HubertusB: checks 
+7freejack8: checks 
+*** RIVER *** [8d Th 3h 3d] [9d]
+HubertusB: bets $0.90
+7freejack8: folds 
+Uncalled bet ($0.90) returned to HubertusB
+HubertusB collected $1.48 from pot
+HubertusB: doesn't show hand 
+*** SUMMARY ***
+Total pot $1.55 | Rake $0.07 
+Board [8d Th 3h 3d 9d]
+Seat 1: -0-TaHya-0- (button) folded before Flop (didn't bet)
+Seat 2: no present (small blind) folded before Flop
+Seat 3: HubertusB (big blind) collected ($1.48)
+Seat 4: 7freejack8 folded on the River
+Seat 5: kruegerzzz folded before Flop (didn't bet)
+Seat 6: Slavzhik7 folded on the Flop
+
+
+
+PokerStars Zoom Hand #186014773020:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:09:17 CCT [2018/05/04 14:09:17 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: D4nyBoy ($11.05 in chips) 
+Seat 2: sg7444 ($6.53 in chips) 
+Seat 3: danielbarbamisi ($11.07 in chips) 
+Seat 4: klopen1982 ($17.60 in chips) 
+Seat 5: HubertusB ($10.53 in chips) 
+Seat 6: trenerok ($10.60 in chips) 
+sg7444: posts small blind $0.05
+danielbarbamisi: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [3c Qh]
+klopen1982: folds 
+HubertusB: folds 
+trenerok: folds 
+D4nyBoy: folds 
+sg7444: folds 
+Uncalled bet ($0.05) returned to danielbarbamisi
+danielbarbamisi collected $0.10 from pot
+danielbarbamisi: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.10 | Rake $0 
+Seat 1: D4nyBoy (button) folded before Flop (didn't bet)
+Seat 2: sg7444 (small blind) folded before Flop
+Seat 3: danielbarbamisi (big blind) collected ($0.10)
+Seat 4: klopen1982 folded before Flop (didn't bet)
+Seat 5: HubertusB folded before Flop (didn't bet)
+Seat 6: trenerok folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186014769083:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:09:11 CCT [2018/05/04 14:09:11 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: gonzo2910 ($6.61 in chips) 
+Seat 2: DieEneGozer ($10 in chips) 
+Seat 3: Symbiozis ($10.27 in chips) 
+Seat 4: EvgVa ($18.40 in chips) 
+Seat 5: HubertusB ($10.53 in chips) 
+Seat 6: Rhymann ($10.27 in chips) 
+DieEneGozer: posts small blind $0.05
+Symbiozis: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [Ad 4s]
+EvgVa: raises $0.20 to $0.30
+HubertusB: folds 
+Rhymann: calls $0.30
+gonzo2910: folds 
+DieEneGozer: folds 
+Symbiozis: folds 
+*** FLOP *** [7h 3h 4d]
+EvgVa: bets $0.48
+Rhymann: raises $1.01 to $1.49
+EvgVa: calls $1.01
+*** TURN *** [7h 3h 4d] [9c]
+EvgVa: checks 
+Rhymann: bets $2
+EvgVa: calls $2
+*** RIVER *** [7h 3h 4d 9c] [4h]
+EvgVa: checks 
+Rhymann: checks 
+*** SHOW DOWN ***
+EvgVa: shows [7s As] (two pair, Sevens and Fours)
+Rhymann: shows [9d 8d] (two pair, Nines and Fours)
+Rhymann collected $7.38 from pot
+*** SUMMARY ***
+Total pot $7.73 | Rake $0.35 
+Board [7h 3h 4d 9c 4h]
+Seat 1: gonzo2910 (button) folded before Flop (didn't bet)
+Seat 2: DieEneGozer (small blind) folded before Flop
+Seat 3: Symbiozis (big blind) folded before Flop
+Seat 4: EvgVa showed [7s As] and lost with two pair, Sevens and Fours
+Seat 5: HubertusB folded before Flop (didn't bet)
+Seat 6: Rhymann showed [9d 8d] and won ($7.38) with two pair, Nines and Fours
+
+
+
+PokerStars Zoom Hand #186014776958:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:09:23 CCT [2018/05/04 14:09:23 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: jhoelpatan ($10 in chips) 
+Seat 2: HubertusB ($10.53 in chips) 
+Seat 3: fff1d ($10 in chips) 
+Seat 4: davenagy9 ($10.23 in chips) 
+Seat 5: BigBadBoy779 ($7.59 in chips) 
+Seat 6: GizaGliwic ($10.28 in chips) 
+HubertusB: posts small blind $0.05
+fff1d: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [3d 5s]
+davenagy9: folds 
+BigBadBoy779: calls $0.10
+GizaGliwic: folds 
+jhoelpatan: folds 
+HubertusB: folds 
+fff1d: checks 
+*** FLOP *** [2d As Th]
+fff1d: checks 
+BigBadBoy779: bets $0.10
+fff1d: folds 
+Uncalled bet ($0.10) returned to BigBadBoy779
+BigBadBoy779 collected $0.24 from pot
+BigBadBoy779: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.25 | Rake $0.01 
+Board [2d As Th]
+Seat 1: jhoelpatan (button) folded before Flop (didn't bet)
+Seat 2: HubertusB (small blind) folded before Flop
+Seat 3: fff1d (big blind) folded on the Flop
+Seat 4: davenagy9 folded before Flop (didn't bet)
+Seat 5: BigBadBoy779 collected ($0.24)
+Seat 6: GizaGliwic folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186014788558:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:09:39 CCT [2018/05/04 14:09:39 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: HubertusB ($10.48 in chips) 
+Seat 2: gonzo2910 ($6.51 in chips) 
+Seat 3: FloFla777 ($18.68 in chips) 
+Seat 4: JohnSF7 ($10.55 in chips) 
+Seat 5: lef1967 ($12.21 in chips) 
+Seat 6: Okkultist1888 ($32.74 in chips) 
+gonzo2910: posts small blind $0.05
+FloFla777: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [Ac Ah]
+JohnSF7: folds 
+lef1967: folds 
+Okkultist1888: raises $0.20 to $0.30
+HubertusB: calls $0.30
+gonzo2910: folds 
+FloFla777: folds 
+*** FLOP *** [Kc Jc 8s]
+Okkultist1888: bets $0.36
+HubertusB: calls $0.36
+*** TURN *** [Kc Jc 8s] [9h]
+Okkultist1888: checks 
+HubertusB: bets $0.30
+Okkultist1888: folds 
+Uncalled bet ($0.30) returned to HubertusB
+HubertusB collected $1.40 from pot
+HubertusB: doesn't show hand 
+*** SUMMARY ***
+Total pot $1.47 | Rake $0.07 
+Board [Kc Jc 8s 9h]
+Seat 1: HubertusB (button) collected ($1.40)
+Seat 2: gonzo2910 (small blind) folded before Flop
+Seat 3: FloFla777 (big blind) folded before Flop
+Seat 4: JohnSF7 folded before Flop (didn't bet)
+Seat 5: lef1967 folded before Flop (didn't bet)
+Seat 6: Okkultist1888 folded on the Turn
+
+
+
+PokerStars Zoom Hand #186014821343:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:10:26 CCT [2018/05/04 14:10:26 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: Kirgis501 ($18.03 in chips) 
+Seat 2: GamblerGoat ($10.05 in chips) 
+Seat 3: Chmuri7 ($11.34 in chips) 
+Seat 4: feel the vib ($10.60 in chips) 
+Seat 5: sergant30477 ($17.32 in chips) 
+Seat 6: HubertusB ($11.22 in chips) 
+GamblerGoat: posts small blind $0.05
+Chmuri7: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [Kc 4s]
+feel the vib: folds 
+sergant30477: folds 
+HubertusB: folds 
+Kirgis501: folds 
+GamblerGoat: folds 
+Uncalled bet ($0.05) returned to Chmuri7
+Chmuri7 collected $0.10 from pot
+Chmuri7: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.10 | Rake $0 
+Seat 1: Kirgis501 (button) folded before Flop (didn't bet)
+Seat 2: GamblerGoat (small blind) folded before Flop
+Seat 3: Chmuri7 (big blind) collected ($0.10)
+Seat 4: feel the vib folded before Flop (didn't bet)
+Seat 5: sergant30477 folded before Flop (didn't bet)
+Seat 6: HubertusB folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186014835348:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:10:46 CCT [2018/05/04 14:10:46 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: EYFH ($10 in chips) 
+Seat 2: MawwtY ($15.72 in chips) 
+Seat 3: HubertusB ($11.22 in chips) 
+Seat 4: nl_shizik ($20.40 in chips) 
+Seat 5: Apap Noc ($12.20 in chips) 
+Seat 6: -0-TaHya-0- ($9.35 in chips) 
+MawwtY: posts small blind $0.05
+HubertusB: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [Qd 9d]
+nl_shizik: folds 
+Apap Noc: folds 
+-0-TaHya-0-: folds 
+EYFH: raises $0.15 to $0.25
+MawwtY: calls $0.20
+HubertusB: calls $0.15
+*** FLOP *** [4c 3s 9h]
+MawwtY: checks 
+HubertusB: bets $0.70
+EYFH: folds 
+MawwtY: folds 
+Uncalled bet ($0.70) returned to HubertusB
+HubertusB collected $0.72 from pot
+HubertusB: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.75 | Rake $0.03 
+Board [4c 3s 9h]
+Seat 1: EYFH (button) folded on the Flop
+Seat 2: MawwtY (small blind) folded on the Flop
+Seat 3: HubertusB (big blind) collected ($0.72)
+Seat 4: nl_shizik folded before Flop (didn't bet)
+Seat 5: Apap Noc folded before Flop (didn't bet)
+Seat 6: -0-TaHya-0- folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186014877036:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:11:46 CCT [2018/05/04 14:11:46 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: DieEneGozer ($19.18 in chips) 
+Seat 2: KpOcKeTa ($6.43 in chips) 
+Seat 3: Absinthic ($1.59 in chips) 
+Seat 4: AthleticZ ($19.46 in chips) 
+Seat 5: HubertusB ($11.69 in chips) 
+Seat 6: honc0312 ($10.25 in chips) 
+KpOcKeTa: posts small blind $0.05
+Absinthic: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [8s Ac]
+AthleticZ: folds 
+HubertusB: folds 
+honc0312: raises $0.18 to $0.28
+DieEneGozer: folds 
+KpOcKeTa: folds 
+Absinthic: folds 
+Uncalled bet ($0.18) returned to honc0312
+honc0312 collected $0.25 from pot
+honc0312: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.25 | Rake $0 
+Seat 1: DieEneGozer (button) folded before Flop (didn't bet)
+Seat 2: KpOcKeTa (small blind) folded before Flop
+Seat 3: Absinthic (big blind) folded before Flop
+Seat 4: AthleticZ folded before Flop (didn't bet)
+Seat 5: HubertusB folded before Flop (didn't bet)
+Seat 6: honc0312 collected ($0.25)
+
+
+
+PokerStars Zoom Hand #186014880632:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:11:51 CCT [2018/05/04 14:11:51 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: Kiuhelbeker ($22.76 in chips) 
+Seat 2: sendzimir74 ($10 in chips) 
+Seat 3: panton11 ($10 in chips) 
+Seat 4: HubertusB ($11.69 in chips) 
+Seat 5: smasher1472 ($24.10 in chips) 
+Seat 6: Pietro211 ($10.03 in chips) 
+sendzimir74: posts small blind $0.05
+panton11: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [3h 5h]
+HubertusB: folds 
+smasher1472: folds 
+Pietro211: folds 
+Kiuhelbeker: folds 
+sendzimir74: folds 
+Uncalled bet ($0.05) returned to panton11
+panton11 collected $0.10 from pot
+panton11: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.10 | Rake $0 
+Seat 1: Kiuhelbeker (button) folded before Flop (didn't bet)
+Seat 2: sendzimir74 (small blind) folded before Flop
+Seat 3: panton11 (big blind) collected ($0.10)
+Seat 4: HubertusB folded before Flop (didn't bet)
+Seat 5: smasher1472 folded before Flop (didn't bet)
+Seat 6: Pietro211 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186014869461:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:11:35 CCT [2018/05/04 14:11:35 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: Content2bpro ($29.07 in chips) 
+Seat 2: calthedude ($16.07 in chips) 
+Seat 3: BigEarn86 ($10.10 in chips) 
+Seat 4: HubertusB ($11.69 in chips) 
+Seat 5: GamblerGoat ($10 in chips) 
+Seat 6: zdaz1 ($50.07 in chips) 
+calthedude: posts small blind $0.05
+BigEarn86: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [Qd Jh]
+HubertusB: folds 
+GamblerGoat: folds 
+zdaz1: folds 
+Content2bpro: folds 
+calthedude: raises $0.15 to $0.25
+BigEarn86: calls $0.15
+*** FLOP *** [Qc 3d 7s]
+calthedude: bets $0.31
+BigEarn86: folds 
+Uncalled bet ($0.31) returned to calthedude
+calthedude collected $0.48 from pot
+calthedude: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.50 | Rake $0.02 
+Board [Qc 3d 7s]
+Seat 1: Content2bpro (button) folded before Flop (didn't bet)
+Seat 2: calthedude (small blind) collected ($0.48)
+Seat 3: BigEarn86 (big blind) folded on the Flop
+Seat 4: HubertusB folded before Flop (didn't bet)
+Seat 5: GamblerGoat folded before Flop (didn't bet)
+Seat 6: zdaz1 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186014887657:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:12:01 CCT [2018/05/04 14:12:01 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: zdaz1 ($50.07 in chips) 
+Seat 2: HubertusB ($11.69 in chips) 
+Seat 3: zacharias12 ($6.25 in chips) 
+Seat 4: fkcmoi ($7.37 in chips) 
+Seat 5: 0FWGKT4 ($14.76 in chips) 
+Seat 6: Tub1610 ($13.16 in chips) 
+HubertusB: posts small blind $0.05
+zacharias12: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [2h Jh]
+fkcmoi: folds 
+0FWGKT4: folds 
+Tub1610: folds 
+zdaz1: folds 
+HubertusB: folds 
+Uncalled bet ($0.05) returned to zacharias12
+zacharias12 collected $0.10 from pot
+zacharias12: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.10 | Rake $0 
+Seat 1: zdaz1 (button) folded before Flop (didn't bet)
+Seat 2: HubertusB (small blind) folded before Flop
+Seat 3: zacharias12 (big blind) collected ($0.10)
+Seat 4: fkcmoi folded before Flop (didn't bet)
+Seat 5: 0FWGKT4 folded before Flop (didn't bet)
+Seat 6: Tub1610 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186014893162:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:12:09 CCT [2018/05/04 14:12:09 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: darkowa ($10.05 in chips) 
+Seat 2: Big_Al3106 ($5.91 in chips) 
+Seat 3: HubertusB ($11.64 in chips) 
+Seat 4: SamuraiHBL ($7.54 in chips) 
+Seat 5: EnterNumLock ($10.17 in chips) 
+Seat 6: 7freejack8 ($19.07 in chips) 
+Big_Al3106: posts small blind $0.05
+HubertusB: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [Kh Jd]
+SamuraiHBL: folds 
+EnterNumLock: folds 
+7freejack8: folds 
+darkowa: folds 
+Big_Al3106: raises $0.19 to $0.29
+HubertusB: calls $0.19
+*** FLOP *** [5s 3d Ad]
+Big_Al3106: bets $0.29
+HubertusB: raises $0.71 to $1
+Big_Al3106: folds 
+Uncalled bet ($0.71) returned to HubertusB
+HubertusB collected $1.11 from pot
+HubertusB: doesn't show hand 
+*** SUMMARY ***
+Total pot $1.16 | Rake $0.05 
+Board [5s 3d Ad]
+Seat 1: darkowa (button) folded before Flop (didn't bet)
+Seat 2: Big_Al3106 (small blind) folded on the Flop
+Seat 3: HubertusB (big blind) collected ($1.11)
+Seat 4: SamuraiHBL folded before Flop (didn't bet)
+Seat 5: EnterNumLock folded before Flop (didn't bet)
+Seat 6: 7freejack8 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186014927307:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:12:58 CCT [2018/05/04 14:12:58 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: HubertusB ($12.17 in chips) 
+Seat 2: 2476peter ($5.05 in chips) 
+Seat 3: nl_shizik ($16.23 in chips) 
+Seat 4: chemergez ($10.79 in chips) 
+Seat 5: cfvbhf1508 ($8.19 in chips) 
+Seat 6: Alarmaz ($19.22 in chips) 
+2476peter: posts small blind $0.05
+nl_shizik: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [6c 7s]
+chemergez: folds 
+cfvbhf1508: folds 
+Alarmaz: folds 
+HubertusB: folds 
+2476peter: raises $0.10 to $0.20
+nl_shizik: folds 
+Uncalled bet ($0.10) returned to 2476peter
+2476peter collected $0.20 from pot
+2476peter: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.20 | Rake $0 
+Seat 1: HubertusB (button) folded before Flop (didn't bet)
+Seat 2: 2476peter (small blind) collected ($0.20)
+Seat 3: nl_shizik (big blind) folded before Flop
+Seat 4: chemergez folded before Flop (didn't bet)
+Seat 5: cfvbhf1508 folded before Flop (didn't bet)
+Seat 6: Alarmaz folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186014930933:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:13:03 CCT [2018/05/04 14:13:03 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: Chmuri7 ($10 in chips) 
+Seat 2: bawdymassage ($10.38 in chips) 
+Seat 3: Luuckky989 ($43.15 in chips) 
+Seat 4: MJTT1 ($10.10 in chips) 
+Seat 5: ssl_saya ($4.36 in chips) 
+Seat 6: HubertusB ($12.17 in chips) 
+bawdymassage: posts small blind $0.05
+Luuckky989: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [Th 9h]
+MJTT1: folds 
+ssl_saya: folds 
+HubertusB: raises $0.16 to $0.26
+Chmuri7: folds 
+bawdymassage: folds 
+Luuckky989: raises $0.57 to $0.83
+HubertusB: calls $0.57
+*** FLOP *** [Js 7c 7h]
+Luuckky989: checks 
+HubertusB: bets $1
+Luuckky989: folds 
+Uncalled bet ($1) returned to HubertusB
+HubertusB collected $1.63 from pot
+HubertusB: doesn't show hand 
+*** SUMMARY ***
+Total pot $1.71 | Rake $0.08 
+Board [Js 7c 7h]
+Seat 1: Chmuri7 (button) folded before Flop (didn't bet)
+Seat 2: bawdymassage (small blind) folded before Flop
+Seat 3: Luuckky989 (big blind) folded on the Flop
+Seat 4: MJTT1 folded before Flop (didn't bet)
+Seat 5: ssl_saya folded before Flop (didn't bet)
+Seat 6: HubertusB collected ($1.63)
+
+
+
+PokerStars Zoom Hand #186014923906:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:12:53 CCT [2018/05/04 14:12:53 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: HubertusB ($12.17 in chips) 
+Seat 2: panton11 ($10.15 in chips) 
+Seat 3: BigBadBoy779 ($14.22 in chips) 
+Seat 4: Kiuhelbeker ($36.30 in chips) 
+Seat 5: MrThony ($16.99 in chips) 
+Seat 6: Drawzee ($10.58 in chips) 
+panton11: posts small blind $0.05
+BigBadBoy779: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [4c 9h]
+Kiuhelbeker: folds 
+MrThony: folds 
+Drawzee: folds 
+HubertusB: folds 
+panton11: raises $0.20 to $0.30
+BigBadBoy779: calls $0.20
+*** FLOP *** [2d As Td]
+panton11: bets $0.30
+BigBadBoy779: raises $0.30 to $0.60
+panton11: calls $0.30
+*** TURN *** [2d As Td] [Kh]
+panton11: checks 
+BigBadBoy779: bets $0.70
+panton11: calls $0.70
+*** RIVER *** [2d As Td Kh] [Jd]
+panton11: checks 
+BigBadBoy779: checks 
+*** SHOW DOWN ***
+panton11: shows [7s Ah] (a pair of Aces)
+BigBadBoy779: shows [Ad Th] (two pair, Aces and Tens)
+BigBadBoy779 collected $3.06 from pot
+*** SUMMARY ***
+Total pot $3.20 | Rake $0.14 
+Board [2d As Td Kh Jd]
+Seat 1: HubertusB (button) folded before Flop (didn't bet)
+Seat 2: panton11 (small blind) showed [7s Ah] and lost with a pair of Aces
+Seat 3: BigBadBoy779 (big blind) showed [Ad Th] and won ($3.06) with two pair, Aces and Tens
+Seat 4: Kiuhelbeker folded before Flop (didn't bet)
+Seat 5: MrThony folded before Flop (didn't bet)
+Seat 6: Drawzee folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186014966268:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:13:53 CCT [2018/05/04 14:13:53 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: EffOrt100% ($14.41 in chips) 
+Seat 2: DEZI144 ($6.35 in chips) 
+Seat 3: vlad0512 ($9.97 in chips) 
+Seat 4: HubertusB ($12.97 in chips) 
+Seat 5: kayleighxdan ($9.79 in chips) 
+Seat 6: Tub1610 ($10 in chips) 
+DEZI144: posts small blind $0.05
+vlad0512: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [Tc Ts]
+HubertusB: raises $0.16 to $0.26
+kayleighxdan: calls $0.26
+Tub1610: folds 
+EffOrt100%: raises $0.89 to $1.15
+DEZI144: folds 
+vlad0512: folds 
+HubertusB: calls $0.89
+kayleighxdan: calls $0.89
+*** FLOP *** [Ks 7d 2s]
+HubertusB: checks 
+kayleighxdan: checks 
+EffOrt100%: bets $1.95
+HubertusB: folds 
+kayleighxdan: folds 
+Uncalled bet ($1.95) returned to EffOrt100%
+EffOrt100% collected $3.44 from pot
+EffOrt100%: doesn't show hand 
+*** SUMMARY ***
+Total pot $3.60 | Rake $0.16 
+Board [Ks 7d 2s]
+Seat 1: EffOrt100% (button) collected ($3.44)
+Seat 2: DEZI144 (small blind) folded before Flop
+Seat 3: vlad0512 (big blind) folded before Flop
+Seat 4: HubertusB folded on the Flop
+Seat 5: kayleighxdan folded on the Flop
+Seat 6: Tub1610 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186015038329:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:15:38 CCT [2018/05/04 14:15:38 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: AHTuKuJIJIEP ($12.77 in chips) 
+Seat 2: Slavzhik7 ($10.11 in chips) 
+Seat 3: HubertusB ($11.77 in chips) 
+Seat 4: D4nyBoy ($21.75 in chips) 
+Seat 5: Ent-Hopkins ($3.85 in chips) 
+Seat 6: HappyZKoala ($11.23 in chips) 
+Slavzhik7: posts small blind $0.05
+HubertusB: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [8s Qc]
+D4nyBoy: folds 
+Ent-Hopkins: folds 
+HappyZKoala: folds 
+AHTuKuJIJIEP: folds 
+Slavzhik7: folds 
+Uncalled bet ($0.05) returned to HubertusB
+HubertusB collected $0.10 from pot
+HubertusB: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.10 | Rake $0 
+Seat 1: AHTuKuJIJIEP (button) folded before Flop (didn't bet)
+Seat 2: Slavzhik7 (small blind) folded before Flop
+Seat 3: HubertusB (big blind) collected ($0.10)
+Seat 4: D4nyBoy folded before Flop (didn't bet)
+Seat 5: Ent-Hopkins folded before Flop (didn't bet)
+Seat 6: HappyZKoala folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186015022516:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:15:14 CCT [2018/05/04 14:15:14 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: uterkrm.ua ($10.30 in chips) 
+Seat 2: HubertusB ($11.82 in chips) 
+Seat 3: darkowa ($11.41 in chips) 
+Seat 4: wlad198 ($10 in chips) 
+Seat 5: EffOrt100% ($16.70 in chips) 
+Seat 6: Drawzee ($10.97 in chips) 
+HubertusB: posts small blind $0.05
+darkowa: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [7c As]
+wlad198: folds 
+EffOrt100%: folds 
+Drawzee: folds 
+uterkrm.ua: raises $0.10 to $0.20
+HubertusB: folds 
+darkowa: calls $0.10
+*** FLOP *** [5d Jh 4h]
+darkowa: checks 
+uterkrm.ua: bets $0.15
+darkowa: calls $0.15
+*** TURN *** [5d Jh 4h] [Jd]
+darkowa: checks 
+uterkrm.ua: bets $0.49
+darkowa: calls $0.49
+*** RIVER *** [5d Jh 4h Jd] [6h]
+darkowa: checks 
+uterkrm.ua: checks 
+*** SHOW DOWN ***
+darkowa: shows [7d 7s] (two pair, Jacks and Sevens)
+uterkrm.ua: mucks hand 
+darkowa collected $1.65 from pot
+*** SUMMARY ***
+Total pot $1.73 | Rake $0.08 
+Board [5d Jh 4h Jd 6h]
+Seat 1: uterkrm.ua (button) mucked [3c Kc]
+Seat 2: HubertusB (small blind) folded before Flop
+Seat 3: darkowa (big blind) showed [7d 7s] and won ($1.65) with two pair, Jacks and Sevens
+Seat 4: wlad198 folded before Flop (didn't bet)
+Seat 5: EffOrt100% folded before Flop (didn't bet)
+Seat 6: Drawzee folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186015059866:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:16:10 CCT [2018/05/04 14:16:10 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: UltimateHer0 ($10.15 in chips) 
+Seat 2: Drawzee ($10.83 in chips) 
+Seat 3: Hekanekoff ($14.40 in chips) 
+Seat 4: honc0312 ($10 in chips) 
+Seat 5: HubertusB ($11.82 in chips) 
+Seat 6: Deghirra ($10.55 in chips) 
+Drawzee: posts small blind $0.05
+Hekanekoff: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [Ks 2c]
+honc0312: folds 
+HubertusB: folds 
+Deghirra: folds 
+UltimateHer0: raises $0.15 to $0.25
+Drawzee: folds 
+Hekanekoff: folds 
+Uncalled bet ($0.15) returned to UltimateHer0
+UltimateHer0 collected $0.25 from pot
+UltimateHer0: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.25 | Rake $0 
+Seat 1: UltimateHer0 (button) collected ($0.25)
+Seat 2: Drawzee (small blind) folded before Flop
+Seat 3: Hekanekoff (big blind) folded before Flop
+Seat 4: honc0312 folded before Flop (didn't bet)
+Seat 5: HubertusB folded before Flop (didn't bet)
+Seat 6: Deghirra folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186015068002:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:16:22 CCT [2018/05/04 14:16:22 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: HubertusB ($11.82 in chips) 
+Seat 2: Mac_Elef ($11.64 in chips) 
+Seat 3: schapekoppen ($10.38 in chips) 
+Seat 4: Bopoda110 ($18.42 in chips) 
+Seat 5: fkcmoi ($7.87 in chips) 
+Seat 6: Absinthic ($0.97 in chips) 
+Mac_Elef: posts small blind $0.05
+schapekoppen: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [Ac 4s]
+Bopoda110: folds 
+fkcmoi: folds 
+Absinthic: folds 
+HubertusB: folds 
+Mac_Elef: folds 
+Uncalled bet ($0.05) returned to schapekoppen
+schapekoppen collected $0.10 from pot
+schapekoppen: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.10 | Rake $0 
+Seat 1: HubertusB (button) folded before Flop (didn't bet)
+Seat 2: Mac_Elef (small blind) folded before Flop
+Seat 3: schapekoppen (big blind) collected ($0.10)
+Seat 4: Bopoda110 folded before Flop (didn't bet)
+Seat 5: fkcmoi folded before Flop (didn't bet)
+Seat 6: Absinthic folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186015078948:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:16:38 CCT [2018/05/04 14:16:38 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: oldfish347 ($12.96 in chips) 
+Seat 2: HubertusB ($11.82 in chips) 
+Seat 3: Golyoka89 ($11.41 in chips) 
+Seat 4: calthedude ($18.93 in chips) 
+Seat 5: NumbSagon ($11.19 in chips) 
+Seat 6: uterkrm.ua ($10 in chips) 
+HubertusB: posts small blind $0.05
+Golyoka89: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [4d 2c]
+calthedude: folds 
+NumbSagon: raises $0.20 to $0.30
+uterkrm.ua: folds 
+oldfish347: folds 
+HubertusB: folds 
+Golyoka89: folds 
+Uncalled bet ($0.20) returned to NumbSagon
+NumbSagon collected $0.25 from pot
+NumbSagon: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.25 | Rake $0 
+Seat 1: oldfish347 (button) folded before Flop (didn't bet)
+Seat 2: HubertusB (small blind) folded before Flop
+Seat 3: Golyoka89 (big blind) folded before Flop
+Seat 4: calthedude folded before Flop (didn't bet)
+Seat 5: NumbSagon collected ($0.25)
+Seat 6: uterkrm.ua folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186015046076:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:15:50 CCT [2018/05/04 14:15:50 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: GizaGliwic ($12.46 in chips) 
+Seat 2: Somice86 ($10.51 in chips) 
+Seat 3: zdaz1 ($50.29 in chips) 
+Seat 4: Draugsvoll ($11.90 in chips) 
+Seat 5: schapekoppen ($10.28 in chips) 
+Seat 6: HubertusB ($11.82 in chips) 
+Somice86: posts small blind $0.05
+zdaz1: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [2d Kd]
+Draugsvoll: folds 
+schapekoppen: folds 
+HubertusB: folds 
+GizaGliwic: raises $0.20 to $0.30
+Somice86: calls $0.25
+zdaz1: folds 
+*** FLOP *** [6c Qd Qs]
+Somice86: checks 
+GizaGliwic: checks 
+*** TURN *** [6c Qd Qs] [8c]
+Somice86: checks 
+GizaGliwic: bets $0.37
+Somice86: calls $0.37
+*** RIVER *** [6c Qd Qs 8c] [Ks]
+Somice86: checks 
+GizaGliwic: bets $0.46
+Somice86: folds 
+Uncalled bet ($0.46) returned to GizaGliwic
+GizaGliwic collected $1.38 from pot
+GizaGliwic: doesn't show hand 
+*** SUMMARY ***
+Total pot $1.44 | Rake $0.06 
+Board [6c Qd Qs 8c Ks]
+Seat 1: GizaGliwic (button) collected ($1.38)
+Seat 2: Somice86 (small blind) folded on the River
+Seat 3: zdaz1 (big blind) folded before Flop
+Seat 4: Draugsvoll folded before Flop (didn't bet)
+Seat 5: schapekoppen folded before Flop (didn't bet)
+Seat 6: HubertusB folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186015101669:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:17:10 CCT [2018/05/04 14:17:10 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: fonsdewolf ($10.35 in chips) 
+Seat 2: rack1777 ($10.15 in chips) 
+Seat 3: HubertusB ($11.77 in chips) 
+Seat 4: MrPaolo90 ($9.17 in chips) 
+Seat 5: Drawzee ($10.77 in chips) 
+Seat 6: calthedude ($18.98 in chips) 
+rack1777: posts small blind $0.05
+HubertusB: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [9h Td]
+MrPaolo90: folds 
+Drawzee: folds 
+calthedude: folds 
+fonsdewolf: raises $0.10 to $0.20
+rack1777: folds 
+HubertusB: folds 
+Uncalled bet ($0.10) returned to fonsdewolf
+fonsdewolf collected $0.25 from pot
+fonsdewolf: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.25 | Rake $0 
+Seat 1: fonsdewolf (button) collected ($0.25)
+Seat 2: rack1777 (small blind) folded before Flop
+Seat 3: HubertusB (big blind) folded before Flop
+Seat 4: MrPaolo90 folded before Flop (didn't bet)
+Seat 5: Drawzee folded before Flop (didn't bet)
+Seat 6: calthedude folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186015087408:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:16:50 CCT [2018/05/04 14:16:50 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: fede 7ñl ($10 in chips) 
+Seat 2: Sushi Taxi ($6.50 in chips) 
+Seat 3: Pho0n ($10 in chips) 
+Seat 4: Drawzee ($10.53 in chips) 
+Seat 5: HubertusB ($11.77 in chips) 
+Seat 6: Noirdubois ($16.60 in chips) 
+Sushi Taxi: posts small blind $0.05
+Pho0n: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [8s 4s]
+Drawzee: folds 
+HubertusB: folds 
+Noirdubois: raises $0.20 to $0.30
+fede 7ñl: folds 
+Sushi Taxi: calls $0.25
+Pho0n: folds 
+*** FLOP *** [6d Kh 9d]
+Sushi Taxi: checks 
+Noirdubois: bets $0.30
+Sushi Taxi: raises $0.60 to $0.90
+Noirdubois: calls $0.60
+*** TURN *** [6d Kh 9d] [9h]
+Sushi Taxi: checks 
+Noirdubois: bets $1.10
+Sushi Taxi: calls $1.10
+*** RIVER *** [6d Kh 9d 9h] [Jd]
+Sushi Taxi: checks 
+Noirdubois: bets $1.80
+Sushi Taxi: calls $1.80
+*** SHOW DOWN ***
+Noirdubois: shows [Ah 7h] (a pair of Nines)
+Sushi Taxi: shows [9c Ac] (three of a kind, Nines)
+Sushi Taxi collected $7.93 from pot
+*** SUMMARY ***
+Total pot $8.30 | Rake $0.37 
+Board [6d Kh 9d 9h Jd]
+Seat 1: fede 7ñl (button) folded before Flop (didn't bet)
+Seat 2: Sushi Taxi (small blind) showed [9c Ac] and won ($7.93) with three of a kind, Nines
+Seat 3: Pho0n (big blind) folded before Flop
+Seat 4: Drawzee folded before Flop (didn't bet)
+Seat 5: HubertusB folded before Flop (didn't bet)
+Seat 6: Noirdubois showed [Ah 7h] and lost with a pair of Nines
+
+
+
+PokerStars Zoom Hand #186015094599:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:17:00 CCT [2018/05/04 14:17:00 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: UltimateHer0 ($10 in chips) 
+Seat 2: Content2bpro ($26.90 in chips) 
+Seat 3: Tolik_QQQQ ($25.39 in chips) 
+Seat 4: HubertusB ($11.77 in chips) 
+Seat 5: JohnSF7 ($12.38 in chips) 
+Seat 6: Tub1610 ($10.15 in chips) 
+Content2bpro: posts small blind $0.05
+Tolik_QQQQ: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [Qc 5c]
+HubertusB: folds 
+JohnSF7: folds 
+Tub1610: folds 
+UltimateHer0: folds 
+Content2bpro: raises $0.15 to $0.25
+Tolik_QQQQ: calls $0.15
+*** FLOP *** [Ac 3s Kd]
+Content2bpro: bets $0.24
+Tolik_QQQQ: calls $0.24
+*** TURN *** [Ac 3s Kd] [Qh]
+Content2bpro: checks 
+Tolik_QQQQ: checks 
+*** RIVER *** [Ac 3s Kd Qh] [7h]
+Content2bpro: checks 
+Tolik_QQQQ: bets $0.47
+Content2bpro: calls $0.47
+*** SHOW DOWN ***
+Tolik_QQQQ: shows [Qs 7s] (two pair, Queens and Sevens)
+Content2bpro: mucks hand 
+Tolik_QQQQ collected $1.83 from pot
+*** SUMMARY ***
+Total pot $1.92 | Rake $0.09 
+Board [Ac 3s Kd Qh 7h]
+Seat 1: UltimateHer0 (button) folded before Flop (didn't bet)
+Seat 2: Content2bpro (small blind) mucked [2c As]
+Seat 3: Tolik_QQQQ (big blind) showed [Qs 7s] and won ($1.83) with two pair, Queens and Sevens
+Seat 4: HubertusB folded before Flop (didn't bet)
+Seat 5: JohnSF7 folded before Flop (didn't bet)
+Seat 6: Tub1610 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186015117200:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:17:32 CCT [2018/05/04 14:17:32 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: HubertusB ($11.67 in chips) 
+Seat 2: bearos007 ($9.68 in chips) 
+Seat 3: rack1777 ($16.80 in chips) 
+Seat 4: NumbSagon ($10 in chips) 
+Seat 5: MrThony ($11.43 in chips) 
+Seat 6: Mik-jack-a ($9.08 in chips) 
+bearos007: posts small blind $0.05
+rack1777: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [4h 7c]
+NumbSagon: raises $0.20 to $0.30
+MrThony: folds 
+Mik-jack-a: folds 
+HubertusB: folds 
+bearos007: calls $0.25
+rack1777: calls $0.20
+*** FLOP *** [4c 2h 4s]
+bearos007: checks 
+rack1777: checks 
+NumbSagon: checks 
+*** TURN *** [4c 2h 4s] [4d]
+bearos007: checks 
+rack1777: checks 
+NumbSagon: checks 
+*** RIVER *** [4c 2h 4s 4d] [3c]
+bearos007: checks 
+rack1777: checks 
+NumbSagon: checks 
+*** SHOW DOWN ***
+bearos007: shows [Kh 9d] (three of a kind, Fours)
+rack1777: shows [6h 5h] (a straight, Deuce to Six)
+NumbSagon: mucks hand 
+rack1777 collected $0.86 from pot
+*** SUMMARY ***
+Total pot $0.90 | Rake $0.04 
+Board [4c 2h 4s 4d 3c]
+Seat 1: HubertusB (button) folded before Flop (didn't bet)
+Seat 2: bearos007 (small blind) showed [Kh 9d] and lost with three of a kind, Fours
+Seat 3: rack1777 (big blind) showed [6h 5h] and won ($0.86) with a straight, Deuce to Six
+Seat 4: NumbSagon mucked [Qc Jc]
+Seat 5: MrThony folded before Flop (didn't bet)
+Seat 6: Mik-jack-a folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186015121399:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:17:38 CCT [2018/05/04 14:17:38 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: nl_shizik ($20.68 in chips) 
+Seat 2: Jori666 ($10.63 in chips) 
+Seat 3: AHTuKuJIJIEP ($11.18 in chips) 
+Seat 4: Julian7117 ($12.14 in chips) 
+Seat 5: Edberg22 ($16.73 in chips) 
+Seat 6: HubertusB ($11.67 in chips) 
+Jori666: posts small blind $0.05
+AHTuKuJIJIEP: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [9c 5s]
+Julian7117: folds 
+Edberg22: raises $0.20 to $0.30
+HubertusB: folds 
+nl_shizik: folds 
+Jori666: folds 
+AHTuKuJIJIEP: folds 
+Uncalled bet ($0.20) returned to Edberg22
+Edberg22 collected $0.25 from pot
+Edberg22: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.25 | Rake $0 
+Seat 1: nl_shizik (button) folded before Flop (didn't bet)
+Seat 2: Jori666 (small blind) folded before Flop
+Seat 3: AHTuKuJIJIEP (big blind) folded before Flop
+Seat 4: Julian7117 folded before Flop (didn't bet)
+Seat 5: Edberg22 collected ($0.25)
+Seat 6: HubertusB folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186015129201:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:17:49 CCT [2018/05/04 14:17:49 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: rack1777 ($10 in chips) 
+Seat 2: nl_shizik ($20.68 in chips) 
+Seat 3: offuca ($10.01 in chips) 
+Seat 4: HubertusB ($11.67 in chips) 
+Seat 5: fff1d ($11 in chips) 
+Seat 6: Ser Tyapkin ($21.29 in chips) 
+nl_shizik: posts small blind $0.05
+offuca: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [Td 5c]
+HubertusB: folds 
+fff1d: folds 
+Ser Tyapkin: folds 
+rack1777: raises $0.10 to $0.20
+nl_shizik: folds 
+offuca: folds 
+Uncalled bet ($0.10) returned to rack1777
+rack1777 collected $0.25 from pot
+rack1777: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.25 | Rake $0 
+Seat 1: rack1777 (button) collected ($0.25)
+Seat 2: nl_shizik (small blind) folded before Flop
+Seat 3: offuca (big blind) folded before Flop
+Seat 4: HubertusB folded before Flop (didn't bet)
+Seat 5: fff1d folded before Flop (didn't bet)
+Seat 6: Ser Tyapkin folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186015132899:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:17:54 CCT [2018/05/04 14:17:54 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: cfvbhf1508 ($8.11 in chips) 
+Seat 2: JohnSF7 ($11.04 in chips) 
+Seat 3: George wa833 ($12.16 in chips) 
+Seat 4: Boom591 ($15.05 in chips) 
+Seat 5: Content2bpro ($25.94 in chips) 
+Seat 6: HubertusB ($11.67 in chips) 
+JohnSF7: posts small blind $0.05
+George wa833: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [Qh Jc]
+Boom591: folds 
+Content2bpro: folds 
+HubertusB: raises $0.14 to $0.24
+cfvbhf1508: calls $0.24
+JohnSF7: folds 
+George wa833: calls $0.14
+*** FLOP *** [Qd Th 4h]
+George wa833: checks 
+HubertusB: bets $0.41
+cfvbhf1508: calls $0.41
+George wa833: calls $0.41
+*** TURN *** [Qd Th 4h] [Ks]
+George wa833: checks 
+HubertusB: checks 
+cfvbhf1508: bets $0.96
+George wa833: folds 
+HubertusB: calls $0.96
+*** RIVER *** [Qd Th 4h Ks] [4d]
+HubertusB: checks 
+cfvbhf1508: bets $1.87
+HubertusB: calls $1.87
+*** SHOW DOWN ***
+cfvbhf1508: shows [Qs Js] (two pair, Queens and Fours)
+HubertusB: shows [Qh Jc] (two pair, Queens and Fours)
+HubertusB collected $3.66 from pot
+cfvbhf1508 collected $3.66 from pot
+*** SUMMARY ***
+Total pot $7.66 | Rake $0.34 
+Board [Qd Th 4h Ks 4d]
+Seat 1: cfvbhf1508 (button) showed [Qs Js] and won ($3.66) with two pair, Queens and Fours
+Seat 2: JohnSF7 (small blind) folded before Flop
+Seat 3: George wa833 (big blind) folded on the Turn
+Seat 4: Boom591 folded before Flop (didn't bet)
+Seat 5: Content2bpro folded before Flop (didn't bet)
+Seat 6: HubertusB showed [Qh Jc] and won ($3.66) with two pair, Queens and Fours
+
+
+
+PokerStars Zoom Hand #186015192512:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:19:18 CCT [2018/05/04 14:19:18 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: Bonjo1911777 ($10 in chips) 
+Seat 2: HubertusB ($11.85 in chips) 
+Seat 3: Spotlight23 ($12.49 in chips) 
+Seat 4: Content2bpro ($36.13 in chips) 
+Seat 5: fff1d ($17.11 in chips) 
+Seat 6: SvonTan ($15.89 in chips) 
+HubertusB: posts small blind $0.05
+Spotlight23: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [4c 8s]
+Content2bpro: folds 
+fff1d: folds 
+SvonTan: folds 
+Bonjo1911777: raises $0.10 to $0.20
+HubertusB: folds 
+Spotlight23: folds 
+Uncalled bet ($0.10) returned to Bonjo1911777
+Bonjo1911777 collected $0.25 from pot
+Bonjo1911777: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.25 | Rake $0 
+Seat 1: Bonjo1911777 (button) collected ($0.25)
+Seat 2: HubertusB (small blind) folded before Flop
+Seat 3: Spotlight23 (big blind) folded before Flop
+Seat 4: Content2bpro folded before Flop (didn't bet)
+Seat 5: fff1d folded before Flop (didn't bet)
+Seat 6: SvonTan folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186015196728:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:19:24 CCT [2018/05/04 14:19:24 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: Vera Miha ($16 in chips) 
+Seat 2: Pa3pbIBMo3ra ($21.53 in chips) 
+Seat 3: HubertusB ($11.80 in chips) 
+Seat 4: fff1d ($17.11 in chips) 
+Seat 5: MJTT1 ($10.03 in chips) 
+Seat 6: mordwin03 ($10.40 in chips) 
+Pa3pbIBMo3ra: posts small blind $0.05
+HubertusB: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [4d 6s]
+fff1d: folds 
+MJTT1: folds 
+mordwin03: folds 
+Vera Miha: raises $0.10 to $0.20
+Pa3pbIBMo3ra: folds 
+HubertusB: folds 
+Uncalled bet ($0.10) returned to Vera Miha
+Vera Miha collected $0.25 from pot
+Vera Miha: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.25 | Rake $0 
+Seat 1: Vera Miha (button) collected ($0.25)
+Seat 2: Pa3pbIBMo3ra (small blind) folded before Flop
+Seat 3: HubertusB (big blind) folded before Flop
+Seat 4: fff1d folded before Flop (didn't bet)
+Seat 5: MJTT1 folded before Flop (didn't bet)
+Seat 6: mordwin03 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186015206066:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:19:37 CCT [2018/05/04 14:19:37 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: Guspichkata ($10.30 in chips) 
+Seat 2: Hekanekoff ($24.54 in chips) 
+Seat 3: iksyge31 ($6.34 in chips) 
+Seat 4: ancqPRO ($13.71 in chips) 
+Seat 5: HubertusB ($11.70 in chips) 
+Seat 6: Anthony5032 ($10 in chips) 
+Hekanekoff: posts small blind $0.05
+iksyge31: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [Kc Ac]
+ancqPRO: folds 
+HubertusB: raises $0.14 to $0.24
+Anthony5032: folds 
+Guspichkata: folds 
+Hekanekoff: folds 
+iksyge31: calls $0.14
+*** FLOP *** [Js 8h 8s]
+iksyge31: checks 
+HubertusB: bets $0.21
+iksyge31: calls $0.21
+*** TURN *** [Js 8h 8s] [9c]
+iksyge31: checks 
+HubertusB: checks 
+*** RIVER *** [Js 8h 8s 9c] [Td]
+iksyge31: bets $0.60
+HubertusB: folds 
+Uncalled bet ($0.60) returned to iksyge31
+iksyge31 collected $0.91 from pot
+iksyge31: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.95 | Rake $0.04 
+Board [Js 8h 8s 9c Td]
+Seat 1: Guspichkata (button) folded before Flop (didn't bet)
+Seat 2: Hekanekoff (small blind) folded before Flop
+Seat 3: iksyge31 (big blind) collected ($0.91)
+Seat 4: ancqPRO folded before Flop (didn't bet)
+Seat 5: HubertusB folded on the River
+Seat 6: Anthony5032 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186015242612:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:20:31 CCT [2018/05/04 14:20:31 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: BakytTheWolf ($13.69 in chips) 
+Seat 2: strela_juve ($2.34 in chips) 
+Seat 3: Alexjke55 ($48.95 in chips) 
+Seat 4: lef1967 ($12.28 in chips) 
+Seat 5: nybas100 ($8.21 in chips) 
+Seat 6: HubertusB ($11.25 in chips) 
+strela_juve: posts small blind $0.05
+Alexjke55: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [Td Jc]
+lef1967: raises $0.20 to $0.30
+nybas100: folds 
+HubertusB: folds 
+BakytTheWolf: folds 
+strela_juve: folds 
+Alexjke55: folds 
+Uncalled bet ($0.20) returned to lef1967
+lef1967 collected $0.25 from pot
+lef1967: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.25 | Rake $0 
+Seat 1: BakytTheWolf (button) folded before Flop (didn't bet)
+Seat 2: strela_juve (small blind) folded before Flop
+Seat 3: Alexjke55 (big blind) folded before Flop
+Seat 4: lef1967 collected ($0.25)
+Seat 5: nybas100 folded before Flop (didn't bet)
+Seat 6: HubertusB folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186015249010:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:20:41 CCT [2018/05/04 14:20:41 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: no present ($9.16 in chips) 
+Seat 2: HubertusB ($11.25 in chips) 
+Seat 3: Pimp955 ($5.84 in chips) 
+Seat 4: cl3-067 ($21.69 in chips) 
+Seat 5: fonsdewolf ($12.29 in chips) 
+Seat 6: -0-TaHya-0- ($7.25 in chips) 
+HubertusB: posts small blind $0.05
+Pimp955: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [2h Ad]
+cl3-067: folds 
+fonsdewolf: folds 
+-0-TaHya-0-: folds 
+no present: folds 
+HubertusB: folds 
+Uncalled bet ($0.05) returned to Pimp955
+Pimp955 collected $0.10 from pot
+Pimp955: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.10 | Rake $0 
+Seat 1: no present (button) folded before Flop (didn't bet)
+Seat 2: HubertusB (small blind) folded before Flop
+Seat 3: Pimp955 (big blind) collected ($0.10)
+Seat 4: cl3-067 folded before Flop (didn't bet)
+Seat 5: fonsdewolf folded before Flop (didn't bet)
+Seat 6: -0-TaHya-0- folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186015238635:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:20:25 CCT [2018/05/04 14:20:25 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: kenneeoin ($8.30 in chips) 
+Seat 2: mebacks ($5.77 in chips) 
+Seat 3: 3blessings ($9.85 in chips) 
+Seat 4: HubertusB ($11.25 in chips) 
+Seat 5: fede 7ñl ($10.62 in chips) 
+Seat 6: lef1967 ($12.28 in chips) 
+mebacks: posts small blind $0.05
+3blessings: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [2d 3d]
+HubertusB: folds 
+fede 7ñl: raises $0.15 to $0.25
+lef1967: folds 
+kenneeoin: calls $0.25
+mebacks: folds 
+3blessings: folds 
+*** FLOP *** [Qs 8s 5c]
+fede 7ñl: checks 
+kenneeoin: checks 
+*** TURN *** [Qs 8s 5c] [Jd]
+fede 7ñl: checks 
+kenneeoin: checks 
+*** RIVER *** [Qs 8s 5c Jd] [As]
+fede 7ñl: bets $0.50
+kenneeoin: folds 
+Uncalled bet ($0.50) returned to fede 7ñl
+fede 7ñl collected $0.62 from pot
+fede 7ñl: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.65 | Rake $0.03 
+Board [Qs 8s 5c Jd As]
+Seat 1: kenneeoin (button) folded on the River
+Seat 2: mebacks (small blind) folded before Flop
+Seat 3: 3blessings (big blind) folded before Flop
+Seat 4: HubertusB folded before Flop (didn't bet)
+Seat 5: fede 7ñl collected ($0.62)
+Seat 6: lef1967 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186015254833:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:20:50 CCT [2018/05/04 14:20:50 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: zdaz1 ($49.19 in chips) 
+Seat 2: HappyZKoala ($13.99 in chips) 
+Seat 3: LeoTube ($10.32 in chips) 
+Seat 4: AHTuKuJIJIEP ($11.26 in chips) 
+Seat 5: HubertusB ($11.20 in chips) 
+Seat 6: dommonty12 ($10.76 in chips) 
+HappyZKoala: posts small blind $0.05
+LeoTube: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [Ks Qc]
+AHTuKuJIJIEP: folds 
+HubertusB: raises $0.10 to $0.20
+dommonty12: folds 
+zdaz1: folds 
+HappyZKoala: folds 
+LeoTube: calls $0.10
+*** FLOP *** [3c 4s 6d]
+LeoTube: checks 
+HubertusB: checks 
+*** TURN *** [3c 4s 6d] [5s]
+LeoTube: checks 
+HubertusB: checks 
+*** RIVER *** [3c 4s 6d 5s] [8s]
+LeoTube: checks 
+HubertusB: checks 
+*** SHOW DOWN ***
+LeoTube: shows [Jc Kc] (high card King)
+HubertusB: shows [Ks Qc] (high card King - Queen kicker)
+HubertusB collected $0.43 from pot
+*** SUMMARY ***
+Total pot $0.45 | Rake $0.02 
+Board [3c 4s 6d 5s 8s]
+Seat 1: zdaz1 (button) folded before Flop (didn't bet)
+Seat 2: HappyZKoala (small blind) folded before Flop
+Seat 3: LeoTube (big blind) showed [Jc Kc] and lost with high card King
+Seat 4: AHTuKuJIJIEP folded before Flop (didn't bet)
+Seat 5: HubertusB showed [Ks Qc] and won ($0.43) with high card King
+Seat 6: dommonty12 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186015285098:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:21:33 CCT [2018/05/04 14:21:33 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: HubertusB ($11.43 in chips) 
+Seat 2: 1989robin ($10.45 in chips) 
+Seat 3: Insignificant ($10 in chips) 
+Seat 4: panton11 ($6.74 in chips) 
+Seat 5: teebeutel16 ($11.39 in chips) 
+Seat 6: MJTT1 ($10 in chips) 
+1989robin: posts small blind $0.05
+Insignificant: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [5h 9h]
+panton11: folds 
+teebeutel16: folds 
+MJTT1: folds 
+HubertusB: folds 
+1989robin: raises $0.15 to $0.25
+Insignificant: folds 
+Uncalled bet ($0.15) returned to 1989robin
+1989robin collected $0.20 from pot
+1989robin: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.20 | Rake $0 
+Seat 1: HubertusB (button) folded before Flop (didn't bet)
+Seat 2: 1989robin (small blind) collected ($0.20)
+Seat 3: Insignificant (big blind) folded before Flop
+Seat 4: panton11 folded before Flop (didn't bet)
+Seat 5: teebeutel16 folded before Flop (didn't bet)
+Seat 6: MJTT1 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186015302764:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:21:58 CCT [2018/05/04 14:21:58 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: JaydenIp ($13.86 in chips) 
+Seat 2: ssl_saya ($24.15 in chips) 
+Seat 3: PAYCHO ($8.01 in chips) 
+Seat 4: HubertusB ($11.33 in chips) 
+Seat 5: ajax-legolas ($17.28 in chips) 
+Seat 6: glagla87 ($10 in chips) 
+ssl_saya: posts small blind $0.05
+PAYCHO: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [4c 3h]
+HubertusB: folds 
+ajax-legolas: folds 
+glagla87: folds 
+JaydenIp: folds 
+ssl_saya: folds 
+Uncalled bet ($0.05) returned to PAYCHO
+PAYCHO collected $0.10 from pot
+PAYCHO: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.10 | Rake $0 
+Seat 1: JaydenIp (button) folded before Flop (didn't bet)
+Seat 2: ssl_saya (small blind) folded before Flop
+Seat 3: PAYCHO (big blind) collected ($0.10)
+Seat 4: HubertusB folded before Flop (didn't bet)
+Seat 5: ajax-legolas folded before Flop (didn't bet)
+Seat 6: glagla87 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186015307735:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:22:05 CCT [2018/05/04 14:22:05 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: GLEBSALAMAND ($10.09 in chips) 
+Seat 2: 1nsideMyMind ($10 in chips) 
+Seat 3: kreoll ($7.91 in chips) 
+Seat 4: RuffeEA ($13.12 in chips) 
+Seat 5: Hekanekoff ($15.19 in chips) 
+Seat 6: HubertusB ($11.33 in chips) 
+1nsideMyMind: posts small blind $0.05
+kreoll: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [Ks 2h]
+RuffeEA: folds 
+Hekanekoff: folds 
+HubertusB: folds 
+GLEBSALAMAND: folds 
+1nsideMyMind: folds 
+Uncalled bet ($0.05) returned to kreoll
+kreoll collected $0.10 from pot
+kreoll: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.10 | Rake $0 
+Seat 1: GLEBSALAMAND (button) folded before Flop (didn't bet)
+Seat 2: 1nsideMyMind (small blind) folded before Flop
+Seat 3: kreoll (big blind) collected ($0.10)
+Seat 4: RuffeEA folded before Flop (didn't bet)
+Seat 5: Hekanekoff folded before Flop (didn't bet)
+Seat 6: HubertusB folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186015289991:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:21:40 CCT [2018/05/04 14:21:40 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: OeTen101 ($37.60 in chips) 
+Seat 2: panton11 ($6.74 in chips) 
+Seat 3: HubertusB ($11.43 in chips) 
+Seat 4: Hekanekoff ($10.60 in chips) 
+Seat 5: gcards91 ($19.70 in chips) 
+Seat 6: ssl_saya ($5.44 in chips) 
+panton11: posts small blind $0.05
+HubertusB: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [Qs 8c]
+Hekanekoff: folds 
+gcards91: raises $0.20 to $0.30
+ssl_saya: folds 
+OeTen101: raises $0.80 to $1.10
+panton11: calls $1.05
+HubertusB: folds 
+gcards91: calls $0.80
+*** FLOP *** [2s 3d 4h]
+panton11: checks 
+gcards91: checks 
+OeTen101: checks 
+*** TURN *** [2s 3d 4h] [7d]
+panton11: bets $3.20
+gcards91: folds 
+OeTen101: folds 
+Uncalled bet ($3.20) returned to panton11
+panton11 collected $3.25 from pot
+panton11: doesn't show hand 
+*** SUMMARY ***
+Total pot $3.40 | Rake $0.15 
+Board [2s 3d 4h 7d]
+Seat 1: OeTen101 (button) folded on the Turn
+Seat 2: panton11 (small blind) collected ($3.25)
+Seat 3: HubertusB (big blind) folded before Flop
+Seat 4: Hekanekoff folded before Flop (didn't bet)
+Seat 5: gcards91 folded on the Turn
+Seat 6: ssl_saya folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186015316218:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:22:17 CCT [2018/05/04 14:22:17 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: uterkrm.ua ($12.57 in chips) 
+Seat 2: HubertusB ($11.33 in chips) 
+Seat 3: Hekanekoff ($28.25 in chips) 
+Seat 4: Mikedem ($13.66 in chips) 
+Seat 5: klaasve ($10.81 in chips) 
+Seat 6: trenerok ($18.70 in chips) 
+HubertusB: posts small blind $0.05
+Hekanekoff: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [6s 8h]
+Mikedem: folds 
+klaasve: folds 
+trenerok: folds 
+uterkrm.ua: folds 
+HubertusB: folds 
+Uncalled bet ($0.05) returned to Hekanekoff
+Hekanekoff collected $0.10 from pot
+Hekanekoff: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.10 | Rake $0 
+Seat 1: uterkrm.ua (button) folded before Flop (didn't bet)
+Seat 2: HubertusB (small blind) folded before Flop
+Seat 3: Hekanekoff (big blind) collected ($0.10)
+Seat 4: Mikedem folded before Flop (didn't bet)
+Seat 5: klaasve folded before Flop (didn't bet)
+Seat 6: trenerok folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186015312715:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:22:12 CCT [2018/05/04 14:22:12 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: HubertusB ($11.33 in chips) 
+Seat 2: kim05601 ($10 in chips) 
+Seat 3: uterkrm.ua ($12.67 in chips) 
+Seat 4: ignarus-j ($9.85 in chips) 
+Seat 5: danielbarbamisi ($10.86 in chips) 
+Seat 6: GLEBSALAMAND ($10.09 in chips) 
+kim05601: posts small blind $0.05
+uterkrm.ua: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [Js 8d]
+ignarus-j: raises $0.20 to $0.30
+danielbarbamisi: raises $0.75 to $1.05
+GLEBSALAMAND: folds 
+HubertusB: folds 
+kim05601: folds 
+uterkrm.ua: folds 
+ignarus-j: calls $0.75
+*** FLOP *** [7c 8s 6s]
+ignarus-j: checks 
+danielbarbamisi: bets $2.15
+ignarus-j: folds 
+Uncalled bet ($2.15) returned to danielbarbamisi
+danielbarbamisi collected $2.15 from pot
+danielbarbamisi: doesn't show hand 
+*** SUMMARY ***
+Total pot $2.25 | Rake $0.10 
+Board [7c 8s 6s]
+Seat 1: HubertusB (button) folded before Flop (didn't bet)
+Seat 2: kim05601 (small blind) folded before Flop
+Seat 3: uterkrm.ua (big blind) folded before Flop
+Seat 4: ignarus-j folded on the Flop
+Seat 5: danielbarbamisi collected ($2.15)
+Seat 6: GLEBSALAMAND folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186015321821:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:22:25 CCT [2018/05/04 14:22:25 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: Vasily75 ($27.91 in chips) 
+Seat 2: UltimateHer0 ($11.23 in chips) 
+Seat 3: Luzod ($10 in chips) 
+Seat 4: cocostars8 ($9.95 in chips) 
+Seat 5: HubertusB ($11.28 in chips) 
+Seat 6: shamzor11 ($5.22 in chips) 
+UltimateHer0: posts small blind $0.05
+Luzod: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [5c Ks]
+cocostars8: raises $0.20 to $0.30
+HubertusB: folds 
+shamzor11: folds 
+Vasily75: folds 
+UltimateHer0: folds 
+Luzod: folds 
+Uncalled bet ($0.20) returned to cocostars8
+cocostars8 collected $0.25 from pot
+cocostars8: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.25 | Rake $0 
+Seat 1: Vasily75 (button) folded before Flop (didn't bet)
+Seat 2: UltimateHer0 (small blind) folded before Flop
+Seat 3: Luzod (big blind) folded before Flop
+Seat 4: cocostars8 collected ($0.25)
+Seat 5: HubertusB folded before Flop (didn't bet)
+Seat 6: shamzor11 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186015327505:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:22:33 CCT [2018/05/04 14:22:33 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: MawwtY ($13.16 in chips) 
+Seat 2: Gemmell x ($10.53 in chips) 
+Seat 3: EnterNumLock ($10 in chips) 
+Seat 4: Merssik95 ($4.49 in chips) 
+Seat 5: HubertusB ($11.28 in chips) 
+Seat 6: ImGonnaDonk ($9.95 in chips) 
+Gemmell x: posts small blind $0.05
+EnterNumLock: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [2h 2s]
+Merssik95: folds 
+HubertusB: raises $0.14 to $0.24
+ImGonnaDonk: folds 
+MawwtY: folds 
+Gemmell x: raises $0.58 to $0.82
+EnterNumLock: folds 
+HubertusB: calls $0.58
+*** FLOP *** [9h 4h Kc]
+Gemmell x: checks 
+HubertusB: bets $1
+Gemmell x: calls $1
+*** TURN *** [9h 4h Kc] [9c]
+Gemmell x: checks 
+HubertusB: bets $3
+Gemmell x: folds 
+Uncalled bet ($3) returned to HubertusB
+HubertusB collected $3.57 from pot
+HubertusB: doesn't show hand 
+*** SUMMARY ***
+Total pot $3.74 | Rake $0.17 
+Board [9h 4h Kc 9c]
+Seat 1: MawwtY (button) folded before Flop (didn't bet)
+Seat 2: Gemmell x (small blind) folded on the Turn
+Seat 3: EnterNumLock (big blind) folded before Flop
+Seat 4: Merssik95 folded before Flop (didn't bet)
+Seat 5: HubertusB collected ($3.57)
+Seat 6: ImGonnaDonk folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186015370650:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:23:33 CCT [2018/05/04 14:23:33 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: fede 7ñl ($10 in chips) 
+Seat 2: Khudz ($10 in chips) 
+Seat 3: HubertusB ($13.03 in chips) 
+Seat 4: musvogel ($38.05 in chips) 
+Seat 5: honc0312 ($10.67 in chips) 
+Seat 6: ballyblue ($17.22 in chips) 
+Khudz: posts small blind $0.05
+HubertusB: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [Qh 7c]
+musvogel: raises $0.20 to $0.30
+honc0312: folds 
+ballyblue: folds 
+fede 7ñl: folds 
+Khudz: folds 
+HubertusB: folds 
+Uncalled bet ($0.20) returned to musvogel
+musvogel collected $0.25 from pot
+musvogel: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.25 | Rake $0 
+Seat 1: fede 7ñl (button) folded before Flop (didn't bet)
+Seat 2: Khudz (small blind) folded before Flop
+Seat 3: HubertusB (big blind) folded before Flop
+Seat 4: musvogel collected ($0.25)
+Seat 5: honc0312 folded before Flop (didn't bet)
+Seat 6: ballyblue folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186015384194:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:23:52 CCT [2018/05/04 14:23:52 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: UltimateHer0 ($10 in chips) 
+Seat 2: HubertusB ($12.93 in chips) 
+Seat 3: nybas100 ($6.61 in chips) 
+Seat 4: D4nyBoy ($12.18 in chips) 
+Seat 5: Klokhss ($12.38 in chips) 
+Seat 6: fff1d ($18.10 in chips) 
+HubertusB: posts small blind $0.05
+nybas100: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [6c 7s]
+D4nyBoy: raises $0.20 to $0.30
+Klokhss: folds 
+fff1d: folds 
+UltimateHer0: folds 
+HubertusB: folds 
+nybas100: folds 
+Uncalled bet ($0.20) returned to D4nyBoy
+D4nyBoy collected $0.25 from pot
+D4nyBoy: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.25 | Rake $0 
+Seat 1: UltimateHer0 (button) folded before Flop (didn't bet)
+Seat 2: HubertusB (small blind) folded before Flop
+Seat 3: nybas100 (big blind) folded before Flop
+Seat 4: D4nyBoy collected ($0.25)
+Seat 5: Klokhss folded before Flop (didn't bet)
+Seat 6: fff1d folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186015392690:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:24:04 CCT [2018/05/04 14:24:04 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: HubertusB ($12.88 in chips) 
+Seat 2: MawwtY ($23.21 in chips) 
+Seat 3: gavrik720 ($5.25 in chips) 
+Seat 4: AHTuKuJIJIEP ($9.90 in chips) 
+Seat 5: nl_shizik ($17.25 in chips) 
+Seat 6: MJTT1 ($10 in chips) 
+MawwtY: posts small blind $0.05
+gavrik720: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [Th 5s]
+AHTuKuJIJIEP: folds 
+nl_shizik: folds 
+MJTT1: raises $0.20 to $0.30
+HubertusB: folds 
+MawwtY: folds 
+gavrik720: calls $0.20
+*** FLOP *** [Ad Jc Qs]
+gavrik720: checks 
+MJTT1: checks 
+*** TURN *** [Ad Jc Qs] [Qc]
+gavrik720: bets $0.30
+MJTT1: folds 
+Uncalled bet ($0.30) returned to gavrik720
+gavrik720 collected $0.62 from pot
+gavrik720: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.65 | Rake $0.03 
+Board [Ad Jc Qs Qc]
+Seat 1: HubertusB (button) folded before Flop (didn't bet)
+Seat 2: MawwtY (small blind) folded before Flop
+Seat 3: gavrik720 (big blind) collected ($0.62)
+Seat 4: AHTuKuJIJIEP folded before Flop (didn't bet)
+Seat 5: nl_shizik folded before Flop (didn't bet)
+Seat 6: MJTT1 folded on the Turn
+
+
+
+PokerStars Zoom Hand #186015379833:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:23:46 CCT [2018/05/04 14:23:46 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: Luzod ($10 in chips) 
+Seat 2: glagla87 ($11.97 in chips) 
+Seat 3: uterkrm.ua ($12.52 in chips) 
+Seat 4: Gemmell x ($10.53 in chips) 
+Seat 5: calthedude ($15.07 in chips) 
+Seat 6: HubertusB ($12.93 in chips) 
+glagla87: posts small blind $0.05
+uterkrm.ua: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [8h Ts]
+Gemmell x: folds 
+calthedude: folds 
+HubertusB: folds 
+Luzod: folds 
+glagla87: raises $0.20 to $0.30
+uterkrm.ua: calls $0.20
+*** FLOP *** [9d Js 5c]
+glagla87: checks 
+uterkrm.ua: bets $0.39
+glagla87: raises $0.69 to $1.08
+uterkrm.ua: calls $0.69
+*** TURN *** [9d Js 5c] [2h]
+glagla87: checks 
+uterkrm.ua: checks 
+*** RIVER *** [9d Js 5c 2h] [Ks]
+glagla87: bets $1.74
+uterkrm.ua: calls $1.74
+*** SHOW DOWN ***
+glagla87: shows [5s 5h] (three of a kind, Fives)
+uterkrm.ua: mucks hand 
+glagla87 collected $5.96 from pot
+*** SUMMARY ***
+Total pot $6.24 | Rake $0.28 
+Board [9d Js 5c 2h Ks]
+Seat 1: Luzod (button) folded before Flop (didn't bet)
+Seat 2: glagla87 (small blind) showed [5s 5h] and won ($5.96) with three of a kind, Fives
+Seat 3: uterkrm.ua (big blind) mucked [9c Th]
+Seat 4: Gemmell x folded before Flop (didn't bet)
+Seat 5: calthedude folded before Flop (didn't bet)
+Seat 6: HubertusB folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186015396857:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:24:10 CCT [2018/05/04 14:24:10 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: klopen1982 ($15.08 in chips) 
+Seat 2: calthedude ($14.97 in chips) 
+Seat 3: Pertuza ($10.31 in chips) 
+Seat 4: HubertusB ($12.88 in chips) 
+Seat 5: svirstar999 ($14.23 in chips) 
+Seat 6: GamblerGoat ($10 in chips) 
+calthedude: posts small blind $0.05
+Pertuza: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [2c 4d]
+HubertusB: folds 
+svirstar999: folds 
+GamblerGoat: folds 
+klopen1982: raises $0.15 to $0.25
+calthedude: raises $0.75 to $1
+Pertuza: folds 
+klopen1982: folds 
+Uncalled bet ($0.75) returned to calthedude
+calthedude collected $0.60 from pot
+calthedude: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.60 | Rake $0 
+Seat 1: klopen1982 (button) folded before Flop
+Seat 2: calthedude (small blind) collected ($0.60)
+Seat 3: Pertuza (big blind) folded before Flop
+Seat 4: HubertusB folded before Flop (didn't bet)
+Seat 5: svirstar999 folded before Flop (didn't bet)
+Seat 6: GamblerGoat folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186015412692:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:24:34 CCT [2018/05/04 14:24:34 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: Pertuza ($12.50 in chips) 
+Seat 2: Gemmell x ($7.60 in chips) 
+Seat 3: Pho0n ($10.03 in chips) 
+Seat 4: HubertusB ($12.78 in chips) 
+Seat 5: ssl_saya ($12.23 in chips) 
+Seat 6: salomone29 ($7.13 in chips) 
+Gemmell x: posts small blind $0.05
+Pho0n: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [6s 4d]
+HubertusB: folds 
+ssl_saya: folds 
+salomone29: folds 
+Pertuza: folds 
+Gemmell x: folds 
+Uncalled bet ($0.05) returned to Pho0n
+Pho0n collected $0.10 from pot
+Pho0n: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.10 | Rake $0 
+Seat 1: Pertuza (button) folded before Flop (didn't bet)
+Seat 2: Gemmell x (small blind) folded before Flop
+Seat 3: Pho0n (big blind) collected ($0.10)
+Seat 4: HubertusB folded before Flop (didn't bet)
+Seat 5: ssl_saya folded before Flop (didn't bet)
+Seat 6: salomone29 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186015422529:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:24:47 CCT [2018/05/04 14:24:47 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: superHooi ($11.36 in chips) 
+Seat 2: HubertusB ($12.78 in chips) 
+Seat 3: Slavzhik7 ($11.34 in chips) 
+Seat 4: BadMan513 ($10.28 in chips) 
+Seat 5: salomone29 ($7.13 in chips) 
+Seat 6: Luzod ($16.05 in chips) 
+HubertusB: posts small blind $0.05
+Slavzhik7: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [5s Td]
+BadMan513: folds 
+salomone29: folds 
+Luzod: folds 
+superHooi: folds 
+HubertusB: folds 
+Uncalled bet ($0.05) returned to Slavzhik7
+Slavzhik7 collected $0.10 from pot
+Slavzhik7: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.10 | Rake $0 
+Seat 1: superHooi (button) folded before Flop (didn't bet)
+Seat 2: HubertusB (small blind) folded before Flop
+Seat 3: Slavzhik7 (big blind) collected ($0.10)
+Seat 4: BadMan513 folded before Flop (didn't bet)
+Seat 5: salomone29 folded before Flop (didn't bet)
+Seat 6: Luzod folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186015400175:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:24:15 CCT [2018/05/04 14:24:15 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: leon0821 ($14.85 in chips) 
+Seat 2: Hillau ($10 in chips) 
+Seat 3: IntenseDnB ($13.94 in chips) 
+Seat 4: Drawzee ($13.31 in chips) 
+Seat 5: HubertusB ($12.88 in chips) 
+Seat 6: Khutor ($5.83 in chips) 
+Hillau: posts small blind $0.05
+IntenseDnB: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [Tc 2c]
+Drawzee: folds 
+HubertusB: folds 
+Khutor: raises $0.10 to $0.20
+leon0821: folds 
+Hillau: raises $0.60 to $0.80
+IntenseDnB: folds 
+Khutor: calls $0.60
+*** FLOP *** [Td Jd 9d]
+Hillau: bets $0.89
+Khutor: calls $0.89
+*** TURN *** [Td Jd 9d] [9c]
+Hillau: bets $1.83
+Khutor: folds 
+Uncalled bet ($1.83) returned to Hillau
+Hillau collected $3.32 from pot
+Hillau: doesn't show hand 
+*** SUMMARY ***
+Total pot $3.48 | Rake $0.16 
+Board [Td Jd 9d 9c]
+Seat 1: leon0821 (button) folded before Flop (didn't bet)
+Seat 2: Hillau (small blind) collected ($3.32)
+Seat 3: IntenseDnB (big blind) folded before Flop
+Seat 4: Drawzee folded before Flop (didn't bet)
+Seat 5: HubertusB folded before Flop (didn't bet)
+Seat 6: Khutor folded on the Turn
+
+
+
+PokerStars Zoom Hand #186015427217:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:24:54 CCT [2018/05/04 14:24:54 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: Zantinos ($13.37 in chips) 
+Seat 2: trenerok ($16.92 in chips) 
+Seat 3: Pertuza ($10.21 in chips) 
+Seat 4: Psychol11111 ($10 in chips) 
+Seat 5: IntenseDnB ($16.68 in chips) 
+Seat 6: HubertusB ($12.73 in chips) 
+trenerok: posts small blind $0.05
+Pertuza: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [4c Ac]
+Psychol11111: folds 
+IntenseDnB: folds 
+HubertusB: raises $0.14 to $0.24
+Zantinos: folds 
+trenerok: folds 
+Pertuza: folds 
+Uncalled bet ($0.14) returned to HubertusB
+HubertusB collected $0.25 from pot
+HubertusB: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.25 | Rake $0 
+Seat 1: Zantinos (button) folded before Flop (didn't bet)
+Seat 2: trenerok (small blind) folded before Flop
+Seat 3: Pertuza (big blind) folded before Flop
+Seat 4: Psychol11111 folded before Flop (didn't bet)
+Seat 5: IntenseDnB folded before Flop (didn't bet)
+Seat 6: HubertusB collected ($0.25)
+
+
+
+PokerStars Zoom Hand #186015404023:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:24:21 CCT [2018/05/04 14:24:21 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: kangaroo1402 ($40.90 in chips) 
+Seat 2: fede 7ñl ($10 in chips) 
+Seat 3: HubertusB ($12.88 in chips) 
+Seat 4: progre$$or ($10.49 in chips) 
+Seat 5: EffOrt100% ($14.77 in chips) 
+Seat 6: Pferdinho ($10 in chips) 
+fede 7ñl: posts small blind $0.05
+HubertusB: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [4c Qd]
+progre$$or: folds 
+EffOrt100%: folds 
+Pferdinho: raises $0.15 to $0.25
+kangaroo1402: raises $0.15 to $0.40
+fede 7ñl: folds 
+HubertusB: folds 
+Pferdinho: calls $0.15
+*** FLOP *** [2h Jc 3h]
+Pferdinho: checks 
+kangaroo1402: checks 
+*** TURN *** [2h Jc 3h] [9s]
+Pferdinho: bets $0.45
+kangaroo1402: raises $1.81 to $2.26
+Pferdinho: folds 
+Uncalled bet ($1.81) returned to kangaroo1402
+kangaroo1402 collected $1.77 from pot
+kangaroo1402: doesn't show hand 
+*** SUMMARY ***
+Total pot $1.85 | Rake $0.08 
+Board [2h Jc 3h 9s]
+Seat 1: kangaroo1402 (button) collected ($1.77)
+Seat 2: fede 7ñl (small blind) folded before Flop
+Seat 3: HubertusB (big blind) folded before Flop
+Seat 4: progre$$or folded before Flop (didn't bet)
+Seat 5: EffOrt100% folded before Flop (didn't bet)
+Seat 6: Pferdinho folded on the Turn
+
+
+
+PokerStars Zoom Hand #186015441840:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:25:15 CCT [2018/05/04 14:25:15 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: Content2bpro ($25.99 in chips) 
+Seat 2: MagicBandit7 ($12.16 in chips) 
+Seat 3: fede 7ñl ($10.37 in chips) 
+Seat 4: HubertusB ($12.88 in chips) 
+Seat 5: kloster87 ($7.53 in chips) 
+Seat 6: TheWitchCat ($10 in chips) 
+MagicBandit7: posts small blind $0.05
+fede 7ñl: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [2h Kc]
+HubertusB: folds 
+kloster87: folds 
+TheWitchCat: raises $0.12 to $0.22
+Content2bpro: folds 
+MagicBandit7: folds 
+fede 7ñl: folds 
+Uncalled bet ($0.12) returned to TheWitchCat
+TheWitchCat collected $0.25 from pot
+TheWitchCat: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.25 | Rake $0 
+Seat 1: Content2bpro (button) folded before Flop (didn't bet)
+Seat 2: MagicBandit7 (small blind) folded before Flop
+Seat 3: fede 7ñl (big blind) folded before Flop
+Seat 4: HubertusB folded before Flop (didn't bet)
+Seat 5: kloster87 folded before Flop (didn't bet)
+Seat 6: TheWitchCat collected ($0.25)
+
+
+
+PokerStars Zoom Hand #186015446451:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:25:22 CCT [2018/05/04 14:25:22 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: GLEBSALAMAND ($11.05 in chips) 
+Seat 2: Guspichkata ($10.56 in chips) 
+Seat 3: HubertusB ($12.88 in chips) 
+Seat 4: MagicBandit7 ($12.11 in chips) 
+Seat 5: DieEneGozer ($10.05 in chips) 
+Seat 6: Bonjo1911777 ($10 in chips) 
+Guspichkata: posts small blind $0.05
+HubertusB: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [3s 4h]
+MagicBandit7: folds 
+DieEneGozer: folds 
+Bonjo1911777: raises $0.10 to $0.20
+GLEBSALAMAND: folds 
+Guspichkata: folds 
+HubertusB: folds 
+Uncalled bet ($0.10) returned to Bonjo1911777
+Bonjo1911777 collected $0.25 from pot
+Bonjo1911777: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.25 | Rake $0 
+Seat 1: GLEBSALAMAND (button) folded before Flop (didn't bet)
+Seat 2: Guspichkata (small blind) folded before Flop
+Seat 3: HubertusB (big blind) folded before Flop
+Seat 4: MagicBandit7 folded before Flop (didn't bet)
+Seat 5: DieEneGozer folded before Flop (didn't bet)
+Seat 6: Bonjo1911777 collected ($0.25)
+
+
+
+PokerStars Zoom Hand #186015458327:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:25:40 CCT [2018/05/04 14:25:40 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: HubertusB ($12.78 in chips) 
+Seat 2: 3blessings ($11.66 in chips) 
+Seat 3: danielbarbamisi ($12.95 in chips) 
+Seat 4: GUFF66 ($7.65 in chips) 
+Seat 5: mqsan ($23.64 in chips) 
+Seat 6: underwood222 ($9.85 in chips) 
+3blessings: posts small blind $0.05
+danielbarbamisi: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [3s Ts]
+GUFF66: folds 
+mqsan: folds 
+underwood222: folds 
+HubertusB: raises $0.16 to $0.26
+3blessings: folds 
+danielbarbamisi: folds 
+Uncalled bet ($0.16) returned to HubertusB
+HubertusB collected $0.25 from pot
+HubertusB: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.25 | Rake $0 
+Seat 1: HubertusB (button) collected ($0.25)
+Seat 2: 3blessings (small blind) folded before Flop
+Seat 3: danielbarbamisi (big blind) folded before Flop
+Seat 4: GUFF66 folded before Flop (didn't bet)
+Seat 5: mqsan folded before Flop (didn't bet)
+Seat 6: underwood222 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186015474730:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:26:05 CCT [2018/05/04 14:26:05 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: Gemmell x ($5.24 in chips) 
+Seat 2: nybas100 ($6.92 in chips) 
+Seat 3: chemergez ($19.19 in chips) 
+Seat 4: wlad198 ($21.35 in chips) 
+Seat 5: HubertusB ($12.93 in chips) 
+Seat 6: Sweareke ($13.42 in chips) 
+nybas100: posts small blind $0.05
+chemergez: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [9h Ts]
+wlad198: folds 
+HubertusB: folds 
+Sweareke: folds 
+Gemmell x: folds 
+nybas100: folds 
+Uncalled bet ($0.05) returned to chemergez
+chemergez collected $0.10 from pot
+chemergez: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.10 | Rake $0 
+Seat 1: Gemmell x (button) folded before Flop (didn't bet)
+Seat 2: nybas100 (small blind) folded before Flop
+Seat 3: chemergez (big blind) collected ($0.10)
+Seat 4: wlad198 folded before Flop (didn't bet)
+Seat 5: HubertusB folded before Flop (didn't bet)
+Seat 6: Sweareke folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186015480573:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:26:12 CCT [2018/05/04 14:26:12 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: -0-TaHya-0- ($3.77 in chips) 
+Seat 2: oNebibo235 ($16.83 in chips) 
+Seat 3: ILEET 99 ($8.17 in chips) 
+Seat 4: MawwtY ($22.41 in chips) 
+Seat 5: DP Neue ($10.27 in chips) 
+Seat 6: HubertusB ($12.93 in chips) 
+oNebibo235: posts small blind $0.05
+ILEET 99: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [5d 3s]
+MawwtY: folds 
+DP Neue: folds 
+HubertusB: folds 
+-0-TaHya-0-: folds 
+oNebibo235: folds 
+Uncalled bet ($0.05) returned to ILEET 99
+ILEET 99 collected $0.10 from pot
+ILEET 99: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.10 | Rake $0 
+Seat 1: -0-TaHya-0- (button) folded before Flop (didn't bet)
+Seat 2: oNebibo235 (small blind) folded before Flop
+Seat 3: ILEET 99 (big blind) collected ($0.10)
+Seat 4: MawwtY folded before Flop (didn't bet)
+Seat 5: DP Neue folded before Flop (didn't bet)
+Seat 6: HubertusB folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186015484426:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:26:18 CCT [2018/05/04 14:26:18 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: HubertusB ($12.93 in chips) 
+Seat 2: AngelBear82 ($41.10 in chips) 
+Seat 3: DP Neue ($10.27 in chips) 
+Seat 4: Drawzee ($12.23 in chips) 
+Seat 5: dariuscs1 ($1.40 in chips) 
+Seat 6: AHTuKuJIJIEP ($9.85 in chips) 
+AngelBear82: posts small blind $0.05
+DP Neue: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [5d 9s]
+Drawzee: folds 
+dariuscs1: raises $0.20 to $0.30
+AHTuKuJIJIEP: calls $0.30
+HubertusB: folds 
+AngelBear82: folds 
+DP Neue: folds 
+*** FLOP *** [9d 3d 2d]
+dariuscs1: checks 
+AHTuKuJIJIEP: checks 
+*** TURN *** [9d 3d 2d] [Ah]
+dariuscs1: checks 
+AHTuKuJIJIEP: checks 
+*** RIVER *** [9d 3d 2d Ah] [Jd]
+dariuscs1: checks 
+AHTuKuJIJIEP: checks 
+*** SHOW DOWN ***
+dariuscs1: shows [Qs 8c] (high card Ace)
+AHTuKuJIJIEP: shows [Ts Js] (a pair of Jacks)
+AHTuKuJIJIEP collected $0.72 from pot
+*** SUMMARY ***
+Total pot $0.75 | Rake $0.03 
+Board [9d 3d 2d Ah Jd]
+Seat 1: HubertusB (button) folded before Flop (didn't bet)
+Seat 2: AngelBear82 (small blind) folded before Flop
+Seat 3: DP Neue (big blind) folded before Flop
+Seat 4: Drawzee folded before Flop (didn't bet)
+Seat 5: dariuscs1 showed [Qs 8c] and lost with high card Ace
+Seat 6: AHTuKuJIJIEP showed [Ts Js] and won ($0.72) with a pair of Jacks
+
+
+
+PokerStars Zoom Hand #186015488833:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:26:24 CCT [2018/05/04 14:26:24 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: BigEarn86 ($10.96 in chips) 
+Seat 2: HubertusB ($12.93 in chips) 
+Seat 3: 3blessings ($5.41 in chips) 
+Seat 4: cyd13 ($17.34 in chips) 
+Seat 5: tastyfeet ($11.07 in chips) 
+Seat 6: Ser Tyapkin ($10 in chips) 
+HubertusB: posts small blind $0.05
+3blessings: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [9h Ah]
+cyd13: folds 
+tastyfeet: folds 
+Ser Tyapkin: raises $0.14 to $0.24
+BigEarn86: calls $0.24
+HubertusB: calls $0.19
+3blessings: calls $0.14
+*** FLOP *** [3s 2h Ks]
+HubertusB: checks 
+3blessings: bets $0.46
+Ser Tyapkin: folds 
+BigEarn86: folds 
+HubertusB: folds 
+Uncalled bet ($0.46) returned to 3blessings
+3blessings collected $0.92 from pot
+3blessings: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.96 | Rake $0.04 
+Board [3s 2h Ks]
+Seat 1: BigEarn86 (button) folded on the Flop
+Seat 2: HubertusB (small blind) folded on the Flop
+Seat 3: 3blessings (big blind) collected ($0.92)
+Seat 4: cyd13 folded before Flop (didn't bet)
+Seat 5: tastyfeet folded before Flop (didn't bet)
+Seat 6: Ser Tyapkin folded on the Flop
+
+
+
+PokerStars Zoom Hand #186015530686:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:27:23 CCT [2018/05/04 14:27:23 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: Roland3399 ($20.69 in chips) 
+Seat 2: FreddyF1 ($25.74 in chips) 
+Seat 3: HubertusB ($12.69 in chips) 
+Seat 4: rack1777 ($27.36 in chips) 
+Seat 5: Psychol11111 ($10 in chips) 
+Seat 6: mysterion707 ($10 in chips) 
+FreddyF1: posts small blind $0.05
+HubertusB: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [Tc 8d]
+rack1777: folds 
+Psychol11111: folds 
+mysterion707: folds 
+Roland3399: folds 
+FreddyF1: folds 
+Uncalled bet ($0.05) returned to HubertusB
+HubertusB collected $0.10 from pot
+HubertusB: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.10 | Rake $0 
+Seat 1: Roland3399 (button) folded before Flop (didn't bet)
+Seat 2: FreddyF1 (small blind) folded before Flop
+Seat 3: HubertusB (big blind) collected ($0.10)
+Seat 4: rack1777 folded before Flop (didn't bet)
+Seat 5: Psychol11111 folded before Flop (didn't bet)
+Seat 6: mysterion707 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186015548138:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:27:47 CCT [2018/05/04 14:27:47 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: Content2bpro ($33.71 in chips) 
+Seat 2: HubertusB ($12.74 in chips) 
+Seat 3: mqsan ($19.62 in chips) 
+Seat 4: hoss145 ($10 in chips) 
+Seat 5: 1989robin ($11.26 in chips) 
+Seat 6: EffOrt100% ($22.01 in chips) 
+HubertusB: posts small blind $0.05
+mqsan: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [5d 3h]
+hoss145: folds 
+1989robin: folds 
+EffOrt100%: folds 
+Content2bpro: folds 
+HubertusB: folds 
+Uncalled bet ($0.05) returned to mqsan
+mqsan collected $0.10 from pot
+mqsan: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.10 | Rake $0 
+Seat 1: Content2bpro (button) folded before Flop (didn't bet)
+Seat 2: HubertusB (small blind) folded before Flop
+Seat 3: mqsan (big blind) collected ($0.10)
+Seat 4: hoss145 folded before Flop (didn't bet)
+Seat 5: 1989robin folded before Flop (didn't bet)
+Seat 6: EffOrt100% folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186015537218:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:27:32 CCT [2018/05/04 14:27:32 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: Hekanekoff ($23.82 in chips) 
+Seat 2: MagicBandit7 ($11.86 in chips) 
+Seat 3: salomone29 ($9.39 in chips) 
+Seat 4: SIvan1951 ($10.48 in chips) 
+Seat 5: I.Mimeev ($9.03 in chips) 
+Seat 6: HubertusB ($12.74 in chips) 
+MagicBandit7: posts small blind $0.05
+salomone29: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [6c Js]
+SIvan1951: raises $0.10 to $0.20
+I.Mimeev: calls $0.20
+HubertusB: folds 
+Hekanekoff: folds 
+MagicBandit7: folds 
+salomone29: folds 
+*** FLOP *** [5h 9s 3s]
+SIvan1951: checks 
+I.Mimeev: bets $0.30
+SIvan1951: folds 
+Uncalled bet ($0.30) returned to I.Mimeev
+I.Mimeev collected $0.53 from pot
+I.Mimeev: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.55 | Rake $0.02 
+Board [5h 9s 3s]
+Seat 1: Hekanekoff (button) folded before Flop (didn't bet)
+Seat 2: MagicBandit7 (small blind) folded before Flop
+Seat 3: salomone29 (big blind) folded before Flop
+Seat 4: SIvan1951 folded on the Flop
+Seat 5: I.Mimeev collected ($0.53)
+Seat 6: HubertusB folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186015541526:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:27:38 CCT [2018/05/04 14:27:38 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: FedExpress99 ($12.64 in chips) 
+Seat 2: chemergez ($13.50 in chips) 
+Seat 3: Quatro007 ($10 in chips) 
+Seat 4: HubertusB ($12.74 in chips) 
+Seat 5: 1989robin ($10.93 in chips) 
+Seat 6: DanceHappens ($10.72 in chips) 
+chemergez: posts small blind $0.05
+Quatro007: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [2s Ad]
+HubertusB: folds 
+1989robin: folds 
+DanceHappens: raises $0.10 to $0.20
+FedExpress99: folds 
+chemergez: folds 
+Quatro007: folds 
+Uncalled bet ($0.10) returned to DanceHappens
+DanceHappens collected $0.25 from pot
+DanceHappens: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.25 | Rake $0 
+Seat 1: FedExpress99 (button) folded before Flop (didn't bet)
+Seat 2: chemergez (small blind) folded before Flop
+Seat 3: Quatro007 (big blind) folded before Flop
+Seat 4: HubertusB folded before Flop (didn't bet)
+Seat 5: 1989robin folded before Flop (didn't bet)
+Seat 6: DanceHappens collected ($0.25)
+
+
+
+PokerStars Zoom Hand #186015556855:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:27:59 CCT [2018/05/04 14:27:59 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: HubertusB ($12.69 in chips) 
+Seat 2: OeTen101 ($21.30 in chips) 
+Seat 3: kim05601 ($11.61 in chips) 
+Seat 4: calthedude ($12.60 in chips) 
+Seat 5: rednax487 ($25.60 in chips) 
+Seat 6: ImGonnaDonk ($10.81 in chips) 
+OeTen101: posts small blind $0.05
+kim05601: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [Kd 2c]
+calthedude: raises $0.20 to $0.30
+rednax487: folds 
+ImGonnaDonk: folds 
+HubertusB: folds 
+OeTen101: folds 
+kim05601: folds 
+Uncalled bet ($0.20) returned to calthedude
+calthedude collected $0.25 from pot
+calthedude: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.25 | Rake $0 
+Seat 1: HubertusB (button) folded before Flop (didn't bet)
+Seat 2: OeTen101 (small blind) folded before Flop
+Seat 3: kim05601 (big blind) folded before Flop
+Seat 4: calthedude collected ($0.25)
+Seat 5: rednax487 folded before Flop (didn't bet)
+Seat 6: ImGonnaDonk folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186015520814:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:27:09 CCT [2018/05/04 14:27:09 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: ImpalerPoker ($10.47 in chips) 
+Seat 2: chef225 ($11.76 in chips) 
+Seat 3: jhoelpatan ($17.53 in chips) 
+Seat 4: Rhymann ($13.51 in chips) 
+Seat 5: HubertusB ($12.69 in chips) 
+Seat 6: Chmuri7 ($10 in chips) 
+chef225: posts small blind $0.05
+jhoelpatan: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [5d Jd]
+Rhymann: raises $0.20 to $0.30
+HubertusB: folds 
+Chmuri7: folds 
+ImpalerPoker: folds 
+chef225 has timed out
+chef225: folds 
+jhoelpatan: folds 
+Uncalled bet ($0.20) returned to Rhymann
+Rhymann collected $0.25 from pot
+Rhymann: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.25 | Rake $0 
+Seat 1: ImpalerPoker (button) folded before Flop (didn't bet)
+Seat 2: chef225 (small blind) folded before Flop
+Seat 3: jhoelpatan (big blind) folded before Flop
+Seat 4: Rhymann collected ($0.25)
+Seat 5: HubertusB folded before Flop (didn't bet)
+Seat 6: Chmuri7 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186015566899:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:28:13 CCT [2018/05/04 14:28:13 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: MariusTrif ($4.83 in chips) 
+Seat 2: SomnambulAA ($10 in chips) 
+Seat 3: cl3-067 ($22.32 in chips) 
+Seat 4: butcher2501 ($17.24 in chips) 
+Seat 5: Okkultist1888 ($13.04 in chips) 
+Seat 6: HubertusB ($12.69 in chips) 
+SomnambulAA: posts small blind $0.05
+cl3-067: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [Qh 7s]
+butcher2501: folds 
+Okkultist1888: folds 
+HubertusB: folds 
+MariusTrif: calls $0.10
+SomnambulAA: folds 
+cl3-067: raises $0.30 to $0.40
+MariusTrif: calls $0.30
+*** FLOP *** [5s Jh Kh]
+cl3-067: bets $0.40
+MariusTrif: folds 
+Uncalled bet ($0.40) returned to cl3-067
+cl3-067 collected $0.81 from pot
+cl3-067: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.85 | Rake $0.04 
+Board [5s Jh Kh]
+Seat 1: MariusTrif (button) folded on the Flop
+Seat 2: SomnambulAA (small blind) folded before Flop
+Seat 3: cl3-067 (big blind) collected ($0.81)
+Seat 4: butcher2501 folded before Flop (didn't bet)
+Seat 5: Okkultist1888 folded before Flop (didn't bet)
+Seat 6: HubertusB folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186015581341:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:28:33 CCT [2018/05/04 14:28:33 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: Gudv1n ($10 in chips) 
+Seat 2: C14n0 ($10.60 in chips) 
+Seat 3: Psychol11111 ($10 in chips) 
+Seat 4: HubertusB ($12.59 in chips) 
+Seat 5: Slavzhik7 ($13.72 in chips) 
+Seat 6: TheWitchCat ($10.40 in chips) 
+C14n0: posts small blind $0.05
+Psychol11111: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [Js 6s]
+HubertusB: folds 
+Slavzhik7: raises $0.15 to $0.25
+TheWitchCat: folds 
+Gudv1n: folds 
+C14n0: folds 
+Psychol11111: folds 
+Uncalled bet ($0.15) returned to Slavzhik7
+Slavzhik7 collected $0.25 from pot
+Slavzhik7: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.25 | Rake $0 
+Seat 1: Gudv1n (button) folded before Flop (didn't bet)
+Seat 2: C14n0 (small blind) folded before Flop
+Seat 3: Psychol11111 (big blind) folded before Flop
+Seat 4: HubertusB folded before Flop (didn't bet)
+Seat 5: Slavzhik7 collected ($0.25)
+Seat 6: TheWitchCat folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186015571256:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:28:19 CCT [2018/05/04 14:28:19 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: butcher2501 ($17.24 in chips) 
+Seat 2: oldfish347 ($10 in chips) 
+Seat 3: HubertusB ($12.69 in chips) 
+Seat 4: kloster87 ($6.43 in chips) 
+Seat 5: Content2bpro ($32.38 in chips) 
+Seat 6: DP Neue ($10.12 in chips) 
+oldfish347: posts small blind $0.05
+HubertusB: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [Ks 9c]
+kloster87: folds 
+Content2bpro: folds 
+DP Neue: raises $0.20 to $0.30
+butcher2501: calls $0.30
+oldfish347: folds 
+HubertusB: folds 
+*** FLOP *** [Ad 5c 8d]
+DP Neue: bets $0.34
+butcher2501: calls $0.34
+*** TURN *** [Ad 5c 8d] [7c]
+DP Neue: bets $0.64
+butcher2501: calls $0.64
+*** RIVER *** [Ad 5c 8d 7c] [Qd]
+DP Neue: checks 
+butcher2501: checks 
+*** SHOW DOWN ***
+DP Neue: shows [6c 6s] (a pair of Sixes)
+butcher2501: shows [9s Ah] (a pair of Aces)
+butcher2501 collected $2.59 from pot
+*** SUMMARY ***
+Total pot $2.71 | Rake $0.12 
+Board [Ad 5c 8d 7c Qd]
+Seat 1: butcher2501 (button) showed [9s Ah] and won ($2.59) with a pair of Aces
+Seat 2: oldfish347 (small blind) folded before Flop
+Seat 3: HubertusB (big blind) folded before Flop
+Seat 4: kloster87 folded before Flop (didn't bet)
+Seat 5: Content2bpro folded before Flop (didn't bet)
+Seat 6: DP Neue showed [6c 6s] and lost with a pair of Sixes
+
+
+
+PokerStars Zoom Hand #186015576244:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:28:26 CCT [2018/05/04 14:28:26 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: Pho0n ($11.13 in chips) 
+Seat 2: TheWitchCat ($10.30 in chips) 
+Seat 3: Content2bpro ($33.96 in chips) 
+Seat 4: OeTen101 ($10.90 in chips) 
+Seat 5: HubertusB ($12.59 in chips) 
+Seat 6: mqsan ($23.40 in chips) 
+TheWitchCat: posts small blind $0.05
+Content2bpro: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [8h 6s]
+OeTen101: folds 
+HubertusB: folds 
+mqsan: folds 
+Pho0n: raises $0.11 to $0.21
+TheWitchCat: folds 
+Content2bpro: raises $0.59 to $0.80
+Pho0n: folds 
+Uncalled bet ($0.59) returned to Content2bpro
+Content2bpro collected $0.47 from pot
+Content2bpro: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.47 | Rake $0 
+Seat 1: Pho0n (button) folded before Flop
+Seat 2: TheWitchCat (small blind) folded before Flop
+Seat 3: Content2bpro (big blind) collected ($0.47)
+Seat 4: OeTen101 folded before Flop (didn't bet)
+Seat 5: HubertusB folded before Flop (didn't bet)
+Seat 6: mqsan folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #186015585685:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:28:39 CCT [2018/05/04 14:28:39 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: oldfish347 ($22.80 in chips) 
+Seat 2: rednax487 ($15.46 in chips) 
+Seat 3: BubbaNothing ($10.15 in chips) 
+Seat 4: HubertusB ($12.59 in chips) 
+Seat 5: wlad198 ($20.45 in chips) 
+Seat 6: C14n0 ($14.20 in chips) 
+rednax487: posts small blind $0.05
+BubbaNothing: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [Kc 3d]
+HubertusB: folds 
+wlad198: folds 
+C14n0: raises $0.20 to $0.30
+oldfish347: folds 
+rednax487: folds 
+BubbaNothing: calls $0.20
+*** FLOP *** [Qc 5c 3h]
+BubbaNothing: checks 
+C14n0: bets $0.30
+BubbaNothing: folds 
+Uncalled bet ($0.30) returned to C14n0
+C14n0 collected $0.62 from pot
+C14n0: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.65 | Rake $0.03 
+Board [Qc 5c 3h]
+Seat 1: oldfish347 (button) folded before Flop (didn't bet)
+Seat 2: rednax487 (small blind) folded before Flop
+Seat 3: BubbaNothing (big blind) folded on the Flop
+Seat 4: HubertusB folded before Flop (didn't bet)
+Seat 5: wlad198 folded before Flop (didn't bet)
+Seat 6: C14n0 collected ($0.62)
+
+
+
+PokerStars Zoom Hand #186015589273:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:28:44 CCT [2018/05/04 14:28:44 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: HubertusB ($12.59 in chips) 
+Seat 2: Ser Tyapkin ($10 in chips) 
+Seat 3: trenerok ($29.07 in chips) 
+Seat 4: NegromJames ($24.03 in chips) 
+Seat 5: oldfish347 ($22.80 in chips) 
+Seat 6: Chmuri7 ($19.46 in chips) 
+Ser Tyapkin: posts small blind $0.05
+trenerok: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [Ac Ah]
+NegromJames: folds 
+oldfish347: folds 
+Chmuri7: raises $0.20 to $0.30
+HubertusB: calls $0.30
+Ser Tyapkin: raises $1.10 to $1.40
+trenerok: folds 
+Chmuri7: folds 
+HubertusB: raises $2.50 to $3.90
+Ser Tyapkin: folds 
+Uncalled bet ($2.50) returned to HubertusB
+HubertusB collected $3.20 from pot
+HubertusB: doesn't show hand 
+*** SUMMARY ***
+Total pot $3.20 | Rake $0 
+Seat 1: HubertusB (button) collected ($3.20)
+Seat 2: Ser Tyapkin (small blind) folded before Flop
+Seat 3: trenerok (big blind) folded before Flop
+Seat 4: NegromJames folded before Flop (didn't bet)
+Seat 5: oldfish347 folded before Flop (didn't bet)
+Seat 6: Chmuri7 folded before Flop
+
+
+
+PokerStars Zoom Hand #186015625014:  Hold'em No Limit ($0.05/$0.10) - 2018/05/05 2:29:34 CCT [2018/05/04 14:29:34 ET]
+Table 'Aludra' 6-max Seat #1 is the button
+Seat 1: fonsdewolf ($10 in chips) 
+Seat 2: HubertusB ($14.39 in chips) 
+Seat 3: mboe888 ($10 in chips) 
+Seat 4: Draugsvoll ($10.22 in chips) 
+Seat 5: Anthony5032 ($10.96 in chips) 
+Seat 6: Rhymann ($26.19 in chips) 
+HubertusB: posts small blind $0.05
+mboe888: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to HubertusB [Qs Jc]
+Draugsvoll: folds 
+Anthony5032: folds 
+Rhymann: folds 
+fonsdewolf: raises $0.10 to $0.20
+HubertusB: folds 
+mboe888: folds 
+Uncalled bet ($0.10) returned to fonsdewolf
+fonsdewolf collected $0.25 from pot
+fonsdewolf: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.25 | Rake $0 
+Seat 1: fonsdewolf (button) collected ($0.25)
+Seat 2: HubertusB (small blind) folded before Flop
+Seat 3: mboe888 (big blind) folded before Flop
+Seat 4: Draugsvoll folded before Flop (didn't bet)
+Seat 5: Anthony5032 folded before Flop (didn't bet)
+Seat 6: Rhymann folded before Flop (didn't bet)
+
+
+
