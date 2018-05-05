@@ -50,7 +50,7 @@ class Parser(object): # pylint: disable=too-many-instance-attributes
         self.flop_re = re.compile(r'\*\*\* FLOP \*\*\*\s+\[(.*)\]')
         self.turn_re = re.compile(r'\*\*\* TURN \*\*\*\s+\[.*\]\s+\[(.*)\]')
         self.river_re = re.compile(r'\*\*\* RIVER \*\*\*\s+\[.*\]\s+\[(.*)\]')
-        self.pot_re = re.compile(r'Total pot %s \| Rake %s' % (self.amt_re, self.amt_re))
+        self.pot_re = re.compile(r'Total pot %s .*\| Rake %s' % (self.amt_re, self.amt_re))
 
         # Example:
         # PLAYER_SB: posts small blind $0.05
@@ -64,7 +64,7 @@ class Parser(object): # pylint: disable=too-many-instance-attributes
         self.raise_ai_re = re.compile(r'{}: raises \$(\d+(.\d+)?) to \$(\d+(.\d+)?) and is all-in'.format(self.player_re))
         self.raise_re = re.compile(r'{}: raises \$(\d+(.\d+)?) to \$(\d+(.\d+)?)'.format(self.player_re))
         self.uncalled_re = re.compile(r'Uncalled bet \(\$(\d+(.\d+)?)\) returned to {}'.format(self.player_re))
-        self.collected_re = re.compile(r'%s collected %s from pot' % (self.player_re, self.amt_re))
+        self.collected_re = re.compile(r'%s collected %s from( side| main)? pot' % (self.player_re, self.amt_re))
 
     def parse_game_info(self, hand):
         m_res = re.match(self.game_info_re, hand.lines[0].lstrip(BOM_UTF8))
@@ -106,7 +106,7 @@ class Parser(object): # pylint: disable=too-many-instance-attributes
         raise_ai_mod = lambda m: inserter(hand, m[0].decode('utf-8'), Action(ActionType.RaiseAi, float(m[4])))
         raise_mod = lambda m: inserter(hand, m[0].decode('utf-8'), Action(ActionType.Raise, float(m[4])))
         uncalled_mod = lambda m: inserter(hand, m[2].decode('utf-8'), Action(ActionType.Uncalled, float(m[0])))
-        collected_mod = lambda m: setattr(hand.players[m[0].decode('utf-8')], 'collected', float(m[2]))
+        collected_mod = lambda m: setattr(hand.players[m[0].decode('utf-8')], 'collected', hand.players[m[0].decode('utf-8')].collected + float(m[2]))
 
         def match_and_return_index(idx, hand, pattern, modifier):
             m_res = re.match(pattern, hand.lines[idx])
