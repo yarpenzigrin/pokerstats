@@ -29,7 +29,7 @@ def parse_args():
     action_parser = parser.add_subparsers(help='Available actions', dest='action')
 
     dump_parser = action_parser.add_parser('dump_ps', help='Dump hands in PS format')
-    dump_parser.add_argument('-s', '--sort', action='store_true', help='Sort the dump by the size of the pot')
+    dump_parser.add_argument('-s', '--sort', action='store_true', help='Sort the dump by the investment of the player in the hand')
     dump_parser.add_argument('player_name', help='Player nickname')
     dump_parser.add_argument('files', help='File list', nargs='+')
 

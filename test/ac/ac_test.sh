@@ -25,13 +25,14 @@ run_tc()
 
 run_test_suite()
 {
-    run_tc "python2.7 -m poker_stats --filter voluntary=forced dump_ps --sort HubertusB" test_input01.txt test_output01.txt
+    run_tc "python2.7 -m poker_stats --filter voluntary=forced dump_ps HubertusB" test_input01.txt test_output01.txt
     run_tc "python2.7 -m poker_stats --filter position=BTN;3bet dump_ps HubertusB" test_input02.txt test_output02.txt
     run_tc "python2.7 -m poker_stats --filter voluntary=only;4bet dump_ps HubertusB" test_input03.txt test_output03.txt
+    run_tc "python2.7 -m poker_stats --filter voluntary=only dump_ps --sort HubertusB" test_input01.txt test_output04.txt
     run_tc "python2.7 -m poker_stats --filter holding=AQs dump_ps HubertusB" test_input01.txt test_output08.txt
     run_tc "python2.7 -m poker_stats --filter holding=QAo dump_ps HubertusB" test_input01.txt test_output09.txt
 
-    run_tc "python2.7 -m poker_stats report HubertusB" test_input_merged.txt test_output04.txt
+    run_tc "python2.7 -m poker_stats report HubertusB" test_input_merged.txt test_output_report.txt
     run_tc "python2.7 -m poker_stats blind_report HubertusB" test_input_merged.txt test_output05.txt
     run_tc "python2.7 -m poker_stats position_report HubertusB" test_input_merged.txt test_output06.txt
     run_tc "python2.7 -m poker_stats preflop_report HubertusB" test_input_merged.txt test_output07.txt

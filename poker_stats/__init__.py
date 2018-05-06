@@ -21,7 +21,7 @@ def main():
     store_lines = config.action == 'dump_ps'
     hands = hand_parser.parse_files(config.files, store_lines)
     hand_filters = hand_filter.create(config.hand_filter, config.player_name)
-    hands = hand_filter.apply_filters(hands, hand_filters, config.sort)
+    hands = hand_filter.apply_filters(hands, hand_filters, config.player_name, config.sort)
 
     if config.action == 'dump_ps':
         stdout.write(BOM_UTF8)

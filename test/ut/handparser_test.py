@@ -33,7 +33,6 @@ class hand_parser_tests(unittest.TestCase):
         self.assertEqual('1', hand.id)
         self.assertEqual((0.05, 0.10), hand.stakes)
         self.assertEqual(6, len(hand.players))
-        self.assertEqual(3.30, hand.pot)
 
         preflop = [Action(ActionType.Fold, 0)]
         self.assertPlayer(hand, 'PLAYER_BTN', 'BTN', preflop, [], [], [])

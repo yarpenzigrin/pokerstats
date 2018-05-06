@@ -46,7 +46,6 @@ class Hand(object): # pylint: disable=too-many-instance-attributes
         self.id = None
         self.lines = []
         self.players = {}
-        self.pot = None
         self.stakes = None
         self.preflop = []
         self.flop = []
@@ -65,7 +64,7 @@ class Hand(object): # pylint: disable=too-many-instance-attributes
     def river_actions(self, player_name):
         return [a for a in self.river if a.player.name == player_name]
 
-    def profit_for_player(self, player_name):
+    def investment_for_player(self, player_name):
         def invested(acc, action):
             if action.is_raise():
                 return action.value
@@ -73,11 +72,13 @@ class Hand(object): # pylint: disable=too-many-instance-attributes
                 return acc - action.value
             return acc + action.value
 
-        return self.players[player_name].collected \
-                - reduce(invested, self.preflop_actions(player_name), 0) \
-                - reduce(invested, self.flop_actions(player_name), 0) \
-                - reduce(invested, self.turn_actions(player_name), 0) \
-                - reduce(invested, self.river_actions(player_name), 0)
+        return reduce(invested, self.preflop_actions(player_name), 0) \
+               + reduce(invested, self.flop_actions(player_name), 0) \
+               + reduce(invested, self.turn_actions(player_name), 0) \
+               + reduce(invested, self.river_actions(player_name), 0)
+
+    def profit_for_player(self, player_name):
+        return self.players[player_name].collected - self.investment_for_player(player_name)
 
 def profit_for_player(hands, player_name):
     return round(reduce(lambda acc, h: acc + h.profit_for_player(player_name), hands, 0), 2)

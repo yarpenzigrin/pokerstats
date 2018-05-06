@@ -5,6 +5,7 @@ from codecs import BOM_UTF8
 from os import listdir
 from os.path import isdir, join
 import re
+import sys
 from .entity import Action, ActionType, Hand, Player # pylint: disable=no-name-in-module
 
 def cards_to_holding(cards):
@@ -50,7 +51,6 @@ class Parser(object): # pylint: disable=too-many-instance-attributes
         self.flop_re = re.compile(r'\*\*\* FLOP \*\*\*\s+\[(.*)\]')
         self.turn_re = re.compile(r'\*\*\* TURN \*\*\*\s+\[.*\]\s+\[(.*)\]')
         self.river_re = re.compile(r'\*\*\* RIVER \*\*\*\s+\[.*\]\s+\[(.*)\]')
-        self.pot_re = re.compile(r'Total pot %s .*\| Rake %s' % (self.amt_re, self.amt_re))
 
         # Example:
         # PLAYER_SB: posts small blind $0.05
@@ -190,13 +190,11 @@ class Parser(object): # pylint: disable=too-many-instance-attributes
 
         return self.parse_action(hand, idx + 1, insert_action)
 
-    def parse_summary(self, hand, idx):
+    def parse_summary(self, hand, idx): # pylint: disable=no-self-use
         for i in xrange(idx, len(hand.lines)):
             if '*** SUMMARY ***' in hand.lines[i]:
-                m_res = re.match(self.pot_re, hand.lines[i+1])
-                if m_res != None:
-                    hand.pot = float(m_res.groups()[0])
-                break
+                return True
+        return False
 
     def parse_hand(self, hand):
         self.parse_game_info(hand)
@@ -208,7 +206,7 @@ class Parser(object): # pylint: disable=too-many-instance-attributes
         idx = self.parse_flop_action(hand, idx)
         idx = self.parse_turn_action(hand, idx)
         idx = self.parse_river_action(hand, idx)
-        self.parse_summary(hand, idx)
+        return self.parse_summary(hand, idx)
 
     def parse_file_contents(self, lines, store_lines):
         result = []
@@ -225,14 +223,14 @@ class Parser(object): # pylint: disable=too-many-instance-attributes
                     if hand.lines[0].startswith(BOM_UTF8):
                         hand.lines[0] = hand.lines[0][len(BOM_UTF8):]
                     hand.lines[0] = hand.lines[0].replace('PokerStars Zoom Hand', 'PokerStars Hand')
-                    hand.lines.append('\r\n')
-                    hand.lines.append('\r\n')
-                    hand.lines.append('\r\n')
-                    self.parse_hand(hand)
-                    if hand.pot != None:
+                    hand.lines.extend(['\r\n' for _ in range(0, 3)])
+
+                    if self.parse_hand(hand):
                         if not store_lines:
                             hand.lines = None
                         result.append(hand)
+                    else:
+                        sys.stderr.write('Couldn\'t parse hand: {}'.format(hand.lines[0]))
                     hand_in_process = False
 
         return result

@@ -60,13 +60,13 @@ def create(hand_filter, player_name):
 
     return result
 
-def apply_filters(hands, filters, sort=False):
+def apply_filters(hands, filters, player_name, sort):
     def pred(hand):
         return reduce(lambda acc, flt: acc and flt(hand), filters, True)
 
     hands = [hand for hand in hands if pred(hand)]
     if sort:
-        hands = sorted(hands, key=lambda h: h.pot, reverse=True)
+        hands = sorted(hands, key=lambda h: h.investment_for_player(player_name), reverse=True)
     return hands
 
 def apply_filter(hands, flt):
