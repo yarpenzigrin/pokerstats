@@ -1,9 +1,7 @@
 #!/usr/bin/env python2.7
 # -*- coding: utf-8 -*-
 
-from codecs import BOM_UTF8
-from os import listdir
-from os.path import isdir, join
+import os
 import re
 import sys
 from .entity import Action, ActionType, Hand, Player # pylint: disable=no-name-in-module
@@ -31,7 +29,7 @@ class Parser(object): # pylint: disable=too-many-instance-attributes
 
         # Example:
         # PokerStars Hand #1:  Hold'em No Limit ($0.05/$0.10) - 2017/08/07 23:12:54 CCT [2017/08/07 11:12:54 ET]
-        self.game_info_re = re.compile(r'(\w+) Hand #(\d+):\s+(\w.+)\s\(%s/%s\)' \
+        self.game_info_re = re.compile(r'.*?(\w+) Hand #(\d+):\s+(\w.+)\s\(%s/%s\)' \
             % (self.amt_re, self.amt_re))
 
         # Example:
@@ -67,7 +65,7 @@ class Parser(object): # pylint: disable=too-many-instance-attributes
         self.collected_re = re.compile(r'%s collected %s from( side| main)? pot' % (self.player_re, self.amt_re))
 
     def parse_game_info(self, hand):
-        m_res = re.match(self.game_info_re, hand.lines[0].lstrip(BOM_UTF8))
+        m_res = re.match(self.game_info_re, hand.lines[0])
         if m_res != None:
             hand.id = m_res.groups()[1]
             hand.stakes = (float(m_res.groups()[3]), float(m_res.groups()[5]))
@@ -220,9 +218,6 @@ class Parser(object): # pylint: disable=too-many-instance-attributes
                 hand.lines.append(line)
             else:
                 if hand_in_process:
-                    if hand.lines[0].startswith(BOM_UTF8):
-                        hand.lines[0] = hand.lines[0][len(BOM_UTF8):]
-                    hand.lines[0] = hand.lines[0].replace('PokerStars Zoom Hand', 'PokerStars Hand')
                     hand.lines.extend(['\r\n' for _ in range(0, 3)])
 
                     if self.parse_hand(hand):
@@ -240,8 +235,8 @@ def parse_files(file_names, store_lines=False):
     parser = Parser()
 
     for file_name in file_names:
-        if isdir(file_name):
-            files_in_dir = [join(file_name, f) for f in listdir(file_name)]
+        if os.path.isdir(file_name):
+            files_in_dir = [os.path.join(file_name, f) for f in os.listdir(file_name)]
             hands.extend(parse_files(files_in_dir, store_lines))
         else:
             with open(file_name, 'r') as file_desc:

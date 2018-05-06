@@ -1,9 +1,9 @@
 #!/usr/bin/env python2.7
 # -*- coding: utf-8 -*-
 
-from codecs import BOM_UTF8
-from logging import basicConfig, INFO
-from sys import stdout
+import codecs
+import logging
+import sys
 
 from . import config
 from . import hand_filter
@@ -12,7 +12,7 @@ from . import report
 from . import report_printer
 
 def initialize():
-    basicConfig(level=INFO, format='[ %(levelname)s ] %(message)s')
+    logging.basicConfig(level=logging.INFO, format='[ %(levelname)s ] %(message)s')
     config.parse_and_validate_args()
 
 def main():
@@ -21,11 +21,19 @@ def main():
     store_lines = config.action == 'dump_ps'
     hands = hand_parser.parse_files(config.files, store_lines)
     hand_filters = hand_filter.create(config.hand_filter, config.player_name)
-    hands = hand_filter.apply_filters(hands, hand_filters, config.player_name, config.sort)
+    hands = hand_filter.apply_filters(hands, hand_filters)
 
     if config.action == 'dump_ps':
-        stdout.write(BOM_UTF8)
-        stdout.writelines(reduce(lambda a, h: a + h.lines, hands, []))
+        for idx, _ in enumerate(hands):
+            if hands[idx].lines[0].startswith(codecs.BOM_UTF8):
+                hands[idx].lines[0] = hands[idx].lines[0][len(codecs.BOM_UTF8):]
+            hands[idx].lines[0] = hands[idx].lines[0].replace('PokerStars Zoom Hand', 'PokerStars Hand')
+
+        if config.sort:
+            hands = sorted(hands, key=lambda h: h.investment_for_player(config.player_name), reverse=True)
+
+        sys.stdout.write(codecs.BOM_UTF8)
+        sys.stdout.writelines(reduce(lambda a, h: a + h.lines, hands, []))
 
     if config.action == 'report':
         report_printer.print_stats(hands, config.player_name)

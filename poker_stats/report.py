@@ -152,7 +152,7 @@ def create_holding_report(hands, player_name):
     for hand in hands:
         holding = hand.players[player_name].holding
         old = stats.get(holding, HoldingReport.HoldingProfit(holding, 0.00, 0))
-        (old.profit, old.holding_count) = (old.profit + hand.profit_for_player(player_name), old.holding_count + 1)
+        (old.profit, old.holding_count) = (round(old.profit + hand.profit_for_player(player_name), 2), old.holding_count + 1)
         stats[holding] = old
 
     for val in stats.itervalues():
