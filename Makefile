@@ -6,7 +6,7 @@ test: ut_test ac_test lint
 
 ut_test:
 	coverage run --branch --source=poker_stats -m unittest discover -v test/ut '*_test.py'
-	coverage report --omit='*/__init__.py,*/__main__.py,*/api.py,*/config.py,*/report_printer.py'
+	coverage report --omit='*/__init__.py,*/__main__.py,*/api.py,*/config.py,*/report_printer.py,*/ver.py'
 
 ac_test:
 	test/ac/ac_test.sh
@@ -29,4 +29,4 @@ upload: clean test
 
 clean:
 	find -name '*.pyc' -exec rm -f {} \;
-	-rm -rf dist build poker_stats.egg-info
+	-rm -rf dist build poker_stats.egg-info poker_stats/ver.py

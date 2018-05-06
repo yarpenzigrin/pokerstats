@@ -10,6 +10,13 @@ hand_filter = {}
 player_name = None
 sort = False
 
+version = '%(prog)s develop'
+try:
+    from .ver import ver
+    version = '%(prog)s ' + ver
+except ImportError:
+    pass
+
 def parse_filter(line):
     single_position = Literal('SB') ^ Literal('BB') ^ Literal('UTG') ^ Literal('MP') ^ Literal('CO') ^ Literal('BTN')
     position_list = single_position + ZeroOrMore(Suppress(Word(',')) + single_position)
@@ -25,7 +32,8 @@ def parse_filter(line):
 
 def parse_args():
     parser = ArgumentParser(prog='poker_stats')
-    parser.add_argument('-f', '--filter', help='Hand filter e. g. --filter "position=BTN,CO;voluntary=forced"')
+    parser.add_argument('-f', '--filter', help='Hand filter e. g. --filter "position=BTN,CO;voluntary=only;holding=A2s;3bet"')
+    parser.add_argument('--version', action='version', version=version)
     action_parser = parser.add_subparsers(help='Available actions', dest='action')
 
     dump_parser = action_parser.add_parser('dump_ps', help='Dump hands in PS format')

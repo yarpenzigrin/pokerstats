@@ -4,3 +4,4 @@
 build
 dist
 python_env
+poker_stats/ver.py
