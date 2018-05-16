@@ -114,11 +114,8 @@ class Parser(object): # pylint: disable=too-many-instance-attributes
             return idx
 
         def ignore_line(idx, line):
-            if 'has timed out' in line or \
-                'is disconnected' in line or \
-                '*** SHOW DOWN ***' in line or \
-                ' shows [' in line or \
-                ' mucks hand' in line:
+            ignored_patterns = [' has timed out', ' is disconnected', ' is connected', ' said, "', '*** SHOW DOWN ***', ' shows [', ' mucks hand']
+            if [1 for e in ignored_patterns if e in line]:
                 return idx + 1
             return idx
 
