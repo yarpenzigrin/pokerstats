@@ -47,6 +47,7 @@ class Hand(object): # pylint: disable=too-many-instance-attributes
         self.lines = []
         self.players = {}
         self.stakes = None
+        self.rake = None
         self.preflop = []
         self.flop = []
         self.turn = []
@@ -80,8 +81,14 @@ class Hand(object): # pylint: disable=too-many-instance-attributes
     def profit_for_player(self, player_name):
         return self.players[player_name].collected - self.investment_for_player(player_name)
 
+    def rake_for_player(self, player_name):
+        return self.rake if self.players[player_name].collected > 0 else 0
+
 def profit_for_player(hands, player_name):
     return round(reduce(lambda acc, h: acc + h.profit_for_player(player_name), hands, 0), 2)
+
+def rake_for_player(hands, player_name):
+    return round(reduce(lambda acc, h: acc + h.rake_for_player(player_name), hands, 0), 2)
 
 def is_holding_matching(hand, player_name, holding):
     ph = hand.players.get(player_name, None)

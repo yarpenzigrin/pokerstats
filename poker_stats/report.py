@@ -1,7 +1,7 @@
 #!/usr/bin/env python2.7
 # -*- coding: utf-8 -*-
 
-from .entity import is_successful_steal_preflop, is_unsuccessful_steal_preflop, profit_for_player # pylint: disable=no-name-in-module
+from .entity import is_successful_steal_preflop, is_unsuccessful_steal_preflop, profit_for_player, rake_for_player # pylint: disable=no-name-in-module
 from .hand_filter import apply_filter, create_call_pf_filter, create_pfr_filter, create_3bet_filter
 from .hand_filter import create_4bet_filter, create_position_filter
 from .hand_filter import create_preflop_ai_filter, create_voluntary_filter
@@ -31,6 +31,7 @@ class ProfitReport(object): # pylint: disable=too-many-instance-attributes,too-f
         self.hand_count = 0
         self.profit = 0
         self.profit_per_100 = 0
+        self.rake = 0
         self.vpip = 0
         self.pfr = 0
         self.pfr_profit = 0
@@ -106,6 +107,7 @@ def create_profit_report(hands, player_name):
         return report
 
     report.profit = profit_for_player(hands, player_name)
+    report.rake = rake_for_player(hands, player_name)
     report.profit_per_100 = div(report.profit * 100, hands_len)
     report.vpip = div(len(voluntary_hands) * 100, hands_len)
     report.pfr = div(len(pfr_hands) * 100, hands_len)

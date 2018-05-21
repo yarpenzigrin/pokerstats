@@ -8,8 +8,9 @@ Flat profit: -5.58
 3bet profit: 11.77
 4bet%: 0.36
 4bet profit: -9.37
-Total profit: -37.65
-Total profit (/100): -3.38
+Total net profit: -37.65
+Total net profit (/100): -3.38
+Total rake: 10.74
 
 Steal success%: 31.87
 Steal fail%: 8.76

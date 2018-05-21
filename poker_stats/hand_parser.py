@@ -49,6 +49,7 @@ class Parser(object): # pylint: disable=too-many-instance-attributes
         self.flop_re = re.compile(r'\*\*\* FLOP \*\*\*\s+\[(.*)\]')
         self.turn_re = re.compile(r'\*\*\* TURN \*\*\*\s+\[.*\]\s+\[(.*)\]')
         self.river_re = re.compile(r'\*\*\* RIVER \*\*\*\s+\[.*\]\s+\[(.*)\]')
+        self.pot_re = re.compile(r'Total pot %s .*\| Rake %s' % (self.amt_re, self.amt_re))
 
         # Example:
         # PLAYER_SB: posts small blind $0.05
@@ -188,7 +189,10 @@ class Parser(object): # pylint: disable=too-many-instance-attributes
     def parse_summary(self, hand, idx): # pylint: disable=no-self-use
         for i in xrange(idx, len(hand.lines)):
             if '*** SUMMARY ***' in hand.lines[i]:
-                return True
+                m_res = re.match(self.pot_re, hand.lines[i+1])
+                if m_res:
+                    hand.rake = float(m_res.groups()[2])
+                    return True
         return False
 
     def parse_hand(self, hand):

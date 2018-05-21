@@ -34,8 +34,9 @@ def print_profit_report(report):
     print "3bet profit: {}".format(report.threebet_profit)
     print "4bet%: {}".format(report.fourbet)
     print "4bet profit: {}".format(report.fourbet_profit)
-    print "Total profit: {}".format(report.profit)
-    print "Total profit (/100): {}".format(report.profit_per_100)
+    print "Total net profit: {}".format(report.profit)
+    print "Total net profit (/100): {}".format(report.profit_per_100)
+    print "Total rake: {}".format(report.rake)
     print
 
 def print_position_report(report):

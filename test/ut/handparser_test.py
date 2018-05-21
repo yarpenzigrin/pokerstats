@@ -33,6 +33,7 @@ class hand_parser_tests(unittest.TestCase):
         self.assertEqual('1', hand.id)
         self.assertEqual((0.05, 0.10), hand.stakes)
         self.assertEqual(6, len(hand.players))
+        self.assertEqual(0.15, hand.rake)
 
         preflop = [Action(ActionType.Fold, 0)]
         self.assertPlayer(hand, 'PLAYER_BTN', 'BTN', preflop, [], [], [])
@@ -62,6 +63,7 @@ class hand_parser_tests(unittest.TestCase):
         hands = parse_files([test_dir + '/data/fold_pre.hand'])
         self.assertEqual(1, len(hands))
         hand = hands[0]
+        self.assertEqual(0.00, hand.rake)
 
         preflopFolds = [Action(ActionType.Fold, 0)]
         self.assertPlayer(hand, 'PLAYER_UTG', 'UTG', preflopFolds, [], [], [])
@@ -81,6 +83,7 @@ class hand_parser_tests(unittest.TestCase):
         hands = parse_files([test_dir + '/data/openraise_timeout_uncalled.hand'])
         self.assertEqual(1, len(hands))
         hand = hands[0]
+        self.assertEqual(0.00, hand.rake)
 
         preflopFolds = [Action(ActionType.Fold, 0)]
         self.assertPlayer(hand, 'PLAYER_UTG', 'UTG', preflopFolds, [], [], [])
