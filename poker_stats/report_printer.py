@@ -10,17 +10,17 @@ def print_holding_report(report):
 
 def print_blind_report(report):
     print_position_report(report.sb_report)
-    print "Expected profit: {}".format(report.sb_expected_profit)
+    print "Expected loss if fold all hands: {}".format(report.sb_expected_profit)
     print "VPIP profit: {}".format(report.sb_vpip_profit)
-    print "Expected VPIP profit: {}".format(report.sb_expected_vpip_profit)
-    print "Forced profit: {}".format(report.sb_forced_profit)
+    print "Expected loss if fold all VPIP hands: {}".format(report.sb_expected_vpip_profit)
+    print "Loss from folded hands: {}".format(report.sb_forced_profit)
     print
     print_position_report(report.bb_report)
-    print "Expected profit: {}".format(report.bb_expected_profit)
+    print "Expected loss if fold all hands: {}".format(report.bb_expected_profit)
     print "VPIP profit: {}".format(report.bb_vpip_profit)
-    print "Expected VPIP profit: {}".format(report.bb_expected_vpip_profit)
-    print "Forced profit: {}".format(report.bb_forced_profit)
-    print "Expected forced profit: {}".format(report.bb_expected_forced_profit)
+    print "Expected loss if fold all VPIP hands: {}".format(report.bb_expected_vpip_profit)
+    print "Loss from folded hands: {}".format(report.bb_forced_profit)
+    print "Expected loss from folded hands: {}".format(report.bb_expected_forced_profit)
     print
 
 def print_profit_report(report):
